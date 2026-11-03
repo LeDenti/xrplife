@@ -1,0 +1,817 @@
+21:25:03 organisme rJZKSuxqJtGiub7dAc17XAgdcks5YcdQBW : 0.0 XRP, besoin 1429.4 → robinet
+21:25:09 organisme rJZKSuxqJtGiub7dAc17XAgdcks5YcdQBW : 1000.0 XRP, besoin 1429.4 → robinet
+21:25:16 organisme rJZKSuxqJtGiub7dAc17XAgdcks5YcdQBW : 2000.0 XRP
+21:25:16 neurones : 0 déjà créés, 302 à créer
+21:25:25 neurones créés : 8/302
+21:25:35 neurones créés : 16/302
+21:25:47 neurones créés : 24/302
+21:25:57 neurones créés : 32/302
+21:26:09 neurones créés : 40/302
+21:26:18 neurones créés : 48/302
+21:26:29 neurones créés : 56/302
+21:26:40 neurones créés : 64/302
+21:26:48 neurones créés : 72/302
+21:26:59 neurones créés : 80/302
+21:27:09 neurones créés : 88/302
+21:27:19 neurones créés : 96/302
+21:27:30 neurones créés : 104/302
+21:27:41 neurones créés : 112/302
+21:27:52 neurones créés : 120/302
+21:28:03 neurones créés : 128/302
+21:28:14 neurones créés : 136/302
+21:28:25 neurones créés : 144/302
+21:28:36 neurones créés : 152/302
+21:28:47 neurones créés : 160/302
+21:28:57 neurones créés : 168/302
+21:29:08 neurones créés : 176/302
+21:29:16 neurones créés : 184/302
+21:29:27 neurones créés : 192/302
+21:29:38 neurones créés : 200/302
+21:29:49 neurones créés : 208/302
+21:30:00 neurones créés : 216/302
+21:30:11 neurones créés : 224/302
+21:30:22 neurones créés : 232/302
+21:30:31 neurones créés : 240/302
+21:30:39 neurones créés : 248/302
+21:30:50 neurones créés : 256/302
+21:31:01 neurones créés : 264/302
+21:31:08 neurones créés : 272/302
+21:31:16 neurones créés : 280/302
+21:31:27 neurones créés : 288/302
+21:31:35 neurones créés : 296/302
+21:31:45 neurones créés : 302/302
+21:32:49 synapses : 0 déjà posées, 5084 à poser sur 300 neurones
+21:32:58 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:33:11 synapses posées : 100/5084
+21:33:26 ÉCHEC ["AFDL",[{"source":"ADFL","cible":"AFDL","chimique":1,"electrique":3,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:33:26 ÉCHEC ["URXL",[{"source":"ADFL","cible":"URXL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:33:26 ÉCHEC ["ASHR",[{"source":"ADFR","cible":"ASHR","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:33:33 synapses posées : 200/5084
+21:33:34 ÉCHEC ["M4",[{"source":"I2R","cible":"M4","chimique":3,"electrique":0,"poids":3},{"sou Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:33:48 synapses posées : 300/5084
+21:33:59 ÉCHEC ["ADAL",[{"source":"ADFL","cible":"ADAL","chimique":2,"electrique":5,"poids":7}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:34:05 synapses posées : 400/5084
+21:34:23 synapses posées : 500/5084
+21:34:39 ÉCHEC ["AIBL",[{"source":"ADFL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:34:41 synapses posées : 600/5084
+21:35:01 synapses posées : 700/5084
+21:35:09 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:35:21 synapses posées : 800/5084
+21:35:40 synapses posées : 900/5084
+21:35:52 ÉCHEC ["RIAR",[{"source":"ADFR","cible":"RIAR","chimique":61,"electrique":0,"poids":61 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:35:59 ÉCHEC ["OLLR",[{"source":"ADLR","cible":"OLLR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:36:01 synapses posées : 1000/5084
+21:36:04 ÉCHEC ["RIPL",[{"source":"ADLL","cible":"RIPL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:36:04 ÉCHEC ["RIBL",[{"source":"ADFL","cible":"RIBL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:36:20 synapses posées : 1100/5084
+21:36:32 ÉCHEC ["AINR",[{"source":"ASGL","cible":"AINR","chimique":2,"electrique":1,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:36:39 synapses posées : 1200/5084
+21:36:56 synapses posées : 1300/5084
+21:37:13 synapses posées : 1400/5084
+21:37:17 ÉCHEC ["AIAR",[{"source":"ADLR","cible":"AIAR","chimique":22,"electrique":0,"poids":22 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:37:31 synapses posées : 1500/5084
+21:37:32 ÉCHEC ["AIMR",[{"source":"ASKR","cible":"AIMR","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:37:39 ÉCHEC ["IL2DL",[{"source":"IL1DL","cible":"IL2DL","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:37:45 ÉCHEC ["HSNL",[{"source":"ASHL","cible":"HSNL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:37:48 synapses posées : 1600/5084
+21:37:50 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:37:53 ÉCHEC ["RIML",[{"source":"ASHL","cible":"RIML","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:37:53 ÉCHEC ["ASKR",[{"source":"ASJL","cible":"ASKR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:38:07 synapses posées : 1700/5084
+21:38:11 ÉCHEC ["OLLL",[{"source":"IL1L","cible":"OLLL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:38:25 synapses posées : 1800/5084
+21:38:35 ÉCHEC ["URBL",[{"source":"IL1L","cible":"URBL","chimique":1,"electrique":2,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:38:36 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:38:43 ÉCHEC ["PVCL",[{"source":"ADLR","cible":"PVCL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:38:43 synapses posées : 1900/5084
+21:39:01 ÉCHEC ["PVR",[{"source":"IL1DR","cible":"PVR","chimique":5,"electrique":0,"poids":5},{ Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:39:03 synapses posées : 2000/5084
+21:39:18 synapses posées : 2100/5084
+21:39:26 ÉCHEC ["CEPDR",[{"source":"IL2DR","cible":"CEPDR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:39:39 synapses posées : 2200/5084
+21:39:44 ÉCHEC ["RMER",[{"source":"IL1L","cible":"RMER","chimique":4,"electrique":1,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:39:48 ÉCHEC ["RMED",[{"source":"IL2DL","cible":"RMED","chimique":2,"electrique":0,"poids":2} Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:39:54 synapses posées : 2300/5084
+21:40:01 ÉCHEC ["ALML",[{"source":"CEPDL","cible":"ALML","chimique":2,"electrique":0,"poids":2} Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:40:09 ÉCHEC ["RMDVR",[{"source":"IL1DR","cible":"RMDVR","chimique":32,"electrique":1,"poids" Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:40:15 synapses posées : 2400/5084
+21:40:30 synapses posées : 2500/5084
+21:40:41 ÉCHEC ["RIS",[{"source":"OLLR","cible":"RIS","chimique":2,"electrique":0,"poids":2},{" Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:40:51 synapses posées : 2600/5084
+21:41:06 synapses posées : 2700/5084
+21:41:27 synapses posées : 2800/5084
+21:41:28 ÉCHEC ["PVNR",[{"source":"AVM","cible":"PVNR","chimique":3,"electrique":0,"poids":3},{ Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:41:41 ÉCHEC ["SAAVR",[{"source":"ALNR","cible":"SAAVR","chimique":3,"electrique":0,"poids":3 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:41:42 synapses posées : 2900/5084
+21:42:02 synapses posées : 3000/5084
+21:42:18 synapses posées : 3100/5084
+21:42:25 ÉCHEC ["RID",[{"source":"AVM","cible":"RID","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:42:25 ÉCHEC ["AVG",[{"source":"PVDL","cible":"AVG","chimique":8,"electrique":1,"poids":9},{" Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:42:39 ÉCHEC ["RIBR",[{"source":"OLLR","cible":"RIBR","chimique":21,"electrique":0,"poids":21 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:42:39 synapses posées : 3200/5084
+21:42:54 synapses posées : 3300/5084
+21:43:15 synapses posées : 3400/5084
+21:43:30 synapses posées : 3500/5084
+21:43:31 ÉCHEC ["DVB",[{"source":"AVFL","cible":"DVB","chimique":1,"electrique":0,"poids":1},{" Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:43:49 synapses posées : 3600/5084
+21:44:06 synapses posées : 3700/5084
+21:44:25 synapses posées : 3800/5084
+21:44:40 ÉCHEC ["VC02",[{"source":"AVL","cible":"VC02","chimique":2,"electrique":0,"poids":2},{ Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:44:43 synapses posées : 3900/5084
+21:44:44 ÉCHEC ["PVM",[{"source":"PVR","cible":"PVM","chimique":1,"electrique":1,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:44:44 ÉCHEC ["PVPL",[{"source":"PVDL","cible":"PVPL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:45:01 synapses posées : 4000/5084
+21:45:20 synapses posées : 4100/5084
+21:45:37 synapses posées : 4200/5084
+21:45:39 ÉCHEC ["AS05",[{"source":"AVAL","cible":"AS05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:45:42 ÉCHEC ["AS01",[{"source":"PVCL","cible":"AS01","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:45:55 synapses posées : 4300/5084
+21:46:07 synapses posées : 4400/5084
+21:46:22 ÉCHEC ["M5",[{"source":"I5","cible":"M5","chimique":0,"electrique":1,"poids":1},{"sour Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:46:23 ÉCHEC ["VC05",[{"source":"HSNL","cible":"VC05","chimique":9,"electrique":0,"poids":9}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:46:36 synapses posées : 4500/5084
+21:47:30 ÉCHEC ["VD02",[{"source":"AVEL","cible":"VD02","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:11 synapses : 4583/5084 posées, 45 neurones en échec
+21:48:11 reprise
+21:48:20 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:48:27 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:27 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:28 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:36 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:36 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:36 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:36 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:36 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:36 synapses : 4583/5084 posées, 45 neurones en échec
+21:48:36 reprise
+21:48:46 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:48:53 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:48:53 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:01 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:01 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:01 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:01 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:01 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:01 synapses : 4583/5084 posées, 45 neurones en échec
+21:49:01 reprise
+21:49:12 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:49:20 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:20 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:28 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:28 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:28 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:28 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:28 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:28 synapses : 4583/5084 posées, 45 neurones en échec
+21:49:28 reprise
+21:49:37 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:49:45 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:45 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:46 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:53 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:53 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:53 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:53 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:53 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:49:53 synapses : 4583/5084 posées, 45 neurones en échec
+21:49:53 reprise
+21:50:02 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:50:10 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:10 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:11 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:18 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:18 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:18 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:18 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:18 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:18 synapses : 4583/5084 posées, 45 neurones en échec
+21:50:18 reprise
+21:50:27 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:50:35 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:35 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:36 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:43 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:43 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:43 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:43 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:43 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:50:43 synapses : 4583/5084 posées, 45 neurones en échec
+21:50:43 reprise
+21:50:53 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:51:00 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:00 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:01 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:08 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:08 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:08 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:08 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:08 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:08 synapses : 4583/5084 posées, 45 neurones en échec
+21:51:08 reprise
+21:51:18 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:51:26 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:26 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:27 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:27 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:34 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:34 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:34 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:34 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:34 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:34 synapses : 4583/5084 posées, 45 neurones en échec
+21:51:34 reprise
+21:51:44 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:51:51 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:51 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:52 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:52 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:52 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:52 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:52 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:59 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:59 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:59 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:59 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:59 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:51:59 synapses : 4583/5084 posées, 45 neurones en échec
+21:51:59 reprise
+21:52:09 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:52:17 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:17 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:25 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:26 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:26 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:26 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:26 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:26 synapses : 4583/5084 posées, 45 neurones en échec
+21:52:26 reprise
+21:52:35 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:52:43 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:43 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:52 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:52 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:52 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:52 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:52 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:52:52 synapses : 4583/5084 posées, 45 neurones en échec
+21:52:52 reprise
+21:53:01 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:53:09 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:09 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:10 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:17 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:17 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:17 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:17 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:17 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:17 synapses : 4583/5084 posées, 45 neurones en échec
+21:53:17 reprise
+21:53:27 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:53:34 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:34 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:35 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:35 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:35 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:35 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:35 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:35 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:35 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:42 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:42 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:42 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:42 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:42 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:53:42 synapses : 4583/5084 posées, 45 neurones en échec
+21:53:42 reprise
+21:53:52 synapses : 4583 déjà posées, 501 à poser sur 45 neurones
+21:54:00 ÉCHEC ["M4",[{"source":"M4","cible":"M4","chimique":15,"electrique":1,"poids":16},{"so Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["ADFR",[{"source":"ADFR","cible":"ADFR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["ADLR",[{"source":"ADLR","cible":"ADLR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["ASHR",[{"source":"ASHR","cible":"ASHR","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["AFDL",[{"source":"AFDL","cible":"AFDL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["IL1DR",[{"source":"IL1DR","cible":"IL1DR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["IL1VL",[{"source":"IL1VL","cible":"IL1VL","chimique":5,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["IL2DL",[{"source":"IL2DL","cible":"IL2DL","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["OLLL",[{"source":"OLLL","cible":"OLLL","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["OLLR",[{"source":"OLLR","cible":"OLLR","chimique":4,"electrique":0,"poids":4}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["CEPDR",[{"source":"CEPDR","cible":"CEPDR","chimique":6,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["ALML",[{"source":"ALML","cible":"ALML","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["URXL",[{"source":"URXL","cible":"URXL","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["AIBL",[{"source":"AIBL","cible":"AIBL","chimique":2,"electrique":0,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["ADAL",[{"source":"ADAL","cible":"ADAL","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["AIMR",[{"source":"AIMR","cible":"AIMR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["AINR",[{"source":"AINR","cible":"AINR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["RIAR",[{"source":"RIAR","cible":"RIAR","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["RIS",[{"source":"RIS","cible":"RIS","chimique":3,"electrique":0,"poids":3},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["URBL",[{"source":"URBL","cible":"URBL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["RIPL",[{"source":"RIPL","cible":"RIPL","chimique":2,"electrique":4,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["AVG",[{"source":"AVG","cible":"AVG","chimique":2,"electrique":0,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["PVNR",[{"source":"PVNR","cible":"PVNR","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["PVR",[{"source":"PVR","cible":"PVR","chimique":1,"electrique":0,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["PVCL",[{"source":"PVCL","cible":"PVCL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["RIML",[{"source":"RIML","cible":"RIML","chimique":11,"electrique":0,"poids":11 Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["RMDVR",[{"source":"RMDVR","cible":"RMDVR","chimique":2,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["RMED",[{"source":"RMED","cible":"RMED","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["RMER",[{"source":"RMER","cible":"RMER","chimique":5,"electrique":0,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["SAAVR",[{"source":"SAAVR","cible":"SAAVR","chimique":1,"electrique":0,"poids": Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["AS01",[{"source":"AS01","cible":"AS01","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["AS05",[{"source":"AS05","cible":"AS05","chimique":3,"electrique":0,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["HSNL",[{"source":"HSNL","cible":"HSNL","chimique":1,"electrique":0,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["VC05",[{"source":"VC05","cible":"VC05","chimique":6,"electrique":0,"poids":6}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["M5",[{"source":"M5","cible":"M5","chimique":0,"electrique":1,"poids":1}]] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["ASKR",[{"source":"ASKR","cible":"ASKR","chimique":0,"electrique":2,"poids":2}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["PVM",[{"source":"PVM","cible":"PVM","chimique":0,"electrique":1,"poids":1},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["AIAR",[{"source":"AIAR","cible":"AIAR","chimique":0,"electrique":2,"poids":2}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["RIBL",[{"source":"RIBL","cible":"RIBL","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:00 ÉCHEC ["RIBR",[{"source":"RIBR","cible":"RIBR","chimique":0,"electrique":5,"poids":5}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:08 ÉCHEC ["DVB",[{"source":"DVB","cible":"DVB","chimique":0,"electrique":2,"poids":2},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:08 ÉCHEC ["PVPL",[{"source":"PVPL","cible":"PVPL","chimique":0,"electrique":1,"poids":1}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:08 ÉCHEC ["RID",[{"source":"RID","cible":"RID","chimique":0,"electrique":5,"poids":5},{"s Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:08 ÉCHEC ["VD02",[{"source":"VD02","cible":"VD02","chimique":0,"electrique":3,"poids":3}, Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:08 ÉCHEC ["VC02",[{"source":"VC02","cible":"VC02","chimique":0,"electrique":1,"poids":1}] Transaction failed, temDST_IS_SRC: Destination may not be source.
+21:54:08 synapses : 4583/5084 posées, 45 neurones en échec
+21:54:08 reprise
+21:54:28 organisme rJZKSuxqJtGiub7dAc17XAgdcks5YcdQBW : 590.6 XRP, besoin 1420.4 → robinet
+21:54:34 organisme rJZKSuxqJtGiub7dAc17XAgdcks5YcdQBW : 1590.6 XRP
+21:54:42 synapses : 4583 déjà posées, 456 à poser sur 42 neurones
+21:55:01 synapses posées : 100/456
+21:55:23 synapses posées : 200/456
+21:55:44 synapses posées : 300/456
+21:56:25 synapses posées : 400/456
+21:57:29 synapses : 5039/5039 posées, 0 neurones en échec
+21:57:37 ancrage EC9933988CBE556CC866D9E11AB3CED0A5B6E0BABDF8ABFAFFAA38CF40420C93
+21:57:37 fini
