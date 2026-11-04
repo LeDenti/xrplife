@@ -1,1 +1,1 @@
-{ "name": "xrplife", "version": "0.1.0", "type": "module", "private": true, "dependencies": { "xrpl": "^5.3.0" } }
+{ "name": "xrplife", "version": "1.0.0", "type": "module", "private": true, "dependencies": { "xrpl": "^5.3.0" } }

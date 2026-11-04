@@ -1,0 +1,13 @@
+{
+  "title": "XRPLife: a complete connectome as ledger objects (C. elegans on the XRP Ledger, with a four-animal life cycle)",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [{"name": "Cugny, Julien"}],
+  "keywords": ["connectome", "C. elegans", "XRP Ledger", "XRPL", "blockchain", "OpenWorm", "developmental connectome"],
+  "description": "The complete wired connectome of C. elegans (302 neurons, Cook et al. 2019) materialised on the XRP Ledger testnet: every neuron is an account issuing its own currency, every directed synaptic pair a trust line held by the postsynaptic neuron (limit = synaptic weight), the dataset hash anchored in a memo, a nerve impulse a chain of payments. A complete life cycle of four animals (eggs, growth through the Witvliet 2021 and Cook 2019 connectomes, mating by Check, egg laying, death by account deletion) was run in four hours of ledger time, with XRP reserve as food. Preprint: paper/xrplife.pdf. Data: OpenWorm c302 (MIT) after Cook et al. 2019, Witvliet et al. 2021, White et al. 1986.",
+  "related_identifiers": [
+    {"identifier": "10.1038/s41586-019-1352-7", "relation": "isDerivedFrom", "resource_type": "publication-article"},
+    {"identifier": "10.1038/s41586-021-03778-8", "relation": "isDerivedFrom", "resource_type": "publication-article"},
+    {"identifier": "https://github.com/openworm/c302", "relation": "isDerivedFrom", "resource_type": "software"}
+  ]
+}

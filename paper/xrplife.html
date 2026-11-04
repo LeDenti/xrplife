@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A complete connectome as ledger objects</title>
+<style>
+@page { size: A4; margin: 22mm 20mm 22mm 20mm; }
+body { font-family: Georgia, "Times New Roman", serif; font-size: 10.5pt; line-height: 1.38; color: #111; max-width: 170mm; margin: 0 auto; }
+h1 { font-size: 17pt; line-height: 1.25; margin: 0 0 6pt 0; font-weight: normal; }
+.auth { margin: 0 0 2pt 0; }
+.aff { margin: 0 0 14pt 0; font-size: 9.5pt; color: #333; }
+h2 { font-size: 12pt; margin: 16pt 0 5pt 0; }
+h3 { font-size: 10.5pt; margin: 10pt 0 3pt 0; font-style: italic; font-weight: normal; }
+p { margin: 0 0 7pt 0; text-align: justify; }
+.abstract { margin: 0 0 12pt 0; padding: 8pt 12pt; border-left: 2px solid #999; font-size: 10pt; }
+.abstract p { margin: 0 0 5pt 0; }
+table { border-collapse: collapse; width: 100%; font-size: 9.2pt; margin: 6pt 0 9pt 0; }
+th, td { border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; padding: 3pt 5pt; text-align: left; vertical-align: top; }
+th { background: #f0f0f0; font-weight: bold; }
+caption { caption-side: top; text-align: left; font-size: 9.2pt; margin-bottom: 3pt; font-style: italic; }
+code { font-family: Menlo, Consolas, monospace; font-size: 8.8pt; word-break: break-all; }
+p.left { text-align: left; }
+.ref { font-size: 9.3pt; padding-left: 1.6em; text-indent: -1.6em; margin: 0 0 4pt 0; text-align: left; }
+.small { font-size: 9pt; color: #333; }
+ul { margin: 0 0 7pt 0; padding-left: 1.4em; }
+li { margin: 0 0 3pt 0; }
+</style>
+</head>
+<body>
+
+<h1>A complete connectome as ledger objects: <i>Caenorhabditis elegans</i> on the XRP Ledger, with a four-animal life cycle</h1>
+<p class="auth">Julien Cugny</p>
+<p class="aff">Independent researcher · github.com/LeDenti · 4 November 2026 · preprint, version 1</p>
+
+<div class="abstract">
+<p><b>Abstract.</b> We report the materialisation of the complete wired connectome of the nematode <i>C. elegans</i> (302 neurons, Cook et al. 2019) on the XRP Ledger testnet, where every neuron is a ledger account issuing its own currency, every directed synaptic pair is a trust line held by the postsynaptic neuron with the synaptic weight as its limit, and the SHA-256 of the source dataset is anchored in an account memo. The construction (302 accounts, 5,039 trust lines, 1,409 XRP of reserve) took 32 minutes and was verified independently by re-reading the ledger. A nerve impulse is a chain of payments: a two-hop traversal from the anterior touch neuron ALML reached 150 neurons through 317 payments in 341 s. We then ran a complete life cycle of four animals (three hermaphrodites, one male) in four hours of ledger time: eggs paid by the mother, growth through the eight developmental connectomes of Witvliet et al. (2021) and then the adult connectomes of both sexes of Cook et al. (2019), mating by a ledger Check, egg laying, and death by account deletion with the reserve returned to a shared environment account. XRP reserve played the role of food: without it the ledger refuses the synapse. The ledger imposed its own constraints (no autapse, one currency per neuron, reserve on the union of old and new synapses during a moult, a 256-ledger minimum age before deletion), each of which is reported. To our knowledge this is the first connectome whose neurons and synapses are themselves ledger objects, as opposed to hashes of simulation states. We state plainly what is measured and what is invented, and argue that a public ledger is a poor substrate for neural <i>computation</i> (one hop per consensus round) but a natural substrate for versioned, publicly verifiable developmental connectomes, and for slow internal states such as neuromodulation, whose biological time scale matches the ledger's.</p>
+</div>
+
+<h2>1. Introduction</h2>
+<p><i>C. elegans</i> is the only animal whose nervous system is known synapse by synapse: 302 neurons in the hermaphrodite, about 7,000 connections, first reconstructed by White et al. (1986) and redone by serial-section electron microscopy by Cook et al. (2019), who also reconstructed the male. Witvliet et al. (2021) added eight reconstructions of the nerve ring from the first larval stage to adulthood. These datasets are public and curated by the OpenWorm project.</p>
+<p>A public ledger such as the XRP Ledger (XRPL) is a replicated, append-only data structure whose state is agreed every few seconds by a set of validators. Its objects are few and simple: accounts, trust lines between accounts for issued currencies, payments, checks, memos. We asked a naive question: what happens if the objects of the ledger are made to <i>be</i> the objects of the connectome, rather than to store a hash of a file describing them? The question is not whether this is useful for neuroscience, which we doubt in its present form, but what the mapping costs, what the ledger refuses, and which properties of the ledger (provenance, versioning, public verifiability, a hard resource constraint) carry over to a biological object.</p>
+<p>Prior work we are aware of: the NEMA project hashed states of a <i>C. elegans</i> simulation onto Solana, which anchors a computation but does not represent the network on the ledger. Graph databases and standard formats (GraphML, NeuroML, the OpenWorm c302 model) hold connectomes on ordinary servers. We found no previous work in which neurons and synapses are themselves ledger objects; we claim it with the usual caution.</p>
+
+<h2>2. Data</h2>
+<p>All data come from the OpenWorm c302 repository (MIT licence):</p>
+<ul>
+<li><code>herm_full_edgelist.csv</code>: adult hermaphrodite, chemical synapses and gap junctions, weighted (Cook et al. 2019). SHA-256 <code>142693f1…74c0ca1</code>, anchored on the ledger.</li>
+<li><code>witvliet_2020_1..8.xlsx</code>: eight animals of the nerve ring from L1 at 0 h to adult at 50 h (Witvliet et al. 2021), columns pre/post/type/count.</li>
+<li><code>SI 5 Connectome adjacency matrices.xlsx</code>: adult hermaphrodite and adult male, chemical and electrical (Cook et al. 2019).</li>
+</ul>
+<p>Only the neuron-to-neuron subgraph is used: muscles, hypodermis, intestine, glia (CEPsh, GLR) and the excretory cell are excluded. Neuron names are normalised (<code>DB1</code> to <code>DB01</code>). After filtering, the Witvliet stages contain 161 to 182 neurons and 747 to 2,152 synapses; the Cook adults contain 300 connected hermaphrodite neurons (plus CANL and CANR, which have no known synapse) with 5,084 directed pairs, and 377 connected male neurons with 5,620 pairs.</p>
+
+<h2>3. Mapping</h2>
+<table>
+<caption>Table 1. Correspondence between the organism and ledger objects.</caption>
+<tr><th>Biology</th><th>XRP Ledger (testnet)</th></tr>
+<tr><td>the organism</td><td>a master account, funded by the faucet, that creates and funds each neuron</td></tr>
+<tr><td>a neuron</td><td>an account that issues its own currency (its name, as a 20-byte currency code)</td></tr>
+<tr><td>a synapse A→B</td><td>a trust line set by <b>B</b> towards A's currency, limit = chemical + electrical weight, flag <code>NoRipple</code>, detail in a memo</td></tr>
+<tr><td>the dataset</td><td>its SHA-256 in an <code>AccountSet</code> memo of the master account</td></tr>
+<tr><td>a nerve impulse</td><td>a payment from A to B in A's currency, amount = weight / 10<sup>6</sup></td></tr>
+<tr><td>food</td><td>XRP reserve: 1 XRP per account, 0.2 XRP per trust line (testnet values)</td></tr>
+<tr><td>an egg</td><td>a payment from the mother to a new account, with a filiation memo</td></tr>
+<tr><td>growth, moult</td><td>the diff between two developmental connectomes: new accounts, trust lines added, changed or pruned; each stage anchored by an <code>AccountSet</code> memo</td></tr>
+<tr><td>mating</td><td>the male creates a <code>Check</code>, the hermaphrodite cashes it (<code>CheckCash</code>)</td></tr>
+<tr><td>death</td><td>every trust line set to 0, then <code>AccountDelete</code> of every neuron and of the organism, remainder returned to the environment account</td></tr>
+</table>
+<p>Two design decisions were forced by the ledger. First, an account cannot hold a trust line to itself (<code>temDST_IS_SRC</code>): the 45 autapses of the dataset are excluded and their count recorded in the anchor memo, leaving 5,039 trust lines. Second, if all neurons shared one currency, the reciprocal pairs A→B and B→A would share a single <code>RippleState</code> object and reciprocal impulses would net out; hence one currency per neuron.</p>
+
+<h2>4. Construction and verification of the adult connectome</h2>
+<p class="left">On 3 November 2026 (testnet, <code>xrpl.js</code> 5.3.0) the master account <code>rJZKSuxqJtGiub7dAc17XAgdcks5YcdQBW</code> created 302 neuron accounts in batches of 8 with manually assigned sequence numbers (7.5 min), then set 5,039 trust lines with 40 neurons submitting in parallel (25 min). The anchor transaction is<br><code>EC9933988CBE556CC866D9E11AB3CED0A5B6E0BABDF8ABFAFFAA38CF40420C93</code>. An independent script re-read the ledger and compared it with the dataset: 302/302 accounts, 5,039/5,039 trust lines with the expected limits and flags, 1,409 XRP of reserve immobilised. Every address is in the public <code>etat.json</code>; the seeds are kept outside the repository.</p>
+
+<h2>5. Impulse propagation</h2>
+<p>An off-chain agent (<code>influx.mjs</code>) fires a neuron by submitting one payment per outgoing chemical synapse; recipients fire in turn at the next hop. From ALML (anterior touch), two hops produced 317 successful payments reaching 15 then 135 new neurons (150 in total) in 341 s. The ledger holds the map, not the computation: each hop needs at least one consensus round (3–4 s), and with sequential submission the measured cost is about one second per payment. The biological event takes a millisecond. We return to this in §9.</p>
+
+<h2>6. A life cycle of four animals</h2>
+<h3>6.1 Model</h3>
+<p>An environment account (the "milieu") is filled from the testnet faucet, the only source of XRP (the testnet's "sun"). Founders are laid by the milieu; later eggs are paid by their mother. An animal grows by applying, stage after stage, the diff between consecutive connectomes: Witvliet stages 1 to 8 (nerve ring, L1 at 0 h to adult at 50 h), then the whole-body adult of Cook (hermaphrodite); the male follows Witvliet stages 1 to 6 then Cook's adult male. Before each moult the animal must hold enough XRP for the <i>union</i> of its old and new trust lines; if not it eats from the milieu, and if the milieu is empty the ledger refuses the synapse and growth stops. Mating is a Check from the male cashed by the hermaphrodite (1 XRP). A fertilised hermaphrodite lays two eggs, sex drawn from the parity of a transaction hash; an unfertilised one lays one (self-fertilisation). Death sets every trust line to zero, which deletes it, then deletes every account to the milieu; each deletion burns 0.2 XRP. Clock: one ledger = one hour of life.</p>
+<h3>6.2 Result</h3>
+<p>Run on 4 November 2026, 01:43 to 05:41 UTC, with two automatic restarts of the supervisor after public-websocket disconnections (the engine is resumable from its state file).</p>
+<table>
+<caption>Table 2. The eight animals. Milieu <code>rpAeX4pZwH65pRcwrizmQ77Qe9DvVYbyej</code>.</caption>
+<tr><th>Animal</th><th>Sex</th><th>Parents</th><th>Last stage</th><th>Neurons</th><th>Synapses</th><th>Eaten (XRP)</th><th>Outcome</th></tr>
+<tr><td>V1</td><td>herm.</td><td>milieu</td><td>adult, Cook</td><td>301</td><td>5,039</td><td>2,066.2</td><td>fertilised by V4, laid E1, E2; dead, 1,610.6 XRP returned, 60.4 burned</td></tr>
+<tr><td>V2</td><td>herm.</td><td>milieu</td><td>adult, Cook</td><td>301</td><td>5,039</td><td>1,625.1</td><td>laid E3; dead, 1,564.4 returned, 60.4 burned</td></tr>
+<tr><td>V3</td><td>herm.</td><td>milieu</td><td>adult, Cook</td><td>301</td><td>5,039</td><td>1,602.9</td><td>laid E4; dead, 1,542.1 returned, 60.4 burned</td></tr>
+<tr><td>V4</td><td>male</td><td>milieu</td><td>adult male, Cook</td><td>380</td><td>5,620</td><td>1,456.5</td><td>Check to V1; dead, 1,774.9 returned, 76.2 burned</td></tr>
+<tr><td>E1</td><td>herm.</td><td>V1 × V4</td><td>L1 0 h</td><td>161</td><td>747</td><td>0</td><td>alive</td></tr>
+<tr><td>E2</td><td>male</td><td>V1 × V4</td><td>L1 0 h</td><td>161</td><td>747</td><td>0</td><td>alive</td></tr>
+<tr><td>E3</td><td>herm.</td><td>V2 (self)</td><td>L1 0 h</td><td>161</td><td>747</td><td>0</td><td>alive</td></tr>
+<tr><td>E4</td><td>herm.</td><td>V3 (self)</td><td>L1 0 h</td><td>161</td><td>747</td><td>0</td><td>alive</td></tr>
+</table>
+<p>Key transactions, all <code>tesSUCCESS</code>: mating Check <code>2849789E…</code>, cashed <code>3B48C4CE…</code>; deaths <code>926F8634…</code>, <code>955FC66E…</code>, <code>A67015AA…</code>, <code>07DEF37A…</code>. The independent verifier (<code>verifier-vie.mjs</code>) found all founder accounts deleted (0/301, 0/301, 0/301, 0/380 remaining) and the four children with 161/161 accounts and 747 trust lines each.</p>
+<table>
+<caption>Table 3. XRP balance of the cycle.</caption>
+<tr><th>Drawn from the faucet</th><th>Eaten by the four founders</th><th>Returned by their deaths</th><th>Burned by deletions</th><th>Milieu at the end</th></tr>
+<tr><td>9,000</td><td>6,751</td><td>6,492</td><td>257</td><td>7,158</td></tr>
+</table>
+<p>The ledger is a closed system that leaks: without the faucet, each generation would cost 257 XRP more than it returns.</p>
+
+<h2>7. What the ledger refused, and what it cost</h2>
+<p>The full run log contains 939 <code>tecNO_LINE_INSUF_RESERVE</code>, 885 <code>tecNO_LINE_REDUNDANT</code> and 3 <code>tecUNFUNDED_PAYMENT</code> results. Each has a cause worth reporting.</p>
+<ul>
+<li><b>Reserve on the union.</b> During a moult the neuron holds its old and its new trust lines at the same time until the old ones are pruned. Computing the required reserve on max(old, new) instead of old ∪ new produced the 939 refusals; the fix is to prune first, top up on the union, and verify each batch by re-reading <code>account_lines</code>.</li>
+<li><b>Redundant pruning.</b> A trust line set to zero with <code>NoRipple</code> and no balance is deleted by the ledger; pruning it again is refused as redundant. Harmless, but it shows the ledger garbage-collects default-state objects on its own.</li>
+<li><b>Races on a shared account.</b> Two animals eating from the milieu at the same time raced on its sequence number and balance; the fix is a per-address lock and an atomic fill-and-pay. The same race between eggs explains the 3 unfunded payments.</li>
+<li><b>Minimum age.</b> An account can only be deleted 256 ledgers after its creation (<code>tecTOO_SOON</code>); a worm born in the last 15 minutes cannot die yet.</li>
+<li><b>Public endpoint limits.</b> The public websocket closes a client that is "too slow" under bursts; bounding in-flight requests to 10 and animals in parallel to 16 was necessary.</li>
+<li><b>Restart safety.</b> After a crash the engine must re-read real balances rather than trust its state, or it feeds a neuron twice.</li>
+</ul>
+
+<h2>8. What is measured and what is invented</h2>
+<p><b>Measured:</b> the connectomes of each stage and of both sexes; the reserve as a hard constraint; the refusal codes; every transaction, which anyone can re-read on the testnet until it is reset. <b>Invented:</b> the clock (one ledger = one hour; the ages written in memos are inflated by restarts, V1 "died at 3,257 h"); one to two offspring per mother instead of about 300; no genetic variation (children are copies of the dataset, not of their parents); male larvae following stages measured on hermaphrodites; and the junction between Witvliet's nerve ring and Cook's whole body, which are different animals (two adult Witvliet stages already differ by a third of their synapses: that is inter-individual variability, not development). Nothing here is a simulation of the animal's physiology.</p>
+
+<h2>9. Discussion</h2>
+<h3>9.1 What a ledger adds to a graph database</h3>
+<p>Nothing for computation, and the measurements above should discourage anyone from trying: one hop per consensus round is six orders of magnitude slower than the biology, and no public ledger changes that, because the bottleneck is agreement among validators, not arithmetic. Three things carry over, however, and none is available from a file on a server: (i) <i>provenance</i>: the dataset hash, the author, and the date are fixed by consensus and cannot be edited afterwards; (ii) <i>versioning of developmental states</i>: each stage is a dated anchor, and the diff between stages is the list of transactions between two anchors, which is exactly how a developmental connectome should be published; (iii) <i>public verifiability without trust in the publisher</i>: our verifier scripts are short, and anyone can run them against the public endpoint. The hard reserve constraint is a bonus: it makes "cost of a synapse" a first-class, measurable quantity, which is what turned food and death into natural operations rather than metaphors.</p>
+<h3>9.2 Time scales decide the layer</h3>
+<p>The wired connectome changes over days (moults): it fits the ledger. Electrical activity changes over milliseconds: it does not, and belongs off-chain, with the ledger at most settling periodically (XRPL payment channels make an impulse an off-chain signature and the ledger a periodic settlement, which is also a fair description of sleep). Between the two sits the "wireless" connectome of monoamines and neuropeptides (Bentley et al. 2016; Ripoll-Sánchez et al. 2023), whose states (hunger, satiety, arousal) change over seconds to hours. A gland as an issuer, a receptor as a trust line, a concentration as a balance, decay as a clawback: this layer runs at the ledger's own speed, and its state would be readable by anyone from the account lines. This suggests the first question on which the ledger model can be wrong rather than true by construction: with serotonin and PDF balances modulating the weights read by the off-chain agent, does the ledger worm switch between dwelling and roaming as the living one does (Flavell et al. 2013)? We have not run it.</p>
+<h3>9.3 Scale</h3>
+<p>The adult worm immobilises about 1,400 XRP of reserve on the testnet (about 1,700 on the mainnet at current reserve values). The <i>Drosophila</i> connectome (about 140,000 neurons and 50 million synapses) would need a dedicated sidechain or a reserve of the order of ten million XRP; a mammalian brain is out of reach of any ledger. The ledger carries the map of a small animal; it does not scale to a large one, and we do not claim otherwise.</p>
+
+<h2>10. Reproducibility</h2>
+<p>Code, data, state files, full logs and the independent verifiers are at <code>github.com/LeDenti/xrplife</code> (MIT). <code>node construire.mjs</code> rebuilds the adult worm; <code>./superviser.sh</code> runs the resumable life cycle; <code>node verifier.mjs</code> and <code>node verifier-vie.mjs</code> re-read the ledger. The testnet is reset from time to time; the worm is mortal there, and the code recreates it. Seeds are never committed.</p>
+
+<h2>Acknowledgements</h2>
+<p>The data are those of Cook et al. (2019), Witvliet et al. (2021) and White et al. (1986), as curated and distributed by the OpenWorm Foundation. The XRPL testnet and its faucet are operated by the XRP Ledger community. Code and this manuscript were drafted with the assistance of Claude (Anthropic); every measurement was executed on the public testnet and is logged in the repository.</p>
+
+<h2>References</h2>
+<p class="ref">Bentley, B., Branicky, R., Barnes, C. L., Chew, Y. L., Yemini, E., Bullmore, E. T., Vértes, P. E. &amp; Schafer, W. R. (2016). The multilayer connectome of <i>Caenorhabditis elegans</i>. <i>PLoS Computational Biology</i> 12(12), e1005283. https://doi.org/10.1371/journal.pcbi.1005283</p>
+<p class="ref">Cook, S. J., Jarrell, T. A., Brittin, C. A., Wang, Y., Bloniarz, A. E., Yakovlev, M. A., Nguyen, K. C. Q., Tang, L. T.-H., Bayer, E. A., Duerr, J. S., Bülow, H. E., Hobert, O., Hall, D. H. &amp; Emmons, S. W. (2019). Whole-animal connectomes of both <i>Caenorhabditis elegans</i> sexes. <i>Nature</i> 571, 63–71. https://doi.org/10.1038/s41586-019-1352-7</p>
+<p class="ref">Flavell, S. W., Pokala, N., Macosko, E. Z., Albrecht, D. R., Larsch, J. &amp; Bargmann, C. I. (2013). Serotonin and the neuropeptide PDF initiate and extend opposing behavioral states in <i>C. elegans</i>. <i>Cell</i> 154(5), 1023–1035. https://doi.org/10.1016/j.cell.2013.08.001</p>
+<p class="ref">OpenWorm Foundation. c302: a framework for generating network models of <i>C. elegans</i>. https://github.com/openworm/c302 (MIT licence).</p>
+<p class="ref">Ripoll-Sánchez, L., Watteyne, J., Sun, H., Fernandez, R., Taylor, S. R., Weinreb, A., Bentley, B. L., Hammarlund, M., Miller, D. M., Hobert, O., Beets, I., Vértes, P. E. &amp; Schafer, W. R. (2023). The neuropeptidergic connectome of <i>C. elegans</i>. <i>Neuron</i> 111(22), 3570–3589. https://doi.org/10.1016/j.neuron.2023.09.043</p>
+<p class="ref">Schwartz, D., Youngs, N. &amp; Britto, A. (2014). The Ripple protocol consensus algorithm. Ripple Labs white paper.</p>
+<p class="ref">White, J. G., Southgate, E., Thomson, J. N. &amp; Brenner, S. (1986). The structure of the nervous system of the nematode <i>Caenorhabditis elegans</i>. <i>Phil. Trans. R. Soc. Lond. B</i> 314, 1–340. https://doi.org/10.1098/rstb.1986.0056</p>
+<p class="ref">Witvliet, D., Mulcahy, B., Mitchell, J. K., Meirovitch, Y., Berger, D. R., Wu, Y., Liu, Y., Koh, W. X., Parvathala, R., Holmyard, D., Schalek, R. L., Shavit, N., Chisholm, A. D., Lichtman, J. W., Samuel, A. D. T. &amp; Zhen, M. (2021). Connectomes across development reveal principles of brain maturation. <i>Nature</i> 596, 257–261. https://doi.org/10.1038/s41586-021-03778-8</p>
+<p class="ref">XRP Ledger documentation: reserves, trust lines, checks, account deletion. https://xrpl.org/docs</p>
+</body>
+</html>

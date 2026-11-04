@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software or its measurements, please cite it as below, and cite the data sources (Cook et al. 2019, Witvliet et al. 2021, White et al. 1986, OpenWorm c302)."
+title: "XRPLife: a complete connectome as ledger objects (C. elegans on the XRP Ledger, with a four-animal life cycle)"
+type: software
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
+repository-code: "https://github.com/LeDenti/xrplife"
+authors:
+  - family-names: Cugny
+    given-names: Julien
+keywords:
+  - connectome
+  - C. elegans
+  - XRP Ledger
+  - XRPL
+  - blockchain
+  - OpenWorm
+  - developmental connectome
+abstract: >-
+  The complete wired connectome of C. elegans (302 neurons, Cook et al. 2019)
+  materialised on the XRP Ledger testnet: every neuron is an account issuing its
+  own currency, every directed synaptic pair a trust line held by the postsynaptic
+  neuron (limit = synaptic weight), the dataset hash anchored in a memo, a nerve
+  impulse a chain of payments. A complete life cycle of four animals (eggs, growth
+  through Witvliet 2021 and Cook 2019 connectomes, mating by Check, egg laying,
+  death by account deletion) was run in four hours of ledger time, with XRP reserve
+  as food. Preprint in paper/xrplife.pdf.
+references:
+  - type: article
+    authors:
+      - family-names: Cook
+        given-names: Steven J.
+    title: "Whole-animal connectomes of both Caenorhabditis elegans sexes"
+    journal: Nature
+    volume: 571
+    year: 2019
+    doi: 10.1038/s41586-019-1352-7
+  - type: article
+    authors:
+      - family-names: Witvliet
+        given-names: Daniel
+    title: "Connectomes across development reveal principles of brain maturation"
+    journal: Nature
+    volume: 596
+    year: 2021
+    doi: 10.1038/s41586-021-03778-8

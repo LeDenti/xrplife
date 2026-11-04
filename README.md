@@ -127,6 +127,13 @@ node influx.mjs ALML 2         # un toucher antérieur : ALML, 2 sauts
 `etat.json` garde les adresses et hachages (public) ; `.cles.json` les graines
 testnet (0600, hors git).
 
+## Papier et citation
+
+Prépublication (6 pages, anglais) : [paper/xrplife.pdf](paper/xrplife.pdf), source
+[paper/xrplife.html](paper/xrplife.html). Pour citer le logiciel : `CITATION.cff`
+(GitHub affiche « Cite this repository »). Les données se citent par leurs auteurs,
+voir [data/README.md](data/README.md).
+
 ## Suite
 
 Le ver est lent parce que chaque saut demande un accord entre validateurs,
