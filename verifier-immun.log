@@ -1,0 +1,10 @@
+ancrage l1        39577325BFED tesSUCCESS | {"ver":"E3","self":["rpAeX4pZwH65pRcwrizmQ77Qe9DvVYbyej","rUMBjyBdpidNSMx1imDZaE53JAibvocVGL"],"cells":21,"membrane":"DepositAuth","food":"FOOD from e
+ancrage infection DF4D353AEE90 tesSUCCESS | {"ver":"E3","pathogen":"rphxbDQFDbY55PPnRUuu62da9PvynFehd8","membrane_refusals":{"tecNO_PERMISSION":20},"colonised":{"tesSUCCESS":20},"ledger":2207142
+ancrage defense   4EA5EEED3A94 tesSUCCESS | {"ver":"E3","infected_cells":20,"expelled":20,"lines_closed":20,"nlp29":{"tesSUCCESS":20},"adf_serotonin":102,"ledger":22071459}
+ancrage test      CFE5DDD84465 tesSUCCESS | [{"s":"naif","d":"AWCL+AWCR","i":0.7367},{"s":"naif","d":"AWBL+AWBR","i":0.8452},{"s":"infecte","d":"AWCL+AWCR","i":0.7216},{"s":"infecte","d":"AWBL+A
+cellules intestinales : membrane DepositAuth 20/20, milieu pré-autorisé 20/20, nourriture ≥ 5 : 20/20, NLP-29 reçu : 20/20, lignes ou pré-autorisations vers PA14 restantes : 0 (attendu 0)
+sérotonine : 172 lignes de récepteurs sur E3, 86 actives (solde > 0)
+naif     AWCL+AWCR  10/10 paiements vérifiés, index de fuite 0.737
+naif     AWBL+AWBR  10/10 paiements vérifiés, index de fuite 0.845
+infecte  AWCL+AWCR  10/10 paiements vérifiés, index de fuite 0.722
+infecte  AWBL+AWBR  10/10 paiements vérifiés, index de fuite 0.837

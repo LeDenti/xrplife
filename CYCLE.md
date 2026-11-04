@@ -1,6 +1,6 @@
-# Cycle de vie de 8 vers sur le registre XRPL (testnet)
+# Cycle de vie de 9 vers sur le registre XRPL (testnet)
 
-Généré le 2026-11-04 05:44 UTC depuis `vie-etat.json`.
+Généré le 2026-11-04 22:27 UTC depuis `vie-etat.json`.
 
 Milieu : [rpAeX4pZ…](https://testnet.xrpl.org/accounts/rpAeX4pZwH65pRcwrizmQ77Qe9DvVYbyej) — tiré du robinet : 9 000 XRP, rendu par les morts : 6 492,1 XRP.
 
@@ -12,8 +12,9 @@ Milieu : [rpAeX4pZ…](https://testnet.xrpl.org/accounts/rpAeX4pZwH65pRcwrizmQ77
 | V4 [rLeamury…](https://testnet.xrpl.org/accounts/rLeamuryUieXX2XaaUn5mcrVaVNvfYSDZ1) | mâle | 0 | milieu | 22050977 | adulte mâle complet | 380 | 0 | 1 456,5 | oui, 1 774,9 XRP rendus, 76,2 brûlés |
 | E1 [rKwUB85U…](https://testnet.xrpl.org/accounts/rKwUB85UjesLhW89FZqHtxDvuCYMg2hF4f) | hermaphrodite | 1 | V1 + V4 | 22053398 | L1 0h | 161 | 747 | 0 | vivant |
 | E2 [raTcu3GX…](https://testnet.xrpl.org/accounts/raTcu3GXTy9S4X9ymAebMLHLsnUkVFULZz) | mâle | 1 | V1 + V4 | 22053402 | L1 0h | 161 | 747 | 0 | vivant |
-| E3 [rNN3VFgj…](https://testnet.xrpl.org/accounts/rNN3VFgjVPxEKsMkBivEkd2oTGositzx55) | hermaphrodite | 1 | V2 | 22053406 | L1 0h | 161 | 747 | 0 | vivant |
+| E3 [rNN3VFgj…](https://testnet.xrpl.org/accounts/rNN3VFgjVPxEKsMkBivEkd2oTGositzx55) | hermaphrodite | 1 | V2 | 22053406 | L1 0h | 161 | 747 | 396,4 | vivant |
 | E4 [rQwzCSga…](https://testnet.xrpl.org/accounts/rQwzCSga1c1MYYPtLajBkWcqv3BhctvvFJ) | hermaphrodite | 1 | V3 | 22053412 | L1 0h | 161 | 747 | 0 | vivant |
+| E5 [rfJKfYvf…](https://testnet.xrpl.org/accounts/rfJKfYvfgv7GuYGng8DSFttG1RmZ45nywk) | hermaphrodite | 2 | E3 | 22071523 | L1 0h | 161 | 747 | 0 | vivant |
 
 ## V1 (hermaphrodite)
 
@@ -106,11 +107,18 @@ Milieu : [rpAeX4pZ…](https://testnet.xrpl.org/accounts/rpAeX4pZwH65pRcwrizmQ77
 
 - 04:44:29 **œuf** pondu par V2 (autofécondation), 395.9 XRP [508BB766…](https://testnet.xrpl.org/transactions/508BB76665E1114FB8DF1725FF640846EE01AD513F41DDBE41DA0B2E82ED97A0)
 - 04:57:14 **stade** L1 0h atteint : 161 neurones, 747 synapses, âge 211h, mangé 0.0 XRP [5B33A56F…](https://testnet.xrpl.org/transactions/5B33A56F1835DD00A66AD293249A170C78FC0A4BD3D18D3C2E0EE2E962C68496)
+- 22:14:40 **mange** 396.4 XRP pour laying egg E5 [A980F624…](https://testnet.xrpl.org/transactions/A980F624501D2127FE84FDAC087E4616C70D701EDA3D71E599857EA8ED90F8DD)
 
 ## E4 (hermaphrodite)
 
 - 04:44:51 **œuf** pondu par V3 (autofécondation), 395.9 XRP [A154D9CF…](https://testnet.xrpl.org/transactions/A154D9CF0A631E313B652CC58607D426A2F1623F5EC15F70ACA1085ACDAA3C13)
 - 04:57:28 **stade** L1 0h atteint : 161 neurones, 747 synapses, âge 209h, mangé 0.0 XRP [35A7CA36…](https://testnet.xrpl.org/transactions/35A7CA3604C7FD27F0D9CC90E1A4302DF98F77BB464D51C5055A8AF027BF4C9F)
+
+## E5 (hermaphrodite)
+
+- 22:14:47 **œuf** pondu par E3 (autofécondation), 395.9 XRP [C908DD64…](https://testnet.xrpl.org/transactions/C908DD64183C70B040E5F70ABC51239A1562F78287B3F4677C9759BA2956C21C)
+- 22:20:20 **stade** L1 0h atteint : 161 neurones, 747 synapses, âge 95h, mangé 0.0 XRP [1B14D262…](https://testnet.xrpl.org/transactions/1B14D26272B09B5C0EC4045D3154FDD75C0E7C15AEDBC4BCB7A0DD523DB3023B)
+- 22:20:20 **né** E5 né de E3, mémoire héritée : avoid PA14 gen 1/4 (Moore et al. 2019)
 
 ## Journal du milieu
 

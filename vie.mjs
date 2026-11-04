@@ -240,7 +240,7 @@ async function pondre(mil, nom, sexe, parents, pondeuse) {
     await nourrir(mil, pondeuse, cout + 0.5, `laying egg ${nom}`);
     const payeur = walletVer(pondeuse);
     const detail = `egg laid by ${pondeuse}${parents.length > 1 ? ' fertilised by ' + parents[1] : ' (self-fertilised)'}`;
-    ({ hash } = await soumettre(payeur, { TransactionType: 'Payment', Account: payeur.classicAddress, Destination: w.classicAddress, Amount: xrpToDrops(cout.toFixed(6)), Memos: [memo('xrplife/egg', `${nom} sex=${sexe} gen=${etat.vers[nom].generation} parents=${parents.join('+')} ${detail}`)] }));
+    ({ hash } = await soumettre(payeur, { TransactionType: 'Payment', Account: payeur.classicAddress, Destination: w.classicAddress, Amount: xrpToDrops(cout.toFixed(6)), Memos: [memo('xrplife/egg', `${nom} sex=${sexe} gen=${etat.vers[nom].generation} parents=${parents.join('+')} ${detail}${process.env.MEMOIRE ? ' memory=' + process.env.MEMOIRE : ''}`)] }));
   }
   const quoi = pondeuse ? `pondu par ${pondeuse}${parents.length > 1 ? ', fécondé par ' + parents[1] : ' (autofécondation)'}` : 'fondateur pondu par le milieu';
   const r = await registre();
@@ -434,5 +434,13 @@ async function cycle() {
   ev(null, 'fin', `milieu ${(await solde(mil.classicAddress)).toFixed(1)} XRP, robinet ${etat.milieu.robinet} XRP, recyclé ${etat.milieu.recycle.toFixed(1)} XRP`);
 }
 
-try { await cycle(); } finally { sauver(); await client.disconnect(); }
+// Ponte seule : PONTE="E5:herm:E3" [MEMOIRE="avoid PA14 gen 1/4"] → l'œuf porte la mémoire héritée (immunité transgénérationnelle).
+async function ponte() {
+  const [nom, sexe, mere] = process.env.PONTE.split(':');
+  const mil = await milieu(50);
+  await pondre(mil, nom, sexe, [mere], mere);
+  await grandir(mil, nom, 0);
+  ev(nom, 'né', `${nom} né de ${mere}${process.env.MEMOIRE ? ', mémoire héritée : ' + process.env.MEMOIRE : ''}`);
+}
+try { if (process.env.PONTE) await ponte(); else await cycle(); } finally { sauver(); await client.disconnect(); }
 log('fini');

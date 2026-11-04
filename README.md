@@ -173,6 +173,36 @@ node rapport-humeur.mjs          # écrit HUMEUR.md
 node verifier-humeur.mjs         # relit le registre : ancrages, récepteurs, échantillon d'influx
 ```
 
+## Le L1 immunitaire (4 novembre 2026, soir)
+
+Troisième registre de base du ver, à côté du noyau et de la mitochondrie, avec ses propres
+étages, et la règle des L1 : aucun objet partagé, ils se parlent par leurs produits. Posé sur E3,
+mesuré, vérifié dans `verifier-immun.log` ; détail dans [IMMUN.md](IMMUN.md).
+
+| Étage | Vivant | Registre |
+|---|---|---|
+| L1, le soi | 20 cellules intestinales + l'épiderme hyp7 (WormAtlas), gènes de défense | un compte par cellule ; membrane = `DepositAuth` ; soi = émetteurs pré-autorisés (le milieu pour la nourriture « FOOD », hyp7 pour le peptide NLP-29) |
+| L2, l'état | infection, alerte, mémoire transmise aux descendants (Moore et al. 2019) | soldes de nourriture et soldes toxiques, NLP-29 sécrété, sérotonine d'ADF, mémo d'évitement dans l'œuf |
+| L3, les actes | détecter, expulser, sécréter, fuir | l'agent de défense : émetteur hors du soi → renvoi, désautorisation, fermeture, sécrétion, signal vers le L1 nerveux |
+
+**Mesuré** : PA14 (un compte qui émet une monnaie au même code que la nourriture) tente d'entrer
+sans autorisation : **20 refus `tecNO_PERMISSION` sur 20**, la membrane tient. Les cellules
+naïves pré-autorisent ce qui ressemble à de la nourriture : 20 colonisées. Défense innée :
+20 expulsions, 20 désautorisations, 20 lignes fermées (60/60), NLP-29 20/20, puis ADF sécrète la
+sérotonine sur ses 102 récepteurs, le messager d'un L1 à l'autre (Zhang, Lu & Bargmann 2005).
+**Héritage** : E3 infectée pond E5 avec le mémo `memory=avoid PA14 gen 1/4` ; E5 relit le mémo de
+son œuf sur le registre à la naissance et sécrète la sérotonine sans avoir rencontré PA14.
+**Prédiction comportementale non tenue** : la part de l'influx qui va au recul ne monte pas après
+l'infection (AWC 0,737 → 0,722 ; AWB 0,845 → 0,837), ni chez la fille (0,722 ; 0,837, identiques
+à la mère). Même cause que pour Flavell : un gain uniforme ne change pas la direction.
+
+```
+node immun.mjs tout                 # VER=E3 : soi, nourriture, influx naïfs, attaque, défense, influx infectés
+PONTE="E5:herm:E3" MEMOIRE="avoid PA14 gen 1/4" node vie.mjs   # l'œuf porte la mémoire
+VER=E5 node immun.mjs heriter       # l'enfant relit le mémo, sécrète, mesure
+node rapport-immun.mjs ; VER=E3 node verifier-immun.mjs
+```
+
 ## La chaîne L2 sérotonine (4 novembre 2026, banc d'essai)
 
 Un réseau rippled dédié, même logiciel que XRPL, réseau `7302`, **réserve 0**, où les

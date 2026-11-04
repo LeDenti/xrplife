@@ -12950,10 +12950,16 @@
      "type": "stade",
      "detail": "L1 0h atteint : 161 neurones, 747 synapses, âge 211h, mangé 0.0 XRP",
      "hash": "5B33A56F1835DD00A66AD293249A170C78FC0A4BD3D18D3C2E0EE2E962C68496"
+    },
+    {
+     "t": "2026-11-04T22:14:40.985Z",
+     "type": "mange",
+     "detail": "396.4 XRP pour laying egg E5",
+     "hash": "A980F624501D2127FE84FDAC087E4616C70D701EDA3D71E599857EA8ED90F8DD"
     }
    ],
    "mort": null,
-   "mange": 0,
+   "mange": 396.41089599999987,
    "registreCourant": 22053617
   },
   "E4": {
@@ -14541,6 +14547,1597 @@
    "mort": null,
    "mange": 0,
    "registreCourant": 22053621
+  },
+  "E5": {
+   "sexe": "herm",
+   "adresse": "rfJKfYvfgv7GuYGng8DSFttG1RmZ45nywk",
+   "parents": [
+    "E3"
+   ],
+   "generation": 2,
+   "ne": {
+    "registre": 22071523,
+    "date": "2026-11-04T22:14:47.227Z"
+   },
+   "stade": 0,
+   "neurones": {
+    "ADAL": {
+     "adresse": "r95VTkdqh6a9uoB7KrAnCFohyM8YJQs4My",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADAR": {
+     "adresse": "rwBFTHJRdCQSXhoeoB6hPVw15QiVmHeHge",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIBR": {
+     "adresse": "rEup9zTVfwQtyGjDUfdRfqJVawTBTyWGrP",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASHL": {
+     "adresse": "rGNoKXSCGTv5nrNYpqaR2gHhyaMke3fAMf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASKL": {
+     "adresse": "rLDPR3bvKXcykBfkp93PjFVTgTQdJQWtny",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "rP3EkYpRsVbjWzjG1dXdGvKufazS2HjAPx",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAR": {
+     "adresse": "r5nsLtvGZn4QMfFc1eVczgfD4u1n9KNdM",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "r43mDudJWpZ4Xg2rhgLmkz2WwfDxvnJkod",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVDR": {
+     "adresse": "rptPGQB81MUn6urundBAuZnNZqkNd85MkL",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVJR": {
+     "adresse": "rhcRiusVYz4WMvBzSxQmKVPwkNDBqsg1tx",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RICR": {
+     "adresse": "rD1dxc2m9ML3C6XfhwRzB2Stwnf5YEBjLx",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIML": {
+     "adresse": "rp6iSmAwSsDe24RxPwFiM98VT8MUAoP9qe",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIBL": {
+     "adresse": "rN5qE3zUSw17b27cWTvi4LekwoczVtPyf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASHR": {
+     "adresse": "raR6WxK8ZwFMtGjHSHqxTo3MBoxiKCnfG2",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "rsCbFXpZEh9v6RquqCewz8Z7PXyJW55UUy",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVDL": {
+     "adresse": "r7eCy5yc369ZPVvXiGybxm6YwhYHwzJn1",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RICL": {
+     "adresse": "rM4ekgAan83pNWuGFMqDU33i9UdnqpH69P",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIMR": {
+     "adresse": "rMf4V1eeRsALzybKdWZEqAdT1YAAzNBe3X",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADEL": {
+     "adresse": "r9acqPx3EhEiWeUEKWZRJ7qtL6W9Hd1Hbe",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "FLPR": {
+     "adresse": "r9FKLqTVH7hxZ4BXiD8m2ti4QYxhnCz18A",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADER": {
+     "adresse": "rPK9NhQi3Xe8nvS9BfUFG4JTvnHTufdfUD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVKR": {
+     "adresse": "raBXstP5FCCGWR8fpwo9xX1CPHngJVM1fG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "rhPyUzMcbhxT5DZzqDNUE79pujt9tH6Qzj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIGL": {
+     "adresse": "r1fvwbQkNtmjHc6cEQFfecHdn8BWv7kdm",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIGR": {
+     "adresse": "rHLTNwE8wZZ7G1SXEeXwcqtz7zyTERgePB",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADFL": {
+     "adresse": "rhQ76jrgR9ZmD5esaYsHMGZYBST828rnvv",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADFR": {
+     "adresse": "rUoLURwhkdBYPLQfTH5ugqMU2MhZcvPEvA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIYL": {
+     "adresse": "rECtar8qBe5DETtudovJ9ZLRXoJWbLfF61",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIZL": {
+     "adresse": "rKRukziRJmieTFYp6UbVbnQR5iMnSgYvDw",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASER": {
+     "adresse": "rsvXumHmDqfKKV3Gv3uKuFv4i6nXJnWrej",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AUAL": {
+     "adresse": "rN53zwQGcvUCpHnwg7Wxjdh4CH1Kz2y8P8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVHR": {
+     "adresse": "r4TMH9Fyktxu542QiZhvL3PR8QQeT6Puix",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIAL": {
+     "adresse": "rUh8PkxQFj8p9gvsJ1mLUiSTz2rqNhQR7o",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIAR": {
+     "adresse": "rhQ7T3yn2PeF6euQ7FqX9JGj1TSXTbRJA7",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIYR": {
+     "adresse": "rssSUxhYRmyjGUo6VwCAH4RJZDjvdvNyWk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIZR": {
+     "adresse": "r9VBZ63ndfc6THZCq6vLFSD3jE7VmkjdE8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AUAR": {
+     "adresse": "rD7jRmFUkYhyZgbJwYsnuhEAPJaLZgJ45i",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIAR": {
+     "adresse": "rsybcZqyGKW1a3Cji2KZHTquqeYLdtciv1",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URXR": {
+     "adresse": "rMRYV8faLFwMXk9hRhnuo2AvkovkSdwAiT",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADLL": {
+     "adresse": "rHuDS6e28b4VBTCLcpf8TkgMKVQBFz6dNk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADLR": {
+     "adresse": "rHQS4kWYakojXyV6Zn92mxhMm9DSHjW5kf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIAL": {
+     "adresse": "rHfMbjrbuQomC8QiuXcDutR3WHNuzb1QMS",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWCL": {
+     "adresse": "rLhcPt378ajyKFwgbdrypKThA8DY9GqBdt",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVQL": {
+     "adresse": "rMGj29YqxaAemiXsqQKsWr6MFo9xnKbne5",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMGL": {
+     "adresse": "rL9qrgz9RAJWaSFq7oEoKRy6AAgqJ7Hxo3",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASKR": {
+     "adresse": "rGF5eEdKq2fTJN1nsRa3FUKqpUuRSEEoqB",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWCR": {
+     "adresse": "r3D3t1A4yBhfng6w7tbG6E6EKtBJHjtxBo",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AFDL": {
+     "adresse": "rB1QATxhXSf1MzGxRHNExyvjgFmC2J6NYh",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AFDR": {
+     "adresse": "raTtb8wCKSLMRnsRDRUzeoKEFanU6gup7R",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASIL": {
+     "adresse": "rfSMLYmK6WPHVwW66JZ6mtrLW5arKWFLuo",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWBL": {
+     "adresse": "rDVap25avoLtUnum9Cyg6yiWxixJTSaFv2",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIFL": {
+     "adresse": "rKrk881nUEAXG7akBbThQnsHiyBkygMunm",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASJR": {
+     "adresse": "rPcd4tVYcyQDLYsqro2ARXNS3mThQDhjL7",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWBR": {
+     "adresse": "rnZBf2NBdQZoGyyRyLedU828fSRSTKWsS3",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIFR": {
+     "adresse": "rJFK3TfB7wheihm6ixVQ8FGzErLHe94wyD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVEL": {
+     "adresse": "rEzRQzGF63MmZcAqsKbUh7ZwhyQd2ABH3U",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "r3JS8uzbWLndyA8mre3uQsoYaqmCNLEiNd",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "DVC": {
+     "adresse": "rEJng7u9DAdhUKt1pwLFxtkdGgRzD4dbC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIBR": {
+     "adresse": "r4MjaEQQ1h3w1WzwMnZ6c2SRb4YbUH2abZ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDDR": {
+     "adresse": "rfmTSQJwiSJiSZEyH3XSt1EoDVyVsV8cFB",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDVR": {
+     "adresse": "r3RGEJ88wsvwQxkmvaMKowEVek9XUs6aFb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIBL": {
+     "adresse": "rJ9NZjQD7eaC9vWKXfxu1TGhTsBd9ogwDf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAADR": {
+     "adresse": "rGbnagCFTWoSGJ1JqWeUEEbe2wYm8ffMT1",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIADL": {
+     "adresse": "rna6Zq7G8FWZ3tXUtWAaPkSuDVgZ2ezxbZ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDDL": {
+     "adresse": "rnaxS9pp3KamG9rkzZB8R1cvEhx8d4eViZ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDVL": {
+     "adresse": "r3QMR2b2grEBVr9p5qkCTZMTLao6aK11Si",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIML": {
+     "adresse": "rMNWMJ3znua2x71MfTFQrk95Xu8H2nCrf6",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIMR": {
+     "adresse": "rnmtorjtV4nW7QreoQT4MPFMFv4dMkHXZo",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASGL": {
+     "adresse": "rPTZuqHjbKEEcsAMzVVSBP9UBXDMdU8gsj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASJL": {
+     "adresse": "rwDd47dgJAPo3HyoSBMDov8udXYtefVNzm",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASGR": {
+     "adresse": "rp8korBweuqw4NWwGzzKkMdRBEEYkaAZFj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AINL": {
+     "adresse": "rUJ3YmBQCyZWNyfzi8cCnTPdEK2PkLi494",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BAGL": {
+     "adresse": "rfvDGQX1WF1G6VVkR6viH784W2xwhkySyk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AINR": {
+     "adresse": "rG5kSJKAWQ2PsAXFg8Thyaz3YgmWtXBwK3",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BAGR": {
+     "adresse": "raa4VueciR2GN9VPgJX59MfCHdutSGoyGi",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPVL": {
+     "adresse": "rPqkM59x3MWeRzHND9ZqfcLTTaXd9reaxq",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBDL": {
+     "adresse": "rBMeUTahSwyN1t3krZPzy2hLqshZ4HPN45",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBDL": {
+     "adresse": "rDch3s2cPUFBF2hbetDWwVecmsDeKvh3At",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBVL": {
+     "adresse": "rPS19Ei687QdD3xA3QE69bjBvjydzrCYoA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBDR": {
+     "adresse": "rrh4FesZhTZDjqdFuG45kNzg7cKHWiwfQZ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBVR": {
+     "adresse": "rKDoXCY2v1i9MSy2GbXuiv5nQPTUh7nV3Z",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ALA": {
+     "adresse": "r3Ta9QGbskV1HcTyqtdvE8GnmrUKpFd5XH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1L": {
+     "adresse": "rsD6THw8U6XJoDeCiZfoVZZecMmptgston",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ALML": {
+     "adresse": "rsEeaicQDBJQevoJM7BKiiPKkCExAu9xhY",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BDUL": {
+     "adresse": "r4PhGu7Bm43JH4A3LB1BZAXdUoU7pmZEMw",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVR": {
+     "adresse": "r3HAfcGMLBW4vkgARTJYivSsmuySzEmL6Z",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ALMR": {
+     "adresse": "rHBfz4qrCULapfuwBFxijKVVaYbmqdQaBs",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BDUR": {
+     "adresse": "rNmofxtRCvHviGQHu9kZdW2zspvsecbMvF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPDR": {
+     "adresse": "rPFwfsz8LmHrgpM8cXY8htxpyHD8NDyc72",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASEL": {
+     "adresse": "rHuxoEf1rsbU3QQ6vi9do231u7fvTsPUqt",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASIR": {
+     "adresse": "rBgCa39e7BbEZBP4ocvBqdWxStiApykBvS",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVHL": {
+     "adresse": "rsQyxPUXAuWrDA9esYQWWoDAuScXVNoVkq",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMGR": {
+     "adresse": "r4NTHSPbkz1G6gpkawJhrL5UjWZ9uvqQoW",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVQR": {
+     "adresse": "rwEnHzRjx3obt8iffLvA9Q1NfzW4EkS1Ax",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URXL": {
+     "adresse": "rE4VXZtbkYqsXTJRdzuauYhHWGkADQfhQ4",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYDR": {
+     "adresse": "rw5aQNYo7erdf6nKABEtBZCdMY3tamU1Vr",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "DVA": {
+     "adresse": "rnt46NQMN9jZD66mTNk7s3Do5trHfKR9z9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVJL": {
+     "adresse": "rJZLor4PT1FkTjLvhZ2NYNnnEMQBCUqoqP",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "rUfzvNeaeZYRCQhqnndY4njAUURdRKb61L",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVKL": {
+     "adresse": "rPon9xqErcs6fH9hN7wnhNsTtS8Js3r5AE",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDL": {
+     "adresse": "rnTACpCKEverSbA3C6YBX4gzdok75SjTbg",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVPL": {
+     "adresse": "rfyBQYwyJvPVogKg9WopzdEfZzbVnEtSM3",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAAVL": {
+     "adresse": "rEwNXfW7YsWZvTBRiRuf8hfZLJjYUipUkk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWAL": {
+     "adresse": "rMErAxgCN5Pm6TDZUjyJQCCZT7aTRaqDUZ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWAR": {
+     "adresse": "rpq3iqpZm15b6kLVCHf28p9wJk3wSHrpp9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIR": {
+     "adresse": "rwoGAcJfHr3DbMrVM3VRvK8D5W6HtLcmSi",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPDL": {
+     "adresse": "rN9AZbjfHmjRsJM7LjhLf2q5cqq61LwU48",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLLL": {
+     "adresse": "r3Co69urRjnHKmeAYQHKRFBtauxXQr45vs",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URBL": {
+     "adresse": "rB2sskSZT24xafmmPxVi1Ta1hkTQmXd8jk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYDL": {
+     "adresse": "r9c5ekMgt3mrBV5dcvJKiK9d3p9nvLXFPy",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLLR": {
+     "adresse": "r9gnBkwdrZP7ipmgQ4ghwUW4wndnfyTCsW",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBVR": {
+     "adresse": "r9YsYLV8MMCfwwZ1sxHLLg8UHastYPDzVW",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPVR": {
+     "adresse": "rPuCA4xfRwkDp5hv2JCEf6SxEvKTpQSBJf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQVR": {
+     "adresse": "rGHbEPb6KZsBEh1z6eLbxkwXki2YAy739y",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYVR": {
+     "adresse": "rBBStTqtyBAAUQGVekmyp5czRJnKVRF7su",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIVR": {
+     "adresse": "rfKCvBouVXXjns6gQPrCG6o9EkL5Jk7oJu",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "FLPL": {
+     "adresse": "rn7Lcsu8FZ3Fot8uDA2YdBmTGFXYLVzehj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1DL": {
+     "adresse": "rHa2muV5YWvmoYrevsSwsHedjLhEGwPy82",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1DR": {
+     "adresse": "rMgZk8N4F2JeSmMuTkCrKcH3Gy5mJ78C2P",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIPL": {
+     "adresse": "rD7H2i8Cdj86JCjwX6Vb78MkzctadzqnQw",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDVL": {
+     "adresse": "r3B14T68mWTvh3AygGs4fk33qkPtr3s8tj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMEL": {
+     "adresse": "rs47BKZSJMX6n2Wf79orQKMYUvJD9bshWV",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1R": {
+     "adresse": "rLK3352DRjikyYhvUWBY6sHo2wEwBJ5jkZ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIPR": {
+     "adresse": "rE7HC4ibuikWbYXN4WURLyNZ2Nvxo3KjXc",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDVR": {
+     "adresse": "raswYnh5RahGfzvK4Sr6xhLK3Kbp6Za9mQ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1VL": {
+     "adresse": "rsrQPrvSEKcyDdA4FPvX6VjXoBH82JsFpx",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDDL": {
+     "adresse": "r3HVXPSuKJ6k4WrUQcjajPvTXUxzmGKYzn",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMER": {
+     "adresse": "rMitsaJSoim8ArKK874NAbu4TfdyXPGXi9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1VR": {
+     "adresse": "rUwpiG2X5LDemgDeeQiBHaMQ2L5VKhAG3F",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDDR": {
+     "adresse": "rESMHhAhAVW8tmaHQN468HReFmULkuGLME",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2DL": {
+     "adresse": "rsaKoScWFfoRK5p1bnDiwi7yLtrDJ5LAdc",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMEV": {
+     "adresse": "rHbGbmhp3eyoJRQwyvHnf5EBaFVHyzx2CD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2DR": {
+     "adresse": "raRAuV1Skq9dpmUyvKXRX9rWwHRWYbj4yX",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIH": {
+     "adresse": "rpuFziYCGmeTzUGCaSPX6q3AQ2NyCf8Q7m",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMED": {
+     "adresse": "r3Xp8iXGg4XpDYdeDtgmxExTSXC9H1m7QP",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2L": {
+     "adresse": "r3QcYYqoFAxun4aUxaccFFrwFiLCTF6BJ7",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQVL": {
+     "adresse": "rMysZWxFqnLjUu4jCkSTiUNVhWpfkefV17",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2R": {
+     "adresse": "rnJc2auXSD47y4VBv4Q4BbF2W1i4AJooaY",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQDR": {
+     "adresse": "rszx6PVxUMBfkCXiuyuHWED23R2AumSVQQ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2VL": {
+     "adresse": "rUfHoC83WCm7iofatFWFuFhs1UN9yFbEzh",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2VR": {
+     "adresse": "rp9ZUw5wuJqoyCgsT2fFgyhz5HtmBRjAde",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQDL": {
+     "adresse": "rwEtqkJU2LazQpcQfLCooG8sR5c4ywGCUz",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBVL": {
+     "adresse": "rJW78JKBY4kaw3zcKxKmCAQ8sBko9zQMzZ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBDR": {
+     "adresse": "rfYaPRTTFWAc66ofBKz67P76tDpbviksd6",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIS": {
+     "adresse": "raD2BhYpBMNoNTLA4a8hFG8PMpjxACrrUp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIAVL": {
+     "adresse": "rBWwgAFcRjtZSCRBFkg85eynH9UV3snpF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIAVR": {
+     "adresse": "rhcNxkmWPsNy83aDGdLp4qD9XdYcpna8Zz",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RID": {
+     "adresse": "rn3xamkNgsRXKGdQqwUPJZunDhis6fdvup",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVPR": {
+     "adresse": "rwLP4LgcikKCrXN69hPPXg5W8QFeXjQj4F",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URADR": {
+     "adresse": "rwJgFTxxddwXTUTojhjQmwC8ej7NLGqKLR",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVT": {
+     "adresse": "rEFzxwAf2nytZKk8aSvSMHb2FRjVGi5XDa",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDR": {
+     "adresse": "rpgwqt2RJMyv6binnSHpr8fqVtaV1u69xf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIADR": {
+     "adresse": "rh2wDtnVPgPL76F7DCNVm5jQx4Wjy4dUVU",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYVL": {
+     "adresse": "rMoumMYcSDQ54jGCJbjGm3HWf3qDkx3yiE",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAADL": {
+     "adresse": "rGunoTBEzCRupmJ7c7ExWqidq9jVt6Pcyg",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAAVR": {
+     "adresse": "rNaTD8nuT32hQ4KLMy3PyyrgxLEZjP9XYL",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIVL": {
+     "adresse": "rHwtxqaTnqffwf31fgM9WuGMe1sRCELRaT",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URAVR": {
+     "adresse": "rNoanPWMveCPnJQvRFf6qqBCjFcwiQzpNY",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URADL": {
+     "adresse": "rpEM9w9n7kQ7bnmRvQF8WLwzovaHitjtqB",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URAVL": {
+     "adresse": "rGN1yShBX5vt3n7yXT3qUM6ghSjXXg9XCb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URBR": {
+     "adresse": "rsyDkc62SjCRKNgddZ7ocmNEHhvXABbN4k",
+     "cree": true,
+     "stade": "L1 0h"
+    }
+   },
+   "synapses": {
+    "ADAL>ADAR": 1,
+    "ADLR>ADAR": 1,
+    "PVPR>ADAR": 1,
+    "RICL>ADAR": 1,
+    "URXR>ADAR": 1,
+    "ADAL>AIBR": 1,
+    "ADLR>AIBR": 3,
+    "AIAR>AIBR": 2,
+    "AIZL>AIBR": 4,
+    "ASEL>AIBR": 3,
+    "ASER>AIBR": 6,
+    "ASHR>AIBR": 2,
+    "ASIR>AIBR": 2,
+    "AVKR>AIBR": 1,
+    "AWCL>AIBR": 3,
+    "AWCR>AIBR": 2,
+    "RIBL>AIBR": 1,
+    "RIML>AIBR": 2,
+    "ADAL>ASHL": 9,
+    "AIZL>ASHL": 2,
+    "RIFL>ASHL": 3,
+    "ADAL>ASKL": 1,
+    "ADLL>ASKL": 5,
+    "AIAL>ASKL": 2,
+    "PVQL>ASKL": 2,
+    "ADAL>AVAL": 1,
+    "ADAR>AVAL": 1,
+    "DVA>AVAL": 1,
+    "DVC>AVAL": 2,
+    "FLPL>AVAL": 1,
+    "PVPL>AVAL": 1,
+    "PVPR>AVAL": 1,
+    "RIBL>AVAL": 1,
+    "RICL>AVAL": 2,
+    "RICR>AVAL": 2,
+    "SAADL>AVAL": 2,
+    "SAAVL>AVAL": 1,
+    "ADAL>AVAR": 1,
+    "ADEL>AVAR": 2,
+    "ASHR>AVAR": 1,
+    "DVC>AVAR": 3,
+    "OLQDR>AVAR": 1,
+    "RIBR>AVAR": 2,
+    "RICL>AVAR": 1,
+    "RICR>AVAR": 2,
+    "RIML>AVAR": 1,
+    "SAADR>AVAR": 3,
+    "SAAVR>AVAR": 3,
+    "ADAL>AVBL": 3,
+    "ADAR>AVBL": 1,
+    "AIBL>AVBL": 4,
+    "ASHL>AVBL": 1,
+    "PVCR>AVBL": 1,
+    "PVR>AVBL": 2,
+    "RIFL>AVBL": 3,
+    "RIML>AVBL": 1,
+    "RIMR>AVBL": 1,
+    "ADAL>AVDR": 2,
+    "ADEL>AVDR": 1,
+    "ALMR>AVDR": 1,
+    "DVC>AVDR": 1,
+    "FLPL>AVDR": 1,
+    "PVCR>AVDR": 1,
+    "RIBL>AVDR": 1,
+    "ADAL>AVJR": 3,
+    "RIFL>AVJR": 1,
+    "ADAL>RICR": 1,
+    "ADAR>RICR": 1,
+    "ASHR>RICR": 1,
+    "AVAL>RICR": 1,
+    "CEPDL>RICR": 1,
+    "CEPDR>RICR": 1,
+    "CEPVL>RICR": 1,
+    "CEPVR>RICR": 2,
+    "OLQDL>RICR": 1,
+    "OLQDR>RICR": 2,
+    "OLQVL>RICR": 1,
+    "OLQVR>RICR": 1,
+    "RIAR>RICR": 1,
+    "URXR>RICR": 1,
+    "ADAL>RIML": 1,
+    "AIBR>RIML": 5,
+    "AIZL>RIML": 4,
+    "AVKL>RIML": 1,
+    "AVKR>RIML": 1,
+    "SAADL>RIML": 2,
+    "SAADR>RIML": 3,
+    "SAAVL>RIML": 1,
+    "SAAVR>RIML": 2,
+    "ADAR>AIBL": 1,
+    "ADLL>AIBL": 2,
+    "AIAL>AIBL": 3,
+    "AINR>AIBL": 1,
+    "AIZR>AIBL": 4,
+    "ASEL>AIBL": 4,
+    "ASER>AIBL": 1,
+    "ASHL>AIBL": 1,
+    "AWCL>AIBL": 4,
+    "AWCR>AIBL": 2,
+    "DVC>AIBL": 1,
+    "PVT>AIBL": 1,
+    "RIGR>AIBL": 1,
+    "RIML>AIBL": 1,
+    "ADAR>ASHR": 6,
+    "AIAR>ASHR": 1,
+    "AIZR>ASHR": 1,
+    "ASHL>ASHR": 1,
+    "RIFR>ASHR": 2,
+    "ADAR>AVBR": 1,
+    "AIBR>AVBR": 1,
+    "ASHR>AVBR": 2,
+    "AVJL>AVBR": 1,
+    "DVA>AVBR": 1,
+    "PVCL>AVBR": 1,
+    "PVCR>AVBR": 1,
+    "PVPL>AVBR": 2,
+    "PVPR>AVBR": 1,
+    "PVR>AVBR": 1,
+    "RIFR>AVBR": 3,
+    "RIML>AVBR": 2,
+    "ADAR>AVDL": 1,
+    "ASHL>AVDL": 1,
+    "ASHR>AVDL": 1,
+    "AVJL>AVDL": 1,
+    "ADAR>RICL": 1,
+    "CEPDL>RICL": 2,
+    "CEPDR>RICL": 1,
+    "CEPVL>RICL": 1,
+    "CEPVR>RICL": 2,
+    "OLQDL>RICL": 2,
+    "OLQDR>RICL": 1,
+    "OLQVL>RICL": 1,
+    "OLQVR>RICL": 1,
+    "URXL>RICL": 1,
+    "ADAR>RIMR": 1,
+    "AIBL>RIMR": 7,
+    "AIZR>RIMR": 3,
+    "AVKL>RIMR": 1,
+    "AVKR>RIMR": 2,
+    "SAADL>RIMR": 2,
+    "SAADR>RIMR": 2,
+    "SAAVL>RIMR": 2,
+    "ADEL>ADAL": 1,
+    "ASHL>ADAL": 2,
+    "CEPDL>ADAL": 1,
+    "RICR>ADAL": 1,
+    "URXL>ADAL": 1,
+    "ADEL>FLPR": 1,
+    "FLPL>FLPR": 1,
+    "ADER>AVKR": 1,
+    "PVT>AVKR": 2,
+    "RIGL>AVKR": 1,
+    "RIGR>AVKR": 1,
+    "ADER>PVCR": 1,
+    "AVJR>PVCR": 1,
+    "PVPL>PVCR": 1,
+    "ADER>RIGL": 1,
+    "AVKL>RIGL": 1,
+    "OLLL>RIGL": 1,
+    "PVT>RIGL": 1,
+    "URXL>RIGL": 1,
+    "ADER>RIGR": 1,
+    "AVKL>RIGR": 1,
+    "OLLR>RIGR": 1,
+    "PVPR>RIGR": 1,
+    "PVT>RIGR": 2,
+    "RIGL>RIGR": 1,
+    "URXR>RIGR": 1,
+    "ADFL>ADFR": 2,
+    "AIYR>ADFR": 1,
+    "AIZR>ADFR": 2,
+    "AWBR>ADFR": 2,
+    "ADFL>AIYL": 1,
+    "AFDL>AIYL": 3,
+    "ASEL>AIYL": 5,
+    "ASER>AIYL": 2,
+    "AWAL>AIYL": 1,
+    "AWCL>AIYL": 1,
+    "AWCR>AIYL": 2,
+    "ADFL>AIZL": 3,
+    "AFDL>AIZL": 1,
+    "AIYL>AIZL": 5,
+    "AVHR>AIZL": 1,
+    "AWBL>AIZL": 2,
+    "RIH>AIZL": 1,
+    "ADFL>ASER": 1,
+    "ADFR>ASER": 1,
+    "ADLR>ASER": 1,
+    "AIAL>ASER": 1,
+    "AINR>ASER": 1,
+    "AIZL>ASER": 1,
+    "ASIR>ASER": 1,
+    "AWAR>ASER": 2,
+    "AWBR>ASER": 1,
+    "AWCR>ASER": 1,
+    "ADFL>AUAL": 2,
+    "AINR>AUAL": 2,
+    "DVA>AUAL": 1,
+    "URXL>AUAL": 2,
+    "ADFL>AVHR": 1,
+    "AWBL>AVHR": 1,
+    "PVPL>AVHR": 1,
+    "ADFL>RIAL": 2,
+    "AIYL>RIAL": 2,
+    "AIZL>RIAL": 2,
+    "AUAL>RIAL": 1,
+    "BAGR>RIAL": 2,
+    "RIAR>RIAL": 3,
+    "RIBL>RIAL": 1,
+    "RIGL>RIAL": 3,
+    "RIH>RIAL": 2,
+    "RIR>RIAL": 2,
+    "RIVR>RIAL": 1,
+    "RMDL>RIAL": 2,
+    "RMDR>RIAL": 2,
+    "RMGL>RIAL": 1,
+    "SMDDL>RIAL": 3,
+    "SMDDR>RIAL": 2,
+    "SMDVL>RIAL": 2,
+    "SMDVR>RIAL": 3,
+    "URXL>RIAL": 3,
+    "ADFR>AIAR": 2,
+    "ADLR>AIAR": 3,
+    "AIAL>AIAR": 1,
+    "AIMR>AIAR": 4,
+    "AINR>AIAR": 1,
+    "AIZR>AIAR": 1,
+    "ASGR>AIAR": 4,
+    "ASHR>AIAR": 2,
+    "ASIR>AIAR": 1,
+    "ASJR>AIAR": 1,
+    "ASKR>AIAR": 3,
+    "AWAR>AIAR": 1,
+    "AWBR>AIAR": 1,
+    "AWCL>AIAR": 3,
+    "AWCR>AIAR": 3,
+    "PVQR>AIAR": 4,
+    "ADFR>AIYR": 1,
+    "AFDR>AIYR": 3,
+    "ASEL>AIYR": 4,
+    "ASER>AIYR": 8,
+    "AWAR>AIYR": 1,
+    "AWCR>AIYR": 1,
+    "ADFR>AIZR": 7,
+    "AFDR>AIZR": 1,
+    "AIYR>AIZR": 3,
+    "AIZL>AIZR": 2,
+    "ASER>AIZR": 1,
+    "AWBR>AIZR": 1,
+    "DVA>AIZR": 3,
+    "RIGR>AIZR": 1,
+    "RIH>AIZR": 2,
+    "RIR>AIZR": 1,
+    "ADFR>AUAR": 2,
+    "AINL>AUAR": 1,
+    "AIYR>AUAR": 1,
+    "URXR>AUAR": 3,
+    "ADFR>RIAR": 2,
+    "AIYR>RIAR": 1,
+    "AIZL>RIAR": 1,
+    "AIZR>RIAR": 2,
+    "AUAR>RIAR": 2,
+    "BAGL>RIAR": 2,
+    "RIAL>RIAR": 3,
+    "RIBR>RIAR": 2,
+    "RIH>RIAR": 2,
+    "RIR>RIAR": 2,
+    "RMDL>RIAR": 2,
+    "RMDR>RIAR": 1,
+    "SMDDL>RIAR": 2,
+    "SMDDR>RIAR": 3,
+    "SMDVL>RIAR": 2,
+    "SMDVR>RIAR": 2,
+    "URXR>RIAR": 2,
+    "ADFR>URXR": 1,
+    "AUAR>URXR": 1,
+    "PVPR>URXR": 1,
+    "RIR>URXR": 1,
+    "URBR>URXR": 2,
+    "ADLL>ADLR": 1,
+    "AVHL>ADLR": 1,
+    "AWAR>ADLR": 1,
+    "AWCR>ADLR": 1,
+    "ADLL>AIAL": 1,
+    "AIML>AIAL": 2,
+    "AIZL>AIAL": 1,
+    "ASGL>AIAL": 3,
+    "ASHL>AIAL": 2,
+    "ASKL>AIAL": 2,
+    "AWAL>AIAL": 2,
+    "AWCL>AIAL": 3,
+    "AWCR>AIAL": 1,
+    "PVQL>AIAL": 3,
+    "ADLL>AWCL": 2,
+    "ASEL>AWCL": 1,
+    "ASIL>AWCL": 1,
+    "AWCR>AWCL": 2,
+    "ADLL>PVQL": 1,
+    "ASJL>PVQL": 3,
+    "AWAL>PVQL": 2,
+    "ADLL>RMGL": 1,
+    "ASHL>RMGL": 1,
+    "AVKR>RMGL": 1,
+    "RIGL>RMGL": 1,
+    "ADLR>ASKR": 3,
+    "AIAR>ASKR": 2,
+    "AIMR>ASKR": 1,
+    "AINR>ASKR": 1,
+    "ASHR>ASKR": 1,
+    "ASJR>ASKR": 1,
+    "AWAR>ASKR": 1,
+    "PVQR>ASKR": 1,
+    "ADLR>AWCR": 1,
+    "AIAL>AWCR": 1,
+    "AIMR>AWCR": 1,
+    "ASEL>AWCR": 1,
+    "ASER>AWCR": 1,
+    "ASIL>AWCR": 1,
+    "ASIR>AWCR": 2,
+    "AFDL>ADFL": 1,
+    "AIYL>ADFL": 2,
+    "AVHR>ADFL": 1,
+    "AWAL>ADFL": 2,
+    "AWBL>ADFL": 1,
+    "AFDL>AFDR": 1,
+    "AINL>AFDR": 1,
+    "ASEL>AFDR": 1,
+    "AIAL>ASIL": 1,
+    "AIAL>AWBL": 3,
+    "AWAL>AWBL": 2,
+    "AIAL>RIFL": 1,
+    "AVHR>RIFL": 1,
+    "BDUL>RIFL": 1,
+    "AIAR>ASJR": 1,
+    "AIMR>ASJR": 1,
+    "ASGR>ASJR": 1,
+    "AIAR>AWBR": 1,
+    "ASER>AWBR": 1,
+    "AWAR>AWBR": 3,
+    "AWBL>AWBR": 1,
+    "AIAR>RIFR": 1,
+    "RIFL>RIFR": 1,
+    "AIBL>AVEL": 1,
+    "AIBR>AVEL": 1,
+    "AIZR>AVEL": 2,
+    "ALA>AVEL": 1,
+    "AUAL>AVEL": 1,
+    "AVKL>AVEL": 1,
+    "AVKR>AVEL": 1,
+    "BAGR>AVEL": 2,
+    "CEPVR>AVEL": 3,
+    "DVA>AVEL": 2,
+    "OLLR>AVEL": 3,
+    "RIBL>AVEL": 1,
+    "RIFL>AVEL": 1,
+    "RIGR>AVEL": 1,
+    "RIS>AVEL": 2,
+    "URYDR>AVEL": 4,
+    "URYVR>AVEL": 2,
+    "AIBL>AVER": 1,
+    "AIBR>AVER": 1,
+    "AIZL>AVER": 1,
+    "AIZR>AVER": 1,
+    "ALA>AVER": 1,
+    "AUAR>AVER": 1,
+    "AVKL>AVER": 1,
+    "AVKR>AVER": 1,
+    "CEPDL>AVER": 2,
+    "CEPVL>AVER": 2,
+    "DVA>AVER": 1,
+    "OLLL>AVER": 5,
+    "PVCL>AVER": 1,
+    "RIBL>AVER": 1,
+    "RIS>AVER": 3,
+    "URYDL>AVER": 3,
+    "URYVL>AVER": 4,
+    "AIBL>DVC": 1,
+    "AIBR>DVC": 1,
+    "AVKL>DVC": 1,
+    "AIBL>RIBR": 3,
+    "AINL>RIBR": 1,
+    "AIYR>RIBR": 3,
+    "AUAR>RIBR": 3,
+    "BAGL>RIBR": 2,
+    "OLLR>RIBR": 3,
+    "RIBL>RIBR": 3,
+    "RIGR>RIBR": 2,
+    "RIS>RIBR": 3,
+    "URYDR>RIBR": 2,
+    "URYVR>RIBR": 1,
+    "AIBL>SMDDR": 2,
+    "CEPDL>SMDDR": 1,
+    "OLLL>SMDDR": 3,
+    "RIAL>SMDDR": 2,
+    "RIAR>SMDDR": 4,
+    "RICL>SMDDR": 1,
+    "RICR>SMDDR": 1,
+    "RIML>SMDDR": 2,
+    "RIMR>SMDDR": 2,
+    "RMED>SMDDR": 1,
+    "SMDDL>SMDDR": 1,
+    "SMDVL>SMDDR": 1,
+    "URYDL>SMDDR": 3,
+    "AIBL>SMDVR": 1,
+    "CEPVL>SMDVR": 2,
+    "OLLL>SMDVR": 2,
+    "RIAL>SMDVR": 3,
+    "RIAR>SMDVR": 1,
+    "RIML>SMDVR": 1,
+    "RIMR>SMDVR": 4,
+    "RMDR>SMDVR": 1,
+    "RMEV>SMDVR": 1,
+    "SMDDL>SMDVR": 2,
+    "SMDVL>SMDVR": 1,
+    "URYVL>SMDVR": 2,
+    "AIBR>RIBL": 2,
+    "AINR>RIBL": 1,
+    "AIYL>RIBL": 2,
+    "AIZL>RIBL": 1,
+    "AUAL>RIBL": 2,
+    "AVBR>RIBL": 1,
+    "BAGL>RIBL": 1,
+    "BAGR>RIBL": 3,
+    "DVC>RIBL": 1,
+    "OLLL>RIBL": 3,
+    "OLQDL>RIBL": 1,
+    "RIH>RIBL": 2,
+    "RIML>RIBL": 1,
+    "RIMR>RIBL": 1,
+    "RIS>RIBL": 2,
+    "URYDL>RIBL": 2,
+    "URYVL>RIBL": 1,
+    "AIBR>SAADR": 1,
+    "RIMR>SAADR": 1,
+    "RIVL>SAADR": 2,
+    "RMDDR>SAADR": 1,
+    "SMBVR>SAADR": 2,
+    "AIBR>SIADL": 1,
+    "AIBR>SMDDL": 2,
+    "CEPDR>SMDDL": 1,
+    "OLLR>SMDDL": 1,
+    "RIAL>SMDDL": 3,
+    "RIAR>SMDDL": 2,
+    "RICL>SMDDL": 1,
+    "RICR>SMDDL": 1,
+    "RIML>SMDDL": 3,
+    "RIMR>SMDDL": 2,
+    "RIS>SMDDL": 2,
+    "RIVR>SMDDL": 1,
+    "RMED>SMDDL": 1,
+    "SAAVR>SMDDL": 1,
+    "SMDVR>SMDDL": 1,
+    "URYDR>SMDDL": 3,
+    "AIBR>SMDVL": 1,
+    "OLLR>SMDVL": 2,
+    "RIAL>SMDVL": 2,
+    "RIAR>SMDVL": 4,
+    "RIMR>SMDVL": 1,
+    "SIBDR>SMDVL": 1,
+    "SMDDR>SMDVL": 1,
+    "URYVR>SMDVL": 1,
+    "AIML>AIMR": 1,
+    "ASGR>AIMR": 2,
+    "AIML>ASGL": 2,
+    "AIML>ASJL": 2,
+    "PVQL>ASJL": 2,
+    "AIMR>ASGR": 2,
+    "AINR>ASGR": 1,
+    "AIZR>ASGR": 1,
+    "AINL>BAGL": 2,
+    "AIYR>BAGL": 1,
+    "RIBR>BAGL": 2,
+    "RIGR>BAGL": 2,
+    "AINR>AFDL": 4,
+    "AINR>BAGR": 1,
+    "AIYL>BAGR": 1,
+    "ASIL>BAGR": 1,
+    "RIBR>BAGR": 1,
+    "RIGL>BAGR": 2,
+    "AINR>CEPVL": 1,
+    "OLLL>CEPVL": 2,
+    "RIAL>CEPVL": 1,
+    "RIAR>CEPVL": 1,
+    "RIMR>CEPVL": 1,
+    "RIS>CEPVL": 1,
+    "SMDVR>CEPVL": 1,
+    "AIYL>SIBDL": 1,
+    "AIZL>SMBDL": 2,
+    "ASHL>SMBDL": 1,
+    "AIZL>SMBVL": 1,
+    "ASHL>SMBVL": 1,
+    "AIZR>SMBDR": 3,
+    "PVCL>SMBDR": 1,
+    "AIZR>SMBVR": 4,
+    "ASHR>SMBVR": 1,
+    "AVKL>SMBVR": 1,
+    "OLQVR>SMBVR": 1,
+    "ALA>IL1L": 1,
+    "IL1DL>IL1L": 1,
+    "RMDR>IL1L": 2,
+    "URBL>IL1L": 1,
+    "ALML>BDUL": 1,
+    "AVHR>BDUL": 1,
+    "ALML>PVR": 2,
+    "ALMR>PVR": 2,
+    "ALMR>BDUR": 1,
+    "BDUL>BDUR": 1,
+    "PVCR>BDUR": 1,
+    "ALMR>CEPDR": 1,
+    "OLLR>CEPDR": 1,
+    "URBR>CEPDR": 1,
+    "ASER>ASIR": 1,
+    "ASGL>AIML": 1,
+    "ASHR>AVHL": 1,
+    "AWBR>AVHL": 1,
+    "ASHR>RMGR": 1,
+    "RIGR>RMGR": 1,
+    "ASIL>AINR": 1,
+    "ASJR>PVQR": 2,
+    "RIFL>PVQR": 1,
+    "AUAL>URXL": 1,
+    "RIR>URXL": 2,
+    "URBL>URXL": 2,
+    "AVEL>URYDR": 1,
+    "AVHR>DVA": 1,
+    "RIR>DVA": 1,
+    "URXL>DVA": 1,
+    "AVJR>PVCL": 1,
+    "AVKL>RMDL": 1,
+    "RIAL>RMDL": 3,
+    "RIAR>RMDL": 3,
+    "RIMR>RMDL": 5,
+    "RIVL>RMDL": 1,
+    "RMDR>RMDL": 2,
+    "RMGR>RMDL": 2,
+    "AVKR>PVPL": 1,
+    "AVKR>SAAVL": 1,
+    "SMBDR>SAAVL": 1,
+    "AWAL>ADLL": 2,
+    "AWAL>AWAR": 1,
+    "BAGL>RIR": 1,
+    "DVA>RIR": 1,
+    "PVPR>RIR": 1,
+    "RIGL>RIR": 1,
+    "RIGR>RIR": 1,
+    "URXL>RIR": 1,
+    "BDUL>AVJL": 1,
+    "PVPR>AVJL": 1,
+    "PVR>AVJL": 2,
+    "RIFR>AVJL": 2,
+    "BDUR>ALMR": 1,
+    "RIFR>ALMR": 1,
+    "CEPDL>OLLL": 1,
+    "CEPVL>OLLL": 3,
+    "RMDR>OLLL": 1,
+    "SAADR>OLLL": 1,
+    "URBL>OLLL": 1,
+    "CEPDL>URBL": 2,
+    "CEPDL>URYDL": 1,
+    "RID>URYDL": 1,
+    "RIGL>URYDL": 1,
+    "CEPDR>OLLR": 1,
+    "CEPVR>OLLR": 3,
+    "OLLL>OLLR": 2,
+    "CEPDR>SIBVR": 1,
+    "CEPVR>OLQVR": 1,
+    "IL2R>OLQVR": 1,
+    "OLLR>OLQVR": 1,
+    "RIGR>OLQVR": 1,
+    "RIH>OLQVR": 2,
+    "CEPVR>URYVR": 1,
+    "PVR>URYVR": 1,
+    "RIGR>URYVR": 2,
+    "DVA>RIVR": 1,
+    "RICR>RIVR": 1,
+    "RIVL>RIVR": 1,
+    "DVC>ADEL": 1,
+    "FLPL>ADEL": 1,
+    "FLPL>ADER": 1,
+    "IL1DL>IL1DR": 1,
+    "IL1DL>RIPL": 2,
+    "IL1VL>RIPL": 1,
+    "IL2DL>RIPL": 3,
+    "IL2VL>RIPL": 2,
+    "PVR>RIPL": 1,
+    "RIH>RIPL": 3,
+    "URADL>RIPL": 3,
+    "URAVL>RIPL": 2,
+    "IL1DL>RMDVL": 2,
+    "IL1L>RMDVL": 2,
+    "IL1R>RMDVL": 1,
+    "OLQVR>RMDVL": 1,
+    "RIAL>RMDVL": 5,
+    "RIAR>RMDVL": 5,
+    "RIVL>RMDVL": 1,
+    "RMDDR>RMDVL": 4,
+    "RMDL>RMDVL": 1,
+    "RMDR>RMDVL": 2,
+    "RMED>RMDVL": 6,
+    "RMGL>RMDVL": 2,
+    "URYDL>RMDVL": 1,
+    "URYVR>RMDVL": 1,
+    "IL1DL>RMEL": 1,
+    "IL1R>RMEL": 3,
+    "IL1VL>RMEL": 2,
+    "IL2DL>RMEL": 1,
+    "IL2VL>RMEL": 1,
+    "IL2VR>RMEL": 2,
+    "RIH>RMEL": 1,
+    "URADL>RMEL": 2,
+    "URAVL>RMEL": 2,
+    "IL1DR>IL1R": 1,
+    "RMDL>IL1R": 2,
+    "RMGR>IL1R": 1,
+    "URBR>IL1R": 1,
+    "IL1DR>RIPR": 2,
+    "IL1VR>RIPR": 2,
+    "IL2DR>RIPR": 1,
+    "IL2VR>RIPR": 3,
+    "PVR>RIPR": 1,
+    "RIH>RIPR": 2,
+    "URADR>RIPR": 1,
+    "URAVR>RIPR": 1,
+    "IL1DR>RMDVR": 2,
+    "IL1R>RMDVR": 2,
+    "OLQVL>RMDVR": 1,
+    "RIAL>RMDVR": 6,
+    "RIAR>RMDVR": 6,
+    "RMDDL>RMDVR": 4,
+    "RMDL>RMDVR": 1,
+    "RMED>RMDVR": 2,
+    "RMGR>RMDVR": 2,
+    "SMBVL>RMDVR": 2,
+    "URYVL>RMDVR": 1,
+    "IL1L>IL1VL": 1,
+    "IL1L>RMDDL": 1,
+    "IL1VL>RMDDL": 3,
+    "RIAL>RMDDL": 6,
+    "RIAR>RMDDL": 4,
+    "RICR>RMDDL": 1,
+    "RMDL>RMDDL": 1,
+    "RMDVR>RMDDL": 3,
+    "RMEV>RMDDL": 4,
+    "SMBDL>RMDDL": 1,
+    "URYVL>RMDDL": 3,
+    "IL1L>RMER": 3,
+    "IL1VR>RMER": 1,
+    "IL2DL>RMER": 1,
+    "IL2DR>RMER": 1,
+    "IL2VL>RMER": 1,
+    "IL2VR>RMER": 1,
+    "URADR>RMER": 2,
+    "URAVR>RMER": 2,
+    "IL1R>IL1VR": 2,
+    "IL1VL>IL1VR": 1,
+    "PVR>IL1VR": 1,
+    "IL1R>RMDDR": 1,
+    "IL1VR>RMDDR": 3,
+    "OLQDL>RMDDR": 1,
+    "RIAL>RMDDR": 5,
+    "RIAR>RMDDR": 9,
+    "RIVL>RMDDR": 1,
+    "RMDDL>RMDDR": 1,
+    "RMDL>RMDDR": 1,
+    "RMDVL>RMDDR": 4,
+    "RMEV>RMDDR": 1,
+    "RMGR>RMDDR": 1,
+    "URYVR>RMDDR": 2,
+    "IL2DL>RMEV": 2,
+    "IL2VL>RMEV": 1,
+    "IL2VR>RMEV": 1,
+    "SMBVL>RMEV": 1,
+    "SMBVR>RMEV": 2,
+    "URAVL>RMEV": 1,
+    "URAVR>RMEV": 2,
+    "IL2DR>RIH": 2,
+    "IL2L>RIH": 2,
+    "IL2R>RIH": 2,
+    "OLQVR>RIH": 1,
+    "PVCL>RIH": 1,
+    "RIVL>RIH": 1,
+    "IL2DR>RMED": 1,
+    "IL2VL>RMED": 1,
+    "RMEV>RMED": 1,
+    "SMBDL>RMED": 2,
+    "SMBDR>RMED": 2,
+    "URADL>RMED": 1,
+    "URAVR>RMED": 1,
+    "IL2L>OLQVL": 2,
+    "OLQDL>OLQVL": 1,
+    "RIGL>OLQVL": 1,
+    "RIH>OLQVL": 2,
+    "URXL>OLQVL": 1,
+    "IL2R>OLQDR": 1,
+    "RIH>OLQDR": 2,
+    "OLLL>CEPDL": 1,
+    "RIS>CEPDL": 1,
+    "SMDDR>CEPDL": 2,
+    "URBL>CEPDL": 1,
+    "OLQDL>SIBVL": 1,
+    "PVCL>SIBVL": 1,
+    "OLQDR>IL2R": 1,
+    "OLQVR>IL2R": 1,
+    "RMDL>IL2R": 1,
+    "URBR>IL2R": 2,
+    "OLQVL>IL2L": 2,
+    "RIH>IL2L": 3,
+    "RMDR>IL2L": 1,
+    "URBL>IL2L": 1,
+    "OLQVR>SIBDR": 1,
+    "PVCL>RIS": 1,
+    "RIBL>RIS": 1,
+    "RIMR>RIS": 1,
+    "PVCL>SIAVL": 2,
+    "RIAR>SIAVL": 2,
+    "RIBL>SIAVL": 1,
+    "PVCL>SIAVR": 1,
+    "RIAL>SIAVR": 1,
+    "PVCR>RID": 1,
+    "PVPL>RID": 1,
+    "PVPL>PVPR": 1,
+    "RIR>PVPR": 1,
+    "PVR>CEPVR": 1,
+    "RICR>CEPVR": 1,
+    "RIS>CEPVR": 1,
+    "PVR>URADR": 1,
+    "PVT>AVKL": 1,
+    "RIGR>AVKL": 1,
+    "RIAL>RMDR": 2,
+    "RIAR>RMDR": 1,
+    "RIML>RMDR": 2,
+    "RIMR>RMDR": 1,
+    "RMDL>RMDR": 2,
+    "RMGL>RMDR": 3,
+    "SMDDL>RMDR": 1,
+    "RIAR>SIADR": 1,
+    "RIGL>URYVL": 2,
+    "RIGR>PVT": 1,
+    "RIH>OLQDL": 1,
+    "RIML>SAADL": 1,
+    "RIVR>SAADL": 1,
+    "SMBVL>SAADL": 4,
+    "RIMR>SAAVR": 1,
+    "RMDVR>SAAVR": 1,
+    "SMBDL>SAAVR": 2,
+    "RMEL>URAVR": 1,
+    "URADL>IL1DL": 2
+   },
+   "evenements": [
+    {
+     "t": "2026-11-04T22:14:47.227Z",
+     "type": "œuf",
+     "detail": "pondu par E3 (autofécondation), 395.9 XRP",
+     "hash": "C908DD64183C70B040E5F70ABC51239A1562F78287B3F4677C9759BA2956C21C"
+    },
+    {
+     "t": "2026-11-04T22:20:20.164Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 161 neurones, 747 synapses, âge 95h, mangé 0.0 XRP",
+     "hash": "1B14D26272B09B5C0EC4045D3154FDD75C0E7C15AEDBC4BCB7A0DD523DB3023B"
+    },
+    {
+     "t": "2026-11-04T22:20:20.171Z",
+     "type": "né",
+     "detail": "E5 né de E3, mémoire héritée : avoid PA14 gen 1/4 (Moore et al. 2019)"
+    }
+   ],
+   "mort": null,
+   "mange": 0,
+   "registreCourant": 22071618
   }
  },
  "journal": [

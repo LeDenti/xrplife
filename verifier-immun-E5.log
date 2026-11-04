@@ -1,0 +1,5 @@
+ancrage heritage  CA71CE0AAA69 tesSUCCESS | {"ver":"E5","memory":"avoid PA14 gen 1/4 (Moore et al. 2019)","mother":"E3","egg_tx":"C908DD64183C70B040E5F70ABC51239A1562F78287B3F4677C9759BA2956C21C
+ancrage test      70D1A4C04ABA tesSUCCESS | [{"s":"herite","d":"AWCL+AWCR","i":0.7216},{"s":"herite","d":"AWBL+AWBR","i":0.8371}]
+sérotonine : 86 lignes de récepteurs sur E5, 86 actives (solde > 0)
+herite   AWCL+AWCR  10/10 paiements vérifiés, index de fuite 0.722
+herite   AWBL+AWBR  10/10 paiements vérifiés, index de fuite 0.837
