@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A dedicated ledger for neuromodulation</title>
+<style>
+@page { size: A4; margin: 22mm 20mm 22mm 20mm; }
+body { font-family: Georgia, "Times New Roman", serif; font-size: 10.5pt; line-height: 1.38; color: #111; max-width: 170mm; margin: 0 auto; }
+h1 { font-size: 17pt; line-height: 1.25; margin: 0 0 6pt 0; font-weight: normal; }
+.auth { margin: 0 0 2pt 0; }
+.aff { margin: 0 0 14pt 0; font-size: 9.5pt; color: #333; }
+h2 { font-size: 12pt; margin: 16pt 0 5pt 0; }
+h3 { font-size: 10.5pt; margin: 10pt 0 3pt 0; font-style: italic; font-weight: normal; }
+p { margin: 0 0 7pt 0; text-align: justify; }
+.abstract { margin: 0 0 12pt 0; padding: 8pt 12pt; border-left: 2px solid #999; font-size: 10pt; }
+.abstract p { margin: 0 0 5pt 0; }
+table { border-collapse: collapse; width: 100%; font-size: 9.2pt; margin: 6pt 0 9pt 0; }
+th, td { border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; padding: 3pt 5pt; text-align: left; vertical-align: top; }
+th { background: #f0f0f0; font-weight: bold; }
+caption { caption-side: top; text-align: left; font-size: 9.2pt; margin-bottom: 3pt; font-style: italic; }
+code { font-family: Menlo, Consolas, monospace; font-size: 8.8pt; word-break: break-all; }
+p.left { text-align: left; }
+.ref { font-size: 9.3pt; padding-left: 1.6em; text-indent: -1.6em; margin: 0 0 4pt 0; text-align: left; }
+.small { font-size: 9pt; color: #333; }
+ul { margin: 0 0 7pt 0; padding-left: 1.4em; }
+li { margin: 0 0 3pt 0; }
+</style>
+
+</head>
+<body>
+
+<h1>A dedicated ledger for neuromodulation: XRPLife L2, a zero-reserve <i>rippled</i> network anchored to the public XRP Ledger</h1>
+<p class="auth">Julien Cugny</p>
+<p class="aff">Independent researcher · github.com/LeDenti · 4 November 2026 · technical note, version 1</p>
+
+<div class="abstract">
+<p><b>Abstract.</b> The modulatory layer of a ledger-resident <i>C. elegans</i> (serotonin and PDF-1 as neuron-issued currencies, receptors as trust lines) runs at the pace of the public XRPL testnet, four seconds per ledger, on a ledger that is reset from time to time and that charges a reserve per object. We describe a dedicated network running the same software (<code>rippled</code> 3.3.0), with its own network identifier (7302), zero account and owner reserve, 10-drop fees, all 47 votable amendments of the current release enabled at genesis, and no connection to the public network. Neurons keep the keys and addresses they have on the testnet, so one entity carries its layers on two ledgers; serotonin issued by a neuron of one animal can be received by a neuron of another. The state of the dedicated ledger is periodically anchored on the public testnet by an <code>AccountSet</code> memo of the organism: the settlement of the plastic layer on the immutable one, which the project calls sleep. We report the configuration, the bootstrapping procedure, seven pitfalls measured on a two-node test bench (validator and follower in Docker), the neutralisation of the public genesis account, a burst of 200 payments validated 200/200, the first anchor, and the trust model: a ledger is worth the published list of those who hold it, and this one currently has one.</p>
+</div>
+
+<h2>1. Why a second ledger</h2>
+<p>Three properties of the public testnet work against the modulatory layer: a ledger every 3–4 s, where a mood should be set and cleared in seconds; a reserve of 0.2 XRP per trust line, which made 994 receptor lines cost 239.8 XRP; and periodic resets, which kill the organism. The layered model of the project assigns each biological time scale to a layer (genome and wired structure on the immutable L1; plastic states on an L2 anchored to it; electrical activity off-chain), and asks that each added layer state its added trust assumption. A dedicated <code>rippled</code> network is the smallest L2 that keeps the object-by-object correspondence of the L1: the same accounts, trust lines, payments and memos, read with the same tools.</p>
+
+<h2>2. Configuration</h2>
+<table>
+<caption>Table 1. The network (file <code>l2/rippled.cfg.modele</code>).</caption>
+<tr><th>Setting</th><th>Value</th><th>Why</th></tr>
+<tr><td><code>[network_id]</code></td><td>7302</td><td>distinct from mainnet (0), testnet (1), devnet (2); clients add <code>NetworkID</code> to every transaction</td></tr>
+<tr><td><code>[voting]</code></td><td>reference_fee 10, account_reserve 0, owner_reserve 0</td><td>the validators' fee vote; applied from genesis in a fresh network</td></tr>
+<tr><td><code>[amendments]</code></td><td>47 entries, <code>&lt;id&gt; &lt;name&gt;</code></td><td>enabled at genesis with <code>--start</code>; the 57 "obsolete" amendments of 3.3 are built in</td></tr>
+<tr><td><code>[ips]</code></td><td><code>127.0.0.1 51234</code></td><td>an inert entry; without one, or with an empty section, the node bootstraps to the public hubs</td></tr>
+<tr><td><code>[validators_file]</code></td><td><code>validators.txt</code></td><td>the trusted list (UNL), identical on every node</td></tr>
+<tr><td>ports</td><td>51235 peer, 6005 public websocket, 5005/6006 admin on localhost</td><td>a validator additionally carries <code>[validator_token]</code>, kept secret</td></tr>
+<tr><td><code>[node_size]</code></td><td>tiny</td><td>fits a 4 GB server; 2–3 GB resident</td></tr>
+</table>
+
+<h2>3. Bootstrapping</h2>
+<ol>
+<li>Generate validator keys with <code>validator-keys create_keys</code> and a token with <code>create_token</code>; only the public key (<code>nHB…</code>) leaves the machine. First validator: <code>nHBdG1EX5awA6ZXr3z3hN1YbXdE6PGm45ZLoJKCcfM7ZTnJs3XfN</code>.</li>
+<li>Start the validator in <b>network</b> mode with <code>--start</code>: a fresh genesis with the listed amendments, reserve 0. (Standalone mode, <code>-a</code>, does not persist its ledgers in a form that <code>--load</code> recovers; see §5.)</li>
+<li>Start a follower that knows the validator (<code>[ips_fixed]</code>). Consensus begins only once the validator has at least one peer.</li>
+<li>Neutralise the genesis account, whose passphrase is public: pay its balance to a project treasury (<code>r3eBiYU5S8EQtfehtGTywzc6bd86kjmGpt</code>, 99,999,999,900 units), set its regular key to the black-hole address <code>rrrrrrrrrrrrrrrrrrrrBZbvji</code>, disable its master key (three <code>tesSUCCESS</code>).</li>
+<li>Later restarts use <code>--load</code>; stop with the admin <code>stop</code> command, never by killing the process.</li>
+</ol>
+
+<h2>4. Measurements on the test bench</h2>
+<p>Two Docker containers (XRPL Labs <code>xrpld</code> 3.3.0, amd64 image emulated on an Apple-silicon laptop, which makes everything slow) on a private Docker network with DNS aliases.</p>
+<table>
+<caption>Table 2. What was measured, 4 November 2026.</caption>
+<tr><th>Item</th><th>Result</th></tr>
+<tr><td>genesis</td><td>network 7302, 47/47 amendments enabled, reserve 0/0, fee 10 drops</td></tr>
+<tr><td>continuity across restart</td><td><code>--load</code> resumed at ledger 13 with treasury and amendments intact</td></tr>
+<tr><td>isolation</td><td>0 peers after the inert <code>[ips]</code> entry and purge of <code>peerfinder.sqlite</code> (10 mainnet peers before)</td></tr>
+<tr><td>two nodes</td><td>validator <code>proposing</code>, follower <code>full</code>, identical ledger hash at the same index</td></tr>
+<tr><td>ledger interval</td><td>8–16 s under emulation; 3–5 s expected on native x86</td></tr>
+<tr><td>same keys as L1</td><td>neuron ADFL of worm E1 funded on L2 at <code>rKjK6Jd2cZJw4iVfWgSHsynYcmwkVe6rbW</code>, its testnet address</td></tr>
+<tr><td>a receptor at zero reserve</td><td>AIYL → <code>5HT.ADFL</code> trust line, <code>tesSUCCESS</code>, balance unchanged except the fee</td></tr>
+<tr><td>a secretion</td><td>ADFL pays 1 <code>5HT.ADFL</code> to AIYL; AIYL's balance 1</td></tr>
+<tr><td>burst</td><td>200 payments submitted in 0.4 s with manual sequence numbers, 200/200 validated within 6 ledgers</td></tr>
+<tr><td>anchor</td><td>L2 ledger 43, hash <code>F6A3305EF942CFB56CAEDF5E3B9A9F648A6AF2FC036FBF392471987015E145A8</code>, written in testnet transaction <code>0E4944661CDBE59FBDFA711FFDD6D61086B35EB7DE3F0B3EAF50988CFE99891A</code> (memo <code>xrplife/l2-anchor</code> on organism E1)</td></tr>
+</table>
+
+<h2>5. Seven pitfalls, each measured</h2>
+<ol>
+<li><b>Standalone ledgers are not loadable.</b> Ledgers accepted in standalone mode (<code>-a</code>, <code>ledger_accept</code>) were not found by <code>--load</code> ("Ledger not found"), even after a clean stop. Creating the genesis directly in network mode with <code>--start</code> works and persists.</li>
+<li><b>Amendments must be enabled at genesis.</b> Voting them afterwards requires the two-week majority period even in standalone mode (44 votes cast, 0 activated at the next flag ledger). The <code>[amendments]</code> section expects <code>&lt;id&gt; &lt;name&gt;</code>; a bare name aborts the start ("Invalid entry 'AMM'").</li>
+<li><b>An empty <code>[ips]</code> section does not isolate.</b> The node connected to ten mainnet peers (version 3.4.1, ledgers above 108 million). An inert entry stops the bootstrap; the peer cache must be purged.</li>
+<li><b>A validator with no peer closes no ledger.</b> State <code>disconnected</code>, ledger index frozen for a minute, consensus resumed as soon as the follower connected. A one-node network needs two processes.</li>
+<li><b>Kill versus stop.</b> <code>docker rm -f</code> lost the last ledgers; the admin <code>stop</code> command followed by a clean exit did not.</li>
+<li><b>Names in <code>[ips_fixed]</code> must resolve.</b> Container names are not DNS names on a Docker network unless given as aliases.</li>
+<li><b>The token file is not a config fragment.</b> <code>validator-keys create_token</code> prints prose before the <code>[validator_token]</code> block; pasted whole after <code>[amendments]</code>, the prose was parsed as an amendment entry.</li>
+</ol>
+
+<h2>6. Trust model</h2>
+<p>A validator on this network is a partner running one process on one server; it holds no funds and signs ledgers, not payments. Agreement among 80 % of the trusted list advances the ledger and admits new validators. With one validator the chain is a signed database run by its author; with five it is a small network; with twenty it is a public good. The repository publishes the list and says which of the three it is. There is no token to buy, sell or earn: the native asset pays fees and sits in the treasury; the modulators are non-transferable IOUs of neurons. Anchoring hashes on the public ledger does not transfer value and needs no bridge; it only makes the L2 history as hard to rewrite as the L1 history after the fact.</p>
+
+<h2>7. What remains</h2>
+<p>The bench runs on a laptop. The first real validator needs an x86 server with 2 cores and 4 GB, separate from any machine holding exchange keys; the second validator is the hard one to recruit, and the invitation page (<code>l2/INVITATION.md</code>) states what is asked and what is given. The anchoring will run on a schedule. Then the modulatory experiments of the companion paper can be repeated at the L2 pace, with serotonin crossing from one animal to another, which the public testnet already permits but slowly.</p>
+
+<h2>Reproducibility</h2>
+<p><code>github.com/LeDenti/xrplife</code>, directory <code>l2/</code>: <code>rippled.cfg.modele</code>, <code>validators.txt</code>, <code>lancer.sh</code> (genesis, start, stop, status), <code>PROCEDURE.md</code>; root: <code>l2-genese.mjs</code> (treasury and black hole), <code>ancrer-l2.mjs</code> (anchor), <code>l2/ancrages.json</code> (anchors made). Keys and the validator token are excluded from the repository.</p>
+
+<h2>References</h2>
+<p class="ref">Cugny, J. (2026). A complete connectome as ledger objects. Preprint, github.com/LeDenti/xrplife, release v1.0.0.</p>
+<p class="ref">Cugny, J. (2026). Neuromodulation as ledger balances: a negative test of the serotonin/PDF behavioural switch. Preprint, same repository.</p>
+<p class="ref">Schwartz, D., Youngs, N. &amp; Britto, A. (2014). The Ripple protocol consensus algorithm. Ripple Labs white paper.</p>
+<p class="ref">XRPL documentation: <i>Run rippled as a validator</i>, <i>Configure a private network</i>, <i>Amendments</i>, <i>Fee voting</i>. https://xrpl.org/docs</p>
+<p class="ref">XRPL Labs. <code>xrpld</code> Docker image, 3.3.0. https://hub.docker.com/r/xrpllabsofficial/xrpld</p>
+</body>
+</html>

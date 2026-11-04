@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Neuromodulation as ledger balances</title>
+<style>
+@page { size: A4; margin: 22mm 20mm 22mm 20mm; }
+body { font-family: Georgia, "Times New Roman", serif; font-size: 10.5pt; line-height: 1.38; color: #111; max-width: 170mm; margin: 0 auto; }
+h1 { font-size: 17pt; line-height: 1.25; margin: 0 0 6pt 0; font-weight: normal; }
+.auth { margin: 0 0 2pt 0; }
+.aff { margin: 0 0 14pt 0; font-size: 9.5pt; color: #333; }
+h2 { font-size: 12pt; margin: 16pt 0 5pt 0; }
+h3 { font-size: 10.5pt; margin: 10pt 0 3pt 0; font-style: italic; font-weight: normal; }
+p { margin: 0 0 7pt 0; text-align: justify; }
+.abstract { margin: 0 0 12pt 0; padding: 8pt 12pt; border-left: 2px solid #999; font-size: 10pt; }
+.abstract p { margin: 0 0 5pt 0; }
+table { border-collapse: collapse; width: 100%; font-size: 9.2pt; margin: 6pt 0 9pt 0; }
+th, td { border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; padding: 3pt 5pt; text-align: left; vertical-align: top; }
+th { background: #f0f0f0; font-weight: bold; }
+caption { caption-side: top; text-align: left; font-size: 9.2pt; margin-bottom: 3pt; font-style: italic; }
+code { font-family: Menlo, Consolas, monospace; font-size: 8.8pt; word-break: break-all; }
+p.left { text-align: left; }
+.ref { font-size: 9.3pt; padding-left: 1.6em; text-indent: -1.6em; margin: 0 0 4pt 0; text-align: left; }
+.small { font-size: 9pt; color: #333; }
+ul { margin: 0 0 7pt 0; padding-left: 1.4em; }
+li { margin: 0 0 3pt 0; }
+</style>
+
+</head>
+<body>
+
+<h1>Neuromodulation as ledger balances: a negative test of the serotonin/PDF behavioural switch on a ledger-resident <i>C. elegans</i> connectome</h1>
+<p class="auth">Julien Cugny</p>
+<p class="aff">Independent researcher · github.com/LeDenti · 4 November 2026 · preprint, version 1 · companion to "A complete connectome as ledger objects" (same repository, release v1.0.0)</p>
+
+<div class="abstract">
+<p><b>Abstract.</b> The wired connectome of <i>C. elegans</i> does not contain the animal's internal states; hunger, satiety, roaming and dwelling are carried by diffusely released monoamines and neuropeptides that change the gain of many synapses at once. We added this "wireless" connectome (Bentley et al. 2016) to a living ledger-resident worm (161 neurons, 675 chemical synapses, XRPL testnet): each neuron that secretes serotonin or PDF-1 issues its own currency; each receptor is a trust line held by the receiving neuron with the receptor gene in a memo; concentration is the balance; secretion is a payment; reuptake is the balance returned to the emitter. The off-chain agent that propagates activity reads these balances and scales each neuron's output by exp(0.5 (E − I)), where E and I are the fractions of its excitatory and inhibitory modulatory inputs that are active. We posed 994 receptor lines (verified on-ledger), set three anchored moods (baseline, fed with serotonin, hungry with PDF-1) and propagated the same two stimuli in each, 1,026 payments in all, to test the prediction of Flavell et al. (2013) that serotonin promotes dwelling and PDF-1 roaming. The modulators changed total activity (÷1.9 under serotonin, ×1.8 under PDF-1) but not its distribution between forward-locomotion and stop/reversal commands: the roaming index moved by less than 0.015 and in the predicted direction for neither stimulus. The reason is structural: a uniform gain on a neuron scales all of its outputs equally, so the share reaching each command depends on the map alone. A behavioural switch needs receptor effects at the synapse, which neither the dataset nor this model provides. A first trial with one shared currency per modulator also revealed that reciprocally modulating neurons cancel each other on a shared ledger object; one currency per emitter removes the artefact. This is the first measurement in the project that could be wrong, and it was.</p>
+</div>
+
+<h2>1. Introduction</h2>
+<p>In a companion paper we materialised the wired connectome of <i>C. elegans</i> on the XRP Ledger testnet, neuron by account and synapse by trust line, and ran a complete life cycle of four animals. That construction is true by construction: it reproduces a map. The present paper asks the first question on which the ledger model can fail. Behavioural states of the worm are set by neuromodulators released outside synapses: serotonin from NSM, ADF and HSN signals food and promotes dwelling; the neuropeptide PDF-1 promotes roaming (Flavell et al. 2013). These signals form a second, "wireless" network whose edges are defined by gene expression: an emitter expresses the biosynthetic enzyme, a receiver expresses a cognate receptor (Bentley et al. 2016; for neuropeptides more completely, Ripoll-Sánchez et al. 2023). Time scales matter here: synaptic transmission takes a millisecond and cannot live on a ledger that closes every four seconds, but neuromodulation acts over seconds to hours, the ledger's own pace. If the layered model is right, the modulatory layer is the one the ledger can carry natively. If it is wrong, this is where it should show.</p>
+
+<h2>2. Materials</h2>
+<p><b>The animal.</b> E1, a hermaphrodite born on 4 November 2026 from the mating of V1 and V4 in the life-cycle run, alive at stage L1 (0 h) with 161 neurons and 747 synapses of the nerve ring (Witvliet et al. 2021, animal 1), of which 675 are chemical. Organism account <code>rKwUB85UjesLhW89FZqHtxDvuCYMg2hF4f</code>.</p>
+<p><b>The wireless map.</b> The edge lists <code>edgelist_MA.csv</code> (monoamines) and <code>edgelist_NP.csv</code> (neuropeptides) of Bentley et al. 2016 as distributed by the OpenWorm ConnectomeToolbox; each row gives emitter, receiver, molecule and receptor gene. Restricted to the 161 neurons of E1, excluding autocrine rows (the ledger refuses a trust line to self):</p>
+<table>
+<caption>Table 1. Wireless edges available on E1.</caption>
+<tr><th>Modulator</th><th>Emitters in E1</th><th>Edges</th><th>Receiving neurons</th><th>Receptors (edges)</th><th>Sign used</th></tr>
+<tr><td>serotonin (5-HT)</td><td>ADFL, ADFR (NSM and HSN are outside the nerve ring dataset)</td><td>102</td><td>43</td><td>mod-1 (34), ser-1 (36), ser-4 (20), ser-5 (12)</td><td>mod-1, ser-4 inhibitory; ser-1, ser-5 excitatory</td></tr>
+<tr><td>PDF-1</td><td>32 (ADA, ADE, AFD, AIM, ASI, ASK, AVB, PVP, PVT, RID, RME, RMG, SAA, SIA)</td><td>892</td><td>28</td><td>pdfr-1 (892)</td><td>excitatory</td></tr>
+</table>
+<p>Receptor signs follow the canonical coupling of each receptor: MOD-1 is a serotonin-gated chloride channel and SER-4 is G<sub>i</sub>-coupled (inhibitory); SER-1 is G<sub>q</sub>-, SER-5 and PDFR-1 are G<sub>s</sub>-coupled (excitatory). These are the only biological assumptions added to the edge list.</p>
+
+<h2>3. Mapping</h2>
+<table>
+<caption>Table 2. The modulatory layer as ledger objects.</caption>
+<tr><th>Biology</th><th>Ledger</th></tr>
+<tr><td>a neuron that secretes modulator M</td><td>its account issues a currency "M.&lt;name&gt;" (20-byte code), e.g. <code>5HT.ADFL</code>, <code>PDF1.RMED</code></td></tr>
+<tr><td>a receptor on neuron B for M from A</td><td>a trust line set by B towards A's "M.A", limit 10, <code>NoRipple</code>, receptor gene in a memo</td></tr>
+<tr><td>concentration at B</td><td>B's balance on that line</td></tr>
+<tr><td>secretion</td><td>a payment of 1 unit from A to each of its receivers</td></tr>
+<tr><td>reuptake (SERT-like clearance)</td><td>B pays its balance back to A, which destroys the IOU</td></tr>
+<tr><td>gain of neuron n</td><td>g(n) = exp(0.5 (E − I)), E and I the fractions of n's excitatory and inhibitory inputs with a positive balance, read from the ledger; g ∈ [0.61, 1.65]</td></tr>
+<tr><td>activity</td><td>an off-chain agent: an active neuron distributes a(n)·g(n) over its chemical synapses in proportion to weight; each transfer is a payment in the presynaptic neuron's currency, amount proportional to the transferred activity, memo with state, hop, weight, gain</td></tr>
+<tr><td>a mood</td><td>the set of balances at a ledger index, anchored by an <code>AccountSet</code> memo of the organism</td></tr>
+</table>
+<p>Two edges with the same emitter and receiver but different receptors (for instance mod-1 and ser-4 on AIB) share one trust line: one concentration, two receptors, which is faithful. The 102 serotonin edges are 86 lines.</p>
+
+<h2>4. Protocol</h2>
+<p>Three moods, each read from the ledger six seconds after the last secretion and anchored: <b>baseline</b> (no modulator), <b>fed</b> (PDF-1 cleared, serotonin secreted), <b>hungry</b> (serotonin cleared, PDF-1 secreted). In each mood the same two stimuli were propagated for three hops: AWCL+AWCR (food odour) and ALML+ALMR (anterior touch), each starting with activity 1 split between the pair. Readout: the activity delivered to forward-locomotion command neurons F = {AVBL, AVBR, PVCL, PVCR} and to stop/reversal/turn neurons S = {AVAL, AVAR, AVDL, AVDR, AVEL, AVER, RIML, RIMR, RIVL, RIVR, SMDDL, SMDDR, SMDVL, SMDVR}; roaming index = F / (F + S). Prediction (Flavell et al. 2013): fed &lt; baseline &lt; hungry. We fixed in advance a margin of 0.01 below which a difference is reported as no effect.</p>
+
+<h2>5. Results</h2>
+<p><b>Construction.</b> 994 receptor lines on 61 neurons, fed with 239.8 XRP of reserve from the environment account, all verified by re-reading <code>account_lines</code> (994/994), anchored in transaction <code>C928BC26…</code>. Secretion: 102/102 and 892/892 payments succeeded; clearance: 86/86 lines emptied.</p>
+<table>
+<caption>Table 3. The three moods as read from the ledger.</caption>
+<tr><th>Mood</th><th>Ledger</th><th>Active excitatory inputs</th><th>Active inhibitory inputs</th><th>Neurons with g ≠ 1</th></tr>
+<tr><td>baseline</td><td>22058209</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>fed (5-HT)</td><td>22058284</td><td>48</td><td>54</td><td>39</td></tr>
+<tr><td>hungry (PDF-1)</td><td>22058367</td><td>892</td><td>0</td><td>28</td></tr>
+</table>
+<table>
+<caption>Table 4. Same stimulus, three moods. Every transfer is a validated payment (1,026 in all; a sample of 60 re-read, 60/60 <code>tesSUCCESS</code>).</caption>
+<tr><th>Mood</th><th>Stimulus</th><th>Payments</th><th>Neurons reached</th><th>Activity → F</th><th>Activity → S</th><th>F + S</th><th>Roaming index</th></tr>
+<tr><td>baseline</td><td>AWC</td><td>274</td><td>76</td><td>0.1188</td><td>0.4994</td><td>0.6182</td><td>0.192</td></tr>
+<tr><td>fed</td><td>AWC</td><td>274</td><td>76</td><td>0.0688</td><td>0.2642</td><td>0.3331</td><td>0.207</td></tr>
+<tr><td>hungry</td><td>AWC</td><td>274</td><td>76</td><td>0.1306</td><td>0.5006</td><td>0.6311</td><td>0.207</td></tr>
+<tr><td>baseline</td><td>ALM</td><td>68</td><td>40</td><td>0.2361</td><td>0.2325</td><td>0.4686</td><td>0.504</td></tr>
+<tr><td>fed</td><td>ALM</td><td>68</td><td>40</td><td>0.2902</td><td>0.2871</td><td>0.5773</td><td>0.503</td></tr>
+<tr><td>hungry</td><td>ALM</td><td>68</td><td>40</td><td>0.4190</td><td>0.4324</td><td>0.8514</td><td>0.492</td></tr>
+</table>
+<p><b>The modulators act on the amount of activity.</b> From AWC, serotonin divides the activity reaching the commands by 1.9 (its receivers AIA, AIB, AIY, AIZ, RIM, RIB, RIS carry mostly inhibitory receptors) and PDF-1 raises it slightly; from ALM, PDF-1 multiplies it by 1.8 (ALM, AVD, PVC, FLP, OLL, URX all express pdfr-1).</p>
+<p><b>They do not act on its direction.</b> From AWC the roaming index is 0.207 in both modulated moods, 0.0002 apart; from ALM it falls from 0.503 (fed) to 0.492 (hungry), the opposite of the prediction and at the margin. The prediction fed &lt; baseline &lt; hungry is not held for either stimulus.</p>
+
+<h2>6. Why the model cannot produce the switch</h2>
+<p>In this model a modulator changes a neuron's gain, and the gain multiplies every output of that neuron by the same factor. Activity is then distributed by synaptic weight. The fraction of a neuron's output that reaches F rather than S is therefore fixed by the map; modulation changes how much flows, not where. A behavioural switch requires that serotonin changes <i>which</i> synapses transmit: a receptor acting on a specific synapse or a specific target, a change of sign, or a threshold that silences a pathway. Flavell et al. found exactly that: serotonin acts through MOD-1 on specific interneurons to suppress the roaming circuit, and PDF-1 through PDFR-1 on others. Bentley's expression-based map says who can hear a modulator, not what each synapse does when it does. The negative result is therefore informative about the model, not about the worm: a gain layer over a weighted graph is not enough to carry a behavioural state, however faithfully the gains are read from a ledger.</p>
+
+<h2>7. What the ledger taught in passing</h2>
+<ul>
+<li><b>Shared currencies cancel.</b> In a first trial each modulator was a single currency ("PDF1"). The four RME neurons secrete PDF-1 at one another; on the ledger two accounts share one <code>RippleState</code> per currency, so RMED's payment to RMEL and RMEL's payment to RMED netted to zero: 12 of 892 edges were inactive after a successful secretion, measured by re-reading balances. One currency per emitter removes the artefact; it is the same lesson as one currency per neuron for synapses. The first trial is kept in the repository (<code>HUMEUR-essai1.md</code>).</li>
+<li><b>Reading too early.</b> Balances read two seconds after the last batch missed 2 of 34 inputs on some neurons; the ledger validated them a moment later. Reading one ledger after the last confirmation fixed it.</li>
+<li><b>Who may close a line.</b> An emitter cannot set <code>NoRipple</code> on a line where it is the debtor (<code>tecNO_PERMISSION</code>); the receiver closes its own lines.</li>
+<li><b>Cost.</b> 994 receptor lines immobilised 239.8 XRP of reserve, returned when the lines were closed; secretion, clearance and propagation cost 10 drops per transaction. Six propagations took 31 to 117 s each.</li>
+</ul>
+
+<h2>8. Limitations</h2>
+<p>NSM, the main serotonergic neuron for food signalling, is pharyngeal and absent from the nerve-ring dataset: ADF stands in. The receptor map is inferred from gene expression, not from measured transmission. The gain function, the proportional distribution of activity, the three-hop horizon, the all-or-nothing secretion and the roaming index as a readout are all invented; the readout in particular is a crude proxy for a behavioural state that the living animal expresses over minutes. One animal, one stage, two stimuli. None of this simulates physiology; it tests whether a ledger-resident map plus ledger-resident balances suffice to reproduce a known switch under the simplest gain model. They do not.</p>
+
+<h2>9. Discussion</h2>
+<p>The negative result does not weaken the case for the ledger as a carrier of neuromodulatory <i>state</i>: the balances were set, cleared, read and anchored at the ledger's pace, by anyone, with no server to trust, and the experiment can be re-run from the repository against the public endpoint. It weakens the case for a particular <i>model</i>, uniform gain over a weighted graph, and says what the next model must contain: a per-synapse or per-target receptor effect. Two routes are open. The ledger route keeps the map on-chain and moves the receptor effect into the trust line itself: a modulator would change the <i>limit</i> of specific synaptic lines, which is the ledger's native way of saying "this synapse transmits less". The data route replaces Bentley's expression map by measured modulatory effects where they exist (Flavell's MOD-1 targets, the neuropeptidergic map of Ripoll-Sánchez et al. 2023 with its ligand–receptor affinities). Both are a few hundred transactions away. A third use follows directly from the construction: a drug is a rule on the token. A serotonin-reuptake inhibitor is the prohibition of the clearance payment; an antagonist is a frozen receptor line; a dose is an amount. Each such experiment is a sequence of public transactions, which is a modest but real property for a computational pharmacology model: it cannot be adjusted after the result.</p>
+
+<h2>10. Reproducibility</h2>
+<p><code>github.com/LeDenti/xrplife</code> (MIT): <code>humeur.mjs</code> (receptors, secretion, clearance, moods, modulated propagation), <code>rapport-humeur.mjs</code> → <code>HUMEUR.md</code>, <code>verifier-humeur.mjs</code> → <code>verifier-humeur.log</code>, state file <code>humeur-etat.json</code> with every transaction hash, data in <code>data/bentley2016_*.csv</code> with SHA-256 anchored in the receptor transaction. Seeds are never committed.</p>
+
+<h2>Acknowledgements</h2>
+<p>Wireless connectome data: Bentley et al. (2016) as curated by the OpenWorm ConnectomeToolbox. Wired data: Witvliet et al. (2021), Cook et al. (2019). Code and manuscript drafted with the assistance of Claude (Anthropic); every measurement was executed on the public testnet and is logged in the repository.</p>
+
+<h2>References</h2>
+<p class="ref">Bentley, B., Branicky, R., Barnes, C. L., Chew, Y. L., Yemini, E., Bullmore, E. T., Vértes, P. E. &amp; Schafer, W. R. (2016). The multilayer connectome of <i>Caenorhabditis elegans</i>. <i>PLoS Computational Biology</i> 12(12), e1005283. https://doi.org/10.1371/journal.pcbi.1005283</p>
+<p class="ref">Cook, S. J. et al. (2019). Whole-animal connectomes of both <i>Caenorhabditis elegans</i> sexes. <i>Nature</i> 571, 63–71. https://doi.org/10.1038/s41586-019-1352-7</p>
+<p class="ref">Cugny, J. (2026). A complete connectome as ledger objects: <i>Caenorhabditis elegans</i> on the XRP Ledger, with a four-animal life cycle. Preprint, github.com/LeDenti/xrplife, release v1.0.0.</p>
+<p class="ref">Flavell, S. W., Pokala, N., Macosko, E. Z., Albrecht, D. R., Larsch, J. &amp; Bargmann, C. I. (2013). Serotonin and the neuropeptide PDF initiate and extend opposing behavioral states in <i>C. elegans</i>. <i>Cell</i> 154(5), 1023–1035. https://doi.org/10.1016/j.cell.2013.08.001</p>
+<p class="ref">OpenWorm Foundation. ConnectomeToolbox (cect), readers for Bentley et al. 2016 and Ripoll-Sánchez et al. 2023. https://github.com/openworm/ConnectomeToolbox</p>
+<p class="ref">Ripoll-Sánchez, L. et al. (2023). The neuropeptidergic connectome of <i>C. elegans</i>. <i>Neuron</i> 111(22), 3570–3589. https://doi.org/10.1016/j.neuron.2023.09.043</p>
+<p class="ref">Witvliet, D. et al. (2021). Connectomes across development reveal principles of brain maturation. <i>Nature</i> 596, 257–261. https://doi.org/10.1038/s41586-021-03778-8</p>
+</body>
+</html>

@@ -192,8 +192,13 @@ node ancrer-l2.mjs                            # empreinte du dernier registre L2
 
 ## Papier et citation
 
-Prépublication (6 pages, anglais) : [paper/xrplife.pdf](paper/xrplife.pdf), source
-[paper/xrplife.html](paper/xrplife.html). Pour citer le logiciel : `CITATION.cff`
+Trois textes en anglais dans `paper/` (source HTML à côté de chaque PDF) :
+
+1. [xrplife.pdf](paper/xrplife.pdf) — *A complete connectome as ledger objects* : le ver, le cycle de vie (6 pages).
+2. [xrplife-2-neuromodulation.pdf](paper/xrplife-2-neuromodulation.pdf) — *Neuromodulation as ledger balances* : la couche sentiments et son résultat négatif (5 pages).
+3. [xrplife-3-l2.pdf](paper/xrplife-3-l2.pdf) — *A dedicated ledger for neuromodulation* : note technique sur la chaîne L2, sept pièges mesurés (4 pages).
+
+Pour citer le logiciel : `CITATION.cff`
 (GitHub affiche « Cite this repository »). Les données se citent par leurs auteurs,
 voir [data/README.md](data/README.md).
 

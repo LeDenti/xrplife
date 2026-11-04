@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software or its measurements, please cite it as below, and cite the data sources (Cook et al. 2019, Witvliet et al. 2021, White et al. 1986, OpenWorm c302)."
 title: "XRPLife: a complete connectome as ledger objects (C. elegans on the XRP Ledger, with a four-animal life cycle)"
 type: software
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-11-04
 license: MIT
 repository-code: "https://github.com/LeDenti/xrplife"
@@ -25,7 +25,7 @@ abstract: >-
   impulse a chain of payments. A complete life cycle of four animals (eggs, growth
   through Witvliet 2021 and Cook 2019 connectomes, mating by Check, egg laying,
   death by account deletion) was run in four hours of ledger time, with XRP reserve
-  as food. Preprint in paper/xrplife.pdf.
+  as food. Preprints in paper/ (connectome and life cycle; neuromodulation, negative result; dedicated L2 ledger).
 references:
   - type: article
     authors:
