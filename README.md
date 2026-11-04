@@ -1,5 +1,7 @@
 # XRPLife — un connectome complet sur le registre XRPL
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23964583.svg)](https://doi.org/10.5281/zenodo.23964583)
+
 *English summary.* The complete connectome of the nematode *C. elegans*
 (302 neurons, Cook et al. 2019) materialised on the XRPL testnet on
 3 November 2026: every neuron is an XRPL account issuing its own currency,
@@ -198,7 +200,7 @@ Trois textes en anglais dans `paper/` (source HTML à côté de chaque PDF) :
 2. [xrplife-2-neuromodulation.pdf](paper/xrplife-2-neuromodulation.pdf) — *Neuromodulation as ledger balances* : la couche sentiments et son résultat négatif (5 pages).
 3. [xrplife-3-l2.pdf](paper/xrplife-3-l2.pdf) — *A dedicated ledger for neuromodulation* : note technique sur la chaîne L2, sept pièges mesurés (4 pages).
 
-Pour citer le logiciel : `CITATION.cff`
+**DOI Zenodo** : toutes versions [10.5281/zenodo.23964583](https://doi.org/10.5281/zenodo.23964583), version v1.1.2 [10.5281/zenodo.23964584](https://doi.org/10.5281/zenodo.23964584) (archivé le 4 novembre 2026). Pour citer le logiciel : `CITATION.cff`
 (GitHub affiche « Cite this repository »). Les données se citent par leurs auteurs,
 voir [data/README.md](data/README.md).
 
