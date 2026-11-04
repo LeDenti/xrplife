@@ -35,8 +35,25 @@ const log = (...a) => console.log(hhmmss(), ...a);
 const dormir = (ms) => new Promise((r) => setTimeout(r, ms));
 const sha = (s) => createHash('sha256').update(s).digest('hex');
 
-const client = new Client(RESEAU);
+const client = new Client(RESEAU, { timeout: 30000 });
 await client.connect();
+// Le websocket public du testnet coupe sous la charge : chaque appel est repris après reconnexion.
+let derniereActivite = Date.now();
+const erreurConnexion = (e) => /websocket|NotConnected|Disconnected|Timeout|connection|"command"/i.test(e?.message ?? '') || /NotConnected|Disconnected|Timeout/.test(e?.name ?? '');
+async function avecConnexion(fn, essais = 8) {
+  for (let i = 1; ; i++) {
+    try { const r = await fn(); derniereActivite = Date.now(); return r; }
+    catch (e) {
+      if (!erreurConnexion(e) || i >= essais) throw e;
+      console.log(hhmmss(), 'connexion :', (e.message ?? '').slice(0, 60), '→ reprise', i);
+      await dormir(3000 * i);
+      if (!client.isConnected()) { try { await client.connect(); } catch { /* on réessaiera */ } }
+    }
+  }
+}
+for (const k of ['request', 'submit', 'autofill', 'getXrpBalance', 'getLedgerIndex']) { const brut = client[k].bind(client); client[k] = (...a) => avecConnexion(() => brut(...a)); }
+// Chien de garde : sans activité pendant 6 minutes, on s'arrête ; le superviseur relance, l'état est repris.
+setInterval(() => { if (Date.now() - derniereActivite > 6 * 60 * 1000) { console.log(hhmmss(), 'chien de garde : aucune activité depuis 6 min, arrêt'); sauver(); process.exit(3); } }, 30000).unref();
 const si = await client.request({ command: 'server_info' });
 const RESERVE_BASE = si.result.info.validated_ledger.reserve_base_xrp;
 const RESERVE_OBJ = si.result.info.validated_ledger.reserve_inc_xrp;
@@ -68,14 +85,24 @@ function avecVerrou(adresse, fn) {
 const soumettre = (wallet, tx, essais = 4) => avecVerrou(wallet.classicAddress, () => soumettreSeul(wallet, tx, essais));
 async function soumettreSeul(wallet, tx, essais) {
   for (let i = 1; ; i++) {
+    let signe, dernier;
     try {
       const prep = await client.autofill(tx);
-      const r = await client.submitAndWait(wallet.sign(prep).tx_blob);
+      dernier = prep.LastLedgerSequence;
+      signe = wallet.sign(prep);
+      const r = await client.submitAndWait(signe.tx_blob);
+      derniereActivite = Date.now();
       const code = r.result.meta.TransactionResult;
       if (code !== 'tesSUCCESS') { const e = new Error(code); e.code = code; e.meta = r.result.meta; throw e; }
       return { hash: r.result.hash, meta: r.result.meta };
     } catch (e) {
-      if (i >= essais || /^tec/.test(e.message)) throw e;
+      if (/^tec/.test(e.message)) throw e;
+      if (signe) { // la transaction est peut-être passée malgré l'erreur : on regarde avant de la refaire
+        const sort = await attendre(signe.hash, dernier);
+        if (sort === 'tesSUCCESS') { const t = await client.request({ command: 'tx', transaction: signe.hash }); return { hash: signe.hash, meta: t.result.meta }; }
+        if (/^tec/.test(sort)) { const err = new Error(sort); err.code = sort; throw err; }
+      }
+      if (i >= essais) throw e;
       await dormir(2500 * i);
     }
   }
@@ -83,11 +110,12 @@ async function soumettreSeul(wallet, tx, essais) {
 
 // Attend qu'une transaction (par hash) soit validée, ou que son dernier registre soit passé.
 async function attendre(hash, dernierRegistre) {
-  for (;;) {
-    try { const r = await client.request({ command: 'tx', transaction: hash }); if (r.result.validated) return r.result.meta.TransactionResult; } catch { /* pas encore */ }
-    if ((await registre()) > dernierRegistre + 1) return 'expirée';
+  for (let i = 0; i < 200; i++) {
+    try { const r = await client.request({ command: 'tx', transaction: hash }); if (r.result.validated) { derniereActivite = Date.now(); return r.result.meta.TransactionResult; } } catch { /* pas encore */ }
+    try { if ((await registre()) > dernierRegistre + 1) return 'expirée'; } catch { /* coupure : on réessaie */ }
     await dormir(1500);
   }
+  return 'expirée';
 }
 
 // Soumet une liste de transactions d'un même compte par lots de TAILLE_LOT avec séquence
@@ -185,6 +213,7 @@ async function pondre(mil, nom, sexe, parents, pondeuse) {
   const w = nouveauVer(nom, sexe, parents);
   const cout = coutStade(sexe, 0) + 3;
   let payeur = mil, quoi = 'founder laid by the environment';
+  if (!pondeuse) await milieu(cout + 5); // le milieu doit avoir de quoi pondre un fondateur
   if (pondeuse) { await nourrir(mil, pondeuse, cout + 0.5, `laying egg ${nom}`); payeur = walletVer(pondeuse); quoi = `egg laid by ${pondeuse}${parents.length > 1 ? ' fertilised by ' + parents[1] : ' (self-fertilised)'}`; }
   const { hash } = await soumettre(payeur, { TransactionType: 'Payment', Account: payeur.classicAddress, Destination: w.classicAddress, Amount: xrpToDrops(cout.toFixed(6)), Memos: [memo('xrplife/egg', `${nom} sex=${sexe} gen=${etat.vers[nom].generation} parents=${parents.join('+') || 'none'} ${quoi}`)] });
   const r = await registre();
@@ -295,7 +324,6 @@ async function mourir(mil, nom) {
   const v = etat.vers[nom];
   if (v.mort) return;
   v.registreCourant = await registre();
-  const avant = await solde(mil.classicAddress);
   // 1. Les synapses s'effacent (chaque neurone remet à zéro les lignes qu'il porte).
   for (let passe = 1; passe <= 4; passe++) {
     const parCible = new Map();
@@ -317,11 +345,13 @@ async function mourir(mil, nom) {
   // 2. Les neurones meurent : AccountDelete vers le milieu (0,2 XRP brûlés chacun).
   //    Un compte ne peut être supprimé que 256 registres après sa création : on attend s'il le faut.
   const fee = xrpToDrops(String(RESERVE_OBJ));
+  const rendus = new Map(); // ce que chaque compte supprimé rend au milieu (solde − 0,2 XRP brûlés)
   const supprimer = async (w, quoi) => {
     for (let k = 0; k < 40; k++) {
       try {
         const info = await client.request({ command: 'account_info', account: w.classicAddress, ledger_index: 'validated' });
         const attendu = info.result.account_data.Sequence + 256; const r = await registre();
+        rendus.set(w.classicAddress, Number(info.result.account_data.Balance) / 1e6 - RESERVE_OBJ);
         if (r <= attendu) { await dormir((attendu - r + 2) * 3500); }
         const prep = await client.autofill({ TransactionType: 'AccountDelete', Account: w.classicAddress, Destination: mil.classicAddress, Fee: fee, Memos: [memo('xrplife/death', `${nom} ${quoi} dies, remains return to the environment`)] });
         const res = await client.submitAndWait(w.sign(prep).tx_blob);
@@ -344,8 +374,8 @@ async function mourir(mil, nom) {
   const restants = Object.entries(v.neurones).filter(([, x]) => x.cree && !x.mort);
   if (restants.length) throw new Error(`[${nom}] ${restants.length} neurones non supprimés`);
   const h = await supprimer(walletVer(nom), 'organism');
-  const apres = await solde(mil.classicAddress);
-  v.mort = { date: new Date().toISOString(), registre: await registre(), hash: h, rendu: apres - avant, brule: RESERVE_OBJ * (neurones.length + 1) };
+  const rendu = [...rendus.values()].reduce((a, x) => a + x, 0);
+  v.mort = { date: new Date().toISOString(), registre: await registre(), hash: h, rendu, brule: RESERVE_OBJ * (neurones.length + 1) };
   etat.milieu.recycle += v.mort.rendu;
   ev(nom, 'mort', `âge ${age(nom)}, ${neurones.length} neurones supprimés, ${v.mort.rendu.toFixed(1)} XRP rendus au milieu, ${v.mort.brule.toFixed(1)} brûlés`, h);
 }

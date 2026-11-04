@@ -1,0 +1,194 @@
+01:43:37 [V1] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+01:43:37 [V2] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+01:43:37 [V3] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+01:43:37 [V4] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+01:43:44 [V1] mange 46.8 XRP pour growing to L1 0h BFF39D3A…
+01:43:45 [milieu] robinet +1000 XRP (total robinet 2000), milieu 1161.4 XRP
+01:43:50 [V2] mange 21.4 XRP pour growing to L1 0h 691BF9A2…
+01:43:57 [V3] mange 392.9 XRP pour growing to L1 0h 9CD697BA…
+01:44:05 [V4] mange 392.9 XRP pour growing to L1 0h E1AE688C…
+01:47:06 [V1] 0 neurones nés, 161 réserves complétées
+01:47:06 [V1] passe 1 : 747 synapses à poser, 0 à élaguer, 147 neurones
+01:47:16 [V2] 0 neurones nés, 161 réserves complétées
+01:47:16 [V2] passe 1 : 747 synapses à poser, 0 à élaguer, 147 neurones
+01:47:55 [V3] 161 neurones nés, 0 réserves complétées
+01:47:55 [V3] passe 1 : 747 synapses à poser, 0 à élaguer, 147 neurones
+01:48:02 [V4] 161 neurones nés, 0 réserves complétées
+01:48:02 [V4] passe 1 : 747 synapses à poser, 0 à élaguer, 147 neurones
+01:48:07 [V1] passe 1 : 747/747 confirmées
+01:48:15 [V1] stade L1 0h atteint : 161 neurones, 747 synapses, âge 85h, mangé 46.8 XRP 79E880DB…
+01:48:15 [V1] → L1 5h : 162 neurones, 969 synapses (Witvliet 2021)
+01:48:22 [milieu] robinet +1000 XRP (total robinet 3000), milieu 1354.2 XRP
+01:48:28 [V1] mange 446.0 XRP pour growing to L1 5h CAFD4C1D…
+01:48:42   submit WebSocket is not open: readyState 2 (CLOSING)
+01:48:42 [V4] ASJR : WebSocket is not open: readyState 2 (CLOSING)
+01:48:42 [V4] RICL : WebSocket is not open: readyState 2 (CLOSING)
+01:48:42 [V4] RIMR : WebSocket is not open: readyState 2 (CLOSING)
+01:48:42 [V4] AIBR : WebSocket is not open: readyState 2 (CLOSING)
+01:48:42   submit websocket was closed, threshold exceeded
+01:48:42   submit websocket was closed, threshold exceeded
+01:48:42   submit websocket was closed, threshold exceeded
+01:48:42   submit websocket was closed, threshold exceeded
+01:48:42   submit websocket was closed, threshold exceeded
+01:48:42   submit websocket was closed, threshold exceeded
+01:48:42   submit websocket was closed, threshold exceeded
+01:48:42 [V4] ASIL : websocket was closed, threshold exceeded
+01:48:42 [V4] RIGR : websocket was closed, threshold exceeded
+01:48:42 [V4] AIYL : websocket was closed, threshold exceeded
+01:48:42 [V4] AIZL : websocket was closed, threshold exceeded
+01:48:42 [V4] PVQL : websocket was closed, threshold exceeded
+01:48:42 [V4] RIAL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AIAR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AIZR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] ADLR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AWCL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] RMGL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AWBL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] ASER : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] RIML : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AIBL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AVBR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"12001422000200002401507664201B015076C463D4838D7EA4C680004153455200000000000000000000000000000000C65E2374EDABCFA719BC90C0F871380A060E4D3468400000000000000C7321ED64D0D54C6EECE9A48FD25D84A02C4E123111FA1943348B95EF9ADF390F299C6D74408B8877D19CA3CCA81AFD5D6F5C935659E0F361AC8F1B587C2AA75E90B972DE774936B805E65D7F78998D8937E26C3740C1D37357409EBAEC033F494FD1003709811402FE5F627E77B65C347D7B4E947DADDC991BA316F9EA7C0F7872706C6966652F73796E617073657D165634204C3120306820415345523E4157435220773D31E1F1","fail_hard":false,"api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"1200142200020000240150765C201B015076C463D4871AFD498D00004157414C00000000000000000000000000000000FC6D6F5D6E9E8D1FF132AAC5D6004BB102FF67A068400000000000000C7321ED38EBF74D78DDE0CB334ABF9185195B6F530C6AEC3D2A30990EC4EBB93CC0C8DA74409788F1E8E530CF9960A993F5B1592D25216E2369541C852E958D10579967C372CD094A0D524851417AC20E2E9D0A72D5678C63CC7C52E0686BFA5A40EB3DAF088114E7025561A0CBE5A1D4A25C5E1D03D84CC8712556F9EA7C0F7872706C6966652F73796E617073657D165634204C31203068204157414C3E4144464C20773D32E1F1","fail_hard":false,"api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"12001422000200002401507664201B015076C463D4871AFD498D000041534B4C0000000000000000000000000000000007B666D90A10BB5F29C017DD268FDC92965317F668400000000000000C7321ED08A6C180C5A2C42F3A6F694DDFCF859F36D39A8CDA5CF84AABD73419E0AB252B7440451DFC4AECD699D691E83D70465E6402CFEF7CA0FA1303D8DF552527EAE864B593183A565B5CEF70012512D4DF43AAC0805002D65FABF52ACA8B5FE3976001008114DB74EAB68733A1705E79586448E120D16796037AF9EA7C0F7872706C6966652F73796E617073657D165634204C312030682041534B4C3E4149414C20773D32E1F1","fail_hard":false,"api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"12001422000200002401507665201B015076C463D4838D7EA4C6800041534A52000000000000000000000000000000000764FF74E911FA65859CEEC6BCD12B0FC92A040A68400000000000000C7321EDA5C600C57AF8C3B35ADD9C52EC87E26B6ACCE36F38F60EFCFB2D6FB2A5F6518774407C2B8FA7FACB952AE80922B2279FF4F960EC4AE253309D31DB5E3FC76DB960754EB0F1ED71620755DAA9E6BEF87C8380014D74FED3BE9D0BA141C8F249B8EF078114DBF0D9F2F86D788EF665943848B22153E19A8BA4F9EA7C0F7872706C6966652F73796E617073657D165634204C312030682041534A523E41534B5220773D31E1F1","fail_hard":false,"api_version":2}
+01:48:42 [V4] AFDR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] RIAR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] RIFL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"12001422000200002401507665201B015076C463D4838D7EA4C680004153494C0000000000000000000000000000000091766F01128E71EF21D7EAC457DD052DFE9A6F1368400000000000000C7321ED64D0D54C6EECE9A48FD25D84A02C4E123111FA1943348B95EF9ADF390F299C6D7440B72ADBFCB69B453CDD4202A9E7C27A349DF09CF28DD4B742B3DD3C6302685082004C63C1ABA21F8CDF43B72005ECD20086085C966147C12FBA9CFB0B768B8E0D811402FE5F627E77B65C347D7B4E947DADDC991BA316F9EA7C0F7872706C6966652F73796E617073657D165634204C31203068204153494C3E4157435220773D31E1F1","fail_hard":false,"api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"1200142200020000240150765D201B015076C463D4838D7EA4C680004157424C00000000000000000000000000000000F1836D8FDB96B6C5CCC44ABF32E103401B4120C168400000000000000C7321ED38EBF74D78DDE0CB334ABF9185195B6F530C6AEC3D2A30990EC4EBB93CC0C8DA7440976C236C02CDCB946E30D53ED23C28CE8CA94F714E433421B33CA972FF1AD33ADB30C57DF1AE9308C41E4BA931C692FF2B6C3DB6B85511BD42A49DECA632F6028114E7025561A0CBE5A1D4A25C5E1D03D84CC8712556F9EA7C0F7872706C6966652F73796E617073657D165634204C31203068204157424C3E4144464C20773D31E1F1","fail_hard":false,"api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"12001422000200002401507665201B015076C463D4871AFD498D00004157414C00000000000000000000000000000000FC6D6F5D6E9E8D1FF132AAC5D6004BB102FF67A068400000000000000C7321ED08A6C180C5A2C42F3A6F694DDFCF859F36D39A8CDA5CF84AABD73419E0AB252B7440074C69B3504CA3F1B58B8F828C886F62F2CBD1A2FE4DBC11EBB519DC7A5C089357D11C8C9815D7BC8A75F5518BDD3EA53BF14F47E2222D684D79FDD5A1B2DD038114DB74EAB68733A1705E79586448E120D16796037AF9EA7C0F7872706C6966652F73796E617073657D165634204C31203068204157414C3E4149414C20773D32E1F1","fail_hard":false,"api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"12001422000200002401507666201B015076C463D4838D7EA4C6800041574152000000000000000000000000000000005FE43D63014F62C76AD3519E6E3804477DB4F6ED68400000000000000C7321EDA5C600C57AF8C3B35ADD9C52EC87E26B6ACCE36F38F60EFCFB2D6FB2A5F651877440819AA2484A1B2E1A16C616D848C9A21607F13DEA6F000F8586AC98334506A8E1CD2C3A3ACC0957E11C7394C3A3B86C2DCCEEF7ECB0B4F34AF488DDB48A74A50F8114DBF0D9F2F86D788EF665943848B22153E19A8BA4F9EA7C0F7872706C6966652F73796E617073657D165634204C3120306820415741523E41534B5220773D31E1F1","fail_hard":false,"api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"12001422000200002401507666201B015076C463D4871AFD498D000041534952000000000000000000000000000000004DF5089659C0CE4BD09D492F91DE84906F64E89168400000000000000C7321ED64D0D54C6EECE9A48FD25D84A02C4E123111FA1943348B95EF9ADF390F299C6D74403C642684301FCE7B25671DCD43C5691A8EFC1C9B8D9AB1F7155BA19960870278F56B0412D9DB435117A34F9062926FAFC89E341DDB83764D1CBDC72270E6B006811402FE5F627E77B65C347D7B4E947DADDC991BA316F9EA7C0F7872706C6966652F73796E617073657D165634204C3120306820415349523E4157435220773D32E1F1","fail_hard":false,"api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"12001422000200002401507666201B015076C463D48AA87BEE5380004157434C000000000000000000000000000000005C84E73FDECD19F22FEBC69073799DF9FD7E3C2368400000000000000C7321ED08A6C180C5A2C42F3A6F694DDFCF859F36D39A8CDA5CF84AABD73419E0AB252B7440BD01CCE8C631C3855CB2E50337EF26FE86791F4D18E284F841C811AE61530DE569E03BC8C12B367BBCD109A8356F70281B0889F225B555BFB2450F2B810DA9098114DB74EAB68733A1705E79586448E120D16796037AF9EA7C0F7872706C6966652F73796E617073657D165634204C31203068204157434C3E4149414C20773D33E1F1","fail_hard":false,"api_version":2}
+01:48:42   submit {"command":"submit","tx_blob":"12001422000200002401507667201B015076C463D4838D7EA4C6800050565152000000000000000000000000000000007FE40673702D993A3F4F0BDFA831927097CA29D968400000000000000C7321EDA5C600C57AF8C3B35ADD9C52EC87E26B6ACCE36F38F60EFCFB2D6FB2A5F651877440737848FB8BC5059E5EAA8061F59D833EAB7E33EF74B9A0BBF4ED8592C2183A24059F07C034906C1AE17D03A632C205187825AA8D15039ED52E018090C301FD008114DBF0D9F2F86D788EF665943848B22153E19A8BA4F9EA7C0F7872706C6966652F73796E617073657D165634204C3120306820505651523E41534B5220773D31E1F1","fail_hard":false,"api_version":2}
+01:48:42 [V4] ADFL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AWCR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AIAL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] ASKR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] RIGL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AVHR : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V4] AVDR : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V4] AVAL : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V4] AVAR : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V4] AVBL : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V3] RMDDL : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V3] RMDVR : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V4] RICR : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V4] FLPR : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V4] AVDL : WebSocket is not open: readyState 0 (CONNECTING)
+01:48:42 [V4] ADFR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] ASHR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] PVCR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AVKR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:42 [V4] AUAR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:43 [V4] AIYR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:43 [V4] URXR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:43 [V4] ADAL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:43 [V3] RMDDR : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:43 [V4] AUAL : {"command":"ledger","ledger_index":"validated","api_version":2}
+01:48:52 [V4] AWBR : {"command":"account_info","account":"rHjcE717Ptx2AHxo5aoJp7tx1PPSD6jM4Z","ledger_index":"current","api_version":2}
+01:48:52 [V4] RIFR : {"command":"account_info","account":"rPpS35KUiX5yT8peGAnaEKhFDgBmgtN3Wh","ledger_index":"current","api_version":2}
+01:48:52 [V4] AVEL : {"command":"account_info","account":"rhiMBszTvhbvo9W3h3RhZsbCXNuCPJfwBD","ledger_index":"current","api_version":2}
+01:48:52 [V4] AVER : {"command":"account_info","account":"rpTX2bSBJRT77udvvFoMh5JvtH9kMrMELx","ledger_index":"current","api_version":2}
+01:48:52 [V4] DVC : {"command":"account_info","account":"rwP3hmE6eQjMfet7gyKCpvrLZMmHpALDHi","ledger_index":"current","api_version":2}
+01:48:52 [V4] RIBR : {"command":"account_info","account":"rPLGt5JMnZsFgAFN4ehAWYFWWTZa7NZ3z","ledger_index":"current","api_version":2}
+01:48:52 [V4] SMDDR : {"command":"account_info","account":"rMxHxS1qAUrKJFnRKUiVmpXWP1ncUUoqj7","ledger_index":"current","api_version":2}
+01:48:52 [V4] SMDVR : {"command":"account_info","account":"rsMeEqpHp7xdWMLh9QEGvFVXZEvZiK2GRV","ledger_index":"current","api_version":2}
+01:48:52 [V4] RIBL : {"command":"account_info","account":"rw1Fd2e1LNHnB64UxpT9pic3U2ezd5uyhh","ledger_index":"current","api_version":2}
+01:48:52 [V4] SAADR : {"command":"account_info","account":"rh4zPouzecQkATffw2rKfyeN1ZA4wysCrw","ledger_index":"current","api_version":2}
+01:48:52 [V4] SIADL : {"command":"account_info","account":"rESeCT57rs5zRzQkyjcnBM1qZiV7AqiCK1","ledger_index":"current","api_version":2}
+01:48:52 [V4] SMDDL : {"command":"account_info","account":"rwkzZSmiQ8ucCAfsYBbmH2bnbzKQ13uyf6","ledger_index":"current","api_version":2}
+01:48:52 [V4] SMDVL : {"command":"account_info","account":"rpAj8HWbHDRnz6a5sZqh9K5dUB62z9tRdK","ledger_index":"current","api_version":2}
+01:48:52 [V4] AIMR : {"command":"account_info","account":"rEtrNhV3YQNNdb6BA5vZjEBbCaPxGT7u6B","ledger_index":"current","api_version":2}
+01:48:52 [V4] ASGL : {"command":"account_info","account":"r4gSk2DHEQG4JFbjJd3GNYGL58FTSwExdG","ledger_index":"current","api_version":2}
+01:48:52 [V4] ASJL : {"command":"account_info","account":"rJfZbjdqePw2kfLTPMPNBmw2kNWa1Dezhd","ledger_index":"current","api_version":2}
+01:48:52 [V4] ASGR : {"command":"account_info","account":"rwAFDxyiQMb1VQ1zc4n8ZusdRfDkWNWcqP","ledger_index":"current","api_version":2}
+01:48:52 [V4] BAGL : {"command":"account_info","account":"rsdTDki2cDDKJgKfLvPee2Y1WjeeEaoKav","ledger_index":"current","api_version":2}
+01:48:52 [V4] AFDL : {"command":"account_info","account":"r9Shk9W8NUuubzzJfBtGR13N3z8YDKk71B","ledger_index":"current","api_version":2}
+01:48:52 [V4] BAGR : {"command":"account_info","account":"rJihXuD5ZW5GiwtYQ5av6N22azsAau4N4K","ledger_index":"current","api_version":2}
+01:48:52 [V4] CEPVL : {"command":"account_info","account":"rMr5Rovfsx78naQaE2H3odiyNm5RQXDecD","ledger_index":"current","api_version":2}
+01:48:52 [V4] SIBDL : {"command":"account_info","account":"rsVZqGPXsEUgRMzcyjfdsBdYScueCRtJbW","ledger_index":"current","api_version":2}
+01:48:52 [V4] SMBDL : {"command":"account_info","account":"rDzEKZvNhx1X4wkzmrzckRNsPwcVRQ26eR","ledger_index":"current","api_version":2}
+01:48:52 [V4] SMBVL : {"command":"account_info","account":"r95qko9YHeSBeLG1t1qVmURTmAR8uPRB6H","ledger_index":"current","api_version":2}
+01:48:52 [V4] SMBDR : {"command":"account_info","account":"rNekB4bJEG5varLNcU1AUe9fQxPCESbbgg","ledger_index":"current","api_version":2}
+01:48:52 [V4] SMBVR : {"command":"account_info","account":"rMzNUECeDJQqbNGGp22e6exgScCgzxHTJK","ledger_index":"current","api_version":2}
+01:48:52 [V4] IL1L : {"command":"account_info","account":"r4jLRRPrqDUJFyRWPvheceuwHVAtER9P3s","ledger_index":"current","api_version":2}
+01:48:52 [V4] BDUL : {"command":"account_info","account":"rHf4ZaVyHyzCyfVevSPDrLcuLx5vpVAgYb","ledger_index":"current","api_version":2}
+01:48:52 [V4] PVR : {"command":"account_info","account":"rnKx15E8kGB6A8brJhe15qUkaxB51hWmFi","ledger_index":"current","api_version":2}
+01:48:52 [V4] BDUR : {"command":"account_info","account":"rMiiQ9Jy7hoWC7HLwihwxjXPBGmpcRGRAD","ledger_index":"current","api_version":2}
+01:48:52 [V4] CEPDR : {"command":"account_info","account":"rPUzHmcJWiFA19VWDnyfQpbCT6bfbh8QFk","ledger_index":"current","api_version":2}
+01:48:52 [V4] ASIR : {"command":"account_info","account":"r3fU2rrD4kTuhdN2QoZfZZyCVtzN7kDXFy","ledger_index":"current","api_version":2}
+01:48:52 [V4] AIML : {"command":"account_info","account":"rh6CoM26Lc3SiThoF4Mjgedn5uChBmJJ1P","ledger_index":"current","api_version":2}
+01:48:52 [V4] AVHL : {"command":"account_info","account":"r9Mk34FWnzqD95YGyf8pXRgT2pQfkJBgvb","ledger_index":"current","api_version":2}
+01:48:52 [V4] RMGR : {"command":"account_info","account":"rMZrVVd1Rm3x1MWvxZ96YrjJgsDMfZKbvN","ledger_index":"current","api_version":2}
+01:48:52 [V4] AINR : {"command":"account_info","account":"rDSSi82dMx2yZ2vK85EgAgEU6fmhzJs9D2","ledger_index":"current","api_version":2}
+01:48:52 [V4] PVQR : {"command":"account_info","account":"rUCDyqUdp18LrzvrzV7JKXz8CkjtE8Cq9d","ledger_index":"current","api_version":2}
+01:48:52 [V4] URXL : {"command":"account_info","account":"rUWBxwqWeabweXHL14N94V6GR85Nxuqj6c","ledger_index":"current","api_version":2}
+01:48:52 [V4] URYDR : {"command":"account_info","account":"rpxcbjEMU1L45V7wY6Kqdp5fzzowG4ruEU","ledger_index":"current","api_version":2}
+01:48:52 [V4] DVA : {"command":"account_info","account":"rw3ZXLtZR1ScfnTR6sqayEXTFmYPu9jDEc","ledger_index":"current","api_version":2}
+01:48:52 [V4] PVCL : {"command":"account_info","account":"raamGcZFZWX22MsnWtjerYreQXqoY3sivV","ledger_index":"current","api_version":2}
+01:48:52 [V4] RMDL : {"command":"account_info","account":"r3nYRm5aspdMcMLRTPpCeWa6ikcZ66YqMH","ledger_index":"current","api_version":2}
+01:48:52 [V4] PVPL : {"command":"account_info","account":"rBgSc74mp9buqZNLLJrrwgJtgx1mE4QxCp","ledger_index":"current","api_version":2}
+01:48:53 [V4] SAAVL : {"command":"account_info","account":"rssn9FtWQhvgrFy4CAGeMi1nu1nxruQ13R","ledger_index":"current","api_version":2}
+01:48:53 [V4] ADLL : {"command":"account_info","account":"rnxgwTgZKGHaMHUtVRfBFDJSet6WdMAZhu","ledger_index":"current","api_version":2}
+01:48:53 [V4] AWAR : {"command":"account_info","account":"r9kpcbxKLmTKssTW6qRJJtefJAfBeFCWRX","ledger_index":"current","api_version":2}
+01:48:53 [V4] RIR : {"command":"account_info","account":"rDpZCXZzSEiwLT7hViB7a5kwTdUFs262aL","ledger_index":"current","api_version":2}
+01:48:53 [V4] AVJL : {"command":"account_info","account":"rD85gATCWJDnKF7gMivrfYgobGp5bnRdct","ledger_index":"current","api_version":2}
+01:49:02 [V4] ALMR : {"command":"account_info","account":"rLoMScex6zGNbhEY5r3zXQEkxg4oGPN4CF","ledger_index":"current","api_version":2}
+01:49:02 [V4] OLLL : {"command":"account_info","account":"r78NKHjsmn3cvYRmXk3ZrtR5FTCgCrKQo","ledger_index":"current","api_version":2}
+01:49:02 [V4] URBL : {"command":"account_info","account":"r3nRkfDpHxwta7jY4Z38uFmeUX2Zy5VYut","ledger_index":"current","api_version":2}
+01:49:02 [V4] URYDL : {"command":"account_info","account":"rPp1HYuWL5YSHzswyvpw9d12ChVUkd7jYa","ledger_index":"current","api_version":2}
+01:49:02 [V4] OLLR : {"command":"account_info","account":"rUhrL7Jmrtj8sn4DGuSym9G4aBumgMrftF","ledger_index":"current","api_version":2}
+01:49:02 [V4] SIBVR : {"command":"account_info","account":"rnesi9185wu4p7A7F9nUuCMEQuMptAsMtK","ledger_index":"current","api_version":2}
+01:49:02 [V4] OLQVR : {"command":"account_info","account":"r4pthoWdzR2o585veeGBXwrPioWnmzf6jM","ledger_index":"current","api_version":2}
+01:49:02 [V4] URYVR : {"command":"account_info","account":"rMzTSQaKB24Az54MnBU988JZ5dpjRiLQRb","ledger_index":"current","api_version":2}
+01:49:02 [V4] RIVR : {"command":"account_info","account":"raH1NRbv86k7euSzKw2jscDE9JrWvGtGDd","ledger_index":"current","api_version":2}
+01:49:02 [V4] ADEL : {"command":"account_info","account":"rpGay6iUHCAX1FFFPrmoQjXaEnNKSHjmjq","ledger_index":"current","api_version":2}
+01:49:02 [V4] ADER : {"command":"account_info","account":"r9X725YJnD6sm7r5cyT9551fGAGR4ZbUkz","ledger_index":"current","api_version":2}
+01:49:02 [V4] IL1DR : {"command":"account_info","account":"r4SNEgGFfctRLcnDh3A5FRo6dpaXrwZJt3","ledger_index":"current","api_version":2}
+01:49:02 [V4] RIPL : {"command":"account_info","account":"rNxbSK8GqotaAbGr9jRGvqhMzDV5fr9KPa","ledger_index":"current","api_version":2}
+01:49:02 [V4] RMDVL : {"command":"account_info","account":"rBkirK77nqVGGKtLmWfKepoTeN8cnDAhAn","ledger_index":"current","api_version":2}
+01:49:02 [V4] RMEL : {"command":"account_info","account":"r9mEfCVSpQdVLVEtdWnnam8yXP24AqYFoi","ledger_index":"current","api_version":2}
+01:49:02 [V4] IL1R : {"command":"account_info","account":"rDxXTcaLtDtWj6zco1YoyYkXhWtY2Yh1vS","ledger_index":"current","api_version":2}
+01:49:02 [V4] RIPR : {"command":"account_info","account":"r4M392Fn4aWJHDjfgxaBuUXXwuy7f595XF","ledger_index":"current","api_version":2}
+01:49:02 [V4] RMDVR : {"command":"account_info","account":"rEnEzZsZyVD4uteTHSK3zGx7fkTC5U7oEt","ledger_index":"current","api_version":2}
+01:49:02 [V4] IL1VL : {"command":"account_info","account":"rP3qr7aGWuENsp27QUSHgL4vYnSxvuo4ny","ledger_index":"current","api_version":2}
+01:49:02 [V4] RMDDL : {"command":"account_info","account":"rBmy49reFdXEkCt3Ab2fwEWx7tnyQc4tSY","ledger_index":"current","api_version":2}
+01:49:02 [V4] RMER : {"command":"account_info","account":"r48Pqxj7Qrsgq4Z5VfC3sC8d6DkmXVj8At","ledger_index":"current","api_version":2}
+01:49:02 [V4] IL1VR : {"command":"account_info","account":"rKqV41XXY5rm56A5GVbrdwqDiX2FwAK2ct","ledger_index":"current","api_version":2}
+01:49:02 [V4] RMDDR : {"command":"account_info","account":"rJZqrej1cJZPXL75enpt3NxPqRrniqHLcp","ledger_index":"current","api_version":2}
+01:49:02 [V4] RMEV : {"command":"account_info","account":"rBitJMxQovrt8DUfG8iQer8zFMA3X4ypiU","ledger_index":"current","api_version":2}
+01:49:02 [V4] RIH : {"command":"account_info","account":"rMC7Ccs6PJbrADW6xgbnjKp5RN1b1vhxLW","ledger_index":"current","api_version":2}
+01:49:02 [V4] RMED : {"command":"account_info","account":"rnP2Bm3qZSLtQzX4GeZqC2cdR8DNaKV5sY","ledger_index":"current","api_version":2}
+01:49:02 [V4] OLQVL : {"command":"account_info","account":"rEqGrL3U9NnT1kCfuzPh7WBoj2nfbkZcHu","ledger_index":"current","api_version":2}
+01:49:02 [V4] OLQDR : {"command":"account_info","account":"rDpQWTLFLLReQ1nJZwvWBvPFLjVMpQVqpy","ledger_index":"current","api_version":2}
+01:49:02 [V4] CEPDL : {"command":"account_info","account":"rifHPxX1thvE5KffGbm72msmcnqBRUKEA","ledger_index":"current","api_version":2}
+01:49:02 [V4] SIBVL : {"command":"account_info","account":"rNvPahsLqVbDqcFTdgLB48KjvvXitehLVe","ledger_index":"current","api_version":2}
+01:49:02 [V4] IL2R : {"command":"account_info","account":"rhxuQyArN5NEMPQoYG2CxebdyhRb33Fxwp","ledger_index":"current","api_version":2}
+01:49:02 [V4] IL2L : {"command":"account_info","account":"r3sd4saybdFtmZYsAHGnwXxAUjSqEP9nnL","ledger_index":"current","api_version":2}
+01:49:02 [V4] SIBDR : {"command":"account_info","account":"rBtiVxguQzWGgjzQ8thSddaBCiS3VLwxss","ledger_index":"current","api_version":2}
+01:49:02 [V4] RIS : {"command":"account_info","account":"r9eVuDn14ZW2YWxCCCkWNKhEH6N1618DuG","ledger_index":"current","api_version":2}
+01:49:02 [V4] SIAVL : {"command":"account_info","account":"rEcEtGDgyfsndoDF95mvigAapXo9sWaXE7","ledger_index":"current","api_version":2}
+01:49:02 [V4] SIAVR : {"command":"account_info","account":"rpffG2pzZQv234MFKtdbJciH9BXZPCXS2m","ledger_index":"current","api_version":2}
+01:49:02 [V4] RID : {"command":"account_info","account":"rBciigfZjxFwztnyLKUmSPdb7fbudEqXDf","ledger_index":"current","api_version":2}
+01:49:02 [V4] PVPR : {"command":"account_info","account":"rPBH7W6d4CzbCCMLwoqvGL8yi4iitmsN73","ledger_index":"current","api_version":2}
+01:49:02 [V4] CEPVR : {"command":"account_info","account":"rMBuXT3YDo1tDwExj2jFDb8e1DMLTH3WYu","ledger_index":"current","api_version":2}
+01:49:02 [V4] URADR : {"command":"account_info","account":"rE7pE9ySAhoCDWgrLZoNsAXDR8wLxKMhjT","ledger_index":"current","api_version":2}
+01:49:02 [V4] AVKL : {"command":"account_info","account":"rPAmw9dJsVLoxdvzRBNARfFqc4K2Ws7PLm","ledger_index":"current","api_version":2}
+01:49:02 [V4] RMDR : {"command":"account_info","account":"rLrdDhWihPE4RNYkgMMc65bZWPMMr8FvAS","ledger_index":"current","api_version":2}
+01:49:02 [V4] SIADR : {"command":"account_info","account":"rnBeE6qQDZjajgGzwLtaRaEgqjpwa8HzML","ledger_index":"current","api_version":2}
+01:49:03 [V4] URYVL : {"command":"account_info","account":"rGcPtJJME5PE2fGwZgbUmqRLpJqRr7hzAF","ledger_index":"current","api_version":2}
+01:49:03 [V4] PVT : {"command":"account_info","account":"rpd4sKPMRXNa8Fj4oLcfppJfpmpE1GgDTg","ledger_index":"current","api_version":2}
+01:49:03 [V4] OLQDL : {"command":"account_info","account":"r94TwjXxkGLRaoNqQa9dpX3UxeX9zF62QK","ledger_index":"current","api_version":2}
+01:49:03 [V4] SAADL : {"command":"account_info","account":"rpo1T1PEtoLfULjSzNHrzYMWvDkVPZHxSx","ledger_index":"current","api_version":2}
+01:49:03 [V4] SAAVR : {"command":"account_info","account":"rfJMax5sG2yui9kEYQoCxNDg9mNQJBnzYH","ledger_index":"current","api_version":2}
+01:49:12 [V4] URAVR : {"command":"account_info","account":"rNmXixhCYpyEgXmdhGZJqC9F57JZ29CzcN","ledger_index":"current","api_version":2}
+01:49:12 [V4] IL1DL : {"command":"account_info","account":"rH6Hvy3Vi56T5Yc21JTwtsMxhvDVDUtuve","ledger_index":"current","api_version":2}
+Warning: Detected unsettled top-level await at file:///Users/jul/xrplife/vie.mjs:376
+try { await cycle(); } finally { sauver(); await client.disconnect(); }
+                                           ^
+
+
+
+code de sortie 13

@@ -4,7 +4,7 @@
  "milieu": {
   "adresse": "rsfkwh2hwJwf8AREXqZ2HSzedSzZdHwFXC",
   "robinet": 1000,
-  "recycle": 0
+  "recycle": 322.18910399999993
  },
  "vers": {
   "V1": {
@@ -21,42 +21,50 @@
     "DVA": {
      "adresse": "rnCUwWSyrv7jMiQor2tKHVWqEGAvgZS11X",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "3856B12C8979ED861DDCC6A5502EDB44576C4CD94369266951C763ED821E2097"
     },
     "AVAL": {
      "adresse": "rGFdyc8E8sBcKz41SMfn3gQSEaJgiL3oPC",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "641B744FFFA4803C0CF43049B9505D004C25573BD5753E93F0EBAF5867D26ACC"
     },
     "AVBR": {
      "adresse": "raJuWVDTf93gssP9ZkQhfn2e2jjZ58wyek",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "973BA100A9D4EBA5C23D0AC6E7E9E6A1CDFD4ED38FC201FE3CF985DB91EEDDC3"
     },
     "AVER": {
      "adresse": "rss658mdRpfWiC2Hg2Svns9kV6dYzuzTxF",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "DD93D1F9E50E81E6CEC8B7AA300AA9CC7B02899DCA8F778C54AD1D9FDC2C7B55"
     },
     "PVCL": {
      "adresse": "rMfjQHhFp9z41cMpMo9FbdLeyBSnxrLcKY",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "1018F6FD930E459C1D2230C1C574483328F17E0CAD6FED5710963E0406EF694A"
     },
     "PVCR": {
      "adresse": "rKoLqBmFpb2ENcQmoi31fvLhjVhXTL6CGY",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "8BE6C5FCBFFF97349C0AE74191628BA595597FE98B6BF6E7668A9957740AA1FF"
     },
     "AVBL": {
      "adresse": "rs7pLELaqZfCxQxFUvkmiB9ub6xwEsseSw",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "04059EADBDAD612679EC23258925091C6E5F6418B655349C95C2E35EF348B980"
     },
     "AVAR": {
      "adresse": "rn7zL3mjXN2fbQYHDGs4vbXFmjE8koBJWT",
      "cree": true,
-     "stade": "L1 5h"
+     "stade": "L1 5h",
+     "mort": "D89865C09ADEAEF65B246A09FB332332E49EE003A544BDBB18B1E8EC96F54352"
     }
    },
    "synapses": {},
@@ -150,9 +158,21 @@
      "type": "mange",
      "detail": "17.4 XRP pour laying egg E2",
      "hash": "F4E900BCEE1818787358E7FDB012FE511F86D0ED399558CF4B941493FC0154B4"
+    },
+    {
+     "t": "2026-11-04T01:42:24.846Z",
+     "type": "mort",
+     "detail": "âge 101h, 8 neurones supprimés, 81.5 XRP rendus au milieu, 1.8 brûlés",
+     "hash": "65A9729EB7F5C7C590CB3837F93422C71B827CF5CC7483D210560960111D2E31"
     }
    ],
-   "mort": null,
+   "mort": {
+    "date": "2026-11-04T01:42:24.496Z",
+    "registre": 22050353,
+    "hash": "65A9729EB7F5C7C590CB3837F93422C71B827CF5CC7483D210560960111D2E31",
+    "rendu": 81.49739599999998,
+    "brule": 1.8
+   },
    "mange": 29.002676,
    "registreCourant": 22050123,
    "fecondeePar": "V4"
@@ -171,42 +191,50 @@
     "DVA": {
      "adresse": "rwdGtDn4ecyiNxzBHEGANnaBwB6Ac3nyXb",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "B4BD0C186240A6E2A419D1E925081C0C39FEE69994266C885AA9D42E80DA8943"
     },
     "AVAL": {
      "adresse": "r9HFy8pDfLLRMZ3mQr9cJuZ2VE62JQNTe9",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "962090D76ED2A092947FA4F992A7680962FBCD881E58B50C9631E3DFCF4E440C"
     },
     "AVBR": {
      "adresse": "rwZep5XCg3aarbYfFkgnavXLzFMZkdv8QG",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "613E361C3D4BBA9FA9F785423667B9A81DF7BF6E20FD0074F92C21406AD573D1"
     },
     "AVER": {
      "adresse": "r3hwSTPBkM1BQtf5aNcaqum4KXnLnTDVi3",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "DBB6C3E92C68FBDD1F52F2C0DC34F1463C22F7DC47CF79D2E2BEFA4C9563E265"
     },
     "PVCL": {
      "adresse": "rEu9aLQoParZ3FG4taQzjWxNoHpqqdVJMS",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "89EAB127B79B57C41FF2A939A4DA5321B0BCE7B19CF61E618123D973DE88AEFD"
     },
     "PVCR": {
      "adresse": "rBKe2aK8AMRUYYDRzeicyhRWqftzRfzbrF",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "7DDE85442A811F0063EE8B624D9969D3AAAD3157F3C1114D6859A3FBFD6144A5"
     },
     "AVBL": {
      "adresse": "rwWfLgp3XeZX342LpYAFKpb54dKmGFn5bG",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "96C66773E40A9D270DA1F142E1C5C7C694DE2F3FCCD076FDFB56A0BA50EBA817"
     },
     "AVAR": {
      "adresse": "r9YEZdPcbbxvAH51jQxW7SBeHwqfJXwrDt",
      "cree": true,
-     "stade": "L1 5h"
+     "stade": "L1 5h",
+     "mort": "8AA7CACCB87BE9D7947D9C4D0AEB0F7E875FACD8F1E25D6706E5BCD8CEF78535"
     }
    },
    "synapses": {},
@@ -288,9 +316,21 @@
      "type": "mange",
      "detail": "17.4 XRP pour laying egg E3",
      "hash": "886512F05370BC33A08DB5FC5DC49AEA9E70402A38BD0571D769ADEDBDAD3764"
+    },
+    {
+     "t": "2026-11-04T01:42:25.239Z",
+     "type": "mort",
+     "detail": "âge 99h, 8 neurones supprimés, 81.5 XRP rendus au milieu, 1.8 brûlés",
+     "hash": "D1DB1994BCF0191DD0D168EFCE0BE30061962A5290715AC5E82480C2EEFA6818"
     }
    ],
-   "mort": null,
+   "mort": {
+    "date": "2026-11-04T01:42:25.021Z",
+    "registre": 22050353,
+    "hash": "D1DB1994BCF0191DD0D168EFCE0BE30061962A5290715AC5E82480C2EEFA6818",
+    "rendu": 81.49739599999998,
+    "brule": 1.8
+   },
    "mange": 23.502676,
    "registreCourant": 22050123
   },
@@ -308,42 +348,50 @@
     "DVA": {
      "adresse": "rsKXVsFKSPfYFpGJNdBVd9zVT6PEhpoeZC",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "8DEBE4D0B90FFB81F3ABB9F4177C17D718510F766A53933E34F624C6C0964FB2"
     },
     "AVAL": {
      "adresse": "rK1k8zTmdkAQ9iEXcEwscTnuUSEFTSBJ7J",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "CD6451BFBEE1538CF72632882DA4D648AAFDB644FA7D368F43CB27FD75604FD4"
     },
     "AVBR": {
      "adresse": "rpyM1Yn8BZNtyb6UWhbk3w9BtTM8rEi9eF",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "2EF68EA2C3D39A7D489148DBB8BA7F77B54FA87BDF79D25BA882F0BAB70CD6DB"
     },
     "AVER": {
      "adresse": "rHs53bp3B74gzGNGF1GQi9SAHx2n2wusK5",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "CD795003C3379DF7BBCED5F37F09296E722732E8D510D6A3EF57972EB5B249DD"
     },
     "PVCL": {
      "adresse": "rJuCxonYkUDwHAAVY5mP2SU44MkMLZ64xi",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "D110F2801A01F69B7FC560CE24CB31859A9F2708FBA5710247389FD845D750C1"
     },
     "PVCR": {
      "adresse": "rGA9SCEAnu7g7pNxZJoKtjxk2rDiifBxKJ",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "674ACC6236843340A2783A2D8916D701363ED68D05D6DA3EF56A5A7D0EF3359A"
     },
     "AVBL": {
      "adresse": "rDC51sMbomqyg4biNwb6WFisKdHYfu2EWX",
      "cree": true,
-     "stade": "L1 0h"
+     "stade": "L1 0h",
+     "mort": "823055087457D4766AE5464B6EFD1D4A45E0A51BD964FC2BD064889519398F03"
     },
     "AVAR": {
      "adresse": "r3Tj285pLYhso2EiMViqm5rWFuhYRuVwW9",
      "cree": true,
-     "stade": "L1 5h"
+     "stade": "L1 5h",
+     "mort": "96B8779D5DEBD5F3C81D4ED7381B90EF039D87BC1504725558E506848BA257A0"
     }
    },
    "synapses": {},
@@ -425,9 +473,21 @@
      "type": "mange",
      "detail": "17.4 XRP pour laying egg E4",
      "hash": "2B03F76858B68DE1EFCB0FD39127B395D707D9D05395D31B66ED65E820274029"
+    },
+    {
+     "t": "2026-11-04T01:42:31.176Z",
+     "type": "mort",
+     "detail": "âge 97h, 8 neurones supprimés, 83.8 XRP rendus au milieu, 1.8 brûlés",
+     "hash": "4440B611C0226CFF153E28514F032F2CEB9CE9444D5964A3DA07107E0207C95C"
     }
    ],
-   "mort": null,
+   "mort": {
+    "date": "2026-11-04T01:42:31.002Z",
+    "registre": 22050355,
+    "hash": "4440B611C0226CFF153E28514F032F2CEB9CE9444D5964A3DA07107E0207C95C",
+    "rendu": 83.79790000000003,
+    "brule": 1.8
+   },
    "mange": 23.502676,
    "registreCourant": 22050123
   },
@@ -445,42 +505,50 @@
     "AVAL": {
      "adresse": "r3q2DvC8S6zE4Xkpc7sjYjQDLywDZ3tHpZ",
      "cree": true,
-     "stade": "L1 5h"
+     "stade": "L1 5h",
+     "mort": "901B620F88BD653420DA4130A219F3F37C175E22B998A194CAFAA8B6A4D52A5F"
     },
     "AVAR": {
      "adresse": "rHwS9mugCvvPV3Qwvhc8h5dDXSF1AmrZFk",
      "cree": true,
-     "stade": "L1 5h"
+     "stade": "L1 5h",
+     "mort": "28D926BF17C388AB901C026611D2240E302A8DF4B95BAB9FAD4A2D5189A8DF76"
     },
     "PVV": {
      "adresse": "rBgB2wUMagncXY7g5FofLwRuQaZyksuEk3",
      "cree": true,
-     "stade": "adulte mâle complet"
+     "stade": "adulte mâle complet",
+     "mort": "34E9532051DB340E72725BE130E9313A9251D8C3A87717947945759C9F1BAE07"
     },
     "AVBR": {
      "adresse": "rsKBKV6ZJYZWuB2HWzx4be4NXQTxMre1z9",
      "cree": true,
-     "stade": "adulte mâle complet"
+     "stade": "adulte mâle complet",
+     "mort": "67174E08436635C0E42F513920FA8A21E5D840899C43500BE8F24547CCC1342B"
     },
     "EF3": {
      "adresse": "rwJjAAuVeSFtXqvQdB93ZWcECAEr1AAVue",
      "cree": true,
-     "stade": "adulte mâle complet"
+     "stade": "adulte mâle complet",
+     "mort": "465A081B2F4C11E124E1DE2F6322D325EB1F3F19483BDA0D87A7D24D6DCB4004"
     },
     "PVX": {
      "adresse": "rJ7f8Wi1qp6MAjXcqVzDkoAdQyU8N5GwYJ",
      "cree": true,
-     "stade": "adulte mâle complet"
+     "stade": "adulte mâle complet",
+     "mort": "DD5D643CC92A106FD0568DB28AE67B67ABEABAC37747998A05D8CCBEDD35B855"
     },
     "EF2": {
      "adresse": "rKg2G1LkErQKuPTtTMBskKgFSdgnxJa2zW",
      "cree": true,
-     "stade": "adulte mâle complet"
+     "stade": "adulte mâle complet",
+     "mort": "E338DEC1E708D97C076D5764E94F69B6AAEF300EBB2EE20162D52F1FB955944D"
     },
     "PDB": {
      "adresse": "rSpg2NE3Jv9NwTscyZeBEpsKXQP4WN2vx",
      "cree": true,
-     "stade": "adulte mâle complet"
+     "stade": "adulte mâle complet",
+     "mort": "2ACDD90F6501BC67364B531A1AD6E3A199B7E443E3E9BFE4D9FF0B0AEBA76572"
     }
    },
    "synapses": {},
@@ -544,9 +612,21 @@
      "type": "parade",
      "detail": "Check vers V1 (3FEFCEC6…)",
      "hash": "4E4B2C8F0C3C46188D5E5EDA61B9F4ACEE76DA82D317B3A20536EA5A298C7B67"
+    },
+    {
+     "t": "2026-11-04T01:41:19.876Z",
+     "type": "mort",
+     "detail": "âge 95h, 8 neurones supprimés, 75.4 XRP rendus au milieu, 1.8 brûlés",
+     "hash": "561902DB37108C08C9545C23D0454E13969522B93A94C0D10B85B448A2D3C935"
     }
    ],
-   "mort": null,
+   "mort": {
+    "date": "2026-11-04T01:41:19.701Z",
+    "registre": 22050334,
+    "hash": "561902DB37108C08C9545C23D0454E13969522B93A94C0D10B85B448A2D3C935",
+    "rendu": 75.39641199999994,
+    "brule": 1.8
+   },
    "mange": 15.000636,
    "registreCourant": 22050123
   },
@@ -823,6 +903,11 @@
    "t": "2026-11-04T01:22:57.138Z",
    "type": "robinet",
    "detail": "+1000 XRP (total robinet 1000), milieu 1000.0 XRP"
+  },
+  {
+   "t": "2026-11-04T01:42:31.352Z",
+   "type": "fin",
+   "detail": "milieu 937.1 XRP, robinet 1000 XRP, recyclé 322.2 XRP"
   }
  ]
 }

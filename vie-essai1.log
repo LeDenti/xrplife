@@ -1,0 +1,39 @@
+01:43:00 [milieu] milieu créé rpAeX4pZwH65pRcwrizmQ77Qe9DvVYbyej
+01:43:04 [milieu] robinet +1000 XRP (total robinet 1000), milieu 1000.0 XRP
+01:43:08 [V1] œuf founder laid by the environment, 395.9 XRP F0110A8C…
+01:43:08 [V1] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+01:43:15 [V2] œuf founder laid by the environment, 395.9 XRP 039533CA…
+01:43:15 [V2] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+file:///Users/jul/xrplife/vie.mjs:75
+      if (code !== 'tesSUCCESS') { const e = new Error(code); e.code = code; e.meta = r.result.meta; throw e; }
+                                             ^
+
+Error: tecUNFUNDED_PAYMENT
+    at soumettreSeul (file:///Users/jul/xrplife/vie.mjs:75:46) {
+  code: 'tecUNFUNDED_PAYMENT',
+  meta: {
+    AffectedNodes: [
+      {
+        ModifiedNode: {
+          FinalFields: {
+            Account: 'rpAeX4pZwH65pRcwrizmQ77Qe9DvVYbyej',
+            Balance: '208178172',
+            Flags: 0,
+            OwnerCount: 0,
+            Sequence: 22050368
+          },
+          LedgerEntryType: 'AccountRoot',
+          LedgerIndex: '6C3D08AE9FE9D19AD52AD3A644CA251A05749A5CA58ADAA9B85F4B9EAD4944E9',
+          PreviousFields: { Balance: '208178184', Sequence: 22050367 },
+          PreviousTxnID: '039533CA7EF78F1004E7E4C1482D30E1457004BBDF11CB6071CB91D68EF5422B',
+          PreviousTxnLgrSeq: 22050368
+        }
+      }
+    ],
+    TransactionIndex: 18,
+    TransactionResult: 'tecUNFUNDED_PAYMENT'
+  }
+}
+
+Node.js v26.12.1
+code de sortie 1

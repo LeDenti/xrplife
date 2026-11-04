@@ -1,0 +1,4130 @@
+{
+ "reseau": "wss://s.altnet.rippletest.net:51233",
+ "mini": 0,
+ "milieu": {
+  "adresse": "rpAeX4pZwH65pRcwrizmQ77Qe9DvVYbyej",
+  "robinet": 3000,
+  "recycle": 0
+ },
+ "vers": {
+  "V1": {
+   "sexe": "herm",
+   "adresse": "rMB4iVTnBW71g2nHJTY8riSRpty5iRfJ6j",
+   "parents": [],
+   "generation": 0,
+   "ne": {
+    "registre": 22050366,
+    "date": "2026-11-04T01:43:08.449Z"
+   },
+   "stade": 0,
+   "neurones": {
+    "ADAL": {
+     "adresse": "rMe39qkHuJmoRVAD6sh8L6gDodtXKsj2YE",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADAR": {
+     "adresse": "r3gKzxT3tbEsXPJ6rNW4xDEk4scwijSpdw",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIBR": {
+     "adresse": "rJjnpvZGC2crrcLtkR4tLYUSG4Lm28PAwr",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASHL": {
+     "adresse": "rUb15dZo1ayeAUFbCJdRssV3V6udtERW6t",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASKL": {
+     "adresse": "rLHC2Xbt1jUDsuHE6dZUZHR6KanUcketz6",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "r9wbjUqjV1VxXEpxdiA3caV7DixRbBQ3qF",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVAR": {
+     "adresse": "rNxdrGCsGFNpdzAxKYxkuX3sG2SmkqhCAc",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rfWA993qPLyz58yxXfrHcnGKAe7FLZVhGJ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVDR": {
+     "adresse": "rNCe2CFZoXifynwYdZEMAT2vz3gxtKpHuj",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVJR": {
+     "adresse": "rUWgHSJFZ6rXCSKgmrjscKRmtq3wdHwwQT",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RICR": {
+     "adresse": "rBfP93b5mYoePxwApQtM76H3inGaQRnmbp",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIML": {
+     "adresse": "rJoHBMU8isQYsBuoAk2ryvXhnRh636ihTB",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIBL": {
+     "adresse": "rnnQd4HBhTprF4wZYj5arXCfnH6TYjYJKn",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASHR": {
+     "adresse": "rHaKcA7j19f1fB1NkcRJaqe9Pz4rrvpLrv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "rDi1C5F49mD1CbbXmhZBo2WYhcBneYMdMj",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVDL": {
+     "adresse": "rDMEvYjPyiR2jkqtojb68ygbobLVYVkNBv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RICL": {
+     "adresse": "rfQWgspenpiqVmmS61SzzUZuXBEL3w6w2D",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIMR": {
+     "adresse": "rHxekeiSmgBXMxSUUxUNvhgPmeqyqBUnV2",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADEL": {
+     "adresse": "rhe6bf2fJAxn5GC6psq385T1nmqRdbQRmW",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "FLPR": {
+     "adresse": "rwET4tBnGS7AQxFSuz1LYfCBpNEAvUgMqN",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADER": {
+     "adresse": "rMVnvpSi8dkbETeFwZAx3VngpB9VFimjk7",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVKR": {
+     "adresse": "r3EfWgAimcb3FKfqUpDgXxo9dud1xs7VN3",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "rKeGTzLBvADk2soA9xyfhN4AnNfDfZ2nSP",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIGL": {
+     "adresse": "raYjg18RVSvdELXY59G9YEpGP9LzipHppy",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIGR": {
+     "adresse": "racTNyLvXzLPBUX9EuhFzZMDtnjHyAsCxk",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADFL": {
+     "adresse": "rGXrz5wMro9RBiMZTKZfRznQpj29gThCVR",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADFR": {
+     "adresse": "rwWv91qgvhmLhhaDZ6DEW84BnaUzu2bFNU",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIYL": {
+     "adresse": "rBgrcnXhFC58gSFMAaKfVEej57hWuAUkJU",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIZL": {
+     "adresse": "rKLcMtnHhNidA96xHjTucFjEBDuUTzDDvi",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASER": {
+     "adresse": "r3E2g9LUkz7TNYMnMwMHfcyHk43j1wcCJH",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AUAL": {
+     "adresse": "rsW9sf6TnnpEFBgj5WJnagGAg7kWiFT4Kh",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVHR": {
+     "adresse": "r93Ln7Dzen2rbBPBkHqdPL4WmhirGCsBiA",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIAL": {
+     "adresse": "rp9Mrqh1VYRxiRvnug1usyBmoUVeN5teFy",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIAR": {
+     "adresse": "rPCWRG5CuQGqS4xX5fk7nXunK5Y98fGKg3",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIYR": {
+     "adresse": "rLmWKZH26adoZ9jwv6ptQwpkPJA2EgVEH2",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIZR": {
+     "adresse": "rDoQgtEW1hzjkoyDqZnhzfWmzK6qJafMkd",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AUAR": {
+     "adresse": "r3yxtWypNDPJT4PeJxo7t4u1vH4bFfPra2",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIAR": {
+     "adresse": "rsvYxGqVE1HNc9jx9fcuLmo8VZqDVaExU8",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URXR": {
+     "adresse": "rJZdxf3kedb5BFcMHNyEEPP5jfofWgpqUX",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADLL": {
+     "adresse": "rM6g9SjH3Hkuvho6x733y3qJgpKbyXWGDG",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADLR": {
+     "adresse": "r3AZVP59CfLrM6dLxqMHXxuTPuqTwqZHdf",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIAL": {
+     "adresse": "rMDgGKuuBpxznmPyFf4L1vPrGPs3FbCVU1",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWCL": {
+     "adresse": "rJND43tyut7B5Hwf1BwLsdpEMwbcSCuW2w",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVQL": {
+     "adresse": "rhgRjsrabq164dweof4QcsjYtWRQ8GtrdK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMGL": {
+     "adresse": "rwpufqL56yK25gUYBy5jRZDC17GyQFiaQG",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASKR": {
+     "adresse": "rpcymSm5sQnfAZU7eGTBp9SiJLzVLbenXx",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWCR": {
+     "adresse": "rQ3iGBcWzAEYhqvD2nENAmLZSxcFQWsZbz",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AFDL": {
+     "adresse": "r98xfiQDXPETFfuY1W3P4m4JvyBbsMqgL2",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AFDR": {
+     "adresse": "r3AhBfyGkZWWuURHjdACeWzYesjzL635PC",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASIL": {
+     "adresse": "rfenu4AYTrMGgZbcUxXtXgKTmtUEof4cfX",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWBL": {
+     "adresse": "r4UxaozLjjEVrqkPdd4xt5zmVEVMdRP6vR",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIFL": {
+     "adresse": "rJhtVD1rtgHM7jzDs4KYvhj5TSA3BfUNoL",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASJR": {
+     "adresse": "rUSWT7xJpPt321jNdLmqUo9dLb12bgWwdL",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWBR": {
+     "adresse": "r3ybNC14hA8m5UFDsmDwc8msQFdUHJy8Ey",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIFR": {
+     "adresse": "rJkqzyakLf2wDxUeZyFNAFutn9wC6UwAGE",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVEL": {
+     "adresse": "rsdPrG6ujRVGHoS8UHXsPt5pMvs37J5hQA",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "rnydVWZKHQRrJyG4hhAqL9Sd3Z3dSsHk8q",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "DVC": {
+     "adresse": "rPugU9LVSVxyzH52oLBGtM536eVCoF8WX1",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIBR": {
+     "adresse": "rKQsXPgrK5EU8ZPi6fy3s44SqUhtfDGfHa",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMDDR": {
+     "adresse": "rw5QUqR4CQAMcBGW6KqWgVXdXfv98ApJnX",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMDVR": {
+     "adresse": "rLCWGeqKnKxutfZXCo2MneDQYVEHWuYuyA",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIBL": {
+     "adresse": "rL8kC7peMH7Nj76569tDnYHbHDqVucWTsX",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SAADR": {
+     "adresse": "rnDZrcqmDDLKrQa8kAzK65R2yjnHAc9BWS",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIADL": {
+     "adresse": "rMLy3UbgY7qvKuSqAbj589XCPbF6d27puP",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMDDL": {
+     "adresse": "r3YRxjK2B6NBhi1WpWdBnaH3ebqXyZcChQ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMDVL": {
+     "adresse": "rGQUGJDh8HM5G9shHCmVLUzUGQLyNggWtX",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIML": {
+     "adresse": "rhP2v9haorhSstvbjFh3GTNiq8VbFigK7S",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIMR": {
+     "adresse": "r4Vo6wbrFP8c1t7JhwL1yg6ggrwif8Lh6s",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASGL": {
+     "adresse": "r4i7xN54siDqVKrpzJEK3irniPCWcYHDXy",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASJL": {
+     "adresse": "r4HimkeM2w8uumayRx2QrgLUZbD9STnwrK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASGR": {
+     "adresse": "r9GC51MaKzy4RZfeWZK9Z8Wwc96AFouk2A",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AINL": {
+     "adresse": "rHsuum4SD9Bza7QjfbXu6Qj2rK4jzxrPCB",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "BAGL": {
+     "adresse": "rpAyM3YwkLnyCY8pFe6SYvZuRG4acBe2QM",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AINR": {
+     "adresse": "rQfYmR9SU4ZW9k6NmWfbL641aoY42FG1Qn",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "BAGR": {
+     "adresse": "rGXE8cZJomFtBXcZ1KcMPu2QEhVMr1cr12",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "CEPVL": {
+     "adresse": "rBuE3h6GbUD7cD6iLMysSnDDF2T23TQuFu",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIBDL": {
+     "adresse": "r3X83b8DCmfiVRFpzVhkpuqcW2fUz6YVHp",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMBDL": {
+     "adresse": "rK2qqHzgj7ZUFSt8ntnrah4YY472pm1CTt",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMBVL": {
+     "adresse": "r3oNzCYba6YrFv6vUV2LXhcpW8BQpDAv2T",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMBDR": {
+     "adresse": "rwTYCQvYJw4AQLGYBeL6wpp4hW9wNdwF8A",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMBVR": {
+     "adresse": "rPpfbLcQyd2kQJtiH8vAu91FFCshHrgsBF",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ALA": {
+     "adresse": "rhEaPVXzYD1ALfebhhFm8ePXMqqg8tDyY3",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1L": {
+     "adresse": "raMjeGjXbRKftBhCCBPtm1pP4Z8gQWWsjb",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ALML": {
+     "adresse": "rsFfsAiJhC83G3s2yvuTYA2fw7GebZUyaD",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "BDUL": {
+     "adresse": "rhNRHW7AoLXmzDRP62Z9mQYajkY7xdUwCU",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVR": {
+     "adresse": "rMU4A3TV6gsyJNm7zBPJzvfLaFvwyYvahq",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ALMR": {
+     "adresse": "rEGkdTJ7oWxVWYAw8qRhpDEsNtqk6pjhDP",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "BDUR": {
+     "adresse": "rD2e1mvzZ6bq57JKjPpPgHUR2EPys76A6e",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "CEPDR": {
+     "adresse": "rE8Agp6k8VefRndjFzP6wyYECiFt1GXHkG",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASEL": {
+     "adresse": "rw37PvQWq9vZ65kcRBvZfe9D6hM7hQWLaf",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASIR": {
+     "adresse": "rMkjyZmp3n9jAbrivBn9cuJg6RZry3VZZ7",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVHL": {
+     "adresse": "rsLUL2JwahseKKDZbpqJvr9zpmDATXR5Md",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMGR": {
+     "adresse": "r3AoY4iD87RcdrseNtZe4fkBmMg8CwwPSH",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVQR": {
+     "adresse": "r9ASs4caqhmwad8pkdb7w49zq8t59UEkkn",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URXL": {
+     "adresse": "rEvjscjKHvaFTeMNDkWSW7heiy3P53A9Ps",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URYDR": {
+     "adresse": "rPSnSudYvvEutrXMc1MQadR4CpSNL99fDK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "DVA": {
+     "adresse": "rpYK1trkiU8g5TGwd4bCgTPXe9Ss4DXWvg",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVJL": {
+     "adresse": "rMSoKCz7khEk3y9SZSQ44UTLDxafr7Udvt",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "rHRhbTnHC9Hp5cZQrofybhEw1tzRFMSqhA",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVKL": {
+     "adresse": "rD98zWUD3SvZLQ3xqKirrZfybeCfNodLcP",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDL": {
+     "adresse": "rwxiQib3QKGWuS4aQw1zUdG1ofs3BtVZM7",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVPL": {
+     "adresse": "r48EtwB9oomDFjzdCRCeeJ7h2CohbXBK24",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SAAVL": {
+     "adresse": "rmZG1Wc1F6Hv9AgN23RLZYVAdu8M6YUU2",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWAL": {
+     "adresse": "rNd4ZTdB6VHgGf9a7k4R5b5gUWrfhQZ4vr",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWAR": {
+     "adresse": "rJTNpkHapRay1RLoNcUpVxxukpL59BCYe",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIR": {
+     "adresse": "r9hebmPpei7CyGQgT9jG4MjVX3ts4FerAC",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "CEPDL": {
+     "adresse": "ra7acLGK6fs5CZCkVt7uAzddvTLsUp5t4Y",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLLL": {
+     "adresse": "rHnbSWDmKXFkk4fDXkTwFCzQ53FKMUduqg",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URBL": {
+     "adresse": "rDoQHH1ixJPe5PBaS8Gyhe53n12Xxcx6LC",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URYDL": {
+     "adresse": "rNzM9EYVDXubqKTdTGTeQjCMndC4e6hitB",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLLR": {
+     "adresse": "rhuSCaWcUK9JFZopx2oBeqms2RUfuR2bhc",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIBVR": {
+     "adresse": "rE7ksvUuUBaB1mjW2Xwki4iBpW4UxaRBai",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "CEPVR": {
+     "adresse": "rCTjSPpoSVEkYUBbERiKEy2o4krwKu8p1",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLQVR": {
+     "adresse": "r4pdxmrzLTXdhRHpkM2VmrRQaPWcLBrtFm",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URYVR": {
+     "adresse": "r9dZNup4urUjaDMF8HY6SKwvRzqMHHRn6f",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIVR": {
+     "adresse": "rfjEh4XTxMknodNatqMAfNDDGEEnGQ8ogw",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "FLPL": {
+     "adresse": "rDCgujEYpfQQPtrumPorK7EiTGDWFMmyvS",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1DL": {
+     "adresse": "rNSvbgzDqGsJxjhTXeyRxzXM6H2UYWYgXA",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1DR": {
+     "adresse": "rbjdPPSpV2kTMWVYMeddWEJB2Hmsv5idZ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIPL": {
+     "adresse": "rsoAXfGPNkEBykJmvWRJeXoKuPcTmbm35U",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDVL": {
+     "adresse": "rE5DKAmuKHURK1CYHibVBhiHpTdpqqfu4r",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMEL": {
+     "adresse": "rKMsLbgL2uq44Z47CaPfJdRJJaQuzq2oHg",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1R": {
+     "adresse": "r3ENXhWi7QVQrvnxis1D5hVFEva8kn1nCo",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIPR": {
+     "adresse": "rWY4jDiJGrFk5C5nAQB7qob7fLk5fT6yu",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDVR": {
+     "adresse": "rLysEmWjAHHDduVbVKJK5hFxk4BwALBiUH",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1VL": {
+     "adresse": "r4f1WVVnNomaNaBz6TjEyTT3BNpXbeQX2Q",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDDL": {
+     "adresse": "rspeAYByzVxBodfkXXtkdZhCuVrQvAeSMN",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMER": {
+     "adresse": "rMpvRSQtk5KZc5yzTk1daCtXdedNRM2Ba4",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1VR": {
+     "adresse": "rnV5xAd9KrBZj6DKKP3ZenAoKyX5dLtUun",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDDR": {
+     "adresse": "rh7PHsDQ3h8MZyXUzaJCMJzG37mA4FZed2",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2DL": {
+     "adresse": "rw7EUMeNGYNciF5cx4VJnZ7hMzKYH9YNrP",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMEV": {
+     "adresse": "rJQWXMD7U8L2zS3EYxi83WA5p7r9quArmn",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2DR": {
+     "adresse": "rUJygxak9LbEq42Z3gz2NEp6AKnCbDVrpY",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIH": {
+     "adresse": "r3EQpwRgpsxhqVfATF7wU7GUNKtSUe8tqs",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMED": {
+     "adresse": "rpbh1ervnz7z1jKGFZ18US4AwwdhTyUviX",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2L": {
+     "adresse": "rEwoT5B77hvZPPF5ydgBUK6T4Cd9gEs2fJ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLQVL": {
+     "adresse": "rwybATUPWfCFUnyt3uhrRGnimGxbBSJdgL",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2R": {
+     "adresse": "rEVBG9HvesPY3fDp1oa8RKwVL3M8GbuAqq",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLQDR": {
+     "adresse": "r3oSzMKmxrfQWMHDZfcUN4HHvxi5b4XGXw",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2VL": {
+     "adresse": "r4rJbfNLeePhWuu3o4qyRSYa5zt6nnK6eQ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2VR": {
+     "adresse": "rQpkyzjv8rcoLXsJrrf75VmNzMfbJauhwk",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLQDL": {
+     "adresse": "rnMQzvcPXvNQNDNdbrFye6ducmAy5hcAGE",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIBVL": {
+     "adresse": "r4jifTpPu56MbTc4ocKQK8aiR8kuycBhiK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIBDR": {
+     "adresse": "rBExFY4VNZFrE79gerAPS2gzQ5i7FCA3Qd",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIS": {
+     "adresse": "r3BLKrMwGPdL7oEbVMiBZaTkN4f5qnBzKA",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIAVL": {
+     "adresse": "rpntJdKmxbmwY6L9R48KfHEke6RNmQrz46",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIAVR": {
+     "adresse": "rskxWFVRqzd3maMzWj4g3tbpRAqCn3bWD7",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RID": {
+     "adresse": "rnHFjEWodTZCZcVSui23u4jK4FWAAcr66T",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVPR": {
+     "adresse": "rMc5gF3G6tswYqAGT2CEXYL6nELxuhFyTX",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URADR": {
+     "adresse": "rEMR1LHLud3mqgzfM6nxNmrze1rmGvE5bN",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVT": {
+     "adresse": "rhkds4tXSrrDGsfnmJRrJ72mcAYJbfqGbZ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDR": {
+     "adresse": "rJZoo2GvLFgkf6ofo9C8dUje92hL96DMpp",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIADR": {
+     "adresse": "rHPNx4ZSF55sSxVGmkFGRcHCUaL13AicMh",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URYVL": {
+     "adresse": "rLzqi8bNNeexpVhdmZVeFzbKbDPvRKPLmR",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SAADL": {
+     "adresse": "rnu8kVmUpZFWU9zkhgVWNM1EGsXKJs4sNC",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SAAVR": {
+     "adresse": "rMoXG32QxtZzN9zvWBATKhR166kjNpZ4Gm",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIVL": {
+     "adresse": "rsLoxQ8nFDiB1d1LzpnGZ6JyjjdcQBqweG",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URAVR": {
+     "adresse": "rfktMYuv39jhrPpbVf865ygTU25atQ9kxi",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URADL": {
+     "adresse": "rh9zYGpucMUe7mVFa1MJUxRdnUSWN3DJpn",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URAVL": {
+     "adresse": "r34h6MpB6Bt5FyFeX3ocQCkCF1j3hfc1jv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URBR": {
+     "adresse": "raEKr8jYHiEgMbpb9wccvZmC2cr33zgBWK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVL": {
+     "adresse": "rMjipJdsu7PJwbr5zKy7kiUsX22rJUQaqR",
+     "cree": false,
+     "stade": "L1 5h"
+    }
+   },
+   "synapses": {
+    "ADAL>ADAR": 1,
+    "ADLR>ADAR": 1,
+    "PVPR>ADAR": 1,
+    "RICL>ADAR": 1,
+    "URXR>ADAR": 1,
+    "ADAL>AIBR": 1,
+    "ADLR>AIBR": 3,
+    "AIAR>AIBR": 2,
+    "AIZL>AIBR": 4,
+    "ASEL>AIBR": 3,
+    "ASER>AIBR": 6,
+    "ASHR>AIBR": 2,
+    "ASIR>AIBR": 2,
+    "AVKR>AIBR": 1,
+    "AWCL>AIBR": 3,
+    "AWCR>AIBR": 2,
+    "RIBL>AIBR": 1,
+    "RIML>AIBR": 2,
+    "ADAL>ASHL": 9,
+    "AIZL>ASHL": 2,
+    "RIFL>ASHL": 3,
+    "ADAL>ASKL": 1,
+    "ADLL>ASKL": 5,
+    "AIAL>ASKL": 2,
+    "PVQL>ASKL": 2,
+    "ADAL>AVAL": 1,
+    "ADAR>AVAL": 1,
+    "DVA>AVAL": 1,
+    "DVC>AVAL": 2,
+    "FLPL>AVAL": 1,
+    "PVPL>AVAL": 1,
+    "PVPR>AVAL": 1,
+    "RIBL>AVAL": 1,
+    "RICL>AVAL": 2,
+    "RICR>AVAL": 2,
+    "SAADL>AVAL": 2,
+    "SAAVL>AVAL": 1,
+    "ADAL>AVAR": 1,
+    "ADEL>AVAR": 2,
+    "ASHR>AVAR": 1,
+    "DVC>AVAR": 3,
+    "OLQDR>AVAR": 1,
+    "RIBR>AVAR": 2,
+    "RICL>AVAR": 1,
+    "RICR>AVAR": 2,
+    "RIML>AVAR": 1,
+    "SAADR>AVAR": 3,
+    "SAAVR>AVAR": 3,
+    "ADAL>AVBL": 3,
+    "ADAR>AVBL": 1,
+    "AIBL>AVBL": 4,
+    "ASHL>AVBL": 1,
+    "PVCR>AVBL": 1,
+    "PVR>AVBL": 2,
+    "RIFL>AVBL": 3,
+    "RIML>AVBL": 1,
+    "RIMR>AVBL": 1,
+    "ADAL>AVDR": 2,
+    "ADEL>AVDR": 1,
+    "ALMR>AVDR": 1,
+    "DVC>AVDR": 1,
+    "FLPL>AVDR": 1,
+    "PVCR>AVDR": 1,
+    "RIBL>AVDR": 1,
+    "ADAL>AVJR": 3,
+    "RIFL>AVJR": 1,
+    "ADAL>RICR": 1,
+    "ADAR>RICR": 1,
+    "ASHR>RICR": 1,
+    "AVAL>RICR": 1,
+    "CEPDL>RICR": 1,
+    "CEPDR>RICR": 1,
+    "CEPVL>RICR": 1,
+    "CEPVR>RICR": 2,
+    "OLQDL>RICR": 1,
+    "OLQDR>RICR": 2,
+    "OLQVL>RICR": 1,
+    "OLQVR>RICR": 1,
+    "RIAR>RICR": 1,
+    "URXR>RICR": 1,
+    "ADAL>RIML": 1,
+    "AIBR>RIML": 5,
+    "AIZL>RIML": 4,
+    "AVKL>RIML": 1,
+    "AVKR>RIML": 1,
+    "SAADL>RIML": 2,
+    "SAADR>RIML": 3,
+    "SAAVL>RIML": 1,
+    "SAAVR>RIML": 2,
+    "ADAR>AIBL": 1,
+    "ADLL>AIBL": 2,
+    "AIAL>AIBL": 3,
+    "AINR>AIBL": 1,
+    "AIZR>AIBL": 4,
+    "ASEL>AIBL": 4,
+    "ASER>AIBL": 1,
+    "ASHL>AIBL": 1,
+    "AWCL>AIBL": 4,
+    "AWCR>AIBL": 2,
+    "DVC>AIBL": 1,
+    "PVT>AIBL": 1,
+    "RIGR>AIBL": 1,
+    "RIML>AIBL": 1,
+    "ADAR>ASHR": 6,
+    "AIAR>ASHR": 1,
+    "AIZR>ASHR": 1,
+    "ASHL>ASHR": 1,
+    "RIFR>ASHR": 2,
+    "ADAR>AVBR": 1,
+    "AIBR>AVBR": 1,
+    "ASHR>AVBR": 2,
+    "AVJL>AVBR": 1,
+    "DVA>AVBR": 1,
+    "PVCL>AVBR": 1,
+    "PVCR>AVBR": 1,
+    "PVPL>AVBR": 2,
+    "PVPR>AVBR": 1,
+    "PVR>AVBR": 1,
+    "RIFR>AVBR": 3,
+    "RIML>AVBR": 2,
+    "ADAR>AVDL": 1,
+    "ASHL>AVDL": 1,
+    "ASHR>AVDL": 1,
+    "AVJL>AVDL": 1,
+    "ADAR>RICL": 1,
+    "CEPDL>RICL": 2,
+    "CEPDR>RICL": 1,
+    "CEPVL>RICL": 1,
+    "CEPVR>RICL": 2,
+    "OLQDL>RICL": 2,
+    "OLQDR>RICL": 1,
+    "OLQVL>RICL": 1,
+    "OLQVR>RICL": 1,
+    "URXL>RICL": 1,
+    "ADAR>RIMR": 1,
+    "AIBL>RIMR": 7,
+    "AIZR>RIMR": 3,
+    "AVKL>RIMR": 1,
+    "AVKR>RIMR": 2,
+    "SAADL>RIMR": 2,
+    "SAADR>RIMR": 2,
+    "SAAVL>RIMR": 2,
+    "ADEL>ADAL": 1,
+    "ASHL>ADAL": 2,
+    "CEPDL>ADAL": 1,
+    "RICR>ADAL": 1,
+    "URXL>ADAL": 1,
+    "ADEL>FLPR": 1,
+    "FLPL>FLPR": 1,
+    "ADER>AVKR": 1,
+    "PVT>AVKR": 2,
+    "RIGL>AVKR": 1,
+    "RIGR>AVKR": 1,
+    "ADER>PVCR": 1,
+    "AVJR>PVCR": 1,
+    "PVPL>PVCR": 1,
+    "ADER>RIGL": 1,
+    "AVKL>RIGL": 1,
+    "OLLL>RIGL": 1,
+    "PVT>RIGL": 1,
+    "URXL>RIGL": 1,
+    "ADER>RIGR": 1,
+    "AVKL>RIGR": 1,
+    "OLLR>RIGR": 1,
+    "PVPR>RIGR": 1,
+    "PVT>RIGR": 2,
+    "RIGL>RIGR": 1,
+    "URXR>RIGR": 1,
+    "ADFL>ADFR": 2,
+    "AIYR>ADFR": 1,
+    "AIZR>ADFR": 2,
+    "AWBR>ADFR": 2,
+    "ADFL>AIYL": 1,
+    "AFDL>AIYL": 3,
+    "ASEL>AIYL": 5,
+    "ASER>AIYL": 2,
+    "AWAL>AIYL": 1,
+    "AWCL>AIYL": 1,
+    "AWCR>AIYL": 2,
+    "ADFL>AIZL": 3,
+    "AFDL>AIZL": 1,
+    "AIYL>AIZL": 5,
+    "AVHR>AIZL": 1,
+    "AWBL>AIZL": 2,
+    "RIH>AIZL": 1,
+    "ADFL>ASER": 1,
+    "ADFR>ASER": 1,
+    "ADLR>ASER": 1,
+    "AIAL>ASER": 1,
+    "AINR>ASER": 1,
+    "AIZL>ASER": 1,
+    "ASIR>ASER": 1,
+    "AWAR>ASER": 2,
+    "AWBR>ASER": 1,
+    "AWCR>ASER": 1,
+    "ADFL>AUAL": 2,
+    "AINR>AUAL": 2,
+    "DVA>AUAL": 1,
+    "URXL>AUAL": 2,
+    "ADFL>AVHR": 1,
+    "AWBL>AVHR": 1,
+    "PVPL>AVHR": 1,
+    "ADFL>RIAL": 2,
+    "AIYL>RIAL": 2,
+    "AIZL>RIAL": 2,
+    "AUAL>RIAL": 1,
+    "BAGR>RIAL": 2,
+    "RIAR>RIAL": 3,
+    "RIBL>RIAL": 1,
+    "RIGL>RIAL": 3,
+    "RIH>RIAL": 2,
+    "RIR>RIAL": 2,
+    "RIVR>RIAL": 1,
+    "RMDL>RIAL": 2,
+    "RMDR>RIAL": 2,
+    "RMGL>RIAL": 1,
+    "SMDDL>RIAL": 3,
+    "SMDDR>RIAL": 2,
+    "SMDVL>RIAL": 2,
+    "SMDVR>RIAL": 3,
+    "URXL>RIAL": 3,
+    "ADFR>AIAR": 2,
+    "ADLR>AIAR": 3,
+    "AIAL>AIAR": 1,
+    "AIMR>AIAR": 4,
+    "AINR>AIAR": 1,
+    "AIZR>AIAR": 1,
+    "ASGR>AIAR": 4,
+    "ASHR>AIAR": 2,
+    "ASIR>AIAR": 1,
+    "ASJR>AIAR": 1,
+    "ASKR>AIAR": 3,
+    "AWAR>AIAR": 1,
+    "AWBR>AIAR": 1,
+    "AWCL>AIAR": 3,
+    "AWCR>AIAR": 3,
+    "PVQR>AIAR": 4,
+    "ADFR>AIYR": 1,
+    "AFDR>AIYR": 3,
+    "ASEL>AIYR": 4,
+    "ASER>AIYR": 8,
+    "AWAR>AIYR": 1,
+    "AWCR>AIYR": 1,
+    "ADFR>AIZR": 7,
+    "AFDR>AIZR": 1,
+    "AIYR>AIZR": 3,
+    "AIZL>AIZR": 2,
+    "ASER>AIZR": 1,
+    "AWBR>AIZR": 1,
+    "DVA>AIZR": 3,
+    "RIGR>AIZR": 1,
+    "RIH>AIZR": 2,
+    "RIR>AIZR": 1,
+    "ADFR>AUAR": 2,
+    "AINL>AUAR": 1,
+    "AIYR>AUAR": 1,
+    "URXR>AUAR": 3,
+    "ADFR>RIAR": 2,
+    "AIYR>RIAR": 1,
+    "AIZL>RIAR": 1,
+    "AIZR>RIAR": 2,
+    "AUAR>RIAR": 2,
+    "BAGL>RIAR": 2,
+    "RIAL>RIAR": 3,
+    "RIBR>RIAR": 2,
+    "RIH>RIAR": 2,
+    "RIR>RIAR": 2,
+    "RMDL>RIAR": 2,
+    "RMDR>RIAR": 1,
+    "SMDDL>RIAR": 2,
+    "SMDDR>RIAR": 3,
+    "SMDVL>RIAR": 2,
+    "SMDVR>RIAR": 2,
+    "URXR>RIAR": 2,
+    "ADFR>URXR": 1,
+    "AUAR>URXR": 1,
+    "PVPR>URXR": 1,
+    "RIR>URXR": 1,
+    "URBR>URXR": 2,
+    "ADLL>ADLR": 1,
+    "AVHL>ADLR": 1,
+    "AWAR>ADLR": 1,
+    "AWCR>ADLR": 1,
+    "ADLL>AIAL": 1,
+    "AIML>AIAL": 2,
+    "AIZL>AIAL": 1,
+    "ASGL>AIAL": 3,
+    "ASHL>AIAL": 2,
+    "ASKL>AIAL": 2,
+    "AWAL>AIAL": 2,
+    "AWCL>AIAL": 3,
+    "AWCR>AIAL": 1,
+    "PVQL>AIAL": 3,
+    "ADLL>AWCL": 2,
+    "ASEL>AWCL": 1,
+    "ASIL>AWCL": 1,
+    "AWCR>AWCL": 2,
+    "ADLL>PVQL": 1,
+    "ASJL>PVQL": 3,
+    "AWAL>PVQL": 2,
+    "ADLL>RMGL": 1,
+    "ASHL>RMGL": 1,
+    "AVKR>RMGL": 1,
+    "RIGL>RMGL": 1,
+    "ADLR>ASKR": 3,
+    "AIAR>ASKR": 2,
+    "AIMR>ASKR": 1,
+    "AINR>ASKR": 1,
+    "ASHR>ASKR": 1,
+    "ASJR>ASKR": 1,
+    "AWAR>ASKR": 1,
+    "PVQR>ASKR": 1,
+    "ADLR>AWCR": 1,
+    "AIAL>AWCR": 1,
+    "AIMR>AWCR": 1,
+    "ASEL>AWCR": 1,
+    "ASER>AWCR": 1,
+    "ASIL>AWCR": 1,
+    "ASIR>AWCR": 2,
+    "AFDL>ADFL": 1,
+    "AIYL>ADFL": 2,
+    "AVHR>ADFL": 1,
+    "AWAL>ADFL": 2,
+    "AWBL>ADFL": 1,
+    "AFDL>AFDR": 1,
+    "AINL>AFDR": 1,
+    "ASEL>AFDR": 1,
+    "AIAL>ASIL": 1,
+    "AIAL>AWBL": 3,
+    "AWAL>AWBL": 2,
+    "AIAL>RIFL": 1,
+    "AVHR>RIFL": 1,
+    "BDUL>RIFL": 1,
+    "AIAR>ASJR": 1,
+    "AIMR>ASJR": 1,
+    "ASGR>ASJR": 1,
+    "AIAR>AWBR": 1,
+    "ASER>AWBR": 1,
+    "AWAR>AWBR": 3,
+    "AWBL>AWBR": 1,
+    "AIAR>RIFR": 1,
+    "RIFL>RIFR": 1,
+    "AIBL>AVEL": 1,
+    "AIBR>AVEL": 1,
+    "AIZR>AVEL": 2,
+    "ALA>AVEL": 1,
+    "AUAL>AVEL": 1,
+    "AVKL>AVEL": 1,
+    "AVKR>AVEL": 1,
+    "BAGR>AVEL": 2,
+    "CEPVR>AVEL": 3,
+    "DVA>AVEL": 2,
+    "OLLR>AVEL": 3,
+    "RIBL>AVEL": 1,
+    "RIFL>AVEL": 1,
+    "RIGR>AVEL": 1,
+    "RIS>AVEL": 2,
+    "URYDR>AVEL": 4,
+    "URYVR>AVEL": 2,
+    "AIBL>AVER": 1,
+    "AIBR>AVER": 1,
+    "AIZL>AVER": 1,
+    "AIZR>AVER": 1,
+    "ALA>AVER": 1,
+    "AUAR>AVER": 1,
+    "AVKL>AVER": 1,
+    "AVKR>AVER": 1,
+    "CEPDL>AVER": 2,
+    "CEPVL>AVER": 2,
+    "DVA>AVER": 1,
+    "OLLL>AVER": 5,
+    "PVCL>AVER": 1,
+    "RIBL>AVER": 1,
+    "RIS>AVER": 3,
+    "URYDL>AVER": 3,
+    "URYVL>AVER": 4,
+    "AIBL>DVC": 1,
+    "AIBR>DVC": 1,
+    "AVKL>DVC": 1,
+    "AIBL>RIBR": 3,
+    "AINL>RIBR": 1,
+    "AIYR>RIBR": 3,
+    "AUAR>RIBR": 3,
+    "BAGL>RIBR": 2,
+    "OLLR>RIBR": 3,
+    "RIBL>RIBR": 3,
+    "RIGR>RIBR": 2,
+    "RIS>RIBR": 3,
+    "URYDR>RIBR": 2,
+    "URYVR>RIBR": 1,
+    "AIBL>SMDDR": 2,
+    "CEPDL>SMDDR": 1,
+    "OLLL>SMDDR": 3,
+    "RIAL>SMDDR": 2,
+    "RIAR>SMDDR": 4,
+    "RICL>SMDDR": 1,
+    "RICR>SMDDR": 1,
+    "RIML>SMDDR": 2,
+    "RIMR>SMDDR": 2,
+    "RMED>SMDDR": 1,
+    "SMDDL>SMDDR": 1,
+    "SMDVL>SMDDR": 1,
+    "URYDL>SMDDR": 3,
+    "AIBL>SMDVR": 1,
+    "CEPVL>SMDVR": 2,
+    "OLLL>SMDVR": 2,
+    "RIAL>SMDVR": 3,
+    "RIAR>SMDVR": 1,
+    "RIML>SMDVR": 1,
+    "RIMR>SMDVR": 4,
+    "RMDR>SMDVR": 1,
+    "RMEV>SMDVR": 1,
+    "SMDDL>SMDVR": 2,
+    "SMDVL>SMDVR": 1,
+    "URYVL>SMDVR": 2,
+    "AIBR>RIBL": 2,
+    "AINR>RIBL": 1,
+    "AIYL>RIBL": 2,
+    "AIZL>RIBL": 1,
+    "AUAL>RIBL": 2,
+    "AVBR>RIBL": 1,
+    "BAGL>RIBL": 1,
+    "BAGR>RIBL": 3,
+    "DVC>RIBL": 1,
+    "OLLL>RIBL": 3,
+    "OLQDL>RIBL": 1,
+    "RIH>RIBL": 2,
+    "RIML>RIBL": 1,
+    "RIMR>RIBL": 1,
+    "RIS>RIBL": 2,
+    "URYDL>RIBL": 2,
+    "URYVL>RIBL": 1,
+    "AIBR>SAADR": 1,
+    "RIMR>SAADR": 1,
+    "RIVL>SAADR": 2,
+    "RMDDR>SAADR": 1,
+    "SMBVR>SAADR": 2,
+    "AIBR>SIADL": 1,
+    "AIBR>SMDDL": 2,
+    "CEPDR>SMDDL": 1,
+    "OLLR>SMDDL": 1,
+    "RIAL>SMDDL": 3,
+    "RIAR>SMDDL": 2,
+    "RICL>SMDDL": 1,
+    "RICR>SMDDL": 1,
+    "RIML>SMDDL": 3,
+    "RIMR>SMDDL": 2,
+    "RIS>SMDDL": 2,
+    "RIVR>SMDDL": 1,
+    "RMED>SMDDL": 1,
+    "SAAVR>SMDDL": 1,
+    "SMDVR>SMDDL": 1,
+    "URYDR>SMDDL": 3,
+    "AIBR>SMDVL": 1,
+    "OLLR>SMDVL": 2,
+    "RIAL>SMDVL": 2,
+    "RIAR>SMDVL": 4,
+    "RIMR>SMDVL": 1,
+    "SIBDR>SMDVL": 1,
+    "SMDDR>SMDVL": 1,
+    "URYVR>SMDVL": 1,
+    "AIML>AIMR": 1,
+    "ASGR>AIMR": 2,
+    "AIML>ASGL": 2,
+    "AIML>ASJL": 2,
+    "PVQL>ASJL": 2,
+    "AIMR>ASGR": 2,
+    "AINR>ASGR": 1,
+    "AIZR>ASGR": 1,
+    "AINL>BAGL": 2,
+    "AIYR>BAGL": 1,
+    "RIBR>BAGL": 2,
+    "RIGR>BAGL": 2,
+    "AINR>AFDL": 4,
+    "AINR>BAGR": 1,
+    "AIYL>BAGR": 1,
+    "ASIL>BAGR": 1,
+    "RIBR>BAGR": 1,
+    "RIGL>BAGR": 2,
+    "AINR>CEPVL": 1,
+    "OLLL>CEPVL": 2,
+    "RIAL>CEPVL": 1,
+    "RIAR>CEPVL": 1,
+    "RIMR>CEPVL": 1,
+    "RIS>CEPVL": 1,
+    "SMDVR>CEPVL": 1,
+    "AIYL>SIBDL": 1,
+    "AIZL>SMBDL": 2,
+    "ASHL>SMBDL": 1,
+    "AIZL>SMBVL": 1,
+    "ASHL>SMBVL": 1,
+    "AIZR>SMBDR": 3,
+    "PVCL>SMBDR": 1,
+    "AIZR>SMBVR": 4,
+    "ASHR>SMBVR": 1,
+    "AVKL>SMBVR": 1,
+    "OLQVR>SMBVR": 1,
+    "ALA>IL1L": 1,
+    "IL1DL>IL1L": 1,
+    "RMDR>IL1L": 2,
+    "URBL>IL1L": 1,
+    "ALML>BDUL": 1,
+    "AVHR>BDUL": 1,
+    "ALML>PVR": 2,
+    "ALMR>PVR": 2,
+    "ALMR>BDUR": 1,
+    "BDUL>BDUR": 1,
+    "PVCR>BDUR": 1,
+    "ALMR>CEPDR": 1,
+    "OLLR>CEPDR": 1,
+    "URBR>CEPDR": 1,
+    "ASER>ASIR": 1,
+    "ASGL>AIML": 1,
+    "ASHR>AVHL": 1,
+    "AWBR>AVHL": 1,
+    "ASHR>RMGR": 1,
+    "RIGR>RMGR": 1,
+    "ASIL>AINR": 1,
+    "ASJR>PVQR": 2,
+    "RIFL>PVQR": 1,
+    "AUAL>URXL": 1,
+    "RIR>URXL": 2,
+    "URBL>URXL": 2,
+    "AVEL>URYDR": 1,
+    "AVHR>DVA": 1,
+    "RIR>DVA": 1,
+    "URXL>DVA": 1,
+    "AVJR>PVCL": 1,
+    "AVKL>RMDL": 1,
+    "RIAL>RMDL": 3,
+    "RIAR>RMDL": 3,
+    "RIMR>RMDL": 5,
+    "RIVL>RMDL": 1,
+    "RMDR>RMDL": 2,
+    "RMGR>RMDL": 2,
+    "AVKR>PVPL": 1,
+    "AVKR>SAAVL": 1,
+    "SMBDR>SAAVL": 1,
+    "AWAL>ADLL": 2,
+    "AWAL>AWAR": 1,
+    "BAGL>RIR": 1,
+    "DVA>RIR": 1,
+    "PVPR>RIR": 1,
+    "RIGL>RIR": 1,
+    "RIGR>RIR": 1,
+    "URXL>RIR": 1,
+    "BDUL>AVJL": 1,
+    "PVPR>AVJL": 1,
+    "PVR>AVJL": 2,
+    "RIFR>AVJL": 2,
+    "BDUR>ALMR": 1,
+    "RIFR>ALMR": 1,
+    "CEPDL>OLLL": 1,
+    "CEPVL>OLLL": 3,
+    "RMDR>OLLL": 1,
+    "SAADR>OLLL": 1,
+    "URBL>OLLL": 1,
+    "CEPDL>URBL": 2,
+    "CEPDL>URYDL": 1,
+    "RID>URYDL": 1,
+    "RIGL>URYDL": 1,
+    "CEPDR>OLLR": 1,
+    "CEPVR>OLLR": 3,
+    "OLLL>OLLR": 2,
+    "CEPDR>SIBVR": 1,
+    "CEPVR>OLQVR": 1,
+    "IL2R>OLQVR": 1,
+    "OLLR>OLQVR": 1,
+    "RIGR>OLQVR": 1,
+    "RIH>OLQVR": 2,
+    "CEPVR>URYVR": 1,
+    "PVR>URYVR": 1,
+    "RIGR>URYVR": 2,
+    "DVA>RIVR": 1,
+    "RICR>RIVR": 1,
+    "RIVL>RIVR": 1,
+    "DVC>ADEL": 1,
+    "FLPL>ADEL": 1,
+    "FLPL>ADER": 1,
+    "IL1DL>IL1DR": 1,
+    "IL1DL>RIPL": 2,
+    "IL1VL>RIPL": 1,
+    "IL2DL>RIPL": 3,
+    "IL2VL>RIPL": 2,
+    "PVR>RIPL": 1,
+    "RIH>RIPL": 3,
+    "URADL>RIPL": 3,
+    "URAVL>RIPL": 2,
+    "IL1DL>RMDVL": 2,
+    "IL1L>RMDVL": 2,
+    "IL1R>RMDVL": 1,
+    "OLQVR>RMDVL": 1,
+    "RIAL>RMDVL": 5,
+    "RIAR>RMDVL": 5,
+    "RIVL>RMDVL": 1,
+    "RMDDR>RMDVL": 4,
+    "RMDL>RMDVL": 1,
+    "RMDR>RMDVL": 2,
+    "RMED>RMDVL": 6,
+    "RMGL>RMDVL": 2,
+    "URYDL>RMDVL": 1,
+    "URYVR>RMDVL": 1,
+    "IL1DL>RMEL": 1,
+    "IL1R>RMEL": 3,
+    "IL1VL>RMEL": 2,
+    "IL2DL>RMEL": 1,
+    "IL2VL>RMEL": 1,
+    "IL2VR>RMEL": 2,
+    "RIH>RMEL": 1,
+    "URADL>RMEL": 2,
+    "URAVL>RMEL": 2,
+    "IL1DR>IL1R": 1,
+    "RMDL>IL1R": 2,
+    "RMGR>IL1R": 1,
+    "URBR>IL1R": 1,
+    "IL1DR>RIPR": 2,
+    "IL1VR>RIPR": 2,
+    "IL2DR>RIPR": 1,
+    "IL2VR>RIPR": 3,
+    "PVR>RIPR": 1,
+    "RIH>RIPR": 2,
+    "URADR>RIPR": 1,
+    "URAVR>RIPR": 1,
+    "IL1DR>RMDVR": 2,
+    "IL1R>RMDVR": 2,
+    "OLQVL>RMDVR": 1,
+    "RIAL>RMDVR": 6,
+    "RIAR>RMDVR": 6,
+    "RMDDL>RMDVR": 4,
+    "RMDL>RMDVR": 1,
+    "RMED>RMDVR": 2,
+    "RMGR>RMDVR": 2,
+    "SMBVL>RMDVR": 2,
+    "URYVL>RMDVR": 1,
+    "IL1L>IL1VL": 1,
+    "IL1L>RMDDL": 1,
+    "IL1VL>RMDDL": 3,
+    "RIAL>RMDDL": 6,
+    "RIAR>RMDDL": 4,
+    "RICR>RMDDL": 1,
+    "RMDL>RMDDL": 1,
+    "RMDVR>RMDDL": 3,
+    "RMEV>RMDDL": 4,
+    "SMBDL>RMDDL": 1,
+    "URYVL>RMDDL": 3,
+    "IL1L>RMER": 3,
+    "IL1VR>RMER": 1,
+    "IL2DL>RMER": 1,
+    "IL2DR>RMER": 1,
+    "IL2VL>RMER": 1,
+    "IL2VR>RMER": 1,
+    "URADR>RMER": 2,
+    "URAVR>RMER": 2,
+    "IL1R>IL1VR": 2,
+    "IL1VL>IL1VR": 1,
+    "PVR>IL1VR": 1,
+    "IL1R>RMDDR": 1,
+    "IL1VR>RMDDR": 3,
+    "OLQDL>RMDDR": 1,
+    "RIAL>RMDDR": 5,
+    "RIAR>RMDDR": 9,
+    "RIVL>RMDDR": 1,
+    "RMDDL>RMDDR": 1,
+    "RMDL>RMDDR": 1,
+    "RMDVL>RMDDR": 4,
+    "RMEV>RMDDR": 1,
+    "RMGR>RMDDR": 1,
+    "URYVR>RMDDR": 2,
+    "IL2DL>RMEV": 2,
+    "IL2VL>RMEV": 1,
+    "IL2VR>RMEV": 1,
+    "SMBVL>RMEV": 1,
+    "SMBVR>RMEV": 2,
+    "URAVL>RMEV": 1,
+    "URAVR>RMEV": 2,
+    "IL2DR>RIH": 2,
+    "IL2L>RIH": 2,
+    "IL2R>RIH": 2,
+    "OLQVR>RIH": 1,
+    "PVCL>RIH": 1,
+    "RIVL>RIH": 1,
+    "IL2DR>RMED": 1,
+    "IL2VL>RMED": 1,
+    "RMEV>RMED": 1,
+    "SMBDL>RMED": 2,
+    "SMBDR>RMED": 2,
+    "URADL>RMED": 1,
+    "URAVR>RMED": 1,
+    "IL2L>OLQVL": 2,
+    "OLQDL>OLQVL": 1,
+    "RIGL>OLQVL": 1,
+    "RIH>OLQVL": 2,
+    "URXL>OLQVL": 1,
+    "IL2R>OLQDR": 1,
+    "RIH>OLQDR": 2,
+    "OLLL>CEPDL": 1,
+    "RIS>CEPDL": 1,
+    "SMDDR>CEPDL": 2,
+    "URBL>CEPDL": 1,
+    "OLQDL>SIBVL": 1,
+    "PVCL>SIBVL": 1,
+    "OLQDR>IL2R": 1,
+    "OLQVR>IL2R": 1,
+    "RMDL>IL2R": 1,
+    "URBR>IL2R": 2,
+    "OLQVL>IL2L": 2,
+    "RIH>IL2L": 3,
+    "RMDR>IL2L": 1,
+    "URBL>IL2L": 1,
+    "OLQVR>SIBDR": 1,
+    "PVCL>RIS": 1,
+    "RIBL>RIS": 1,
+    "RIMR>RIS": 1,
+    "PVCL>SIAVL": 2,
+    "RIAR>SIAVL": 2,
+    "RIBL>SIAVL": 1,
+    "PVCL>SIAVR": 1,
+    "RIAL>SIAVR": 1,
+    "PVCR>RID": 1,
+    "PVPL>RID": 1,
+    "PVPL>PVPR": 1,
+    "RIR>PVPR": 1,
+    "PVR>CEPVR": 1,
+    "RICR>CEPVR": 1,
+    "RIS>CEPVR": 1,
+    "PVR>URADR": 1,
+    "PVT>AVKL": 1,
+    "RIGR>AVKL": 1,
+    "RIAL>RMDR": 2,
+    "RIAR>RMDR": 1,
+    "RIML>RMDR": 2,
+    "RIMR>RMDR": 1,
+    "RMDL>RMDR": 2,
+    "RMGL>RMDR": 3,
+    "SMDDL>RMDR": 1,
+    "RIAR>SIADR": 1,
+    "RIGL>URYVL": 2,
+    "RIGR>PVT": 1,
+    "RIH>OLQDL": 1,
+    "RIML>SAADL": 1,
+    "RIVR>SAADL": 1,
+    "SMBVL>SAADL": 4,
+    "RIMR>SAAVR": 1,
+    "RMDVR>SAAVR": 1,
+    "SMBDL>SAAVR": 2,
+    "RMEL>URAVR": 1,
+    "URADL>IL1DL": 2
+   },
+   "evenements": [
+    {
+     "t": "2026-11-04T01:43:08.449Z",
+     "type": "œuf",
+     "detail": "founder laid by the environment, 395.9 XRP",
+     "hash": "F0110A8C0E2C2668C8450F5F9C3EEE22F3265F295B86C1B38ECBA56283FBAD94"
+    },
+    {
+     "t": "2026-11-04T01:43:44.244Z",
+     "type": "mange",
+     "detail": "46.8 XRP pour growing to L1 0h",
+     "hash": "BFF39D3AACDC9C51334C51BF81C54FFE0820AC9AA7DE9FD0569D46876BED8701"
+    },
+    {
+     "t": "2026-11-04T01:48:15.378Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 161 neurones, 747 synapses, âge 85h, mangé 46.8 XRP",
+     "hash": "79E880DB31859C53EF83375066C32B08799EAFD55C69DEE37FF4BBB0576EACE5"
+    },
+    {
+     "t": "2026-11-04T01:48:28.999Z",
+     "type": "mange",
+     "detail": "446.0 XRP pour growing to L1 5h",
+     "hash": "CAFD4C1DE9036CB5AB8BC2731867A28787BF1077616FA397F1B78690CC620861"
+    }
+   ],
+   "mort": null,
+   "mange": 492.8043439999999,
+   "registreCourant": 22050917
+  },
+  "V2": {
+   "sexe": "herm",
+   "adresse": "r3btLTqbt43HY6V7kdnZeategxCASRjB16",
+   "parents": [],
+   "generation": 0,
+   "ne": {
+    "registre": 22050368,
+    "date": "2026-11-04T01:43:15.424Z"
+   },
+   "stade": -1,
+   "neurones": {
+    "ADAL": {
+     "adresse": "rsACXH3aWYSX9iepkZofb1mvCSNmPa2jXv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADAR": {
+     "adresse": "rM625N7XwbcN8DekPRPGuFAZQnH2V6g1DK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIBR": {
+     "adresse": "rn6Z7Eb3zpEZMZGd3mgvjEqXEQZwuxujJY",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASHL": {
+     "adresse": "rzY7CQ8DDXfexAzwhLofbT14LE9bZFoPN",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASKL": {
+     "adresse": "rNqgXxdCyDK6NQCMGHspWagMVKDWJPpNJw",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "rBPZjvWhK8WWF9KquPDCrBqXqDp7NRbgwJ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVAR": {
+     "adresse": "rsa3MKMm3xUaLPvU4sfgjejBpyKxEmq8sY",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rwS88uZxEkoapzVtUzA167F4CY5tPPgQ5N",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVDR": {
+     "adresse": "rH8CQMf7qzENuFVcRsNjDJUbCqTtJ6ruc",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVJR": {
+     "adresse": "rKM3TqyktASNgdhioco4DHJzqxsZiLCM2a",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RICR": {
+     "adresse": "rDuUTS7KbnCbGWJbAMQWrg6zCkw8nviHT2",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIML": {
+     "adresse": "rMmpbzK44KXJgfFU7cancuZtzyqkpxUxE",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIBL": {
+     "adresse": "rfXMq6ZzisRqW7qGMzmR3KZv6yqDenScRs",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASHR": {
+     "adresse": "r4ir7A2GAcBDGCNT38YYPqmpNQVHQrKvF8",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "rEp6HrL4SyMnB9S4f9W4Uu36pGJYJhPv4y",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVDL": {
+     "adresse": "rN4Q7XS2U7L2dnEg8qVXvpSCVy43CXEELV",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RICL": {
+     "adresse": "rJNFoHHAs2D1fDMxVs7NvSi2wNPMQ7Vx34",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIMR": {
+     "adresse": "r8LNpjVg7GnmojP11UH5djJHCbMfopfkS",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADEL": {
+     "adresse": "rUYQsT3zrm5no1KERa8diaQ3YFb5JdE6Dr",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "FLPR": {
+     "adresse": "rLYCTkydW71BzWSRamE4nV9mEpe72MsnWt",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADER": {
+     "adresse": "rHEDvcSJc4nHCXRkPLwTfAcKnCLzrueXFL",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVKR": {
+     "adresse": "rfcZC41Wub6EuGjwznUD8cJPriEdaMKpXK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "rawRy2W8T9RzWTJp3GDTxuMpdm7arfJmD5",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIGL": {
+     "adresse": "rDDdjnQfQABx9Y38uzap4FkW73QGYdeyyV",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIGR": {
+     "adresse": "rw7ddwPgAnzNrMVWxL6PKep4mxqHymbD1P",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADFL": {
+     "adresse": "r97qjYpYSqkAYZDrKbfBRsVSWGNjpfPzCw",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADFR": {
+     "adresse": "rKnPU3Xx6xu1poS69ctbuwEimJ1rz4SAiT",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIYL": {
+     "adresse": "raW4THmZBcGrFF8V4BA56Xv6BRKfS5mY7p",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIZL": {
+     "adresse": "rGJ9GNsSrzhSP5UsbLCwk9Kxw7n5okUkJM",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASER": {
+     "adresse": "rnkxCgdHb7ZutHRnJfYLXfQg1mbXtS6BY7",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AUAL": {
+     "adresse": "rfPZQAXQ1Xgs87WtPvLyxgrPYQfmw2MmCN",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVHR": {
+     "adresse": "rscxhKmLdFas9JX52AYyiaTMcJuD7xXTQL",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIAL": {
+     "adresse": "raDexXhMPUjvb2kkB689uN9pscj7RyUuHs",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIAR": {
+     "adresse": "rUcnpVRSq4DKgMeubnTNRy5n2ANeYkBqV6",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIYR": {
+     "adresse": "rGT4Bt9AtbsKcmfiytnLyPMXhzcjYzZMXU",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIZR": {
+     "adresse": "r3Dq1BqNHRYiAeKb973xVmPmi3PDcd8uTe",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AUAR": {
+     "adresse": "rUv2WKTTrri3mxsbWFD5JAfvPxbTtjzrT5",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIAR": {
+     "adresse": "rDR58sXqsw6QR1S394EBphEYRUDMweH524",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URXR": {
+     "adresse": "rfLQTDZxTQ7Z9rpjmFZzBKcJYeTvqQmFtL",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADLL": {
+     "adresse": "rHxT1EfWMwH6Y9mxWKLoVCpcF7FP8kekeW",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ADLR": {
+     "adresse": "r48bWzWLWKsktBJHxVCKhnUwdK12oiLZts",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIAL": {
+     "adresse": "rH36nPWY91RU9ik4HHRoxh9M4jZtyynucB",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWCL": {
+     "adresse": "rJ1N5ZJNMQ8Y2PNfDDQQJpW3poW4mJNNmD",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVQL": {
+     "adresse": "rf5nQkwKUMUhF7H6CpCQco1KHbSjDx2sKf",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMGL": {
+     "adresse": "r3Zj8Z9E3godNdswaYUfnQo3iZTEzUn4mq",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASKR": {
+     "adresse": "rLwkSPa5tzbzeqvY3wn9mmpPP627s5ZNGE",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWCR": {
+     "adresse": "rG5sSEd3yuLP4f6HRafoJeG6RH9XaqsYVU",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AFDL": {
+     "adresse": "rKxjKMekMvqiCaBxoZ9MPACLw21Jh3D324",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AFDR": {
+     "adresse": "rasQhUptG4pf2cc7Cz8Dcj1TKCzEiwwAsT",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASIL": {
+     "adresse": "rBnGBGkNZ4ttnV1wHk79cmvFp9xNqHqVpF",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWBL": {
+     "adresse": "rHY8KbnaqDcEBsYjWcHqFH9tJ67LhkuRpY",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIFL": {
+     "adresse": "rPfFQW4P1o8a7ka324ANA47WyUeoA6LWbv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASJR": {
+     "adresse": "r9UeajHZE7nVM2ijZXGRFXQktHARUznkZP",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWBR": {
+     "adresse": "rpNFzznj2jrKnCXb1iQs4CVVjUKmaUyXjv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIFR": {
+     "adresse": "rPkosXybuwfxs4MxeKmeVZgo4mkyMHCkqH",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVEL": {
+     "adresse": "r4zFzixZdpDknbR8UGH711mD4bt12FKrYe",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "raKgAqF2ENAbaJQThmtny7Xjiom5swAzks",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "DVC": {
+     "adresse": "ruyTc4UV7mJuW1duJ2JW7p3EG6AfP7pq5",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIBR": {
+     "adresse": "r9HkcKTF9n3Ao2K24iW2WvbHzHorTfcWgJ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMDDR": {
+     "adresse": "rhwCJGaNZCj656wh8AdJnb3vaRd2Hir7yr",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMDVR": {
+     "adresse": "rDP2xsMc85ozthXA4FNFyCUNv3YZvVneFS",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIBL": {
+     "adresse": "rfcgzmEgFhVHjbs6nuZBAu3ewkGbs7MRDS",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SAADR": {
+     "adresse": "rhsgQ5J94MGNyfoWh3beLdQvFWcnGSTdUX",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIADL": {
+     "adresse": "rnkZkN9DJUQ3HTRVJgWNuNGcCaBNS8CwiK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMDDL": {
+     "adresse": "rKAxD9QHGF7yeQ4UdbjzCEqFoWMR18uMQV",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMDVL": {
+     "adresse": "rJ7cFHQJEeSHcV5xX9rnBM7Dy3Md5YcgEQ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIML": {
+     "adresse": "rGnx4ruJ4HJVM3yx8keMjGnq26qSJ4xsGK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AIMR": {
+     "adresse": "rw6jR37wNcDBgVUR29rht7Eu9CnUXxRepD",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASGL": {
+     "adresse": "rhechawPWopJTygqnapkyzGcf4bke9c5xf",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASJL": {
+     "adresse": "rwUWyJT5iFDDavAnpeJmhW1L3Y4ebYkjkF",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASGR": {
+     "adresse": "rw9BjCaJbqut9XGfGomVXXh97beyDUGPLY",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AINL": {
+     "adresse": "r982h128noGHfFUzcsJ8cWpEpsyrkmwzaN",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "BAGL": {
+     "adresse": "rGaq69HfzfRZVBpXV865SXu2uuwP5TnM9P",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AINR": {
+     "adresse": "rUV2ipjx5DRquxGKgBY7sCbJbiNtBMmzNA",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "BAGR": {
+     "adresse": "rUfqmcY5jnVbhbDbxycJZWmcwCdgVZ1ePo",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "CEPVL": {
+     "adresse": "rPMNBhRrmvejg4CMJcoHQDT5HUx5T6x7SC",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIBDL": {
+     "adresse": "rUHpPEKTTeC41fXrDowdvjtQ9CKk4LdPGT",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMBDL": {
+     "adresse": "ryEoat1syiW43v7kKsnE2pStZ2QgbDYw3",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMBVL": {
+     "adresse": "rwnFZapgtBdsRWrG2G8A11DNwfVbQhHwFH",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMBDR": {
+     "adresse": "r3DqY4PTUU5tQpyfPNoBYTxinnpsfWiTXx",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SMBVR": {
+     "adresse": "rBLYsaK2mKHvBeicw7iym7dJLrdCj45Ccv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ALA": {
+     "adresse": "rNiSDvaB5Mcxd77FAoEY9X7Awq3jBHXUiG",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1L": {
+     "adresse": "rwMdWHwvWQqx32YT6YMzQPSqLhrqc548pr",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ALML": {
+     "adresse": "rEWzjiJ91MLvnvYLvD6Gq4utfQLVgbi2ma",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "BDUL": {
+     "adresse": "rUZAw9tsckL3qy9w6yRsJJQPJHqcJNjnYx",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVR": {
+     "adresse": "rJ9aT7mDoYbxqAngnhLLx4Hqt3bPUGyUeu",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ALMR": {
+     "adresse": "rNL1FFHrtqeGis62A2mKJHx6gPkow4Gtgx",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "BDUR": {
+     "adresse": "rDR2J8TVGJ2jgrNyPX96PirnbbgjuAbFXs",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "CEPDR": {
+     "adresse": "rf6XBL4DRcmssf5xrdYcnRapQddCtCsT4M",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASEL": {
+     "adresse": "rPUoUbThmiEGbpWtSb7CQnhJf888KZ8Qf9",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "ASIR": {
+     "adresse": "rNzvccvUiTtE2kNvWHRhWK158Mg8xJP8yD",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVHL": {
+     "adresse": "rKi4QAtgcxej7eSgRF5dTErEoYv7FBKzgb",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMGR": {
+     "adresse": "r3aF9XpMKPMRsWoB1rBnqiETrc3HcRzGhT",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVQR": {
+     "adresse": "r3a2TiMi4UBpRgpQmdiHHnoagsgi94zeao",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URXL": {
+     "adresse": "rwPWQJi14Y3GZ9ZVCGeAgKwCGmNrgb5Mwd",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URYDR": {
+     "adresse": "rNTNi3FF5qPMdgrW9ksr2Ea7B8GYWXBigc",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "DVA": {
+     "adresse": "rGwMuVg7tM9Q1sPXLh7CwSA77Kc1Xs3Wxk",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVJL": {
+     "adresse": "rprkYaJxUgZy74PF3VbVtfnnQQecstgyZK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "rK6nfeocT7fg7G5gyHotRJp46gCGYN5Jwv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AVKL": {
+     "adresse": "rsphuMweU59kYEn1xgGietpP5ScjyHsSxB",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDL": {
+     "adresse": "rJWbmBhg1hE2Axx9yATcrUn634nyUhi9ER",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVPL": {
+     "adresse": "rn7b3zBCqR7XjZKvK3XpXWiKZRbPLpzCcq",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SAAVL": {
+     "adresse": "rhKJap4GY65Yws3EQg8C8zpS1QeSLVaFcC",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWAL": {
+     "adresse": "rNGxtESiQRosj24As36gSwyXQ2MW3okorK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "AWAR": {
+     "adresse": "rnuFAkCY7iuQCjwPVmbA9FsUSRHBJMJrct",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIR": {
+     "adresse": "rphr4tA8uUPeWYBMtRijLHw1KpDNA5jpKw",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "CEPDL": {
+     "adresse": "rn93L73bjrSk9cGwmka9hJf2za2rhgWFG9",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLLL": {
+     "adresse": "rBxyb7i6S2vtxxNHDmCPzxBu88eABYzfN3",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URBL": {
+     "adresse": "rExAm5Tr2kwrgsEmS6GG5y9G4GpLwsQ2M1",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URYDL": {
+     "adresse": "rHPmfWfHYmY8epPtcL8JxBNc2VeF9tWq5Z",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLLR": {
+     "adresse": "rGBzo6mcdmJws6wqMwGHRxkEywxG7KXkKk",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIBVR": {
+     "adresse": "rftvXZjqcRYnS7BqQCAhHZmoZK66JwpgPu",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "CEPVR": {
+     "adresse": "rJ5D3hLmZ2zdbDddqPfa41zPZ3KwYqkk1L",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLQVR": {
+     "adresse": "rBxDwQER7dGNVio3rBYw5fep8JGAZnPuiz",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URYVR": {
+     "adresse": "rJ6C4V5SjjzaBz72De8dUdCf2uwBrCsRr2",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIVR": {
+     "adresse": "rU8bY4RnMGzDDWGUkEJursUotja9F1toTf",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "FLPL": {
+     "adresse": "rPXBDwuEZ7zf6zkBxbv2FqFbz3rFPNFWCF",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1DL": {
+     "adresse": "rpZM5e5PmFgBDbaQGTETXoccGgBUk2QY8i",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1DR": {
+     "adresse": "rPyY6aYCSPNFtq9VGM9FPNDCz2CNS98jae",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIPL": {
+     "adresse": "r3UYnhdeL7LtSJw42DjikLDvhDPN9cB18J",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDVL": {
+     "adresse": "rNZAj4pvmsoNPFg9HiYv65twT7XovYvWrr",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMEL": {
+     "adresse": "r4313DeMJF2kmsLYTU4NXNtmqvVCW2ACks",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1R": {
+     "adresse": "rPhQW1HEJC6uKUb9eKdakieAkL5F4jcJq8",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIPR": {
+     "adresse": "r3a8PC1N4unLgRbw3Moo1icd9qJfxpqRca",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDVR": {
+     "adresse": "rhVdm7ehHVfrgHRkEtQtw9EENagGdT6WD9",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1VL": {
+     "adresse": "rEcptkPnNY4324Ve6yyz3LCVDgHekd7YZH",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDDL": {
+     "adresse": "rLVPB6R1EdJu2F9Zzy3qwthG67Qbhwt59p",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMER": {
+     "adresse": "rKxWW2nyBQmwX3n5K68gDGsR8JGEx1Bx6d",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL1VR": {
+     "adresse": "r9QVjra14q6A3YpNcysSChrfMaxHrLqpSn",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDDR": {
+     "adresse": "rQHyozqidXjjE3XhDE6dRx22akMtmSJCFv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2DL": {
+     "adresse": "rUfxkPiB98ymwGfRkP3vU4h4kE2sMnH8uk",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMEV": {
+     "adresse": "r9Gq2GeAmPc92BDVBJ19biGZ9v1F1XEXKu",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2DR": {
+     "adresse": "rwNkpiNtraaPPgWfQiBvDhhBgvDnkLGDBR",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIH": {
+     "adresse": "r3TSQGYpknCe7bavt1j2XQAKewr4stKRMN",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMED": {
+     "adresse": "rwgQxWWssgYn1kMvHwqJFy67qFNFPFFZJQ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2L": {
+     "adresse": "rH6rqYjTTedm9V4ZntQF2jSgpMCEJP82Zv",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLQVL": {
+     "adresse": "rDQtrq9uMMDPJk6hecnuHVk7iTUe8RWaUY",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2R": {
+     "adresse": "rLKv1JQsEzsphChipuPsz79H63Akgmp7Y9",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLQDR": {
+     "adresse": "rfuxXxKWiALTqSZcLKTXGnWzHH4Xqxa5b",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2VL": {
+     "adresse": "rp3zAj5LoNTwgqQTgagH1sWViK1zZivHS5",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "IL2VR": {
+     "adresse": "r3mVAViAaJoyX2GbhgvV1TcoPG11zrspfA",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "OLQDL": {
+     "adresse": "rDMcHmWTEagwAivvb6Cf5z5C6JgQp58fTe",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIBVL": {
+     "adresse": "rBvEeyRnykosLzBb7V3ucbPDYEnRMaMQfK",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIBDR": {
+     "adresse": "rPBC75SMrgtRwFGvmGa4MJVGa9Dj5sXBif",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIS": {
+     "adresse": "ramhXA2y2ECk7xpKL8yAQ2mKsDNmiGgup6",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIAVL": {
+     "adresse": "rfGPqmtkp6x2wVid3UpK2WVWVB4byhaQAA",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIAVR": {
+     "adresse": "rfX3nUbfa7Wy2X43hTekEQoSmnwXhQZoqL",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RID": {
+     "adresse": "rnEHgNV69GhYhYkHB32YiDrtopoxCEEDnQ",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVPR": {
+     "adresse": "r4BXr39kRTdAVGVchSJUg5WJ4dZFNafg31",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URADR": {
+     "adresse": "rsP7xfH9Drtogj3seTtV9NASX5z6FwBnff",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "PVT": {
+     "adresse": "rPaFA7dpWeug4CWWNmdJEWWfnN3VN12ARW",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RMDR": {
+     "adresse": "rGCTzR4KHZQBp2NxvsUeaxCVyjoinq2Gyr",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SIADR": {
+     "adresse": "rNhpJEN6HJvHYrtyyS5ChUi9nEkXasDAKc",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URYVL": {
+     "adresse": "rffRD8R4CGpHbL7iuzKMhLB6F53jqXVx5j",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SAADL": {
+     "adresse": "rM1ze3Q68g2AZbfQtJHjnAFBJCpZBWeL1H",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "SAAVR": {
+     "adresse": "rUAcTDYWRNx5w3oLXXisQDp19v1C9h13uu",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "RIVL": {
+     "adresse": "rQFpAtJM8Nqa6zh67MawgXVijfiwFeGXi",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URAVR": {
+     "adresse": "rfDSUJWrSxZoXfZ6HehzGDuFJ9xVdz6358",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URADL": {
+     "adresse": "rEeH9VenRLAfTyCFU4Krqk66KD6Wuh2Sbc",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URAVL": {
+     "adresse": "rNpdA7VV6katNuBir8ukmphiPFwPYfUtCY",
+     "cree": false,
+     "stade": "L1 0h"
+    },
+    "URBR": {
+     "adresse": "rMw4EGQLQ6BbYDSqjtaE1KPSngmcRoDnZa",
+     "cree": false,
+     "stade": "L1 0h"
+    }
+   },
+   "synapses": {},
+   "evenements": [
+    {
+     "t": "2026-11-04T01:43:15.424Z",
+     "type": "œuf",
+     "detail": "founder laid by the environment, 395.9 XRP",
+     "hash": "039533CA7EF78F1004E7E4C1482D30E1457004BBDF11CB6071CB91D68EF5422B"
+    },
+    {
+     "t": "2026-11-04T01:43:50.792Z",
+     "type": "mange",
+     "detail": "21.4 XRP pour growing to L1 0h",
+     "hash": "691BF9A21A8828E421EEC6469C560CBBFB6AE776869CF38DF53B25D78CD695E9"
+    },
+    {
+     "t": "2026-11-04T02:15:03.656Z",
+     "type": "mange",
+     "detail": "390.9 XRP pour growing to L1 0h",
+     "hash": "5BA0C177677623030D562282A22FE4B2C187583F6304056FD20CDEAE316043B9"
+    }
+   ],
+   "mort": null,
+   "mange": 412.3020279999997,
+   "registreCourant": 22050917
+  },
+  "V3": {
+   "sexe": "herm",
+   "adresse": "rGGoiJoQH1P7d8q8RiiFV847YUmFVpEpSp",
+   "parents": [],
+   "generation": 0,
+   "ne": null,
+   "stade": -1,
+   "neurones": {
+    "ADAL": {
+     "adresse": "rL9u6CGjDSS1TjFyTv97ztkBpy2CYm8AVF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADAR": {
+     "adresse": "rBHmT8C2wfjfwMYVDDX9369ZQuTZcHjgXQ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIBR": {
+     "adresse": "rh81PXPKL1qMsmWdZvt6eE8xyTgPyEzMmG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASHL": {
+     "adresse": "rGJCHJpisf3yJGiyorAhs3p79325qN2USd",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASKL": {
+     "adresse": "rMQQkjExnxZuti8UkoK3u1ZAw2y2uCKvSt",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "rEBb2Lx1M963SXT99wc3rTqEdPhW7ZxHBb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAR": {
+     "adresse": "rK2LNHGbW9H92dcTrj3D3q5eE6FxBz5cWJ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rBmF3RjtJ6UxKbYpggHGXsgh4bxbozPtT9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVDR": {
+     "adresse": "rHrCKjM5xTvSRwHA3mynt5kzKMSD4yMsso",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVJR": {
+     "adresse": "rJjdmH8Sv3w7uAe3znU5TbY3y1oA4DM1PF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RICR": {
+     "adresse": "r3EGGuGxFbHRdg5x2DKacsrBz57KVYpbV6",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIML": {
+     "adresse": "rarenbD9bwDDR4hKQACVFTfXZMQJvKQ8tf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIBL": {
+     "adresse": "rLVJWB2Ks2nPH1jCkSmHbWfU2k963TVqwA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASHR": {
+     "adresse": "rLFSV9hKmppEhswvKtAFh2Va7KMsDo6rei",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "rHpEFgE5jvU1RUrkucmU92azEU7pAMHxhR",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVDL": {
+     "adresse": "rM6BAUVieYjRFWTGYBWyytE3DtHKTG2wcu",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RICL": {
+     "adresse": "r35eH7kKwFEJ5hrjEDtRsfAtQPj9Loq4Gw",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIMR": {
+     "adresse": "rKa6mK8ADER49ZKQQ4nK3vUjksvrWaJVco",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADEL": {
+     "adresse": "rEW26QzfpKNYRdrkQpf8M4abxicUECLcAt",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "FLPR": {
+     "adresse": "rDg4k8wyTNiT3JkRbtVNrMdUFLhHo3Gygi",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADER": {
+     "adresse": "rLVpAW7JMPbkqqcENmJB1W4jn8vs4PGP65",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVKR": {
+     "adresse": "rEh1zrdeDCHsGHtiqRdqE9KSSE38qSmXZj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "r9h6EwCZLXC1U1hNMAE1VwimKtonakboUp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIGL": {
+     "adresse": "rMbWgBiWfqLebed7xT8mvevdTCwAHveDJp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIGR": {
+     "adresse": "rBpM3fyWV2hRAEgFnqYmWHoSq5yKanikzw",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADFL": {
+     "adresse": "rnBHLtztHsJzTWhXvjMhiVUnXHbfADYKC9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADFR": {
+     "adresse": "rNAGGegYQTUgyoixyBeTNjBFni7WkKQ3ow",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIYL": {
+     "adresse": "rnBVUfzTwMoua2VjpMhvqEQ4xP3wMBgd2f",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIZL": {
+     "adresse": "rBypYahSbMMXDYasLYmjWyCKhLNPpaKpEs",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASER": {
+     "adresse": "rfNAwBStPEdTbVACH12bvC9wQVV8qqfWXF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AUAL": {
+     "adresse": "rDMV8DnKWya82J1c88MzzebZAY1fxom6tC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVHR": {
+     "adresse": "rHfgYS8f1vvMdPXMSKk4qnEYhTP1s1Z5r1",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIAL": {
+     "adresse": "rnQPvCb7efoUVEyTABTw9YDARUN1a2xWXJ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIAR": {
+     "adresse": "r9iyPAbSw4Bhq3Z4CjBVfuKtGa2vNMhD1v",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIYR": {
+     "adresse": "rEzCpyQ2WC7m2TBFWBrm8HbdYVtpXo8rEU",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIZR": {
+     "adresse": "rfAk3mc4A6m7xPrLFQwZi37eUQHNJR7MrZ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AUAR": {
+     "adresse": "rDGFCM1Ljsv9TpHz7m1Q3RjSxFiTfZ7kRH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIAR": {
+     "adresse": "rGsTpvsJk54j1g8V2Di6SpNwTRTc2AhZnF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URXR": {
+     "adresse": "rLgVgzBLHWzAxzdhtckNEPe4wg4AytYwcj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADLL": {
+     "adresse": "rJGFNYRsKCzR38C8R1W6nJHp2sUcHBXWcH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADLR": {
+     "adresse": "rGcoAaoej5SrCffeRSZq82LDbH5A9fscXx",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIAL": {
+     "adresse": "rnkmJ6HeL2Ea8YZEGSC5J3nFtStqpbJwiB",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWCL": {
+     "adresse": "rKVAoLdKFSAf3akHLumEujFcrZeBiok22e",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVQL": {
+     "adresse": "rpim3dutWtGV7hdSKkU5XW4CzUAzzsBDoW",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMGL": {
+     "adresse": "rBsGXWhWewQAVHrxBN5p5w5DYNaX7foBcn",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASKR": {
+     "adresse": "rwnuCAmyBHAr4KThauhMvQWWo9pU6Ve5tr",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWCR": {
+     "adresse": "rMZBjerpKtm72QbhnyJZ46JkHkJ7BDy3cp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AFDL": {
+     "adresse": "raYLt7yiX8cJLc7qMUYeLU6bR2SXNs7htm",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AFDR": {
+     "adresse": "rEzt5BEr3rm93oXyC6QsSL16wpug1gsnQF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASIL": {
+     "adresse": "rsmUG8TbJxX9b2i8knVoN5fHwwpF2Xce95",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWBL": {
+     "adresse": "rGfHUMxCfNSxLBpFMe5PPASvWAU1SpLaw7",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIFL": {
+     "adresse": "rD3NW3hSoDJpMk3oX6TaAokNs18bgQ1P2K",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASJR": {
+     "adresse": "rh78rNbQSSGwP62pBQcK2nvDojr6eRpUHA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWBR": {
+     "adresse": "ramLtoQfcjLunjFBAj7JW8X57pF5mqNL5Y",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIFR": {
+     "adresse": "rffuc7sKLcSiGr6LAzegDU5qVhWxPYsCRC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVEL": {
+     "adresse": "rMDfYNh3XryNa7wWTSpZVvSkx6WHrgZuyf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "rEv2xsBZFeYCVsytntHPGQsEJ4xBkxyGGG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "DVC": {
+     "adresse": "rs67ZjDH9LPdqwwouEJLWPN5ANDHA5mmyD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIBR": {
+     "adresse": "rnKSM4WtdUueM912JiiibN7rRhaVFuYkDt",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDDR": {
+     "adresse": "rsabepUiZnR4auL81KBhGq4KwaaSRmSjMd",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDVR": {
+     "adresse": "rnTjzaHbKt52RyaodsJ1Ah9ujndciKh717",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIBL": {
+     "adresse": "rUqocRenJ3fwJmCofSvaq9K3VX3tdhWA85",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAADR": {
+     "adresse": "rspW7zktz3q9C3dRrjdPhpbyL6Mii1zuhp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIADL": {
+     "adresse": "rM1chvsWknoK7gwvJBJK6mQcvjtDv8961b",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDDL": {
+     "adresse": "rMLZvzyCfWsbNEVRxW3933H3LSEGSFSC8F",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDVL": {
+     "adresse": "rKuxo15pHeov9m2L2pE3Vy8UoUV1KbS4cf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIML": {
+     "adresse": "rfUtYKaW3RjdcNm3bc7weagDgqCaTHprYa",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIMR": {
+     "adresse": "rwe3bD2tcCA3hkcXo17bByQFeypv89b6ir",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASGL": {
+     "adresse": "r4xPmVx4uk3gJq2sdJYdxYkh4UGzo2csLk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASJL": {
+     "adresse": "rMmF2WUhTzbj1wNAukQcE1vrosL9wYVRPH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASGR": {
+     "adresse": "rhjfBrVGuGFFzNSrqwmarWDt9tSHhB5tbQ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AINL": {
+     "adresse": "rUMTqhF24jpewY5TB3JrHWzSWPRnF6xGgH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BAGL": {
+     "adresse": "r3Uat4ybjoqBnD3UrNwXteidDpMXmc8gp7",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AINR": {
+     "adresse": "rLW3hABAtoGW9sc1vRu99XxLfnvHdntWXk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BAGR": {
+     "adresse": "rEgs66Lez1A5ivBoTQUG628xD7fx4z1Cct",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPVL": {
+     "adresse": "rBAcPZtn5ZpNqxhHFQ5Stj6EJ1ajBcFBMp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBDL": {
+     "adresse": "rQreQRHm13NE9iHZhe4TMLAfcu5ta4k1at",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBDL": {
+     "adresse": "rM7o6Wn2XuMMa3GfdZC2hN4hfJhamuiwyr",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBVL": {
+     "adresse": "rLNMPDTKnyjtRtaBqzUXQnSyWFH1oEwt87",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBDR": {
+     "adresse": "r4R4LKYC1DoJ1m9QPWnWQ4jbh9C6C86UWD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBVR": {
+     "adresse": "rUDtPGR7b1eYUsbyeXbwRvD7xfQ2iqXb5i",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ALA": {
+     "adresse": "rLrny8JvNK4i2AarjfTmaCwM3SpMLB3AnD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1L": {
+     "adresse": "rw37y5hmYuFijcHj5oWUNUgBBcix3f8Bxj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ALML": {
+     "adresse": "rDXWXG9J9FNobiqnyRMwj5ZxjUtRed1MHC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BDUL": {
+     "adresse": "rJKWnXBFeJcxXTHo3Z2y1owGBFE9VpjbmY",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVR": {
+     "adresse": "rHtHPRevkrjiHnirPg9J68PV9QS2sGhSKW",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ALMR": {
+     "adresse": "rKBvPq3ddfkae17Pq9Do1srvGoa4t2j69i",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BDUR": {
+     "adresse": "rU7y79DHH1fqVhukFb3APQPKtYXfSbZpJV",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPDR": {
+     "adresse": "r3Fzv4aeY3yrPqdLo4SW6VSkC9oR635To6",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASEL": {
+     "adresse": "ra6bEC7UDHotgnm5pzYiQMNkwWbPD4EZJx",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASIR": {
+     "adresse": "rafjnUYWkRK8xdRhFYVgEGscycWWXFhQ57",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVHL": {
+     "adresse": "rHkNziNbZABDqfrfFTYE136K1VDCjjoyVk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMGR": {
+     "adresse": "rLLJPYRBGcJxXTXviB5d18QEtm4yDXf6yH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVQR": {
+     "adresse": "rsRUHvsVXFBXYtJKSUodfEvhu5d2G8tsyd",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URXL": {
+     "adresse": "rMUVrmpQnhhmqNpXCAzJFcPzKjzM7N6KAg",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYDR": {
+     "adresse": "rNF7QmDSorCsJDTxSBn6h7FViVPSMzVPx8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "DVA": {
+     "adresse": "r3MgUYrDxNCD9iS5YH8JTXNyxQFJAenS4K",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVJL": {
+     "adresse": "rwS4U2g2Yae8Q5cLeRHYtq3GN4pP7PuFiR",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "rPTqo54dvVyPoc7N3bx7yGMR6MBB9CcKFc",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVKL": {
+     "adresse": "rPyKyvtS24Ec5dDBuvczR4RG2eQuKYVyaj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDL": {
+     "adresse": "rBDSnyVgbts9ny28A8EWmsihfkwMYEKpVf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVPL": {
+     "adresse": "rpEDr2vrm9kNXatF6ZRuigfhWbfK1fraAd",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAAVL": {
+     "adresse": "rNjziHfKysD6gDVLN6XF8rK9zr4nwEYjSb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWAL": {
+     "adresse": "r3kdDG13sX96cqKfwyinaGJfdpwts7ievA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWAR": {
+     "adresse": "rUxjJogJ75KX1T9tak6S3sWnCLrwLezQjD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIR": {
+     "adresse": "r9jon5bb9oiaic263cDt7S7xvq3gNDHiF9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPDL": {
+     "adresse": "rD2GJz4N12i8gY5wB816hpx5cZhnb1PUtx",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLLL": {
+     "adresse": "rfTXg6oNsLW8nY9C3rUUaBhYLpntWWG5uf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URBL": {
+     "adresse": "rLaajmyd3WbSKn124hwZGYgicvTvRzu8uP",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYDL": {
+     "adresse": "r4wFbusEbdQNbWt9KE7f2To3LA6YaMH5gT",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLLR": {
+     "adresse": "rMX8ZJ6Bqrydp7W8LHc4DcpVrAbg4Q1Fzd",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBVR": {
+     "adresse": "rEfkPCgUPUFrEKZQ2psP6KByVu5SRZAyB3",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPVR": {
+     "adresse": "rw2nkMsS1QmWoPPPveQvBUNH98W4rh7Vzi",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQVR": {
+     "adresse": "r4F3kPjZ3ruMpeFePiNQKEJbkLxTinGtsJ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYVR": {
+     "adresse": "rf3TS9nHkCGVR2iNx5Ap1qNsE9p6gMJJd9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIVR": {
+     "adresse": "r9sd6H622YSVRUj3oLnNYbJGeGNosiWoa8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "FLPL": {
+     "adresse": "rE4HMUeKsYfv52KimjppJoXdAoiqVoAa1a",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1DL": {
+     "adresse": "rpJaFP6LDph5Vwq83rg5cgHwMtn6gFKhsD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1DR": {
+     "adresse": "r319gC9boPvbStVhPrmrhWoeMCUjQQmpaA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIPL": {
+     "adresse": "rBVyxMLGgREBHbf3jcsUi5bgrj4SvqDHjK",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDVL": {
+     "adresse": "rN9Ga6oXvxLavBRnBotmK4QFq15jE8MYCU",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMEL": {
+     "adresse": "rhsknN8PUY7QKREmGCL7oNi5H36yvKJbZz",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1R": {
+     "adresse": "rJhSBdycDt5FNgbjesHqFFD2ugysc5i7CD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIPR": {
+     "adresse": "ramu1dtjjDK13zZrzg2jhesU3LriYXeNZW",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDVR": {
+     "adresse": "rsVxipQpaZqSnZ2HhPLJA1sYhkb31nQJ6U",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1VL": {
+     "adresse": "rGj7dvTPY2gKHoZwzSCeEvgCN8jZwBk1YN",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDDL": {
+     "adresse": "rMiR2Uc2nZgL8PqsFni7oTG7L82DWsBJ9h",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMER": {
+     "adresse": "rP8RPUcrRe2s9jUQBQ622q3md1wEH21xC2",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1VR": {
+     "adresse": "rDgMqLm1XQsgpch3ra3nfPt6sizsA2yyj5",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDDR": {
+     "adresse": "rf3caeSifo2sM7isS1yBRS8XHZFkkAYBe2",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2DL": {
+     "adresse": "ruoBNkjaJtKVoWVbPCJLV6uUwvkjVLvSP",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMEV": {
+     "adresse": "rwLD8Df162ey9XpAFq8qu6MyEQNtcJEv5K",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2DR": {
+     "adresse": "rGssagCm1W4ALWGwb2EYPSMTRy9Npyrumv",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIH": {
+     "adresse": "rhPpX8z4GYAFu4GmqCTNhD67ykTRpvZiq2",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMED": {
+     "adresse": "rfdnyasRrDvGVEbqYwbXK3bLvVc3WtZ4J",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2L": {
+     "adresse": "r3MvCY5xQdAKZvndSn2eUPTkMtMHBoh1Xk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQVL": {
+     "adresse": "rfjdTdhxhPQXJp6j3YsMpntn87swztyoW6",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2R": {
+     "adresse": "rMzXyBZJXvUAzP5UqmN11yfYFBPLg2qtSa",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQDR": {
+     "adresse": "rNwXY6xPBZ3NjcfkqGGsGJW7gkxe1y9tD9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2VL": {
+     "adresse": "rHroMe1Lpni5nHEWQwZVRLBYbnoXzDVi6s",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2VR": {
+     "adresse": "r9pRBeMev527TcgPGL76v793UT5Wjf6tUw",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQDL": {
+     "adresse": "rBuBwadEoWhxcr2VoAt7NUx4pkpg4o4rTQ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBVL": {
+     "adresse": "rHzuhFA8EeuKhhyD5KW8K3NvUfVUtzxXEn",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBDR": {
+     "adresse": "rLq7pLkGu5naDFk4kUvHpK3vJ4nVWCuUQ8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIS": {
+     "adresse": "rJ8mc9xbjuysykQc6tSZde7DkouQvXtBEG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIAVL": {
+     "adresse": "rBH52ZCfU4gYnzkWUGqjFgXSFAFWU72zES",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIAVR": {
+     "adresse": "r9DeQE29c5DkWALuEx9sbKFq7hfVnJk9k2",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RID": {
+     "adresse": "r3HbPzinVvZSsj4QhMeCEQQYsKxB4gXskr",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVPR": {
+     "adresse": "raAK7hayDmSaFisqW6H3Uza4sGDjhxRNJs",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URADR": {
+     "adresse": "rHnJXaeiReASnuMoKiHQ3uQMLDz29bBtzf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVT": {
+     "adresse": "rMGF6q8312apJx5tTym4J6DX7fN3HaDq58",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDR": {
+     "adresse": "rKgJvcY5dFuwszLhv2yXybNdydr1gGuJ7Y",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIADR": {
+     "adresse": "r3Fvg467dcTgvz11TsSPPMWy49teGrbJpF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYVL": {
+     "adresse": "rffxmvuWvEMZaNoRcSG44vePQDkNNCqMQk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAADL": {
+     "adresse": "rUMx7LWbpWWFD7sK3Ks86RcpPFNkZhwdnk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAAVR": {
+     "adresse": "rBXWNjJd1RMbSFcV8noAEWGyf1YQgWuFxF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIVL": {
+     "adresse": "rfpGfrLrNLRteDHGjoXFLYigargnN7xcLM",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URAVR": {
+     "adresse": "rP2J6yU1LynyzqGo54PghEECg7G4Upd1YZ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URADL": {
+     "adresse": "rwnAPUkNVG1pLgh9fxRMuhXj1dY81FkPjX",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URAVL": {
+     "adresse": "r9etQaV17rquJGTZwuPmm7Z5Lj7F5oxvGC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URBR": {
+     "adresse": "rJPhDyh2fzr8h47AdNXMgQHGHfn8y4q2y",
+     "cree": true,
+     "stade": "L1 0h"
+    }
+   },
+   "synapses": {},
+   "evenements": [
+    {
+     "t": "2026-11-04T01:43:57.927Z",
+     "type": "mange",
+     "detail": "392.9 XRP pour growing to L1 0h",
+     "hash": "9CD697BA5D1BC1100F182F63E64884BDDC6F90866F329AE9012821D938716DD7"
+    }
+   ],
+   "mort": null,
+   "mange": 392.91089599999987,
+   "registreCourant": 22050917
+  },
+  "V4": {
+   "sexe": "male",
+   "adresse": "rLeamuryUieXX2XaaUn5mcrVaVNvfYSDZ1",
+   "parents": [],
+   "generation": 0,
+   "ne": null,
+   "stade": -1,
+   "neurones": {
+    "ADAL": {
+     "adresse": "rsj73927gDqeifueAoeEGo4MfHmyoCG7UH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADAR": {
+     "adresse": "r47q3DKyf9Hw6iQm4VBAjQn9siozoejv1m",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIBR": {
+     "adresse": "rJofM5bpH6w7s6AwYRj9aKGjA8owFVFRE6",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASHL": {
+     "adresse": "rGSuieWB3YuCd1ykiuAJknQMt1s1ZdsYLA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASKL": {
+     "adresse": "r68NqdF8whuVCe4wYcGvHBCWv5r8Q7PZh",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "rfCPEKyb1zXdXFUZLuuSvNmyVDe91zBNtb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAR": {
+     "adresse": "rDyZVfrvNfsXNj4TvyjxuA1SfrsgynWhpe",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rMwkAVeVChMjvj4XP94e6HiBRbuMX1cWJK",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVDR": {
+     "adresse": "rG67dpUD7rAm2kktKPtdHLNAExX8TBCdAn",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVJR": {
+     "adresse": "r9trSzAbX6mvTzMhmuXDned9PahDTDMYsw",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RICR": {
+     "adresse": "rLPPrKm1wgFiJ9DAdWjYhCZYdYx35XdxxE",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIML": {
+     "adresse": "rUUVdbQVMVwCgubQm8noekvvo9CNB1hS3Y",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIBL": {
+     "adresse": "rJYq4WySYXiKueuqvVNYTWjzDx19Eq8HtH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASHR": {
+     "adresse": "rJbgFnyP6fbSanYyq5dT1NXiHqNvbvzTF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "raTynjbBbTLd3uQMAne5wXzY7h9yQRM4Vo",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVDL": {
+     "adresse": "rwKAtzSP7JHuP1u6pwShCAv9N9BSX97ptn",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RICL": {
+     "adresse": "rMDjLMURWGLf2ZevHaTfquoP2a4efEQUJt",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIMR": {
+     "adresse": "rUYPASjjymQrZ2jWJEnf2umwWnUFYvD2EP",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADEL": {
+     "adresse": "rpGay6iUHCAX1FFFPrmoQjXaEnNKSHjmjq",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "FLPR": {
+     "adresse": "rE6Wa9qMbS6dCRcPgvv6FbDw3PWuqyMHrR",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADER": {
+     "adresse": "r9X725YJnD6sm7r5cyT9551fGAGR4ZbUkz",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVKR": {
+     "adresse": "rG8xPaBasQyZ9vYymSSSHjB9HjrzzhXhP9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "rpfttH4sPwU2xGVaS4N1sb1NtN9Rft1Krm",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIGL": {
+     "adresse": "rarXAF2PmHZgJERvrrwe6eheHSq85hTEPu",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIGR": {
+     "adresse": "r9dt92pHef1rcpNUfMqWQGua5ZUhrULoj8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADFL": {
+     "adresse": "r4hTtTpSYerrqueMJiJYX6mLR7Z6t6vfeR",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADFR": {
+     "adresse": "rExVUzPM2PMLbN2YgNVMr3LGSeeuLAZMov",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIYL": {
+     "adresse": "rMHx6HzAtzywtrxxsR3ciY6Z77HAe6hHLt",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIZL": {
+     "adresse": "rPnZgvRo97YtQrrh3a4SL6ssPLjpigE9ZS",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASER": {
+     "adresse": "rKn1ZqjgAfYg3BtRj9pDWT4GnkBVT5BG1C",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AUAL": {
+     "adresse": "rEUZThdNdKQWQxJXe8cAd4G1g7HeVC7fvb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVHR": {
+     "adresse": "rpTFySJpA6NytTMkExzNNCBAnx3S5JADur",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIAL": {
+     "adresse": "rs9QowwtZFizR6YeYTdMNzLE1MMrqNS9en",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIAR": {
+     "adresse": "r41YFdhBtwoxNCc7yr8beteFzMji4scbnP",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIYR": {
+     "adresse": "rUEGHbZU8uc6qmHACvxUyXtcKQi5bTmHMp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIZR": {
+     "adresse": "rfXnscicF2RJGAa8nuqeiEAEp1FY3Ridq6",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AUAR": {
+     "adresse": "rnsYHQd43KfejWVZ8pSVnddiJaP3MDYV1Z",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIAR": {
+     "adresse": "rnwVsoFkmKuohKfTXj7G45vipiFa3UR94f",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URXR": {
+     "adresse": "rQfLFxSKSY8oFRRfZNYJZkcSh22j3F7LJB",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADLL": {
+     "adresse": "rnxgwTgZKGHaMHUtVRfBFDJSet6WdMAZhu",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ADLR": {
+     "adresse": "rJDvgvyR63dNXQyN64ayyA16KbSvF6hkre",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIAL": {
+     "adresse": "rMrPsYncBmyds2fDqYFpMqVgKKkYeKABTs",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWCL": {
+     "adresse": "r9SU4AfafAaYbw5HCXyZXL9W4r7BvUExd8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVQL": {
+     "adresse": "rNpD8a23Exo99fvZ7GQAcoGZeyEKEwoYM4",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMGL": {
+     "adresse": "r4YpnCai2HWHfyCEr1YGM2VjFyy4wPx369",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASKR": {
+     "adresse": "rMsAWCffPWo6LkPodKjiikCWpScpCFdaSm",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWCR": {
+     "adresse": "rGqnWa34u2x4kk2kmHfAeyejSr51SmCP9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AFDL": {
+     "adresse": "r9Shk9W8NUuubzzJfBtGR13N3z8YDKk71B",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AFDR": {
+     "adresse": "rBLK7ru8omDGg7CMbjZxKRKeytowXhAxrB",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASIL": {
+     "adresse": "rNG3ijwJ5jt9BDzXpQsFcwSaKqteyk3PU3",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWBL": {
+     "adresse": "rPprJrQc4csMfsSSJffZ4noQCpTYzncDmG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIFL": {
+     "adresse": "rfQppXcQQBK5xBPbmfnGZdy3xRkTxQGpyG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASJR": {
+     "adresse": "rga5oJjxYgx119Syh1XwsoaghY11z8dMh",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWBR": {
+     "adresse": "rHjcE717Ptx2AHxo5aoJp7tx1PPSD6jM4Z",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIFR": {
+     "adresse": "rPpS35KUiX5yT8peGAnaEKhFDgBmgtN3Wh",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVEL": {
+     "adresse": "rhiMBszTvhbvo9W3h3RhZsbCXNuCPJfwBD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "rpTX2bSBJRT77udvvFoMh5JvtH9kMrMELx",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "DVC": {
+     "adresse": "rwP3hmE6eQjMfet7gyKCpvrLZMmHpALDHi",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIBR": {
+     "adresse": "rPLGt5JMnZsFgAFN4ehAWYFWWTZa7NZ3z",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDDR": {
+     "adresse": "rMxHxS1qAUrKJFnRKUiVmpXWP1ncUUoqj7",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDVR": {
+     "adresse": "rsMeEqpHp7xdWMLh9QEGvFVXZEvZiK2GRV",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIBL": {
+     "adresse": "rw1Fd2e1LNHnB64UxpT9pic3U2ezd5uyhh",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAADR": {
+     "adresse": "rh4zPouzecQkATffw2rKfyeN1ZA4wysCrw",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIADL": {
+     "adresse": "rESeCT57rs5zRzQkyjcnBM1qZiV7AqiCK1",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDDL": {
+     "adresse": "rwkzZSmiQ8ucCAfsYBbmH2bnbzKQ13uyf6",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMDVL": {
+     "adresse": "rpAj8HWbHDRnz6a5sZqh9K5dUB62z9tRdK",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIML": {
+     "adresse": "rh6CoM26Lc3SiThoF4Mjgedn5uChBmJJ1P",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AIMR": {
+     "adresse": "rEtrNhV3YQNNdb6BA5vZjEBbCaPxGT7u6B",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASGL": {
+     "adresse": "r4gSk2DHEQG4JFbjJd3GNYGL58FTSwExdG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASJL": {
+     "adresse": "rJfZbjdqePw2kfLTPMPNBmw2kNWa1Dezhd",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASGR": {
+     "adresse": "rwAFDxyiQMb1VQ1zc4n8ZusdRfDkWNWcqP",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AINL": {
+     "adresse": "rGfm9xjBMzQKV6CYh7BTXZzFJiNhscWoBC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BAGL": {
+     "adresse": "rsdTDki2cDDKJgKfLvPee2Y1WjeeEaoKav",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AINR": {
+     "adresse": "rDSSi82dMx2yZ2vK85EgAgEU6fmhzJs9D2",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BAGR": {
+     "adresse": "rJihXuD5ZW5GiwtYQ5av6N22azsAau4N4K",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPVL": {
+     "adresse": "rMr5Rovfsx78naQaE2H3odiyNm5RQXDecD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBDL": {
+     "adresse": "rsVZqGPXsEUgRMzcyjfdsBdYScueCRtJbW",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBDL": {
+     "adresse": "rDzEKZvNhx1X4wkzmrzckRNsPwcVRQ26eR",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBVL": {
+     "adresse": "r95qko9YHeSBeLG1t1qVmURTmAR8uPRB6H",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBDR": {
+     "adresse": "rNekB4bJEG5varLNcU1AUe9fQxPCESbbgg",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SMBVR": {
+     "adresse": "rMzNUECeDJQqbNGGp22e6exgScCgzxHTJK",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ALA": {
+     "adresse": "rM7CDxypJgQija7hda9HirUyMfWTedVFc8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1L": {
+     "adresse": "r4jLRRPrqDUJFyRWPvheceuwHVAtER9P3s",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ALML": {
+     "adresse": "rFg3xuYKeFWZJ6YE8GNrheS7P4JxNg9BB",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BDUL": {
+     "adresse": "rHf4ZaVyHyzCyfVevSPDrLcuLx5vpVAgYb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVR": {
+     "adresse": "rnKx15E8kGB6A8brJhe15qUkaxB51hWmFi",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ALMR": {
+     "adresse": "rLoMScex6zGNbhEY5r3zXQEkxg4oGPN4CF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "BDUR": {
+     "adresse": "rMiiQ9Jy7hoWC7HLwihwxjXPBGmpcRGRAD",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPDR": {
+     "adresse": "rPUzHmcJWiFA19VWDnyfQpbCT6bfbh8QFk",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASEL": {
+     "adresse": "rpWUCRusRxwnwtogxkXvvYDGo9tSYQ7QXE",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "ASIR": {
+     "adresse": "r3fU2rrD4kTuhdN2QoZfZZyCVtzN7kDXFy",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVHL": {
+     "adresse": "r9Mk34FWnzqD95YGyf8pXRgT2pQfkJBgvb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMGR": {
+     "adresse": "rMZrVVd1Rm3x1MWvxZ96YrjJgsDMfZKbvN",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVQR": {
+     "adresse": "rUCDyqUdp18LrzvrzV7JKXz8CkjtE8Cq9d",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URXL": {
+     "adresse": "rUWBxwqWeabweXHL14N94V6GR85Nxuqj6c",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYDR": {
+     "adresse": "rpxcbjEMU1L45V7wY6Kqdp5fzzowG4ruEU",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "DVA": {
+     "adresse": "rw3ZXLtZR1ScfnTR6sqayEXTFmYPu9jDEc",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVJL": {
+     "adresse": "rD85gATCWJDnKF7gMivrfYgobGp5bnRdct",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "raamGcZFZWX22MsnWtjerYreQXqoY3sivV",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVKL": {
+     "adresse": "rPAmw9dJsVLoxdvzRBNARfFqc4K2Ws7PLm",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDL": {
+     "adresse": "r3nYRm5aspdMcMLRTPpCeWa6ikcZ66YqMH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVPL": {
+     "adresse": "rBgSc74mp9buqZNLLJrrwgJtgx1mE4QxCp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAAVL": {
+     "adresse": "rssn9FtWQhvgrFy4CAGeMi1nu1nxruQ13R",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWAL": {
+     "adresse": "rQr5Pp9KoKFXs4Kfj3PUpJtMj8mPv3sABJ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AWAR": {
+     "adresse": "r9kpcbxKLmTKssTW6qRJJtefJAfBeFCWRX",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIR": {
+     "adresse": "rDpZCXZzSEiwLT7hViB7a5kwTdUFs262aL",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPDL": {
+     "adresse": "rifHPxX1thvE5KffGbm72msmcnqBRUKEA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLLL": {
+     "adresse": "r78NKHjsmn3cvYRmXk3ZrtR5FTCgCrKQo",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URBL": {
+     "adresse": "r3nRkfDpHxwta7jY4Z38uFmeUX2Zy5VYut",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYDL": {
+     "adresse": "rPp1HYuWL5YSHzswyvpw9d12ChVUkd7jYa",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLLR": {
+     "adresse": "rUhrL7Jmrtj8sn4DGuSym9G4aBumgMrftF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBVR": {
+     "adresse": "rnesi9185wu4p7A7F9nUuCMEQuMptAsMtK",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "CEPVR": {
+     "adresse": "rMBuXT3YDo1tDwExj2jFDb8e1DMLTH3WYu",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQVR": {
+     "adresse": "r4pthoWdzR2o585veeGBXwrPioWnmzf6jM",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYVR": {
+     "adresse": "rMzTSQaKB24Az54MnBU988JZ5dpjRiLQRb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIVR": {
+     "adresse": "raH1NRbv86k7euSzKw2jscDE9JrWvGtGDd",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "FLPL": {
+     "adresse": "rBNeYLEXFXfPMZcChRh87URP6dmxWbigJg",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1DL": {
+     "adresse": "rH6Hvy3Vi56T5Yc21JTwtsMxhvDVDUtuve",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1DR": {
+     "adresse": "r4SNEgGFfctRLcnDh3A5FRo6dpaXrwZJt3",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIPL": {
+     "adresse": "rNxbSK8GqotaAbGr9jRGvqhMzDV5fr9KPa",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDVL": {
+     "adresse": "rBkirK77nqVGGKtLmWfKepoTeN8cnDAhAn",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMEL": {
+     "adresse": "r9mEfCVSpQdVLVEtdWnnam8yXP24AqYFoi",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1R": {
+     "adresse": "rDxXTcaLtDtWj6zco1YoyYkXhWtY2Yh1vS",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIPR": {
+     "adresse": "r4M392Fn4aWJHDjfgxaBuUXXwuy7f595XF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDVR": {
+     "adresse": "rEnEzZsZyVD4uteTHSK3zGx7fkTC5U7oEt",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1VL": {
+     "adresse": "rP3qr7aGWuENsp27QUSHgL4vYnSxvuo4ny",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDDL": {
+     "adresse": "rBmy49reFdXEkCt3Ab2fwEWx7tnyQc4tSY",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMER": {
+     "adresse": "r48Pqxj7Qrsgq4Z5VfC3sC8d6DkmXVj8At",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL1VR": {
+     "adresse": "rKqV41XXY5rm56A5GVbrdwqDiX2FwAK2ct",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDDR": {
+     "adresse": "rJZqrej1cJZPXL75enpt3NxPqRrniqHLcp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2DL": {
+     "adresse": "rnTMNaRmduLUPiFLQf7DVtwzs6zg6tHHsA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMEV": {
+     "adresse": "rBitJMxQovrt8DUfG8iQer8zFMA3X4ypiU",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2DR": {
+     "adresse": "rnBSXwNgAMYDXJLCYs6X75tSB72tiJiCZ8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIH": {
+     "adresse": "rMC7Ccs6PJbrADW6xgbnjKp5RN1b1vhxLW",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMED": {
+     "adresse": "rnP2Bm3qZSLtQzX4GeZqC2cdR8DNaKV5sY",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2L": {
+     "adresse": "r3sd4saybdFtmZYsAHGnwXxAUjSqEP9nnL",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQVL": {
+     "adresse": "rEqGrL3U9NnT1kCfuzPh7WBoj2nfbkZcHu",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2R": {
+     "adresse": "rhxuQyArN5NEMPQoYG2CxebdyhRb33Fxwp",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQDR": {
+     "adresse": "rDpQWTLFLLReQ1nJZwvWBvPFLjVMpQVqpy",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2VL": {
+     "adresse": "rpDHPgW8TR2o5BmfQmeu93nNCr7G1c9Zag",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "IL2VR": {
+     "adresse": "rDsFKPj3ezxnATv1veag2mKdfvVBMdAVU5",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "OLQDL": {
+     "adresse": "r94TwjXxkGLRaoNqQa9dpX3UxeX9zF62QK",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBVL": {
+     "adresse": "rNvPahsLqVbDqcFTdgLB48KjvvXitehLVe",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIBDR": {
+     "adresse": "rBtiVxguQzWGgjzQ8thSddaBCiS3VLwxss",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIS": {
+     "adresse": "r9eVuDn14ZW2YWxCCCkWNKhEH6N1618DuG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIAVL": {
+     "adresse": "rEcEtGDgyfsndoDF95mvigAapXo9sWaXE7",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIAVR": {
+     "adresse": "rpffG2pzZQv234MFKtdbJciH9BXZPCXS2m",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RID": {
+     "adresse": "rBciigfZjxFwztnyLKUmSPdb7fbudEqXDf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVPR": {
+     "adresse": "rPBH7W6d4CzbCCMLwoqvGL8yi4iitmsN73",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URADR": {
+     "adresse": "rE7pE9ySAhoCDWgrLZoNsAXDR8wLxKMhjT",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVT": {
+     "adresse": "rpd4sKPMRXNa8Fj4oLcfppJfpmpE1GgDTg",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RMDR": {
+     "adresse": "rLrdDhWihPE4RNYkgMMc65bZWPMMr8FvAS",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SIADR": {
+     "adresse": "rnBeE6qQDZjajgGzwLtaRaEgqjpwa8HzML",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URYVL": {
+     "adresse": "rGcPtJJME5PE2fGwZgbUmqRLpJqRr7hzAF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAADL": {
+     "adresse": "rpo1T1PEtoLfULjSzNHrzYMWvDkVPZHxSx",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "SAAVR": {
+     "adresse": "rfJMax5sG2yui9kEYQoCxNDg9mNQJBnzYH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "RIVL": {
+     "adresse": "r4QyuV6Wo4SmtBL2Yrby2gdVcwSHoDE17X",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URAVR": {
+     "adresse": "rNmXixhCYpyEgXmdhGZJqC9F57JZ29CzcN",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URADL": {
+     "adresse": "rnCFkEhwU6as9eZXQKqhTaMFuY5GdmDbwH",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URAVL": {
+     "adresse": "rNR9gZQMuEdSdzYN2oYKVbhhxdmyj7T7Ut",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "URBR": {
+     "adresse": "rpRUTJ5N6bfPZLQASuB5Zd6zfoo5PeYz9k",
+     "cree": true,
+     "stade": "L1 0h"
+    }
+   },
+   "synapses": {},
+   "evenements": [
+    {
+     "t": "2026-11-04T01:44:05.268Z",
+     "type": "mange",
+     "detail": "392.9 XRP pour growing to L1 0h",
+     "hash": "E1AE688C6C5BCEAF9A1C6DA014C9BCA055139DA3BD1996CB0AD52E21D6A6C2C9"
+    }
+   ],
+   "mort": null,
+   "mange": 392.91089599999987,
+   "registreCourant": 22050917
+  }
+ },
+ "journal": [
+  {
+   "t": "2026-11-04T01:43:00.341Z",
+   "type": "milieu",
+   "detail": "créé rpAeX4pZwH65pRcwrizmQ77Qe9DvVYbyej"
+  },
+  {
+   "t": "2026-11-04T01:43:04.811Z",
+   "type": "robinet",
+   "detail": "+1000 XRP (total robinet 1000), milieu 1000.0 XRP"
+  },
+  {
+   "t": "2026-11-04T01:43:45.016Z",
+   "type": "robinet",
+   "detail": "+1000 XRP (total robinet 2000), milieu 1161.4 XRP"
+  },
+  {
+   "t": "2026-11-04T01:48:22.446Z",
+   "type": "robinet",
+   "detail": "+1000 XRP (total robinet 3000), milieu 1354.2 XRP"
+  }
+ ]
+}
