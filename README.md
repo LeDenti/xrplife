@@ -66,6 +66,54 @@ Toutes les adresses sont dans `etat.json` ; les journaux complets dans
 `construire.log`, `verifier.log` et `influx.log`. Le testnet est remis à zéro
 de temps en temps : le ver y est mortel, le code le recrée.
 
+## Le cycle de vie (4 novembre 2026)
+
+Quatre vers nés, nourris, grandis, accouplés, reproduits et morts sur le
+testnet, en 4 heures de registre (01:43 → 05:41 UTC). Le détail, adresse par
+adresse et transaction par transaction, est dans [CYCLE.md](CYCLE.md) ; la
+vérification indépendante dans `verifier-vie.log`.
+
+| Étape | Donnée réelle | Sur le registre |
+|---|---|---|
+| naissance | Witvliet et al. 2021, animal 1 (L1, 0 h) : 161 neurones, 747 synapses de l'anneau nerveux | la mère (le milieu pour les fondateurs) paie un compte « œuf » qui crée ses neurones |
+| alimentation | la réserve XRPL : 1 XRP par compte, 0,2 par trustline | le ver mange des XRP du milieu ; sans réserve, le registre refuse la synapse |
+| croissance | les 8 connectomes de Witvliet (L1 0 h → adulte 50 h), puis l'adulte complet de Cook 2019 | neurones nouveaux, synapses posées, renforcées ou élaguées ; chaque stade ancré par un `AccountSet` |
+| accouplement | Cook 2019 contient le mâle : 377 neurones connectés, 5 620 synapses | le mâle émet un `Check`, l'hermaphrodite l'encaisse |
+| ponte | le croisement double la ponte ; sans mâle, autofécondation | V1 fécondée pond deux œufs, V2 et V3 un chacun ; sexe des croisés tiré au sort (E2 est un mâle) |
+| mort | 18 à 20 jours à 20 °C | synapses remises à zéro, 301 à 380 `AccountDelete` par ver vers le milieu, 0,2 XRP brûlés chacun |
+
+**Bilan** : 9 000 XRP tirés du robinet (le « soleil » du testnet), 6 751 XRP
+mangés par les quatre fondateurs, 6 492 XRP rendus au milieu par leur mort,
+257 XRP brûlés par les suppressions, 7 158 XRP dans le milieu à la fin, quatre
+enfants vivants au stade L1 avec 747 synapses chacun. Le registre est un
+système fermé qui fuit : sans robinet, chaque génération coûterait 257 XRP de
+plus qu'elle ne rend.
+
+**Ce qui est mesuré** : les connectomes de chaque stade et des deux sexes, la
+réserve comme nourriture, les codes de refus du registre. **Ce qui est
+inventé** : l'horloge (un registre = une heure de vie ; les âges dans les
+mémos sont gonflés par les relances, V1 est « morte à 3 257 h »), un à deux
+descendants par mère au lieu de 300, aucune variation génétique, les larves
+mâles qui suivent des stades mesurés sur des hermaphrodites, et la jonction
+entre l'anneau nerveux de Witvliet et le corps entier de Cook, qui sont des
+animaux différents (le passage d'un stade adulte de Witvliet à l'autre change
+déjà un tiers des synapses : c'est la variabilité entre individus).
+
+**Ce que le registre a enseigné en route** : il refuse l'autapse (un compte ne
+se fait pas confiance à lui-même) ; deux synapses réciproques dans une même
+monnaie partageraient un objet et s'annuleraient, d'où une monnaie par
+neurone ; pendant une mue le neurone porte ses anciennes et ses nouvelles
+synapses, la réserve se calcule sur l'union ; un compte ne peut mourir que 256
+registres après sa naissance ; le websocket public coupe un client « trop
+lent », il faut borner les requêtes en vol.
+
+```
+./superviser.sh                 # ETAT=vie : le cycle complet, relançable, sous superviseur
+MINI=8 ETAT=mini node vie.mjs   # répétition à 8 neurones par ver
+node verifier-vie.mjs           # relit le registre : vivants, morts, transactions clés
+node rapport.mjs                # écrit CYCLE.md
+```
+
 ## Lancer
 
 ```
