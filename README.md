@@ -135,4 +135,4 @@ paiement XRPL par synapse, l'influx devient une signature hors chaîne, le
 registre ne sert qu'au règlement périodique. Voir le fil d'idées dans le
 projet [dareskro](https://github.com/LeDenti/dareskro) du même auteur.
 
-Licence MIT. Données : OpenWorm (MIT) d'après Cook et al. 2019, voir `data/README.md`.
+Licence MIT. Données : OpenWorm (MIT) d'après Cook et al. 2019 (adultes, les deux sexes), Witvliet et al. 2021 (développement) et White et al. 1986 ; références complètes et DOI dans [data/README.md](data/README.md).
