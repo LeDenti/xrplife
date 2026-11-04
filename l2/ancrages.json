@@ -1,0 +1,17 @@
+[
+ {
+  "t": "2026-11-04T10:24:01.794Z",
+  "l2": {
+   "network_id": 7302,
+   "ledger_index": 43,
+   "ledger_hash": "F6A3305EF942CFB56CAEDF5E3B9A9F648A6AF2FC036FBF392471987015E145A8",
+   "close_time_iso": "2026-11-04T10:22:40Z",
+   "validateur": "nHBdG1EX5awA6ZXr3z3hN1YbXdE6PGm45ZLoJKCcfM7ZTnJs3XfN"
+  },
+  "testnet": {
+   "hash": "0E4944661CDBE59FBDFA711FFDD6D61086B35EB7DE3F0B3EAF50988CFE99891A",
+   "ledger_index": 22059252,
+   "code": "tesSUCCESS"
+  }
+ }
+]

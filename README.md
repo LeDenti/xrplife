@@ -171,6 +171,25 @@ node rapport-humeur.mjs          # écrit HUMEUR.md
 node verifier-humeur.mjs         # relit le registre : ancrages, récepteurs, échantillon d'influx
 ```
 
+## La chaîne L2 sérotonine (4 novembre 2026, banc d'essai)
+
+Un réseau rippled dédié, même logiciel que XRPL, réseau `7302`, **réserve 0**, où les
+neurones gardent leurs clés et leurs adresses, et où la sérotonine d'un ver peut être reçue
+par un autre. Pas de jeton à vendre : l'actif natif paie les frais (« ATP »), la sérotonine
+reste une monnaie émise par le neurone. Validateur + suiveur dans Docker, genèse avec 47
+amendements, genèse neutralisée vers un trésor, 200 paiements en rafale validés 200/200, et
+l'empreinte du registre 43 ancrée sur le testnet par l'organisme E1 (tx `0E494466…`) :
+c'est le sommeil, le règlement périodique L2 → L1. Kit, procédure mesurée et pièges dans
+[l2/PROCEDURE.md](l2/PROCEDURE.md) ; page d'invitation des validateurs dans
+[l2/INVITATION.md](l2/INVITATION.md). Un validateur seul ne ferme pas de registre ; le
+premier serveur réel demande 2 cœurs et 4 Go.
+
+```
+./l2/lancer.sh genese && node l2-genese.mjs   # une fois
+./l2/lancer.sh demarrer | etat | arreter
+node ancrer-l2.mjs                            # empreinte du dernier registre L2 → testnet
+```
+
 ## Papier et citation
 
 Prépublication (6 pages, anglais) : [paper/xrplife.pdf](paper/xrplife.pdf), source

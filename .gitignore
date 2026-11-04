@@ -1,2 +1,6 @@
 .cles*.json
 node_modules/
+l2/cles/
+l2/noeud-*/db/
+l2/noeud-*/log/
+l2/noeud-a/rippled.cfg

@@ -1,0 +1,4 @@
+# XRPLife L2 — liste de confiance (UNL). Une ligne par validateur : sa clé publique (nHB…).
+# Chaque nœud du réseau doit avoir la même liste. Mise à jour publique dans README.
+[validators]
+nHBdG1EX5awA6ZXr3z3hN1YbXdE6PGm45ZLoJKCcfM7ZTnJs3XfN
