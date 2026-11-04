@@ -1,0 +1,828 @@
+{
+ "reseau": "wss://s.altnet.rippletest.net:51233",
+ "mini": 8,
+ "milieu": {
+  "adresse": "rsfkwh2hwJwf8AREXqZ2HSzedSzZdHwFXC",
+  "robinet": 1000,
+  "recycle": 0
+ },
+ "vers": {
+  "V1": {
+   "sexe": "herm",
+   "adresse": "rJftpwYiqNEQC1TkjkkBnLYNhKJcbbuukc",
+   "parents": [],
+   "generation": 0,
+   "ne": {
+    "registre": 22050022,
+    "date": "2026-11-04T01:23:03.472Z"
+   },
+   "stade": 8,
+   "neurones": {
+    "DVA": {
+     "adresse": "rnCUwWSyrv7jMiQor2tKHVWqEGAvgZS11X",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "rGFdyc8E8sBcKz41SMfn3gQSEaJgiL3oPC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "raJuWVDTf93gssP9ZkQhfn2e2jjZ58wyek",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "rss658mdRpfWiC2Hg2Svns9kV6dYzuzTxF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "rMfjQHhFp9z41cMpMo9FbdLeyBSnxrLcKY",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "rKoLqBmFpb2ENcQmoi31fvLhjVhXTL6CGY",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rs7pLELaqZfCxQxFUvkmiB9ub6xwEsseSw",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAR": {
+     "adresse": "rn7zL3mjXN2fbQYHDGs4vbXFmjE8koBJWT",
+     "cree": true,
+     "stade": "L1 5h"
+    }
+   },
+   "synapses": {},
+   "evenements": [
+    {
+     "t": "2026-11-04T01:23:03.472Z",
+     "type": "œuf",
+     "detail": "founder laid by the environment, 16.9 XRP",
+     "hash": "4E837ADA6378CB5B85DFC823743863E4F730C7BB8FC66DB31F15852ABB04D1BA"
+    },
+    {
+     "t": "2026-11-04T01:23:27.559Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 7 neurones, 7 synapses, âge 5h, mangé 0.0 XRP",
+     "hash": "11AC6FD4E8B449B8E79E2DCC8017446FF5BFD77B5D106DBFED908AC3A341D69A"
+    },
+    {
+     "t": "2026-11-04T01:23:53.093Z",
+     "type": "stade",
+     "detail": "L1 5h atteint : 8 neurones, 7 synapses, âge 12h, mangé 0.0 XRP",
+     "hash": "4EC3A8804621FABFD262BE6735BCEA56C35E40D3C915B78021209EA42924FFDA"
+    },
+    {
+     "t": "2026-11-04T01:24:17.805Z",
+     "type": "stade",
+     "detail": "L1 8h atteint : 8 neurones, 9 synapses, âge 19h, mangé 0.0 XRP",
+     "hash": "D3584F0D138EEECD863D8271C85A8356B7C86B09DB4A0E0E6C323C847FE5EAFD"
+    },
+    {
+     "t": "2026-11-04T01:24:40.353Z",
+     "type": "stade",
+     "detail": "L1 16h atteint : 8 neurones, 13 synapses, âge 25h, mangé 0.0 XRP",
+     "hash": "C280EF1FDE9B34B370DC47578AB704BF6987451FFBEFC61D558E231CCBE653E5"
+    },
+    {
+     "t": "2026-11-04T01:25:04.583Z",
+     "type": "stade",
+     "detail": "L2 23h atteint : 8 neurones, 16 synapses, âge 32h, mangé 0.0 XRP",
+     "hash": "C2B9D3A88D0E1D3CE0648B8EF129355B99EF795E94B8542406AF2D3544F260F2"
+    },
+    {
+     "t": "2026-11-04T01:25:18.507Z",
+     "type": "mange",
+     "detail": "1.5 XRP pour growing to L3 27h",
+     "hash": "54E2893F91AA9AD0CBDF1531F3CC0DFEEF638AE21BC84E3E833645B7915B1EB4"
+    },
+    {
+     "t": "2026-11-04T01:25:42.561Z",
+     "type": "stade",
+     "detail": "L3 27h atteint : 8 neurones, 18 synapses, âge 43h, mangé 1.5 XRP",
+     "hash": "43B1ECB7802164EF717D72B13ACA5D7BA150277ABA908C9FEB20F392E93E1676"
+    },
+    {
+     "t": "2026-11-04T01:26:07.372Z",
+     "type": "stade",
+     "detail": "adulte 45h atteint : 8 neurones, 19 synapses, âge 50h, mangé 1.5 XRP",
+     "hash": "E5307F49A13C5F456E975DAFC19E406527AF36173E174899077DF087E239FB8C"
+    },
+    {
+     "t": "2026-11-04T01:26:31.216Z",
+     "type": "stade",
+     "detail": "adulte 50h atteint : 8 neurones, 20 synapses, âge 57h, mangé 1.5 XRP",
+     "hash": "CDCF96E6B4A39116D1186D6FD0AFE6E99AF0A31483E2D0D6315E9ED7435311D3"
+    },
+    {
+     "t": "2026-11-04T01:26:38.136Z",
+     "type": "mange",
+     "detail": "4.6 XRP pour growing to adulte complet",
+     "hash": "9D21CA2E9FD6D331E850F868382F85362874FB3CFBD4CEE59863268DE414BB80"
+    },
+    {
+     "t": "2026-11-04T01:27:03.247Z",
+     "type": "stade",
+     "detail": "adulte complet atteint : 8 neurones, 45 synapses, âge 66h, mangé 6.1 XRP",
+     "hash": "544A75B83E892F55D09B324E05269888AFB8C285389EC257C50FDE594158DB54"
+    },
+    {
+     "t": "2026-11-04T01:27:33.447Z",
+     "type": "fécondation",
+     "detail": "Check de V4 encaissé",
+     "hash": "EA2DCC3553C2C1BCAF7C73D8D2B2042EB5AD6F58C5011515D50A3E01AC9B0359"
+    },
+    {
+     "t": "2026-11-04T01:27:39.720Z",
+     "type": "mange",
+     "detail": "5.5 XRP pour laying egg E1",
+     "hash": "952BE018865CC4ADEC83C322C59B9E9F44F415AD02E32616E560310AFA4FFEB6"
+    },
+    {
+     "t": "2026-11-04T01:27:52.076Z",
+     "type": "mange",
+     "detail": "17.4 XRP pour laying egg E2",
+     "hash": "F4E900BCEE1818787358E7FDB012FE511F86D0ED399558CF4B941493FC0154B4"
+    }
+   ],
+   "mort": null,
+   "mange": 29.002676,
+   "registreCourant": 22050123,
+   "fecondeePar": "V4"
+  },
+  "V2": {
+   "sexe": "herm",
+   "adresse": "rskmhjprQBUBpKhTxuh3KQ7K2hH1BjKeHV",
+   "parents": [],
+   "generation": 0,
+   "ne": {
+    "registre": 22050024,
+    "date": "2026-11-04T01:23:10.029Z"
+   },
+   "stade": 8,
+   "neurones": {
+    "DVA": {
+     "adresse": "rwdGtDn4ecyiNxzBHEGANnaBwB6Ac3nyXb",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "r9HFy8pDfLLRMZ3mQr9cJuZ2VE62JQNTe9",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "rwZep5XCg3aarbYfFkgnavXLzFMZkdv8QG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "r3hwSTPBkM1BQtf5aNcaqum4KXnLnTDVi3",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "rEu9aLQoParZ3FG4taQzjWxNoHpqqdVJMS",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "rBKe2aK8AMRUYYDRzeicyhRWqftzRfzbrF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rwWfLgp3XeZX342LpYAFKpb54dKmGFn5bG",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAR": {
+     "adresse": "r9YEZdPcbbxvAH51jQxW7SBeHwqfJXwrDt",
+     "cree": true,
+     "stade": "L1 5h"
+    }
+   },
+   "synapses": {},
+   "evenements": [
+    {
+     "t": "2026-11-04T01:23:10.029Z",
+     "type": "œuf",
+     "detail": "founder laid by the environment, 16.9 XRP",
+     "hash": "D5FB506ABB015FB61ACC737BD5E2296785EC6F5E15942AC27857DA0855886FAC"
+    },
+    {
+     "t": "2026-11-04T01:23:37.248Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 7 neurones, 7 synapses, âge 6h, mangé 0.0 XRP",
+     "hash": "E247D8E57D98D6CF65E5064693619A74F4DB079C3340E097A4F4A46771980335"
+    },
+    {
+     "t": "2026-11-04T01:23:59.663Z",
+     "type": "stade",
+     "detail": "L1 5h atteint : 8 neurones, 7 synapses, âge 12h, mangé 0.0 XRP",
+     "hash": "B249361BE47EFEF187BDB4A87445718221B38F3D45DC1BFF69638B4043FD4EA5"
+    },
+    {
+     "t": "2026-11-04T01:24:22.005Z",
+     "type": "stade",
+     "detail": "L1 8h atteint : 8 neurones, 9 synapses, âge 18h, mangé 0.0 XRP",
+     "hash": "D8B8C41EBE2420F595C1A4A63BFDAA7EB85DD805C548B0CE79AAB261DF516B75"
+    },
+    {
+     "t": "2026-11-04T01:24:46.309Z",
+     "type": "stade",
+     "detail": "L1 16h atteint : 8 neurones, 13 synapses, âge 25h, mangé 0.0 XRP",
+     "hash": "1BD76C62AA3F1EAB7469362A0BE16F72F7833593731A6F0A719F0EB348E9045D"
+    },
+    {
+     "t": "2026-11-04T01:25:10.248Z",
+     "type": "stade",
+     "detail": "L2 23h atteint : 8 neurones, 16 synapses, âge 32h, mangé 0.0 XRP",
+     "hash": "824E483E0B0541A9C792EC226A799E64080FFF5A277D1CCBA1E97F3BC2C4F75C"
+    },
+    {
+     "t": "2026-11-04T01:25:25.693Z",
+     "type": "mange",
+     "detail": "1.5 XRP pour growing to L3 27h",
+     "hash": "DA114DF89B18FE882A2BA394EB7DD99769B0E85D89E36A5E945C022995039BEC"
+    },
+    {
+     "t": "2026-11-04T01:25:49.728Z",
+     "type": "stade",
+     "detail": "L3 27h atteint : 8 neurones, 18 synapses, âge 43h, mangé 1.5 XRP",
+     "hash": "053CD79D6170969B51134BA687BAB2D5F7EB189D31774E30DAED9E04FE6BE57D"
+    },
+    {
+     "t": "2026-11-04T01:26:14.087Z",
+     "type": "stade",
+     "detail": "adulte 45h atteint : 8 neurones, 19 synapses, âge 50h, mangé 1.5 XRP",
+     "hash": "FB29C02DF92A9A57CBCF3CCE0AE89E8B07953D39C108495C584BF6699065749E"
+    },
+    {
+     "t": "2026-11-04T01:26:39.607Z",
+     "type": "stade",
+     "detail": "adulte 50h atteint : 8 neurones, 20 synapses, âge 57h, mangé 1.5 XRP",
+     "hash": "C57258BD344E702A98775552376424FE9CF9BCCBB70823760AAF18C7C8E4D9BE"
+    },
+    {
+     "t": "2026-11-04T01:26:46.381Z",
+     "type": "mange",
+     "detail": "4.6 XRP pour growing to adulte complet",
+     "hash": "1D9B963B3AFDCA0597E1A04462B511C9E632F7ED012A5C4C7E7FCA05846733ED"
+    },
+    {
+     "t": "2026-11-04T01:27:12.916Z",
+     "type": "stade",
+     "detail": "adulte complet atteint : 8 neurones, 45 synapses, âge 67h, mangé 6.1 XRP",
+     "hash": "563FC026C6BEE3F73F7CCC52EC130E250E3F9DAE713F20B1A2BE7571CC68901F"
+    },
+    {
+     "t": "2026-11-04T01:28:07.512Z",
+     "type": "mange",
+     "detail": "17.4 XRP pour laying egg E3",
+     "hash": "886512F05370BC33A08DB5FC5DC49AEA9E70402A38BD0571D769ADEDBDAD3764"
+    }
+   ],
+   "mort": null,
+   "mange": 23.502676,
+   "registreCourant": 22050123
+  },
+  "V3": {
+   "sexe": "herm",
+   "adresse": "rEA8M7KQisDHyoDL5RWTFt2NFBZXBUShUs",
+   "parents": [],
+   "generation": 0,
+   "ne": {
+    "registre": 22050026,
+    "date": "2026-11-04T01:23:17.398Z"
+   },
+   "stade": 8,
+   "neurones": {
+    "DVA": {
+     "adresse": "rsKXVsFKSPfYFpGJNdBVd9zVT6PEhpoeZC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "rK1k8zTmdkAQ9iEXcEwscTnuUSEFTSBJ7J",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "rpyM1Yn8BZNtyb6UWhbk3w9BtTM8rEi9eF",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "rHs53bp3B74gzGNGF1GQi9SAHx2n2wusK5",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "rJuCxonYkUDwHAAVY5mP2SU44MkMLZ64xi",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "rGA9SCEAnu7g7pNxZJoKtjxk2rDiifBxKJ",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rDC51sMbomqyg4biNwb6WFisKdHYfu2EWX",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAR": {
+     "adresse": "r3Tj285pLYhso2EiMViqm5rWFuhYRuVwW9",
+     "cree": true,
+     "stade": "L1 5h"
+    }
+   },
+   "synapses": {},
+   "evenements": [
+    {
+     "t": "2026-11-04T01:23:17.398Z",
+     "type": "œuf",
+     "detail": "founder laid by the environment, 16.9 XRP",
+     "hash": "4DAB945FF08114CFB6CF017E3DDD7D37426EA95678EE00E97D8E2BD4B47B8296"
+    },
+    {
+     "t": "2026-11-04T01:23:41.885Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 7 neurones, 7 synapses, âge 5h, mangé 0.0 XRP",
+     "hash": "BD150DC5842F5A4FD359013B129621F28C65E0BC26A01AADEA3DE86F4904943B"
+    },
+    {
+     "t": "2026-11-04T01:24:04.418Z",
+     "type": "stade",
+     "detail": "L1 5h atteint : 8 neurones, 7 synapses, âge 11h, mangé 0.0 XRP",
+     "hash": "ACCBE0B5079A099E8732733BE7034CFA23696AC81A08161A1D383CDC88902C97"
+    },
+    {
+     "t": "2026-11-04T01:24:29.513Z",
+     "type": "stade",
+     "detail": "L1 8h atteint : 8 neurones, 9 synapses, âge 18h, mangé 0.0 XRP",
+     "hash": "D892018843EE783EEAA088F6819BD1758C2170B089741BEAD31E29E4BFF9B990"
+    },
+    {
+     "t": "2026-11-04T01:24:52.823Z",
+     "type": "stade",
+     "detail": "L1 16h atteint : 8 neurones, 13 synapses, âge 25h, mangé 0.0 XRP",
+     "hash": "EA330C320D287209FB435FD678DF8B9B7D976516B82400449DE9CA5937C15417"
+    },
+    {
+     "t": "2026-11-04T01:25:14.504Z",
+     "type": "stade",
+     "detail": "L2 23h atteint : 8 neurones, 16 synapses, âge 31h, mangé 0.0 XRP",
+     "hash": "D0061BA114A5EE8C21EA1747C160BAFBBBBCED82B3C2C54855D147DE646833E2"
+    },
+    {
+     "t": "2026-11-04T01:25:32.469Z",
+     "type": "mange",
+     "detail": "1.5 XRP pour growing to L3 27h",
+     "hash": "CDA3926E1BFDDDB8D2224416F6CCBFB3E708704C4E420A8DB1BE67643D01B037"
+    },
+    {
+     "t": "2026-11-04T01:26:00.415Z",
+     "type": "stade",
+     "detail": "L3 27h atteint : 8 neurones, 18 synapses, âge 44h, mangé 1.5 XRP",
+     "hash": "141A28F0F6116EB103DD8654AB24D2ECD98C64A2494055595C620B478D72597C"
+    },
+    {
+     "t": "2026-11-04T01:26:24.722Z",
+     "type": "stade",
+     "detail": "adulte 45h atteint : 8 neurones, 19 synapses, âge 51h, mangé 1.5 XRP",
+     "hash": "8C52B2E78593DC56A9FD7140233C055069F29FD4ABCD576A605DB4DA4B47E0B1"
+    },
+    {
+     "t": "2026-11-04T01:26:48.939Z",
+     "type": "stade",
+     "detail": "adulte 50h atteint : 8 neurones, 20 synapses, âge 58h, mangé 1.5 XRP",
+     "hash": "47022AD5064B2AE29562D47A5B8E3793216A1311E77FCE2261A90CA968F9787A"
+    },
+    {
+     "t": "2026-11-04T01:26:55.852Z",
+     "type": "mange",
+     "detail": "4.6 XRP pour growing to adulte complet",
+     "hash": "82718246ADECCFE23CFBA23872C512CDC93EAFA1E46A13ECBD0D8C490B29DE58"
+    },
+    {
+     "t": "2026-11-04T01:27:18.752Z",
+     "type": "stade",
+     "detail": "adulte complet atteint : 8 neurones, 45 synapses, âge 67h, mangé 6.1 XRP",
+     "hash": "82050576F9CD11B4B962E63FD31A231200A6D9F76B0B5E280E4FFACF7FD26FD8"
+    },
+    {
+     "t": "2026-11-04T01:28:21.277Z",
+     "type": "mange",
+     "detail": "17.4 XRP pour laying egg E4",
+     "hash": "2B03F76858B68DE1EFCB0FD39127B395D707D9D05395D31B66ED65E820274029"
+    }
+   ],
+   "mort": null,
+   "mange": 23.502676,
+   "registreCourant": 22050123
+  },
+  "V4": {
+   "sexe": "male",
+   "adresse": "rfWejuTDSacgZ8DcpJvtKZCZw9eZvExc37",
+   "parents": [],
+   "generation": 0,
+   "ne": {
+    "registre": 22050028,
+    "date": "2026-11-04T01:23:24.586Z"
+   },
+   "stade": 6,
+   "neurones": {
+    "AVAL": {
+     "adresse": "r3q2DvC8S6zE4Xkpc7sjYjQDLywDZ3tHpZ",
+     "cree": true,
+     "stade": "L1 5h"
+    },
+    "AVAR": {
+     "adresse": "rHwS9mugCvvPV3Qwvhc8h5dDXSF1AmrZFk",
+     "cree": true,
+     "stade": "L1 5h"
+    },
+    "PVV": {
+     "adresse": "rBgB2wUMagncXY7g5FofLwRuQaZyksuEk3",
+     "cree": true,
+     "stade": "adulte mâle complet"
+    },
+    "AVBR": {
+     "adresse": "rsKBKV6ZJYZWuB2HWzx4be4NXQTxMre1z9",
+     "cree": true,
+     "stade": "adulte mâle complet"
+    },
+    "EF3": {
+     "adresse": "rwJjAAuVeSFtXqvQdB93ZWcECAEr1AAVue",
+     "cree": true,
+     "stade": "adulte mâle complet"
+    },
+    "PVX": {
+     "adresse": "rJ7f8Wi1qp6MAjXcqVzDkoAdQyU8N5GwYJ",
+     "cree": true,
+     "stade": "adulte mâle complet"
+    },
+    "EF2": {
+     "adresse": "rKg2G1LkErQKuPTtTMBskKgFSdgnxJa2zW",
+     "cree": true,
+     "stade": "adulte mâle complet"
+    },
+    "PDB": {
+     "adresse": "rSpg2NE3Jv9NwTscyZeBEpsKXQP4WN2vx",
+     "cree": true,
+     "stade": "adulte mâle complet"
+    }
+   },
+   "synapses": {},
+   "evenements": [
+    {
+     "t": "2026-11-04T01:23:24.586Z",
+     "type": "œuf",
+     "detail": "founder laid by the environment, 5.0 XRP",
+     "hash": "73B36D3AF7D35D562CC3D2F2726E98B21B7C7B5657B9EDC718F5402EC9CAD352"
+    },
+    {
+     "t": "2026-11-04T01:23:31.413Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 0 neurones, 0 synapses, âge 0h, mangé 0.0 XRP",
+     "hash": "4122DBFD78994BC2DFEA0DF17EB2717F615DE4C58875320C064EA6D145F30ABF"
+    },
+    {
+     "t": "2026-11-04T01:23:52.204Z",
+     "type": "stade",
+     "detail": "L1 5h atteint : 2 neurones, 1 synapses, âge 6h, mangé 0.0 XRP",
+     "hash": "3623F04E66191EE2AA1612B379674434F2DCFCCF322D510B6DA921E2E5AFF3CC"
+    },
+    {
+     "t": "2026-11-04T01:24:14.847Z",
+     "type": "stade",
+     "detail": "L1 8h atteint : 2 neurones, 0 synapses, âge 12h, mangé 0.0 XRP",
+     "hash": "528B0B7A8569A68E5CF52C5EE6621EA7F5C672405829AABA27DDBA9877350385"
+    },
+    {
+     "t": "2026-11-04T01:24:37.227Z",
+     "type": "stade",
+     "detail": "L1 16h atteint : 2 neurones, 1 synapses, âge 18h, mangé 0.0 XRP",
+     "hash": "D2D8D45EDB13CE3F8DC7F7721955932D044AB88CC229B96CB76832CAF5177BB8"
+    },
+    {
+     "t": "2026-11-04T01:24:50.432Z",
+     "type": "stade",
+     "detail": "L2 23h atteint : 2 neurones, 1 synapses, âge 22h, mangé 0.0 XRP",
+     "hash": "9C9FEBFB1E3B32EFCAC4DFD3151AC09BCF3F5B80F62F74475EED90206C7475E3"
+    },
+    {
+     "t": "2026-11-04T01:25:03.502Z",
+     "type": "stade",
+     "detail": "L3 27h atteint : 2 neurones, 1 synapses, âge 26h, mangé 0.0 XRP",
+     "hash": "471B9F1D9B7024304A0FBC75929926407AAD009442CCB7DC9EA0D57BF34F1E7F"
+    },
+    {
+     "t": "2026-11-04T01:25:10.071Z",
+     "type": "mange",
+     "detail": "15.0 XRP pour growing to adulte mâle complet",
+     "hash": "F52B3284ED2C3C61E4A52337A350779F42FB75078B5C8E5A3E905276848D9565"
+    },
+    {
+     "t": "2026-11-04T01:25:35.334Z",
+     "type": "stade",
+     "detail": "adulte mâle complet atteint : 8 neurones, 30 synapses, âge 35h, mangé 15.0 XRP",
+     "hash": "45EC2B1723E022B1A1149F82828A16CC057E45F11E8FF072ADBA5FCB8ABDB85E"
+    },
+    {
+     "t": "2026-11-04T01:27:26.128Z",
+     "type": "parade",
+     "detail": "Check vers V1 (3FEFCEC6…)",
+     "hash": "4E4B2C8F0C3C46188D5E5EDA61B9F4ACEE76DA82D317B3A20536EA5A298C7B67"
+    }
+   ],
+   "mort": null,
+   "mange": 15.000636,
+   "registreCourant": 22050123
+  },
+  "E1": {
+   "sexe": "male",
+   "adresse": "rJV8VqcHxHFwBYPNLgqCcmw7m4T7bg81HQ",
+   "parents": [
+    "V1",
+    "V4"
+   ],
+   "generation": 1,
+   "ne": {
+    "registre": 22050103,
+    "date": "2026-11-04T01:27:47.227Z"
+   },
+   "stade": 0,
+   "neurones": {},
+   "synapses": {},
+   "evenements": [
+    {
+     "t": "2026-11-04T01:27:47.227Z",
+     "type": "œuf",
+     "detail": "egg laid by V1 fertilised by V4, 5.0 XRP",
+     "hash": "B6F5D33EAEA47CEAA61812628A1EE0938D9D30170CFB4300468E8FD22B590392"
+    },
+    {
+     "t": "2026-11-04T01:28:36.582Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 0 neurones, 0 synapses, âge 12h, mangé 0.0 XRP",
+     "hash": "3DBE9F31771B801E65270F3A7563BCB13E4DB7CBC57FC6C47AC17E28BF31A0EF"
+    }
+   ],
+   "mort": null,
+   "mange": 0,
+   "registreCourant": 22050115
+  },
+  "E2": {
+   "sexe": "herm",
+   "adresse": "rDPCH4Paoc1eXLeVdptoLXRmhDx19G7Q1S",
+   "parents": [
+    "V1",
+    "V4"
+   ],
+   "generation": 1,
+   "ne": {
+    "registre": 22050107,
+    "date": "2026-11-04T01:27:59.552Z"
+   },
+   "stade": 0,
+   "neurones": {
+    "DVA": {
+     "adresse": "rsmd9R3CTnrGrxtWWPhcPhKkuHfb7Pd3iy",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "r9bt6YwrQayAWLRLPMcNcRqb7rL8KL8CRA",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "rH8B5j9zH3bhTej3wTZM4AfQDhQvQ18GPa",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "rwijB5Dapw4J5V4bLyPhkqHs4K6VA5TXKC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "rDLrNpB6Gq7iDt4CH5miV9SuEeJdmHXWMi",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "r4iQT6ktyPmmyb8sBX8roXvVCejJEz4iLg",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rf76NKT84keSx2UJB41QzcqXFu9vawohfm",
+     "cree": true,
+     "stade": "L1 0h"
+    }
+   },
+   "synapses": {
+    "DVA>AVAL": 1,
+    "DVA>AVBR": 1,
+    "PVCL>AVBR": 1,
+    "PVCR>AVBR": 1,
+    "DVA>AVER": 1,
+    "PVCL>AVER": 1,
+    "PVCR>AVBL": 1
+   },
+   "evenements": [
+    {
+     "t": "2026-11-04T01:27:59.552Z",
+     "type": "œuf",
+     "detail": "egg laid by V1 fertilised by V4, 16.9 XRP",
+     "hash": "081435CF01F733D3F247E166765D0F15CC647078A3AC60FBDB62F025117E0721"
+    },
+    {
+     "t": "2026-11-04T01:28:57.990Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 7 neurones, 7 synapses, âge 14h, mangé 0.0 XRP",
+     "hash": "FC94F0A61CB33586B305EA932232DFD9244B8F140B986463846FF9061EF6906C"
+    }
+   ],
+   "mort": null,
+   "mange": 0,
+   "registreCourant": 22050121
+  },
+  "E3": {
+   "sexe": "herm",
+   "adresse": "rrhFJ7sJhThBs6NJUb1BRP3GLPDqHtDJ29",
+   "parents": [
+    "V2"
+   ],
+   "generation": 1,
+   "ne": {
+    "registre": 22050111,
+    "date": "2026-11-04T01:28:13.692Z"
+   },
+   "stade": 0,
+   "neurones": {
+    "DVA": {
+     "adresse": "rJM2FUDepCnLrkGwwkg3pUenqv3G9mJHur",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "rM1ub7uJSeguZV8R3MZQ5SjjCoDQfmJu71",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "rGMawiMU3o58FrweVq2aoMfVFrKxYfPMCe",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "rK8jvCmsi5qQ23vtUsk1su23kCDy53h75M",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "rUUo47WWZoBN8Bn4tAoWjXiWBUnTxMC6Kj",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "rNGMBhbtHgAec7tpqQGQS8AtxMQYj5Nruf",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rs9rbaJJkzhq97pvtLfHQio36dgJZouomT",
+     "cree": true,
+     "stade": "L1 0h"
+    }
+   },
+   "synapses": {
+    "DVA>AVAL": 1,
+    "DVA>AVBR": 1,
+    "PVCL>AVBR": 1,
+    "PVCR>AVBR": 1,
+    "DVA>AVER": 1,
+    "PVCL>AVER": 1,
+    "PVCR>AVBL": 1
+   },
+   "evenements": [
+    {
+     "t": "2026-11-04T01:28:13.692Z",
+     "type": "œuf",
+     "detail": "egg laid by V2 (self-fertilised), 16.9 XRP",
+     "hash": "0A30711554251C63337597D31F7FDB2EC618580295CF254380196D4AF9620AF4"
+    },
+    {
+     "t": "2026-11-04T01:28:58.165Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 7 neurones, 7 synapses, âge 10h, mangé 0.0 XRP",
+     "hash": "183A42025129A6B9190DDF48C28354040D2DA0F0ACC7A805ACFF83234D3DC0BA"
+    }
+   ],
+   "mort": null,
+   "mange": 0,
+   "registreCourant": 22050121
+  },
+  "E4": {
+   "sexe": "herm",
+   "adresse": "rE9KpDX4CNF34dE3psE8j3GDiPA2Danzsc",
+   "parents": [
+    "V3"
+   ],
+   "generation": 1,
+   "ne": {
+    "registre": 22050115,
+    "date": "2026-11-04T01:28:28.836Z"
+   },
+   "stade": 0,
+   "neurones": {
+    "DVA": {
+     "adresse": "rNDXHt335EFEhaeabd1HzsHj62qf6WGs3e",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVAL": {
+     "adresse": "rHF7bnKcooLtumBGe8gaNvDPgtSUCbo7q8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBR": {
+     "adresse": "rwixBrh8vxdxVRsiixgfWGnmakCnKvr9h4",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVER": {
+     "adresse": "rKiRJT5m2Txrx8cM2twpQYiMrYpKw83t3h",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCL": {
+     "adresse": "r7jbrrGsK2BMy68tUJNkd9SBzwAX3WGNC",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "PVCR": {
+     "adresse": "rpCwfUZCdZST67tkRwuSdTVurXK4YdkCG8",
+     "cree": true,
+     "stade": "L1 0h"
+    },
+    "AVBL": {
+     "adresse": "rrePEoWKBb74dHeiUHEh6dkTrBwXwkzza",
+     "cree": true,
+     "stade": "L1 0h"
+    }
+   },
+   "synapses": {
+    "DVA>AVAL": 1,
+    "DVA>AVBR": 1,
+    "PVCL>AVBR": 1,
+    "PVCR>AVBR": 1,
+    "DVA>AVER": 1,
+    "PVCL>AVER": 1,
+    "PVCR>AVBL": 1
+   },
+   "evenements": [
+    {
+     "t": "2026-11-04T01:28:28.836Z",
+     "type": "œuf",
+     "detail": "egg laid by V3 (self-fertilised), 16.9 XRP",
+     "hash": "2EB61A6FF12FBDE9329F969555C3E32B9E54AA2010C006FC563A7D621963511D"
+    },
+    {
+     "t": "2026-11-04T01:28:57.461Z",
+     "type": "stade",
+     "detail": "L1 0h atteint : 7 neurones, 7 synapses, âge 6h, mangé 0.0 XRP",
+     "hash": "33EA9174D567F645A2781EBBEBAE24203955FF95E09CB07EB2E2E22E1AB3BDF8"
+    }
+   ],
+   "mort": null,
+   "mange": 0,
+   "registreCourant": 22050121
+  }
+ },
+ "journal": [
+  {
+   "t": "2026-11-04T01:22:51.759Z",
+   "type": "milieu",
+   "detail": "créé rsfkwh2hwJwf8AREXqZ2HSzedSzZdHwFXC"
+  },
+  {
+   "t": "2026-11-04T01:22:57.138Z",
+   "type": "robinet",
+   "detail": "+1000 XRP (total robinet 1000), milieu 1000.0 XRP"
+  }
+ ]
+}
