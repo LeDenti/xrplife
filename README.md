@@ -127,6 +127,50 @@ node influx.mjs ALML 2         # un toucher antérieur : ALML, 2 sauts
 `etat.json` garde les adresses et hachages (public) ; `.cles.json` les graines
 testnet (0600, hors git).
 
+## La couche « sentiments » (4 novembre 2026)
+
+Le connectome filaire ne contient pas les états internes du ver (faim, satiété, errance,
+broutage) : ils passent par des molécules diffuses, sérotonine et neuropeptides, qui changent
+le **gain** de milliers de synapses à la fois. C'est le connectome « sans fil » de Bentley et
+al. 2016, posé ici sur l'enfant vivant E1 comme un deuxième étage (L2) au-dessus du filaire (L1) :
+
+| Vivant | XRPL testnet |
+|---|---|
+| un neurone qui sécrète la sérotonine (ADF) ou PDF-1 | le compte du neurone émet une monnaie « 5HT » ou « PDF1 » |
+| un récepteur (mod-1, ser-4 inhibiteurs ; ser-1, ser-5, pdfr-1 excitateurs) | une trustline du neurone récepteur vers cette monnaie, nom du récepteur en mémo |
+| la concentration | le solde |
+| la sécrétion | un paiement de l'émetteur à chaque récepteur |
+| la recapture | le récepteur rend son solde à l'émetteur |
+| le gain d'un neurone | exp(0,5 × (part des entrées excitatrices actives − part des inhibitrices)), **lu sur les soldes** |
+| l'activité | l'agent d'influx (L3) répartit activité × gain sur les synapses chimiques, un paiement par transfert |
+
+Le test, d'après Flavell et al. 2013 (la sérotonine fait brouter, PDF fait errer) : même
+stimulus dans trois humeurs, **base** (rien), **repu** (5HT sécrétée), **affamé** (5HT
+recapturée, PDF-1 sécrété), et part de l'activité qui atteint les commandes de marche avant
+(AVB, PVC) contre celles d'arrêt, recul et virage (AVA, AVD, AVE, RIM, RIV, SMD) : l'index
+d'errance. Prédiction : repu < base < affamé.
+
+**Résultat (essai 2, 4 novembre 09:20-09:35 UTC, [HUMEUR.md](HUMEUR.md), vérifié dans
+`verifier-humeur.log`)** : 994/994 récepteurs posés ; la sérotonine divise l'activité totale par
+1,9 et PDF-1 la multiplie par 1,8, mais l'index d'errance ne bouge pas (AWC : 0,192 / 0,207 /
+0,207 ; ALM : 0,504 / 0,503 / 0,492). **La prédiction n'est pas tenue.** Un gain uniforme sur un
+neurone multiplie toutes ses sorties pareil : la part qui atteint chaque commande ne dépend que de
+la carte. Pour que la sérotonine fasse brouter, il faut un effet par récepteur et par synapse, que
+ni Bentley 2016 ni ce modèle ne donnent. C'est la première mesure du projet qui n'est pas vraie
+par construction, et elle est négative. L'essai 1 ([HUMEUR-essai1.md](HUMEUR-essai1.md)) avait une
+monnaie commune par modulateur : les quatre RME, qui se sécrètent PDF-1 mutuellement, s'annulaient
+sur un objet partagé (12 arêtes sur 892) ; d'où une monnaie par émetteur, « PDF1.RMED », comme
+une monnaie par neurone pour les synapses.
+
+```
+node humeur.mjs poser            # 994 trustlines de récepteurs sur E1, nourries par le milieu
+node humeur.mjs etat repu        # base | repu | affame : sécrétion, recapture, gains lus sur le registre
+node humeur.mjs influx AWCL+AWCR repu
+node humeur.mjs tout             # les trois états × deux stimulus, résultats ancrés
+node rapport-humeur.mjs          # écrit HUMEUR.md
+node verifier-humeur.mjs         # relit le registre : ancrages, récepteurs, échantillon d'influx
+```
+
 ## Papier et citation
 
 Prépublication (6 pages, anglais) : [paper/xrplife.pdf](paper/xrplife.pdf), source

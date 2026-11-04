@@ -1,0 +1,12 @@
+ancrage récepteurs C928BC2633EE tesSUCCESS | E1 wireless connectome: 994/994 receptor lines (5HT 102, PDF1 892) after Bentley et al. 2016 | {"bentley2016_monoamines.
+humeur  A98F2D583274 tesSUCCESS | E1 state=base ledger=22058209 exc=0 inh=0
+humeur  ABA51676F243 tesSUCCESS | E1 state=repu ledger=22058284 exc=48 inh=54
+humeur  901BC6237D86 tesSUCCESS | E1 state=affame ledger=22058367 exc=892 inh=0
+fin     38B90D7C3649 tesSUCCESS | [{"s":"base","d":"AWCL+AWCR","i":0.1922},{"s":"base","d":"ALML+ALMR","i":0.5038},{"s":"repu","d":"AWCL+AWCR","i":0.2067},{"s":"repu","d":"ALML+ALMR","i":0.5026}
+récepteurs sur le registre : 5HT 86 lignes (102 arêtes, doublons de récepteur partagent une ligne), PDF1 892 lignes (892 arêtes), PDF1 actives maintenant 892 (dernier état : affamé)
+base    AWCL+AWCR  10/10 paiements vérifiés | E1 state=base origin=AWCL+AWCR hop=1 AWCL>AIAL w=3 gain=1.000 a=1.071e-1
+base    ALML+ALMR  10/10 paiements vérifiés | E1 state=base origin=ALML+ALMR hop=1 ALML>BDUL w=1 gain=1.000 a=2.500e-1
+repu    AWCL+AWCR  10/10 paiements vérifiés | E1 state=repu origin=AWCL+AWCR hop=1 AWCL>AIAL w=3 gain=1.000 a=1.071e-1
+repu    ALML+ALMR  10/10 paiements vérifiés | E1 state=repu origin=ALML+ALMR hop=1 ALML>BDUL w=1 gain=1.000 a=2.500e-1
+affame  AWCL+AWCR  10/10 paiements vérifiés | E1 state=affame origin=AWCL+AWCR hop=1 AWCL>AIAL w=3 gain=1.000 a=1.071e-1
+affame  ALML+ALMR  10/10 paiements vérifiés | E1 state=affame origin=ALML+ALMR hop=1 ALML>BDUL w=1 gain=1.649 a=4.122e-1

@@ -1,0 +1,42 @@
+09:01:30 récepteurs à poser : 994 trustlines sur 61 neurones
+09:01:33 nourriture : 239.8 XRP du milieu pour 61 neurones
+09:01:40 mange 239.8 XRP pour les récepteurs 9B8691C8…
+09:05:01 récepteurs posés : 994, refus {}
+09:05:19 récepteurs 994/994 vérifiés sur le registre 1F4233CF…
+09:05:34 recapture 5HT : 0/0 lignes vidées, refus {} 
+09:05:35 recapture PDF1 : 0/0 lignes vidées, refus {} 
+09:05:37 gains base : registre 22057889, 0 entrées excitatrices et 0 inhibitrices actives, 0 neurones modulés 
+09:05:42 humeur base ancré 177FCAC9…
+09:06:02   base AWCL+AWCR saut 1 : 9 neurones actifs, 14 paiements
+09:06:17   base AWCL+AWCR saut 2 : 40 neurones actifs, 70 paiements
+09:06:57   base AWCL+AWCR saut 3 : 75 neurones actifs, 274 paiements
+09:06:58 influx base depuis AWCL+AWCR : 274 paiements, 76 neurones, avant 0.1188 / arrêt 0.4994 → index d'errance 0.192 
+09:07:05   base ALML+ALMR saut 1 : 4 neurones actifs, 5 paiements
+09:07:17   base ALML+ALMR saut 2 : 16 neurones actifs, 22 paiements
+09:07:27   base ALML+ALMR saut 3 : 34 neurones actifs, 68 paiements
+09:07:27 influx base depuis ALML+ALMR : 68 paiements, 40 neurones, avant 0.2361 / arrêt 0.2325 → index d'errance 0.504 
+09:07:28 recapture PDF1 : 0/0 lignes vidées, refus {} 
+09:08:46 sécrétion 5HT : 102/102 paiements, refus {} 
+09:08:48 gains repu : registre 22057946, 48 entrées excitatrices et 54 inhibitrices actives, 39 neurones modulés 
+09:08:55 humeur repu ancré 0FC6BCF5…
+09:09:15   repu AWCL+AWCR saut 1 : 9 neurones actifs, 14 paiements
+09:09:34   repu AWCL+AWCR saut 2 : 40 neurones actifs, 70 paiements
+09:10:16   repu AWCL+AWCR saut 3 : 75 neurones actifs, 274 paiements
+09:10:16 influx repu depuis AWCL+AWCR : 274 paiements, 76 neurones, avant 0.0688 / arrêt 0.2642 → index d'errance 0.207 
+09:10:23   repu ALML+ALMR saut 1 : 4 neurones actifs, 5 paiements
+09:10:35   repu ALML+ALMR saut 2 : 16 neurones actifs, 22 paiements
+09:10:47   repu ALML+ALMR saut 3 : 34 neurones actifs, 68 paiements
+09:10:47 influx repu depuis ALML+ALMR : 68 paiements, 40 neurones, avant 0.2902 / arrêt 0.2871 → index d'errance 0.503 
+09:11:14 recapture 5HT : 86/86 lignes vidées, refus {} 
+09:13:01 sécrétion PDF1 : 892/892 paiements, refus {} 
+09:13:03 gains affame : registre 22058016, 880 entrées excitatrices et 0 inhibitrices actives, 28 neurones modulés 
+09:13:08 humeur affame ancré EA7EA654…
+09:13:24   affame AWCL+AWCR saut 1 : 9 neurones actifs, 14 paiements
+09:13:41   affame AWCL+AWCR saut 2 : 40 neurones actifs, 70 paiements
+09:14:17   affame AWCL+AWCR saut 3 : 75 neurones actifs, 274 paiements
+09:14:17 influx affame depuis AWCL+AWCR : 274 paiements, 76 neurones, avant 0.1306 / arrêt 0.5006 → index d'errance 0.207 
+09:14:24   affame ALML+ALMR saut 1 : 4 neurones actifs, 5 paiements
+09:14:35   affame ALML+ALMR saut 2 : 16 neurones actifs, 22 paiements
+09:14:46   affame ALML+ALMR saut 3 : 34 neurones actifs, 68 paiements
+09:14:46 influx affame depuis ALML+ALMR : 68 paiements, 40 neurones, avant 0.4190 / arrêt 0.4324 → index d'errance 0.492 
+09:14:54 fin résultats ancrés F409B8EE…
