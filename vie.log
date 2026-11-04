@@ -4,3 +4,1410 @@
 02:14:57 [V4] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
 02:14:57 [V1] → L1 5h : 162 neurones, 969 synapses (Witvliet 2021)
 02:15:03 [V2] mange 390.9 XRP pour growing to L1 0h 5BA0C177…
+02:15:11 [V1] mange 55.0 XRP pour growing to L1 5h 6BA1C9DC…
+02:16:04 [V4] 0 neurones nés, 49 réserves complétées
+02:16:04 [V4] passe 1 : 747 synapses à poser, 0 à élaguer, 147 neurones
+02:17:05 [V4] passe 1 : 747/747 confirmées
+02:17:06 connexion : WebSocket is not open: readyState 2 (CLOSING) → reprise 1
+file:///Users/jul/xrplife/vie.mjs:180
+const age = (ver) => `${Math.max(0, etat.vers[ver].registreCourant - etat.vers[ver].ne.registre)}h`; // 1 registre = 1 heure de vie
+                                                                                       ^
+
+TypeError: Cannot read properties of null (reading 'registre')
+    at age (file:///Users/jul/xrplife/vie.mjs:180:88)
+    at grandir (file:///Users/jul/xrplife/vie.mjs:302:70)
+    at async file:///Users/jul/xrplife/vie.mjs:390:51
+    at async Promise.all (index 3)
+    at async cycle (file:///Users/jul/xrplife/vie.mjs:388:3)
+    at async file:///Users/jul/xrplife/vie.mjs:404:7
+
+Node.js v26.12.1
+02:17:06 superviseur : sortie 0 , relance dans 20 s
+02:17:26 superviseur : lancement 2
+02:17:28 [V2] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:17:28 [V3] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:17:28 [V4] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:17:28 [V1] → L1 5h : 162 neurones, 969 synapses (Witvliet 2021)
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:29 connexion : websocket was closed, Policy error: client is too slow. → reprise 1
+02:17:37 superviseur : lancement 1
+02:17:39 [V2] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:17:39 [V1] → L1 5h : 162 neurones, 969 synapses (Witvliet 2021)
+02:17:44 [V3] œuf founder laid by the environment, 395.9 XRP A22C58A4…
+02:17:44 [V3] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:17:51 connexion : WebSocket is not open: readyState 2 (CLOSING) → reprise 1
+02:17:51 connexion : WebSocket is not open: readyState 2 (CLOSING) → reprise 1
+file:///Users/jul/xrplife/vie.mjs:96
+      if (code !== 'tesSUCCESS') { const e = new Error(code); e.code = code; e.meta = r.result.meta; throw e; }
+                                             ^
+
+Error: tecUNFUNDED_PAYMENT
+    at soumettreSeul (file:///Users/jul/xrplife/vie.mjs:96:46)
+    at async pondre (file:///Users/jul/xrplife/vie.mjs:218:20)
+    at async file:///Users/jul/xrplife/vie.mjs:389:5
+    at async Promise.all (index 3)
+    at async cycle (file:///Users/jul/xrplife/vie.mjs:388:3)
+    at async file:///Users/jul/xrplife/vie.mjs:404:7 {
+  code: 'tecUNFUNDED_PAYMENT',
+  meta: {
+    AffectedNodes: [
+      {
+        ModifiedNode: {
+          FinalFields: {
+            Account: 'rpAeX4pZwH65pRcwrizmQ77Qe9DvVYbyej',
+            Balance: '66338812',
+            Flags: 0,
+            OwnerCount: 0,
+            Sequence: 22050377
+          },
+          LedgerEntryType: 'AccountRoot',
+          LedgerIndex: '6C3D08AE9FE9D19AD52AD3A644CA251A05749A5CA58ADAA9B85F4B9EAD4944E9',
+          PreviousFields: { Balance: '66338824', Sequence: 22050376 },
+          PreviousTxnID: 'A22C58A4E72FD92897D200825640E407F8E1CEC7174060E5BAA602D32E0FF052',
+          PreviousTxnLgrSeq: 22050964
+        }
+      }
+    ],
+    TransactionIndex: 37,
+    TransactionResult: 'tecUNFUNDED_PAYMENT'
+  }
+}
+
+Node.js v26.12.1
+02:17:51 superviseur : sortie 1 , relance dans 20 s
+02:18:11 superviseur : lancement 2
+02:18:13 [V2] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:18:13 [V3] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:18:13 [V1] → L1 5h : 162 neurones, 969 synapses (Witvliet 2021)
+02:18:22 [milieu] robinet +1000 XRP (total robinet 4000), milieu 1066.3 XRP
+02:18:30 [V4] œuf founder laid by the environment, 395.9 XRP 0A9A17CD…
+02:18:30 [V4] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:19:06 superviseur : lancement 1
+02:19:08 [V2] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:19:09 [V3] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:19:09 [V4] → L1 0h : 161 neurones, 747 synapses (Witvliet 2021)
+02:19:09 [V1] → L1 5h : 162 neurones, 969 synapses (Witvliet 2021)
+02:19:42 [V3] 0 neurones nés, 3 réserves complétées
+02:19:42 [V3] passe 1 : 747 synapses à poser, 0 à élaguer, 147 neurones
+02:19:47 [V2] 0 neurones nés, 8 réserves complétées
+02:19:47 [V2] passe 1 : 747 synapses à poser, 0 à élaguer, 147 neurones
+02:20:09 [V1] 0 neurones nés, 24 réserves complétées
+02:20:09 [V1] passe 1 : 735 synapses à poser, 195 à élaguer, 158 neurones
+02:22:19 [V4] 0 neurones nés, 126 réserves complétées
+02:22:25 [V4] stade L1 0h atteint : 161 neurones, 747 synapses, âge 64h, mangé 392.9 XRP 69FA7D25…
+02:22:25 [V4] → L1 5h : 162 neurones, 969 synapses (Witvliet 2021)
+02:24:25   prélim rPugU9 tecNO_LINE_INSUF_RESERVE
+02:24:35 [V4] 1 neurones nés, 105 réserves complétées
+02:24:35 [V4] passe 1 : 735 synapses à poser, 195 à élaguer, 158 neurones
+02:24:38 [V3] passe 1 : 747/747 confirmées
+02:24:44 [V2] passe 1 : 747/747 confirmées
+02:24:46 [V3] stade L1 0h atteint : 161 neurones, 747 synapses, âge 116h, mangé 392.9 XRP 153800CD…
+02:24:47 [V3] → L1 5h : 162 neurones, 969 synapses (Witvliet 2021)
+02:24:51   prélim rD85gA tecNO_LINE_INSUF_RESERVE
+02:24:52 [V2] stade L1 0h atteint : 161 neurones, 747 synapses, âge 713h, mangé 412.3 XRP 971A97B0…
+02:24:52 [V2] → L1 5h : 162 neurones, 969 synapses (Witvliet 2021)
+02:25:08   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+02:25:09   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+02:25:27   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+02:25:28   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+02:25:38   prélim rGqnWa tecNO_LINE_INSUF_RESERVE
+02:25:38   prélim raH1NR tecNO_LINE_INSUF_RESERVE
+02:25:43   prélim rsMeEq tecNO_LINE_INSUF_RESERVE
+02:25:46   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+02:25:46   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+02:25:51 [V2] 1 neurones nés, 41 réserves complétées
+02:25:51 [V2] passe 1 : 735 synapses à poser, 195 à élaguer, 158 neurones
+02:25:53   prélim rarXAF tecNO_LINE_INSUF_RESERVE
+02:25:56   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+02:25:57   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+02:26:24   prélim rwP3hm tecNO_LINE_INSUF_RESERVE
+02:26:37 [V1] passe 1 : 929/930 confirmées
+02:26:41 [V1] passe 2 : 1 synapses à poser, 0 à élaguer, 1 neurones
+02:27:25   prélim rU8bY4 tecNO_LINE_INSUF_RESERVE
+02:28:07 [V3] 1 neurones nés, 158 réserves complétées
+02:28:07 [V3] passe 1 : 735 synapses à poser, 195 à élaguer, 158 neurones
+02:28:25 [V4] passe 1 : 916/930 confirmées
+02:28:29 [V4] passe 2 : 14 synapses à poser, 0 à élaguer, 10 neurones
+02:28:33   prélim rwS4U2 tecNO_LINE_INSUF_RESERVE
+02:28:46   prélim rEBb2L tecNO_LINE_INSUF_RESERVE
+02:28:48   prélim rEBb2L tecNO_LINE_INSUF_RESERVE
+02:29:01   prélim rLVJWB tecNO_LINE_INSUF_RESERVE
+02:29:01   prélim rLVJWB tecNO_LINE_INSUF_RESERVE
+02:29:11   prélim rMZBje tecNO_LINE_INSUF_RESERVE
+02:29:13   prélim r9sd6H tecNO_LINE_INSUF_RESERVE
+02:29:18   prélim rnTjza tecNO_LINE_INSUF_RESERVE
+02:29:20   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+02:29:21   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+02:29:27   prélim rMbWgB tecNO_LINE_INSUF_RESERVE
+02:29:31   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+02:29:31   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+02:29:58   prélim rs67Zj tecNO_LINE_INSUF_RESERVE
+02:30:11 [V2] passe 1 : 929/930 confirmées
+02:30:11 [V1] passe 2 : 1/1 confirmées
+02:30:15 [V2] passe 2 : 1 synapses à poser, 0 à élaguer, 1 neurones
+02:30:17 [V1] stade L1 5h atteint : 162 neurones, 969 synapses, âge 808h, mangé 547.8 XRP 43CF4F4E…
+02:30:18 [V1] → L1 8h : 162 neurones, 974 synapses (Witvliet 2021)
+02:30:28 [V3] passe 1 : 916/930 confirmées
+02:30:28 [V2] passe 2 : 1/1 confirmées
+02:30:29 [V4] passe 2 : 14/14 confirmées
+02:30:32 [V3] passe 2 : 14 synapses à poser, 0 à élaguer, 10 neurones
+02:30:36 [V2] stade L1 5h atteint : 162 neurones, 969 synapses, âge 811h, mangé 412.3 XRP 8059CDA6…
+02:30:37 [V2] → L1 8h : 162 neurones, 974 synapses (Witvliet 2021)
+02:30:37 [V4] stade L1 5h atteint : 162 neurones, 969 synapses, âge 202h, mangé 392.9 XRP E6381BC4…
+02:30:43 [V4] → L1 8h : 162 neurones, 974 synapses (Witvliet 2021)
+02:30:48 [V3] passe 2 : 14/14 confirmées
+02:30:54 [V3] stade L1 5h atteint : 162 neurones, 969 synapses, âge 220h, mangé 392.9 XRP C5AFCF6B…
+02:30:54 [V3] → L1 8h : 162 neurones, 974 synapses (Witvliet 2021)
+02:31:43 [V2] 0 neurones nés, 48 réserves complétées
+02:31:43 [V2] passe 1 : 716 synapses à poser, 339 à élaguer, 159 neurones
+02:31:50 [V1] 0 neurones nés, 51 réserves complétées
+02:31:50 [V1] passe 1 : 716 synapses à poser, 339 à élaguer, 159 neurones
+02:32:28   prélim rU8bY4 tecNO_LINE_INSUF_RESERVE
+02:32:53   prélim rLVPB6 tecNO_LINE_INSUF_RESERVE
+02:33:04   prélim r3TSQG tecNO_LINE_INSUF_RESERVE
+02:33:04   prélim r3TSQG tecNO_LINE_INSUF_RESERVE
+02:33:04   prélim r3TSQG tecNO_LINE_INSUF_RESERVE
+02:33:12   prélim rNZAj4 tecNO_LINE_INSUF_RESERVE
+02:33:44   prélim rnDZrc tecNO_LINE_INSUF_RESERVE
+02:34:03 [V4] 0 neurones nés, 149 réserves complétées
+02:34:03 [V4] passe 1 : 716 synapses à poser, 339 à élaguer, 159 neurones
+02:34:19   prélim rPugU9 tecNO_LINE_INSUF_RESERVE
+02:34:21 [V3] 0 neurones nés, 149 réserves complétées
+02:34:21 [V3] passe 1 : 716 synapses à poser, 339 à élaguer, 159 neurones
+02:34:33   prélim rHRhbT tecNO_LINE_INSUF_RESERVE
+02:34:45   prélim rspeAY tecNO_LINE_INSUF_RESERVE
+02:35:07   prélim rE5DKA tecNO_LINE_INSUF_RESERVE
+02:35:31 [V2] passe 1 : 1049/1055 confirmées
+02:35:34   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+02:35:35   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+02:35:35   prélim rD85gA tecNO_LINE_INSUF_RESERVE
+02:35:35 [V2] passe 2 : 6 synapses à poser, 0 à élaguer, 4 neurones
+02:35:36   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+02:35:42   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+02:35:43   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+02:35:43   prélim rh4zPo tecNO_LINE_INSUF_RESERVE
+02:35:43   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+02:35:44   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:35:44   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+02:35:44   prélim rPnZgv tecNO_LINE_INSUF_RESERVE
+02:35:54   prélim rMzNUE tecNO_LINE_INSUF_RESERVE
+02:35:55   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:35:55   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:35:56   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:36:00   prélim rGqnWa tecNO_LINE_INSUF_RESERVE
+02:36:02   prélim r47q3D tecNO_LINE_INSUF_RESERVE
+02:36:04   prélim rsj739 tecNO_LINE_INSUF_RESERVE
+02:36:07   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+02:36:07   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+02:36:12   prélim rUUVdb tecNO_LINE_INSUF_RESERVE
+02:36:14   prélim rwP3hm tecNO_LINE_INSUF_RESERVE
+02:36:14   prélim raH1NR tecNO_LINE_INSUF_RESERVE
+02:36:15   prélim rsMeEq tecNO_LINE_INSUF_RESERVE
+02:36:18   prélim rPLGt5 tecNO_LINE_INSUF_RESERVE
+02:36:23   prélim rsdTDk tecNO_LINE_INSUF_RESERVE
+02:36:27   prélim raamGc tecNO_LINE_INSUF_RESERVE
+02:36:38   prélim rBmy49 tecNO_LINE_INSUF_RESERVE
+02:36:40   prélim rDpZCX tecNO_LINE_INSUF_RESERVE
+02:36:41   prélim rDpZCX tecNO_LINE_INSUF_RESERVE
+02:36:41   prélim rDpZCX tecNO_LINE_INSUF_RESERVE
+02:36:51   prélim rMC7Cc tecNO_LINE_INSUF_RESERVE
+02:36:51   prélim rMC7Cc tecNO_LINE_INSUF_RESERVE
+02:36:52   prélim rMC7Cc tecNO_LINE_INSUF_RESERVE
+02:37:01   prélim rBkirK tecNO_LINE_INSUF_RESERVE
+02:37:06   prélim rifHPx tecNO_LINE_INSUF_RESERVE
+02:37:07   prélim rifHPx tecNO_LINE_INSUF_RESERVE
+02:37:24   prélim rM6BAU tecNO_LINE_INSUF_RESERVE
+02:37:25   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+02:37:25   prélim rwS4U2 tecNO_LINE_INSUF_RESERVE
+02:37:29   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+02:37:30   prélim rEBb2L tecNO_LINE_INSUF_RESERVE
+02:37:30   prélim rBmF3R tecNO_LINE_INSUF_RESERVE
+02:37:31   prélim rBmF3R tecNO_LINE_INSUF_RESERVE
+02:37:31   prélim rBmF3R tecNO_LINE_INSUF_RESERVE
+02:37:32   prélim rspW7z tecNO_LINE_INSUF_RESERVE
+02:37:32   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:37:33   prélim rBypYa tecNO_LINE_INSUF_RESERVE
+02:37:42   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:37:42   prélim rUDtPG tecNO_LINE_INSUF_RESERVE
+02:37:42   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:37:42   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:37:49   prélim rMZBje tecNO_LINE_INSUF_RESERVE
+02:37:51   prélim rBHmT8 tecNO_LINE_INSUF_RESERVE
+02:37:53   prélim rL9u6C tecNO_LINE_INSUF_RESERVE
+02:37:55   prélim rLVJWB tecNO_LINE_INSUF_RESERVE
+02:37:56   prélim rLVJWB tecNO_LINE_INSUF_RESERVE
+02:38:02   prélim rarenb tecNO_LINE_INSUF_RESERVE
+02:38:04   prélim rs67Zj tecNO_LINE_INSUF_RESERVE
+02:38:05   prélim rnTjza tecNO_LINE_INSUF_RESERVE
+02:38:07   prélim r9sd6H tecNO_LINE_INSUF_RESERVE
+02:38:11   prélim rnKSM4 tecNO_LINE_INSUF_RESERVE
+02:38:14   prélim r3Uat4 tecNO_LINE_INSUF_RESERVE
+02:38:17   prélim rPTqo5 tecNO_LINE_INSUF_RESERVE
+02:38:29   prélim rMiR2U tecNO_LINE_INSUF_RESERVE
+02:38:31   prélim r9jon5 tecNO_LINE_INSUF_RESERVE
+02:38:32   prélim r9jon5 tecNO_LINE_INSUF_RESERVE
+02:38:32   prélim r9jon5 tecNO_LINE_INSUF_RESERVE
+02:38:43   prélim rhPpX8 tecNO_LINE_INSUF_RESERVE
+02:38:43   prélim rhPpX8 tecNO_LINE_INSUF_RESERVE
+02:38:44   prélim rhPpX8 tecNO_LINE_INSUF_RESERVE
+02:38:53   prélim rN9Ga6 tecNO_LINE_INSUF_RESERVE
+02:38:58   prélim rD2GJz tecNO_LINE_INSUF_RESERVE
+02:38:59   prélim rD2GJz tecNO_LINE_INSUF_RESERVE
+02:39:17 [V1] passe 1 : 1050/1055 confirmées
+02:39:21 [V1] passe 2 : 5 synapses à poser, 0 à élaguer, 5 neurones
+02:39:24 [V4] passe 1 : 1018/1055 confirmées
+02:39:28 [V4] passe 2 : 37 synapses à poser, 0 à élaguer, 26 neurones
+02:39:29 [V3] passe 1 : 1018/1055 confirmées
+02:39:29 [V2] passe 2 : 6/6 confirmées
+02:39:33 [V3] passe 2 : 37 synapses à poser, 0 à élaguer, 26 neurones
+02:39:34 [V2] stade L1 8h atteint : 162 neurones, 974 synapses, âge 961h, mangé 412.3 XRP 2B4602D1…
+02:39:35 [V2] → L1 16h : 168 neurones, 1192 synapses (Witvliet 2021)
+02:39:55 [V1] passe 2 : 5/5 confirmées
+02:39:57 [V4] passe 2 : 37/37 confirmées
+02:40:01 [V1] stade L1 8h atteint : 162 neurones, 974 synapses, âge 971h, mangé 547.8 XRP 67E6EDBF…
+02:40:02 [V1] → L1 16h : 168 neurones, 1192 synapses (Witvliet 2021)
+02:40:09 [V4] stade L1 8h atteint : 162 neurones, 974 synapses, âge 360h, mangé 392.9 XRP 766D9F4C…
+02:40:09 [V4] → L1 16h : 168 neurones, 1192 synapses (Witvliet 2021)
+02:40:09 [V3] passe 2 : 37/37 confirmées
+02:40:19 [V3] stade L1 8h atteint : 162 neurones, 974 synapses, âge 378h, mangé 392.9 XRP 0B3844F2…
+02:40:20 [V3] → L1 16h : 168 neurones, 1192 synapses (Witvliet 2021)
+02:40:44 [V2] 6 neurones nés, 41 réserves complétées
+02:40:44 [V2] passe 1 : 929 synapses à poser, 284 à élaguer, 165 neurones
+02:41:20 [V1] 6 neurones nés, 45 réserves complétées
+02:41:20 [V1] passe 1 : 929 synapses à poser, 284 à élaguer, 165 neurones
+02:41:23   prélim r3TSQG tecNO_LINE_INSUF_RESERVE
+02:41:29   prélim r3TSQG tecNO_LINE_INSUF_RESERVE
+02:41:29   prélim r3TSQG tecNO_LINE_INSUF_RESERVE
+02:42:04   prélim rJ6C4V tecNO_LINE_INSUF_RESERVE
+02:42:29   prélim rhVdm7 tecNO_LINE_INSUF_RESERVE
+02:42:32   prélim rPBC75 tecNO_LINE_INSUF_RESERVE
+02:43:06   prélim racTNy tecNO_LINE_INSUF_RESERVE
+02:43:06   prélim racTNy tecNO_LINE_INSUF_RESERVE
+02:43:10 [V4] 6 neurones nés, 136 réserves complétées
+02:43:10 [V4] passe 1 : 929 synapses à poser, 284 à élaguer, 165 neurones
+02:43:14   prélim racTNy tecNO_LINE_INSUF_RESERVE
+02:43:18 [V3] 6 neurones nés, 136 réserves complétées
+02:43:18 [V3] passe 1 : 929 synapses à poser, 284 à élaguer, 165 neurones
+02:43:25   prélim rGXE8c tecNO_LINE_INSUF_RESERVE
+02:43:37   prélim rPugU9 tecNO_LINE_INSUF_RESERVE
+02:43:40   prélim rnDZrc tecNO_LINE_INSUF_RESERVE
+02:43:56   prélim rHRhbT tecNO_LINE_INSUF_RESERVE
+02:44:24   prélim rLysEm tecNO_LINE_INSUF_RESERVE
+02:44:44 [V2] passe 1 : 1207/1213 confirmées
+02:44:46   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+02:44:47   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+02:44:47   prélim rD85gA tecNO_LINE_INSUF_RESERVE
+02:44:48 [V2] passe 2 : 6 synapses à poser, 0 à élaguer, 4 neurones
+02:44:54   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:44:55   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+02:44:55   prélim raTynj tecNO_LINE_INSUF_RESERVE
+02:44:55   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+02:44:56   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:44:56   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:44:56   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+02:44:57   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+02:44:58   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+02:45:05   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+02:45:06   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+02:45:07   prélim r9dt92 tecNO_LINE_INSUF_RESERVE
+02:45:07   prélim r9dt92 tecNO_LINE_INSUF_RESERVE
+02:45:13   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+02:45:15   prélim r9dt92 tecNO_LINE_INSUF_RESERVE
+02:45:18   prélim rMC7Cc tecNO_LINE_INSUF_RESERVE
+02:45:26   prélim rMC7Cc tecNO_LINE_INSUF_RESERVE
+02:45:26   prélim rMC7Cc tecNO_LINE_INSUF_RESERVE
+02:45:27   prélim rJihXu tecNO_LINE_INSUF_RESERVE
+02:45:30   prélim rsdTDk tecNO_LINE_INSUF_RESERVE
+02:45:38   prélim rwP3hm tecNO_LINE_INSUF_RESERVE
+02:45:42   prélim rh4zPo tecNO_LINE_INSUF_RESERVE
+02:45:45   prélim rDzEKZ tecNO_LINE_INSUF_RESERVE
+02:45:53   prélim rifHPx tecNO_LINE_INSUF_RESERVE
+02:45:55   prélim raamGc tecNO_LINE_INSUF_RESERVE
+02:45:55   prélim r47q3D tecNO_LINE_INSUF_RESERVE
+02:45:56   prélim r47q3D tecNO_LINE_INSUF_RESERVE
+02:46:00   prélim rMzTSQ tecNO_LINE_INSUF_RESERVE
+02:46:25   prélim rEnEzZ tecNO_LINE_INSUF_RESERVE
+02:46:29   prélim rBtiVx tecNO_LINE_INSUF_RESERVE
+02:46:38   prélim r3nYRm tecNO_LINE_INSUF_RESERVE
+02:46:44   prélim rBmF3R tecNO_LINE_INSUF_RESERVE
+02:46:44   prélim rBmF3R tecNO_LINE_INSUF_RESERVE
+02:46:46   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:46:46   prélim rHpEFg tecNO_LINE_INSUF_RESERVE
+02:46:47   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:46:47   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:46:49   prélim rwS4U2 tecNO_LINE_INSUF_RESERVE
+02:46:49   prélim rBmF3R tecNO_LINE_INSUF_RESERVE
+02:46:53   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+02:46:53   prélim rM6BAU tecNO_LINE_INSUF_RESERVE
+02:46:54   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+02:46:55   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+02:47:01   prélim rEBb2L tecNO_LINE_INSUF_RESERVE
+02:47:01   prélim rBpM3f tecNO_LINE_INSUF_RESERVE
+02:47:01   prélim rBpM3f tecNO_LINE_INSUF_RESERVE
+02:47:03   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+02:47:07   prélim rBpM3f tecNO_LINE_INSUF_RESERVE
+02:47:07   prélim rEBb2L tecNO_LINE_INSUF_RESERVE
+02:47:13   prélim rhPpX8 tecNO_LINE_INSUF_RESERVE
+02:47:20   prélim rEgs66 tecNO_LINE_INSUF_RESERVE
+02:47:24   prélim rhPpX8 tecNO_LINE_INSUF_RESERVE
+02:47:24   prélim rhPpX8 tecNO_LINE_INSUF_RESERVE
+02:47:25   prélim r3Uat4 tecNO_LINE_INSUF_RESERVE
+02:47:34   prélim rs67Zj tecNO_LINE_INSUF_RESERVE
+02:47:38   prélim rspW7z tecNO_LINE_INSUF_RESERVE
+02:47:41   prélim rM7o6W tecNO_LINE_INSUF_RESERVE
+02:47:49   prélim rD2GJz tecNO_LINE_INSUF_RESERVE
+02:47:51   prélim rPTqo5 tecNO_LINE_INSUF_RESERVE
+02:47:51   prélim rBHmT8 tecNO_LINE_INSUF_RESERVE
+02:47:52   prélim rBHmT8 tecNO_LINE_INSUF_RESERVE
+02:47:58   prélim rf3TS9 tecNO_LINE_INSUF_RESERVE
+02:48:21   prélim rsVxip tecNO_LINE_INSUF_RESERVE
+02:48:28   prélim rLq7pL tecNO_LINE_INSUF_RESERVE
+02:48:32   prélim rBDSny tecNO_LINE_INSUF_RESERVE
+02:48:41 [V1] passe 1 : 1205/1213 confirmées
+02:48:45 [V1] passe 2 : 8 synapses à poser, 0 à élaguer, 6 neurones
+02:48:47 [V4] passe 1 : 1179/1213 confirmées
+02:48:51 [V4] passe 2 : 34 synapses à poser, 0 à élaguer, 21 neurones
+02:48:51 [V3] passe 1 : 1179/1213 confirmées
+02:48:51 [V2] passe 2 : 6/6 confirmées
+02:48:55 [V3] passe 2 : 34 synapses à poser, 0 à élaguer, 21 neurones
+02:48:58 [V2] stade L1 16h atteint : 168 neurones, 1192 synapses, âge 1120h, mangé 412.3 XRP 9909DF79…
+02:48:58 [V2] → L2 23h : 174 neurones, 1563 synapses (Witvliet 2021)
+02:49:15 [V1] passe 2 : 8/8 confirmées
+02:49:17 [V4] passe 2 : 34/34 confirmées
+02:49:21 [V3] passe 2 : 34/34 confirmées
+02:49:23 [V4] stade L1 16h atteint : 168 neurones, 1192 synapses, âge 518h, mangé 392.9 XRP 8865F443…
+02:49:23 [V4] → L2 23h : 173 neurones, 1562 synapses (Witvliet 2021)
+02:49:23 [V1] stade L1 16h atteint : 168 neurones, 1192 synapses, âge 1129h, mangé 547.8 XRP FEC63997…
+02:49:27 [V1] → L2 23h : 174 neurones, 1563 synapses (Witvliet 2021)
+02:49:32 [V3] stade L1 16h atteint : 168 neurones, 1192 synapses, âge 532h, mangé 392.9 XRP 82C17062…
+02:49:32 [V3] → L2 23h : 174 neurones, 1563 synapses (Witvliet 2021)
+02:50:31 [V2] 6 neurones nés, 54 réserves complétées
+02:50:31 [V2] passe 1 : 1252 synapses à poser, 291 à élaguer, 173 neurones
+02:51:04 [V1] 6 neurones nés, 61 réserves complétées
+02:51:04 [V1] passe 1 : 1252 synapses à poser, 291 à élaguer, 173 neurones
+02:51:15   prélim rPhQW1 tecNO_LINE_INSUF_RESERVE
+02:51:15   prélim rJ5D3h tecNO_LINE_INSUF_RESERVE
+02:51:55   prélim rM1ze3 tecNO_LINE_INSUF_RESERVE
+02:52:01   prélim rwgQxW tecNO_LINE_INSUF_RESERVE
+02:52:11   prélim rnEHgN tecNO_LINE_INSUF_RESERVE
+02:52:30   prélim ramhXA tecNO_LINE_INSUF_RESERVE
+02:52:31   prélim rKxWW2 tecNO_LINE_INSUF_RESERVE
+02:52:34   prélim rQHyoz tecNO_LINE_INSUF_RESERVE
+02:52:51   prélim rGCTzR tecNO_LINE_INSUF_RESERVE
+02:52:54 [V4] 5 neurones nés, 157 réserves complétées
+02:52:54 [V4] passe 1 : 1251 synapses à poser, 291 à élaguer, 172 neurones
+02:52:58   prélim rGCTzR tecNO_LINE_INSUF_RESERVE
+02:52:59 [V3] 6 neurones nés, 157 réserves complétées
+02:52:59 [V3] passe 1 : 1252 synapses à poser, 291 à élaguer, 173 neurones
+02:53:28   prélim racTNy tecNO_LINE_INSUF_RESERVE
+02:53:36   prélim rCTjSP tecNO_LINE_INSUF_RESERVE
+02:53:37   prélim r3ENXh tecNO_LINE_INSUF_RESERVE
+02:54:20   prélim rnu8kV tecNO_LINE_INSUF_RESERVE
+02:54:22   prélim rpbh1e tecNO_LINE_INSUF_RESERVE
+02:54:37   prélim rKeGTz tecNO_LINE_INSUF_RESERVE
+02:54:38   prélim rKeGTz tecNO_LINE_INSUF_RESERVE
+02:54:52   prélim r3BLKr tecNO_LINE_INSUF_RESERVE
+02:54:53   prélim rh7PHs tecNO_LINE_INSUF_RESERVE
+02:54:54   prélim rMpvRS tecNO_LINE_INSUF_RESERVE
+02:55:09   prélim raMjeG tecNO_LINE_INSUF_RESERVE
+02:55:10   prélim rJZoo2 tecNO_LINE_INSUF_RESERVE
+02:55:19   prélim rJZoo2 tecNO_LINE_INSUF_RESERVE
+02:55:20   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+02:55:20   prélim rGSuie tecNO_LINE_INSUF_RESERVE
+02:55:21   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+02:55:21   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+02:55:21   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+02:55:21   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+02:55:26   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+02:55:28   prélim rExVUz tecNO_LINE_INSUF_RESERVE
+02:55:29   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+02:55:29   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+02:55:30   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+02:55:30   prélim rJbgFn tecNO_LINE_INSUF_RESERVE
+02:55:36   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+02:55:37   prélim raTynj tecNO_LINE_INSUF_RESERVE
+02:55:37   prélim raTynj tecNO_LINE_INSUF_RESERVE
+02:55:37   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:55:37   prélim raTynj tecNO_LINE_INSUF_RESERVE
+02:55:38   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:55:42   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+02:55:44   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+02:55:45   prélim r9dt92 tecNO_LINE_INSUF_RESERVE
+02:55:51   prélim r47q3D tecNO_LINE_INSUF_RESERVE
+02:55:51   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+02:55:51   prélim r47q3D tecNO_LINE_INSUF_RESERVE
+02:55:52   prélim r47q3D tecNO_LINE_INSUF_RESERVE
+02:55:55   prélim rDxXTc tecNO_LINE_INSUF_RESERVE
+02:55:55   prélim rMBuXT tecNO_LINE_INSUF_RESERVE
+02:55:57   prélim rUYPAS tecNO_LINE_INSUF_RESERVE
+02:55:57   prélim rnKx15 tecNO_LINE_INSUF_RESERVE
+02:55:57   prélim rnKx15 tecNO_LINE_INSUF_RESERVE
+02:55:59   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+02:56:00   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+02:56:00   prélim rnsYHQ tecNO_LINE_INSUF_RESERVE
+02:56:01   prélim rDpZCX tecNO_LINE_INSUF_RESERVE
+02:56:07   prélim rMrPsY tecNO_LINE_INSUF_RESERVE
+02:56:14   prélim rw3ZXL tecNO_LINE_INSUF_RESERVE
+02:56:15   prélim r95qko tecNO_LINE_INSUF_RESERVE
+02:56:34   prélim rpo1T1 tecNO_LINE_INSUF_RESERVE
+02:56:38   prélim rnP2Bm tecNO_LINE_INSUF_RESERVE
+02:56:39   prélim rsVZqG tecNO_LINE_INSUF_RESERVE
+02:56:39   prélim rQfLFx tecNO_LINE_INSUF_RESERVE
+02:56:41   prélim rsdTDk tecNO_LINE_INSUF_RESERVE
+02:56:42   prélim rsdTDk tecNO_LINE_INSUF_RESERVE
+02:56:49   prélim rBciig tecNO_LINE_INSUF_RESERVE
+02:56:52   prélim rpfttH tecNO_LINE_INSUF_RESERVE
+02:56:52   prélim rpfttH tecNO_LINE_INSUF_RESERVE
+02:57:05   prélim r48Pqx tecNO_LINE_INSUF_RESERVE
+02:57:06   prélim r9eVuD tecNO_LINE_INSUF_RESERVE
+02:57:07   prélim rJZqre tecNO_LINE_INSUF_RESERVE
+02:57:22   prélim r4jLRR tecNO_LINE_INSUF_RESERVE
+02:57:24   prélim rLrdDh tecNO_LINE_INSUF_RESERVE
+02:57:31   prélim rLrdDh tecNO_LINE_INSUF_RESERVE
+02:57:31   prélim rGJCHJ tecNO_LINE_INSUF_RESERVE
+02:57:32   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+02:57:32   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+02:57:33   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+02:57:33   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+02:57:33   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+02:57:37   prélim rM6BAU tecNO_LINE_INSUF_RESERVE
+02:57:38   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+02:57:38   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+02:57:40   prélim rNAGGe tecNO_LINE_INSUF_RESERVE
+02:57:43   prélim rLFSV9 tecNO_LINE_INSUF_RESERVE
+02:57:43   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+02:57:46   prélim rHpEFg tecNO_LINE_INSUF_RESERVE
+02:57:46   prélim rHpEFg tecNO_LINE_INSUF_RESERVE
+02:57:46   prélim rHpEFg tecNO_LINE_INSUF_RESERVE
+02:57:49   prélim rLVJWB tecNO_LINE_INSUF_RESERVE
+02:57:50   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:57:51   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:57:54   prélim rEBb2L tecNO_LINE_INSUF_RESERVE
+02:57:58   prélim rBpM3f tecNO_LINE_INSUF_RESERVE
+02:57:59   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+02:58:00   prélim rEv2xs tecNO_LINE_INSUF_RESERVE
+02:58:02   prélim rBHmT8 tecNO_LINE_INSUF_RESERVE
+02:58:02   prélim rBHmT8 tecNO_LINE_INSUF_RESERVE
+02:58:03   prélim rBHmT8 tecNO_LINE_INSUF_RESERVE
+02:58:08   prélim rJhSBd tecNO_LINE_INSUF_RESERVE
+02:58:09   prélim rKa6mK tecNO_LINE_INSUF_RESERVE
+02:58:09   prélim rw2nkM tecNO_LINE_INSUF_RESERVE
+02:58:09   prélim rHtHPR tecNO_LINE_INSUF_RESERVE
+02:58:09   prélim rHtHPR tecNO_LINE_INSUF_RESERVE
+02:58:12   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+02:58:12   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+02:58:14   prélim rDGFCM tecNO_LINE_INSUF_RESERVE
+02:58:16   prélim r9jon5 tecNO_LINE_INSUF_RESERVE
+02:58:21   prélim rnkmJ6 tecNO_LINE_INSUF_RESERVE
+02:58:28   prélim r3MgUY tecNO_LINE_INSUF_RESERVE
+02:58:30   prélim rLNMPD tecNO_LINE_INSUF_RESERVE
+02:58:51   prélim rUMx7L tecNO_LINE_INSUF_RESERVE
+02:58:55   prélim rfdnya tecNO_LINE_INSUF_RESERVE
+02:58:57   prélim rQreQR tecNO_LINE_INSUF_RESERVE
+02:58:57   prélim rLgVgz tecNO_LINE_INSUF_RESERVE
+02:59:03   prélim r3Uat4 tecNO_LINE_INSUF_RESERVE
+02:59:04   prélim r3Uat4 tecNO_LINE_INSUF_RESERVE
+02:59:08   prélim r3HbPz tecNO_LINE_INSUF_RESERVE
+02:59:13   prélim r9h6Ew tecNO_LINE_INSUF_RESERVE
+02:59:13   prélim r9h6Ew tecNO_LINE_INSUF_RESERVE
+02:59:25   prélim rJ8mc9 tecNO_LINE_INSUF_RESERVE
+02:59:29   prélim rf3cae tecNO_LINE_INSUF_RESERVE
+02:59:30   prélim rP8RPU tecNO_LINE_INSUF_RESERVE
+02:59:46   prélim rw37y5 tecNO_LINE_INSUF_RESERVE
+02:59:47   prélim rKgJvc tecNO_LINE_INSUF_RESERVE
+02:59:56   prélim rKgJvc tecNO_LINE_INSUF_RESERVE
+02:59:59 [V2] passe 1 : 1533/1543 confirmées
+03:00:03 [V2] passe 2 : 10 synapses à poser, 0 à élaguer, 9 neurones
+03:00:04 [V1] passe 1 : 1530/1543 confirmées
+03:00:08 [V1] passe 2 : 13 synapses à poser, 0 à élaguer, 11 neurones
+03:00:08 [V4] passe 1 : 1490/1542 confirmées
+03:00:12 [V4] passe 2 : 52 synapses à poser, 0 à élaguer, 35 neurones
+03:00:22 [V3] passe 1 : 1491/1543 confirmées
+03:00:26 [V3] passe 2 : 52 synapses à poser, 0 à élaguer, 35 neurones
+03:00:38 [V2] passe 2 : 10/10 confirmées
+03:00:38 [V1] passe 2 : 13/13 confirmées
+03:00:44 [V2] stade L2 23h atteint : 174 neurones, 1563 synapses, âge 1318h, mangé 412.3 XRP C949803B…
+03:00:44 [V2] → L3 27h : 175 neurones, 1493 synapses (Witvliet 2021)
+03:00:51 [V1] stade L2 23h atteint : 174 neurones, 1563 synapses, âge 1320h, mangé 547.8 XRP 14E232CD…
+03:00:51 [V1] → L3 27h : 175 neurones, 1493 synapses (Witvliet 2021)
+03:01:08 [V4] passe 2 : 52/52 confirmées
+03:01:15 [V3] passe 2 : 52/52 confirmées
+03:01:16 [V4] stade L2 23h atteint : 173 neurones, 1562 synapses, âge 718h, mangé 392.9 XRP 7F80BAF7…
+03:01:16 [V4] → L3 27h : 173 neurones, 1484 synapses (Witvliet 2021)
+03:01:21 [V3] stade L2 23h atteint : 174 neurones, 1563 synapses, âge 732h, mangé 392.9 XRP 61DEEFB7…
+03:01:22 [V3] → L3 27h : 175 neurones, 1493 synapses (Witvliet 2021)
+03:02:23 [V1] 2 neurones nés, 63 réserves complétées
+03:02:23 [V1] passe 1 : 1135 synapses à poser, 543 à élaguer, 174 neurones
+03:02:27 [V2] 2 neurones nés, 62 réserves complétées
+03:02:27 [V2] passe 1 : 1135 synapses à poser, 543 à élaguer, 174 neurones
+03:02:44   prélim rD98zW tecNO_LINE_INSUF_RESERVE
+03:02:53   prélim rpb4qH tecNO_LINE_INSUF_RESERVE
+03:02:54   prélim rpb4qH tecNO_LINE_INSUF_RESERVE
+03:02:54   prélim rpb4qH tecNO_LINE_INSUF_RESERVE
+03:02:55   prélim rpb4qH tecNO_LINE_INSUF_RESERVE
+03:02:55   prélim rnDZrc tecNO_LINE_INSUF_RESERVE
+03:03:22   prélim rHRhbT tecNO_LINE_INSUF_RESERVE
+03:03:22   prélim rHRhbT tecNO_LINE_INSUF_RESERVE
+03:03:22   prélim rHRhbT tecNO_LINE_INSUF_RESERVE
+03:03:33   prélim rHPNx4 tecNO_LINE_INSUF_RESERVE
+03:03:37   prélim rGXE8c tecNO_LINE_INSUF_RESERVE
+03:03:37   prélim rGXE8c tecNO_LINE_INSUF_RESERVE
+03:03:45   prélim rhT35T tecNO_LINE_INSUF_RESERVE
+03:04:06   prélim rCTjSP tecNO_LINE_INSUF_RESERVE
+03:04:06   prélim rCTjSP tecNO_LINE_INSUF_RESERVE
+03:04:07   prélim r3ENXh tecNO_LINE_INSUF_RESERVE
+03:04:12   prélim r3BLKr tecNO_LINE_INSUF_RESERVE
+03:04:13   prélim r3BLKr tecNO_LINE_INSUF_RESERVE
+03:04:13   prélim r3BLKr tecNO_LINE_INSUF_RESERVE
+03:04:19   prélim rh9zYG tecNO_LINE_INSUF_RESERVE
+03:04:21   prélim rspeAY tecNO_LINE_INSUF_RESERVE
+03:04:22   prélim r3BLKr tecNO_LINE_INSUF_RESERVE
+03:04:23   prélim rbjdPP tecNO_LINE_INSUF_RESERVE
+03:04:29   prélim rnV5xA tecNO_LINE_INSUF_RESERVE
+03:04:35 [V4] 1 neurones nés, 150 réserves complétées
+03:04:35 [V4] passe 1 : 1126 synapses à poser, 542 à élaguer, 172 neurones
+03:04:37   prélim rMpvRS tecNO_LINE_INSUF_RESERVE
+03:04:38   prélim rwxiQi tecNO_LINE_INSUF_RESERVE
+03:04:38   prélim rJQWXM tecNO_LINE_INSUF_RESERVE
+03:04:39   prélim rJQWXM tecNO_LINE_INSUF_RESERVE
+03:04:39   prélim rJQWXM tecNO_LINE_INSUF_RESERVE
+03:04:39   prélim rwxiQi tecNO_LINE_INSUF_RESERVE
+03:04:40   prélim rJQWXM tecNO_LINE_INSUF_RESERVE
+03:04:40   prélim rwxiQi tecNO_LINE_INSUF_RESERVE
+03:04:40   prélim rh7PHs tecNO_LINE_INSUF_RESERVE
+03:04:40   prélim rpbh1e tecNO_LINE_INSUF_RESERVE
+03:04:40   prélim rh7PHs tecNO_LINE_INSUF_RESERVE
+03:04:41   prélim rpbh1e tecNO_LINE_INSUF_RESERVE
+03:04:42 [V3] 2 neurones nés, 152 réserves complétées
+03:04:42 [V3] passe 1 : 1135 synapses à poser, 543 à élaguer, 174 neurones
+03:04:43   prélim rE7ksv tecNO_LINE_INSUF_RESERVE
+03:04:43   prélim rE7ksv tecNO_LINE_INSUF_RESERVE
+03:04:46   prélim rJQWXM tecNO_LINE_INSUF_RESERVE
+03:05:15   prélim rN4Q7X tecNO_LINE_INSUF_RESERVE
+03:05:25   prélim rpJC1T tecNO_LINE_INSUF_RESERVE
+03:05:25   prélim rpJC1T tecNO_LINE_INSUF_RESERVE
+03:05:26   prélim rpJC1T tecNO_LINE_INSUF_RESERVE
+03:05:26   prélim rpJC1T tecNO_LINE_INSUF_RESERVE
+03:05:33   prélim rDQtrq tecNO_LINE_INSUF_RESERVE
+03:05:53   prélim rK6nfe tecNO_LINE_INSUF_RESERVE
+03:05:54   prélim rK6nfe tecNO_LINE_INSUF_RESERVE
+03:05:54   prélim rK6nfe tecNO_LINE_INSUF_RESERVE
+03:06:03   prélim rNhpJE tecNO_LINE_INSUF_RESERVE
+03:06:07   prélim rGwMuV tecNO_LINE_INSUF_RESERVE
+03:06:12   prélim rhroS4 tecNO_LINE_INSUF_RESERVE
+03:06:25   prélim r3DqY4 tecNO_LINE_INSUF_RESERVE
+03:06:35   prélim rJ5D3h tecNO_LINE_INSUF_RESERVE
+03:06:35   prélim rJ5D3h tecNO_LINE_INSUF_RESERVE
+03:06:36   prélim rPhQW1 tecNO_LINE_INSUF_RESERVE
+03:06:40   prélim ramhXA tecNO_LINE_INSUF_RESERVE
+03:06:40   prélim ramhXA tecNO_LINE_INSUF_RESERVE
+03:06:40   prélim ramhXA tecNO_LINE_INSUF_RESERVE
+03:06:45   prélim rEeH9V tecNO_LINE_INSUF_RESERVE
+03:06:48   prélim ramhXA tecNO_LINE_INSUF_RESERVE
+03:06:48   prélim rLVPB6 tecNO_LINE_INSUF_RESERVE
+03:06:50   prélim rPyY6a tecNO_LINE_INSUF_RESERVE
+03:06:56   prélim r9QVjr tecNO_LINE_INSUF_RESERVE
+03:07:04   prélim r9Gq2G tecNO_LINE_INSUF_RESERVE
+03:07:04   prélim rJWbmB tecNO_LINE_INSUF_RESERVE
+03:07:04   prélim rJWbmB tecNO_LINE_INSUF_RESERVE
+03:07:05   prélim r9Gq2G tecNO_LINE_INSUF_RESERVE
+03:07:05   prélim rKxWW2 tecNO_LINE_INSUF_RESERVE
+03:07:05   prélim r9Gq2G tecNO_LINE_INSUF_RESERVE
+03:07:05   prélim r9Gq2G tecNO_LINE_INSUF_RESERVE
+03:07:07   prélim rwgQxW tecNO_LINE_INSUF_RESERVE
+03:07:08   prélim rQHyoz tecNO_LINE_INSUF_RESERVE
+03:07:08   prélim rwgQxW tecNO_LINE_INSUF_RESERVE
+03:07:08   prélim rBvEey tecNO_LINE_INSUF_RESERVE
+03:07:08   prélim rQHyoz tecNO_LINE_INSUF_RESERVE
+03:07:09   prélim rftvXZ tecNO_LINE_INSUF_RESERVE
+03:07:09   prélim rftvXZ tecNO_LINE_INSUF_RESERVE
+03:07:14   prélim r9Gq2G tecNO_LINE_INSUF_RESERVE
+03:07:28   prélim rGSuie tecNO_LINE_INSUF_RESERVE
+03:07:31   prélim rMDjLM tecNO_LINE_INSUF_RESERVE
+03:07:36   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+03:07:36   prélim rGSuie tecNO_LINE_INSUF_RESERVE
+03:07:37   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+03:07:40   prélim rsj739 tecNO_LINE_INSUF_RESERVE
+03:07:41   prélim rsj739 tecNO_LINE_INSUF_RESERVE
+03:07:41   prélim rUYPAS tecNO_LINE_INSUF_RESERVE
+03:07:41   prélim rsj739 tecNO_LINE_INSUF_RESERVE
+03:07:41   prélim rsj739 tecNO_LINE_INSUF_RESERVE
+03:07:42   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:07:45   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+03:07:46   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:07:46   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:07:47   prélim rUYPAS tecNO_LINE_INSUF_RESERVE
+03:07:50   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:07:51   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:07:55   prélim rfydHo tecNO_LINE_INSUF_RESERVE
+03:07:55   prélim rfydHo tecNO_LINE_INSUF_RESERVE
+03:07:56   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:07:56   prélim rfydHo tecNO_LINE_INSUF_RESERVE
+03:07:56   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:07:56   prélim rfydHo tecNO_LINE_INSUF_RESERVE
+03:07:56   prélim rh4zPo tecNO_LINE_INSUF_RESERVE
+03:08:03   prélim rEqGrL tecNO_LINE_INSUF_RESERVE
+03:08:06   prélim rDzEKZ tecNO_LINE_INSUF_RESERVE
+03:08:07   prélim rDzEKZ tecNO_LINE_INSUF_RESERVE
+03:08:07   prélim rDzEKZ tecNO_LINE_INSUF_RESERVE
+03:08:17   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:08:17   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:08:18   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:08:19   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:08:22   prélim rnxgwT tecNO_LINE_INSUF_RESERVE
+03:08:24   prélim raamGc tecNO_LINE_INSUF_RESERVE
+03:08:25   prélim raamGc tecNO_LINE_INSUF_RESERVE
+03:08:25   prélim raamGc tecNO_LINE_INSUF_RESERVE
+03:08:25   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+03:08:31   prélim rfQppX tecNO_LINE_INSUF_RESERVE
+03:08:36   prélim rnBeE6 tecNO_LINE_INSUF_RESERVE
+03:08:39   prélim rw3ZXL tecNO_LINE_INSUF_RESERVE
+03:08:39   prélim rJihXu tecNO_LINE_INSUF_RESERVE
+03:08:39   prélim rJihXu tecNO_LINE_INSUF_RESERVE
+03:08:39   prélim rw3ZXL tecNO_LINE_INSUF_RESERVE
+03:08:40   prélim rw3ZXL tecNO_LINE_INSUF_RESERVE
+03:08:46   prélim rnnaW7 tecNO_LINE_INSUF_RESERVE
+03:08:46   prélim rHjcE7 tecNO_LINE_INSUF_RESERVE
+03:08:46   prélim rMxHxS tecNO_LINE_INSUF_RESERVE
+03:08:49   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:08:50   prélim rnsYHQ tecNO_LINE_INSUF_RESERVE
+03:08:50   prélim rwkzZS tecNO_LINE_INSUF_RESERVE
+03:08:51   prélim rpAj8H tecNO_LINE_INSUF_RESERVE
+03:08:59   prélim rNekB4 tecNO_LINE_INSUF_RESERVE
+03:09:00   prélim rsdTDk tecNO_LINE_INSUF_RESERVE
+03:09:04   prélim r9X725 tecNO_LINE_INSUF_RESERVE
+03:09:04   prélim rMBuXT tecNO_LINE_INSUF_RESERVE
+03:09:05   prélim rMBuXT tecNO_LINE_INSUF_RESERVE
+03:09:06   prélim rDxXTc tecNO_LINE_INSUF_RESERVE
+03:09:12   prélim r9eVuD tecNO_LINE_INSUF_RESERVE
+03:09:13   prélim r9eVuD tecNO_LINE_INSUF_RESERVE
+03:09:13   prélim r9eVuD tecNO_LINE_INSUF_RESERVE
+03:09:14   prélim rLPPrK tecNO_LINE_INSUF_RESERVE
+03:09:14   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:09:14   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:09:18   prélim rnCFkE tecNO_LINE_INSUF_RESERVE
+03:09:18   prélim rBmy49 tecNO_LINE_INSUF_RESERVE
+03:09:18   prélim r9eVuD tecNO_LINE_INSUF_RESERVE
+03:09:18   prélim r4YpnC tecNO_LINE_INSUF_RESERVE
+03:09:18   prélim r4YpnC tecNO_LINE_INSUF_RESERVE
+03:09:19   prélim r4YpnC tecNO_LINE_INSUF_RESERVE
+03:09:23   prélim r4SNEg tecNO_LINE_INSUF_RESERVE
+03:09:27   prélim rKqV41 tecNO_LINE_INSUF_RESERVE
+03:09:35   prélim r3nYRm tecNO_LINE_INSUF_RESERVE
+03:09:35   prélim r3nYRm tecNO_LINE_INSUF_RESERVE
+03:09:35   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:09:36   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:09:36   prélim r48Pqx tecNO_LINE_INSUF_RESERVE
+03:09:36   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:09:36   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:09:38   prélim rJZqre tecNO_LINE_INSUF_RESERVE
+03:09:39   prélim rJZqre tecNO_LINE_INSUF_RESERVE
+03:09:39   prélim rnP2Bm tecNO_LINE_INSUF_RESERVE
+03:09:40   prélim rnP2Bm tecNO_LINE_INSUF_RESERVE
+03:09:42   prélim rNvPah tecNO_LINE_INSUF_RESERVE
+03:09:43   prélim rnesi9 tecNO_LINE_INSUF_RESERVE
+03:09:43   prélim rnesi9 tecNO_LINE_INSUF_RESERVE
+03:09:45   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:10:01   prélim rGJCHJ tecNO_LINE_INSUF_RESERVE
+03:10:01   prélim r35eH7 tecNO_LINE_INSUF_RESERVE
+03:10:07   prélim rGJCHJ tecNO_LINE_INSUF_RESERVE
+03:10:07   prélim rLVJWB tecNO_LINE_INSUF_RESERVE
+03:10:08   prélim rLVJWB tecNO_LINE_INSUF_RESERVE
+03:10:09   prélim rHpEFg tecNO_LINE_INSUF_RESERVE
+03:10:12   prélim rKa6mK tecNO_LINE_INSUF_RESERVE
+03:10:12   prélim rL9u6C tecNO_LINE_INSUF_RESERVE
+03:10:12   prélim rL9u6C tecNO_LINE_INSUF_RESERVE
+03:10:13   prélim rL9u6C tecNO_LINE_INSUF_RESERVE
+03:10:13   prélim rL9u6C tecNO_LINE_INSUF_RESERVE
+03:10:16   prélim rM6BAU tecNO_LINE_INSUF_RESERVE
+03:10:16   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+03:10:17   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+03:10:18   prélim rHpEFg tecNO_LINE_INSUF_RESERVE
+03:10:18   prélim rHpEFg tecNO_LINE_INSUF_RESERVE
+03:10:18   prélim rKa6mK tecNO_LINE_INSUF_RESERVE
+03:10:19   prélim rPyKyv tecNO_LINE_INSUF_RESERVE
+03:10:25   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+03:10:26   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+03:10:26   prélim rH5qY4 tecNO_LINE_INSUF_RESERVE
+03:10:27   prélim rH5qY4 tecNO_LINE_INSUF_RESERVE
+03:10:27   prélim rH5qY4 tecNO_LINE_INSUF_RESERVE
+03:10:27   prélim rH5qY4 tecNO_LINE_INSUF_RESERVE
+03:10:28   prélim rspW7z tecNO_LINE_INSUF_RESERVE
+03:10:35   prélim rfjdTd tecNO_LINE_INSUF_RESERVE
+03:10:37   prélim rM7o6W tecNO_LINE_INSUF_RESERVE
+03:10:37   prélim rM7o6W tecNO_LINE_INSUF_RESERVE
+03:10:38   prélim rM7o6W tecNO_LINE_INSUF_RESERVE
+03:10:52   prélim rJGFNY tecNO_LINE_INSUF_RESERVE
+03:10:54   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+03:10:55   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+03:10:55   prélim rPTqo5 tecNO_LINE_INSUF_RESERVE
+03:10:55   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+03:10:55   prélim rPTqo5 tecNO_LINE_INSUF_RESERVE
+03:10:55   prélim rPTqo5 tecNO_LINE_INSUF_RESERVE
+03:10:56   prélim rMDfYN tecNO_LINE_INSUF_RESERVE
+03:10:59   prélim rD3NW3 tecNO_LINE_INSUF_RESERVE
+03:10:59   prélim rh81PX tecNO_LINE_INSUF_RESERVE
+03:11:05   prélim r3Fvg4 tecNO_LINE_INSUF_RESERVE
+03:11:07   prélim rEgs66 tecNO_LINE_INSUF_RESERVE
+03:11:07   prélim rEgs66 tecNO_LINE_INSUF_RESERVE
+03:11:09   prélim r3MgUY tecNO_LINE_INSUF_RESERVE
+03:11:09   prélim r3MgUY tecNO_LINE_INSUF_RESERVE
+03:11:10   prélim r3MgUY tecNO_LINE_INSUF_RESERVE
+03:11:16   prélim rUqocR tecNO_LINE_INSUF_RESERVE
+03:11:17   prélim rsdrq2 tecNO_LINE_INSUF_RESERVE
+03:11:18   prélim ramLto tecNO_LINE_INSUF_RESERVE
+03:11:18   prélim rsabep tecNO_LINE_INSUF_RESERVE
+03:11:20   prélim rMLZvz tecNO_LINE_INSUF_RESERVE
+03:11:20   prélim rKuxo1 tecNO_LINE_INSUF_RESERVE
+03:11:21   prélim rDGFCM tecNO_LINE_INSUF_RESERVE
+03:11:29   prélim r4R4LK tecNO_LINE_INSUF_RESERVE
+03:11:30   prélim r3Uat4 tecNO_LINE_INSUF_RESERVE
+03:11:34   prélim rLVpAW tecNO_LINE_INSUF_RESERVE
+03:11:35   prélim rw2nkM tecNO_LINE_INSUF_RESERVE
+03:11:36   prélim rw2nkM tecNO_LINE_INSUF_RESERVE
+03:11:38   prélim rJhSBd tecNO_LINE_INSUF_RESERVE
+03:11:42   prélim rJ8mc9 tecNO_LINE_INSUF_RESERVE
+03:11:42   prélim rJ8mc9 tecNO_LINE_INSUF_RESERVE
+03:11:43   prélim rJ8mc9 tecNO_LINE_INSUF_RESERVE
+03:11:44   prélim rEv2xs tecNO_LINE_INSUF_RESERVE
+03:11:44   prélim r3EGGu tecNO_LINE_INSUF_RESERVE
+03:11:45   prélim rEv2xs tecNO_LINE_INSUF_RESERVE
+03:11:46   prélim rwnAPU tecNO_LINE_INSUF_RESERVE
+03:11:46   prélim rBsGXW tecNO_LINE_INSUF_RESERVE
+03:11:47   prélim rBsGXW tecNO_LINE_INSUF_RESERVE
+03:11:47   prélim rBsGXW tecNO_LINE_INSUF_RESERVE
+03:11:49   prélim rJ8mc9 tecNO_LINE_INSUF_RESERVE
+03:11:49   prélim rMiR2U tecNO_LINE_INSUF_RESERVE
+03:11:53   prélim r319gC tecNO_LINE_INSUF_RESERVE
+03:12:00   prélim rDgMqL tecNO_LINE_INSUF_RESERVE
+03:12:04   prélim rBDSny tecNO_LINE_INSUF_RESERVE
+03:12:05   prélim rP8RPU tecNO_LINE_INSUF_RESERVE
+03:12:05   prélim rBDSny tecNO_LINE_INSUF_RESERVE
+03:12:06   prélim rBDSny tecNO_LINE_INSUF_RESERVE
+03:12:07   prélim rwLD8D tecNO_LINE_INSUF_RESERVE
+03:12:08   prélim rwLD8D tecNO_LINE_INSUF_RESERVE
+03:12:08   prélim rwLD8D tecNO_LINE_INSUF_RESERVE
+03:12:08   prélim rwLD8D tecNO_LINE_INSUF_RESERVE
+03:12:09   prélim rfdnya tecNO_LINE_INSUF_RESERVE
+03:12:09   prélim rfdnya tecNO_LINE_INSUF_RESERVE
+03:12:10   prélim rHzuhF tecNO_LINE_INSUF_RESERVE
+03:12:11   prélim rf3cae tecNO_LINE_INSUF_RESERVE
+03:12:11   prélim rEfkPC tecNO_LINE_INSUF_RESERVE
+03:12:11   prélim rf3cae tecNO_LINE_INSUF_RESERVE
+03:12:12   prélim rEfkPC tecNO_LINE_INSUF_RESERVE
+03:12:14   prélim rwLD8D tecNO_LINE_INSUF_RESERVE
+03:12:34 [V1] passe 1 : 1639/1678 confirmées
+03:12:38 [V1] passe 2 : 39 synapses à poser, 0 à élaguer, 20 neurones
+03:12:38 [V2] passe 1 : 1639/1678 confirmées
+03:12:42 [V2] passe 2 : 39 synapses à poser, 0 à élaguer, 22 neurones
+03:12:43 [V4] passe 1 : 1582/1668 confirmées
+03:12:47 [V4] passe 2 : 86 synapses à poser, 0 à élaguer, 47 neurones
+03:12:48 [V3] passe 1 : 1590/1678 confirmées
+03:12:52 [V3] passe 2 : 88 synapses à poser, 0 à élaguer, 48 neurones
+03:13:46 [V1] passe 2 : 39/39 confirmées
+03:13:47 [V2] passe 2 : 39/39 confirmées
+03:13:49 [V4] passe 2 : 86/86 confirmées
+03:13:53 [V2] stade L3 27h atteint : 176 neurones, 1493 synapses, âge 1537h, mangé 412.3 XRP C3CE2974…
+03:13:53 [V3] passe 2 : 88/88 confirmées
+03:13:54 [V2] → adulte 45h : 180 neurones, 2152 synapses (Witvliet 2021)
+03:13:54 [V4] stade L3 27h atteint : 174 neurones, 1484 synapses, âge 928h, mangé 392.9 XRP 2E473EF9…
+03:14:00 [V4] → adulte mâle complet : 377 neurones, 5620 synapses (Cook 2019 (SI 5))
+03:14:01 [V1] stade L3 27h atteint : 176 neurones, 1493 synapses, âge 1539h, mangé 547.8 XRP D86E5C5C…
+03:14:15 [V1] → adulte 45h : 180 neurones, 2152 synapses (Witvliet 2021)
+03:14:23 [V3] stade L3 27h atteint : 176 neurones, 1493 synapses, âge 943h, mangé 392.9 XRP 54FE369D…
+03:14:23 [V3] → adulte 45h : 180 neurones, 2152 synapses (Witvliet 2021)
+03:14:29 [V2] mange 43.0 XRP pour growing to adulte 45h FE6CB919…
+03:14:35 [milieu] robinet +1000 XRP (total robinet 5000), milieu 1627.5 XRP
+03:14:42 [V4] mange 962.4 XRP pour growing to adulte mâle complet 8075634C…
+03:14:49 [V1] mange 14.5 XRP pour growing to adulte 45h F9184705…
+03:16:14 [V2] 6 neurones nés, 71 réserves complétées
+03:16:14 [V2] passe 1 : 1828 synapses à poser, 345 à élaguer, 181 neurones
+03:16:26   prélim rKM3Tq tecNO_LINE_INSUF_RESERVE
+03:16:29 [V1] 6 neurones nés, 64 réserves complétées
+03:16:29 [V1] passe 1 : 1828 synapses à poser, 345 à élaguer, 181 neurones
+03:16:29   prélim rGwMuV tecNO_LINE_INSUF_RESERVE
+03:16:31   prélim rN4Q7X tecNO_LINE_INSUF_RESERVE
+03:16:31   prélim rN4Q7X tecNO_LINE_INSUF_RESERVE
+03:16:32   prélim rH8CQM tecNO_LINE_INSUF_RESERVE
+03:16:32   prélim rN4Q7X tecNO_LINE_INSUF_RESERVE
+03:16:32   prélim rH8CQM tecNO_LINE_INSUF_RESERVE
+03:16:38   prélim rH8CQM tecNO_LINE_INSUF_RESERVE
+03:16:39   prélim rH8CQM tecNO_LINE_INSUF_RESERVE
+03:16:39   prélim rH8CQM tecNO_LINE_INSUF_RESERVE
+03:17:01   prélim rEp6Hr tecNO_LINE_INSUF_RESERVE
+03:17:05   prélim r8LNpj tecNO_LINE_INSUF_RESERVE
+03:17:07   prélim rWMtyP tecNO_LINE_INSUF_RESERVE
+03:17:18   prélim rJ7cFH tecNO_LINE_INSUF_RESERVE
+03:17:24   prélim rftvXZ tecNO_LINE_INSUF_RESERVE
+03:17:24   prélim rftvXZ tecNO_LINE_INSUF_RESERVE
+03:17:24   prélim rJ5D3h tecNO_LINE_INSUF_RESERVE
+03:17:26   prélim rJ5D3h tecNO_LINE_INSUF_RESERVE
+03:17:27   prélim rPhQW1 tecNO_LINE_INSUF_RESERVE
+03:17:38   prélim rn7b3z tecNO_LINE_INSUF_RESERVE
+03:17:45 [V3] 6 neurones nés, 146 réserves complétées
+03:17:45 [V3] passe 1 : 1828 synapses à poser, 345 à élaguer, 181 neurones
+03:17:50   prélim r3aF9X tecNO_LINE_INSUF_RESERVE
+03:17:51   prélim r3aF9X tecNO_LINE_INSUF_RESERVE
+03:18:21   prélim r4BXr3 tecNO_LINE_INSUF_RESERVE
+03:18:36   prélim rJ7PDa tecNO_LINE_INSUF_RESERVE
+03:18:41   prélim r9yfpu tecNO_LINE_INSUF_RESERVE
+03:18:48   prélim rK6nfe tecNO_LINE_INSUF_RESERVE
+03:18:50   prélim rGaq69 tecNO_LINE_INSUF_RESERVE
+03:18:57   prélim rK6nfe tecNO_LINE_INSUF_RESERVE
+03:19:04   prélim r3Zj8Z tecNO_LINE_INSUF_RESERVE
+03:19:06   prélim rfGPqm tecNO_LINE_INSUF_RESERVE
+03:19:08   prélim rQHyoz tecNO_LINE_INSUF_RESERVE
+03:19:08   prélim rQHyoz tecNO_LINE_INSUF_RESERVE
+03:19:15   prélim ramhXA tecNO_LINE_INSUF_RESERVE
+03:19:16   prélim ramhXA tecNO_LINE_INSUF_RESERVE
+03:19:28   prélim rLVPB6 tecNO_LINE_INSUF_RESERVE
+03:19:28   prélim rLVPB6 tecNO_LINE_INSUF_RESERVE
+03:19:29   prélim rLVPB6 tecNO_LINE_INSUF_RESERVE
+03:19:33   prélim rpJC1T tecNO_LINE_INSUF_RESERVE
+03:19:34   prélim rwgQxW tecNO_LINE_INSUF_RESERVE
+03:19:34   prélim rwgQxW tecNO_LINE_INSUF_RESERVE
+03:19:34   prélim r9Gq2G tecNO_LINE_INSUF_RESERVE
+03:19:35   prélim rwgQxW tecNO_LINE_INSUF_RESERVE
+03:19:50   prélim rpYK1t tecNO_LINE_INSUF_RESERVE
+03:20:27   prélim raHsNJ tecNO_LINE_INSUF_RESERVE
+03:20:43   prélim rE7ksv tecNO_LINE_INSUF_RESERVE
+03:20:43   prélim rE7ksv tecNO_LINE_INSUF_RESERVE
+03:20:43   prélim rPugU9 tecNO_LINE_INSUF_RESERVE
+03:20:43   prélim rCTjSP tecNO_LINE_INSUF_RESERVE
+03:20:44   prélim rPugU9 tecNO_LINE_INSUF_RESERVE
+03:20:44   prélim rCTjSP tecNO_LINE_INSUF_RESERVE
+03:20:44   prélim r3ENXh tecNO_LINE_INSUF_RESERVE
+03:21:07   prélim r3AoY4 tecNO_LINE_INSUF_RESERVE
+03:21:08   prélim r3AoY4 tecNO_LINE_INSUF_RESERVE
+03:21:36   prélim rMc5gF tecNO_LINE_INSUF_RESERVE
+03:21:54   prélim ra7T6V tecNO_LINE_INSUF_RESERVE
+03:21:57   prélim rfJugh tecNO_LINE_INSUF_RESERVE
+03:22:07   prélim rHRhbT tecNO_LINE_INSUF_RESERVE
+03:22:14   prélim rHRhbT tecNO_LINE_INSUF_RESERVE
+03:22:23   prélim rpntJd tecNO_LINE_INSUF_RESERVE
+03:22:28   prélim rh7PHs tecNO_LINE_INSUF_RESERVE
+03:22:29   prélim rh7PHs tecNO_LINE_INSUF_RESERVE
+03:22:32   prélim r3BLKr tecNO_LINE_INSUF_RESERVE
+03:22:33   prélim r3BLKr tecNO_LINE_INSUF_RESERVE
+03:22:47   prélim rspeAY tecNO_LINE_INSUF_RESERVE
+03:22:48   prélim rspeAY tecNO_LINE_INSUF_RESERVE
+03:22:48   prélim rspeAY tecNO_LINE_INSUF_RESERVE
+03:22:48   prélim rpb4qH tecNO_LINE_INSUF_RESERVE
+03:22:49   prélim rpbh1e tecNO_LINE_INSUF_RESERVE
+03:22:49   prélim rpbh1e tecNO_LINE_INSUF_RESERVE
+03:22:50   prélim rpbh1e tecNO_LINE_INSUF_RESERVE
+03:22:53   prélim rJQWXM tecNO_LINE_INSUF_RESERVE
+03:23:05   prélim rM6BAU tecNO_LINE_INSUF_RESERVE
+03:23:06   prélim rM6BAU tecNO_LINE_INSUF_RESERVE
+03:23:06   prélim rM6BAU tecNO_LINE_INSUF_RESERVE
+03:23:08   prélim rJjdmH tecNO_LINE_INSUF_RESERVE
+03:23:08 [V4] 206 neurones nés, 131 réserves complétées
+03:23:08 [V4] passe 1 : 5567 synapses à poser, 752 à élaguer, 380 neurones
+03:23:10   prélim r3MgUY tecNO_LINE_INSUF_RESERVE
+03:23:10   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+03:23:11   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+03:23:11   prélim rEBb2L tecNO_LINE_INSUF_RESERVE
+03:23:12   prélim rEBb2L tecNO_LINE_INSUF_RESERVE
+03:23:13   prélim rEBb2L tecNO_LINE_INSUF_RESERVE
+03:23:17   prélim rEv2xs tecNO_LINE_INSUF_RESERVE
+03:23:18   prélim r35eH7 tecNO_LINE_INSUF_RESERVE
+03:23:18   prélim r35eH7 tecNO_LINE_INSUF_RESERVE
+03:23:19   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+03:23:19   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+03:23:19   prélim rHrCKj tecNO_LINE_INSUF_RESERVE
+03:23:23   prélim rEv2xs tecNO_LINE_INSUF_RESERVE
+03:23:23   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+03:23:24   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+03:23:25   prélim rK2LNH tecNO_LINE_INSUF_RESERVE
+03:23:27   prélim rHpEFg tecNO_LINE_INSUF_RESERVE
+03:23:27   prélim rBmF3R tecNO_LINE_INSUF_RESERVE
+03:23:42   prélim rKa6mK tecNO_LINE_INSUF_RESERVE
+03:23:49   prélim rKuxo1 tecNO_LINE_INSUF_RESERVE
+03:23:49   prélim rfHSwo tecNO_LINE_INSUF_RESERVE
+03:23:57   prélim rEfkPC tecNO_LINE_INSUF_RESERVE
+03:23:58   prélim rEfkPC tecNO_LINE_INSUF_RESERVE
+03:24:00   prélim rs67Zj tecNO_LINE_INSUF_RESERVE
+03:24:00   prélim rw2nkM tecNO_LINE_INSUF_RESERVE
+03:24:01   prélim rEW26Q tecNO_LINE_INSUF_RESERVE
+03:24:01   prélim rs67Zj tecNO_LINE_INSUF_RESERVE
+03:24:01   prélim rEW26Q tecNO_LINE_INSUF_RESERVE
+03:24:01   prélim rw2nkM tecNO_LINE_INSUF_RESERVE
+03:24:02   prélim rJhSBd tecNO_LINE_INSUF_RESERVE
+03:24:12   prélim rpEDr2 tecNO_LINE_INSUF_RESERVE
+03:24:12   prélim rpEDr2 tecNO_LINE_INSUF_RESERVE
+03:24:22   prélim rLLJPY tecNO_LINE_INSUF_RESERVE
+03:24:22   prélim rLLJPY tecNO_LINE_INSUF_RESERVE
+03:24:23   prélim rHfgYS tecNO_LINE_INSUF_RESERVE
+03:24:34   prélim rDGFCM tecNO_LINE_INSUF_RESERVE
+03:24:34   prélim rDGFCM tecNO_LINE_INSUF_RESERVE
+03:24:40   prélim rDGFCM tecNO_LINE_INSUF_RESERVE
+03:24:42   prélim rGJCHJ tecNO_LINE_INSUF_RESERVE
+03:24:53   prélim rEzCpy tecNO_LINE_INSUF_RESERVE
+03:24:59   prélim raAK7h tecNO_LINE_INSUF_RESERVE
+03:24:59   prélim rBHmT8 tecNO_LINE_INSUF_RESERVE
+03:24:59   prélim rBHmT8 tecNO_LINE_INSUF_RESERVE
+03:25:00   prélim rBHmT8 tecNO_LINE_INSUF_RESERVE
+03:25:03   prélim rD3NW3 tecNO_LINE_INSUF_RESERVE
+03:25:04   prélim ramLto tecNO_LINE_INSUF_RESERVE
+03:25:04   prélim rD3NW3 tecNO_LINE_INSUF_RESERVE
+03:25:11   prélim rJAJGP tecNO_LINE_INSUF_RESERVE
+03:25:17   prélim rUqocR tecNO_LINE_INSUF_RESERVE
+03:25:20   prélim r3Uat4 tecNO_LINE_INSUF_RESERVE
+03:25:21   prélim r39nPm tecNO_LINE_INSUF_RESERVE
+03:25:21   prélim r3Uat4 tecNO_LINE_INSUF_RESERVE
+03:25:21   prélim rnTjza tecNO_LINE_INSUF_RESERVE
+03:25:21   prélim r3Uat4 tecNO_LINE_INSUF_RESERVE
+03:25:28   prélim r3Uat4 tecNO_LINE_INSUF_RESERVE
+03:25:29   prélim rPTqo5 tecNO_LINE_INSUF_RESERVE
+03:25:35   prélim rBsGXW tecNO_LINE_INSUF_RESERVE
+03:25:36   prélim rBsGXW tecNO_LINE_INSUF_RESERVE
+03:25:36   prélim rBsGXW tecNO_LINE_INSUF_RESERVE
+03:25:37   prélim rPTqo5 tecNO_LINE_INSUF_RESERVE
+03:25:43   prélim rBH52Z tecNO_LINE_INSUF_RESERVE
+03:25:44   prélim rBsGXW tecNO_LINE_INSUF_RESERVE
+03:25:45   prélim rBsGXW tecNO_LINE_INSUF_RESERVE
+03:25:50   prélim rf3cae tecNO_LINE_INSUF_RESERVE
+03:25:50   prélim rf3cae tecNO_LINE_INSUF_RESERVE
+03:25:52   prélim rJ8mc9 tecNO_LINE_INSUF_RESERVE
+03:25:52   prélim rJ8mc9 tecNO_LINE_INSUF_RESERVE
+03:26:05   prélim rMiR2U tecNO_LINE_INSUF_RESERVE
+03:26:05   prélim rMiR2U tecNO_LINE_INSUF_RESERVE
+03:26:05   prélim rMiR2U tecNO_LINE_INSUF_RESERVE
+03:26:11   prélim rH5qY4 tecNO_LINE_INSUF_RESERVE
+03:26:11   prélim rfdnya tecNO_LINE_INSUF_RESERVE
+03:26:12   prélim rfdnya tecNO_LINE_INSUF_RESERVE
+03:26:12   prélim rwLD8D tecNO_LINE_INSUF_RESERVE
+03:26:12   prélim rfdnya tecNO_LINE_INSUF_RESERVE
+03:26:19 [V2] passe 1 : 2131/2173 confirmées
+03:26:23 [V2] passe 2 : 42 synapses à poser, 0 à élaguer, 26 neurones
+03:26:24 [V1] passe 1 : 2144/2173 confirmées
+03:26:28 [V1] passe 2 : 29 synapses à poser, 0 à élaguer, 18 neurones
+03:26:28   prélim rfQppX tecNO_LINE_INSUF_RESERVE
+03:26:36   prélim rLPPrK tecNO_LINE_INSUF_RESERVE
+03:26:36   prélim rpo1T1 tecNO_LINE_INSUF_RESERVE
+03:26:36   prélim rarXAF tecNO_LINE_INSUF_RESERVE
+03:26:37   prélim rLPPrK tecNO_LINE_INSUF_RESERVE
+03:26:37   prélim rpo1T1 tecNO_LINE_INSUF_RESERVE
+03:26:37   prélim rarXAF tecNO_LINE_INSUF_RESERVE
+03:26:37   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:37   prélim rarXAF tecNO_LINE_INSUF_RESERVE
+03:26:37   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:38   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:38   prélim rUUVdb tecNO_LINE_INSUF_RESERVE
+03:26:40   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+03:26:46   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:46   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:47   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:47   prélim rD85gA tecNO_LINE_INSUF_RESERVE
+03:26:47   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:47   prélim rD85gA tecNO_LINE_INSUF_RESERVE
+03:26:47   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:47   prélim rD85gA tecNO_LINE_INSUF_RESERVE
+03:26:48   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:48   prélim rD85gA tecNO_LINE_INSUF_RESERVE
+03:26:48   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+03:26:48   prélim rw1Fd2 tecNO_LINE_INSUF_RESERVE
+03:26:48   prélim rD85gA tecNO_LINE_INSUF_RESERVE
+03:26:49   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+03:26:49   prélim rJYq4W tecNO_LINE_INSUF_RESERVE
+03:26:55   prélim rs9Qow tecNO_LINE_INSUF_RESERVE
+03:26:56   prélim r9dt92 tecNO_LINE_INSUF_RESERVE
+03:26:57   prélim r9dt92 tecNO_LINE_INSUF_RESERVE
+03:26:57   prélim r4YpnC tecNO_LINE_INSUF_RESERVE
+03:26:58   prélim r4YpnC tecNO_LINE_INSUF_RESERVE
+03:27:03   prélim raH1NR tecNO_LINE_INSUF_RESERVE
+03:27:04   prélim r4QyuV tecNO_LINE_INSUF_RESERVE
+03:27:04   prélim r4QyuV tecNO_LINE_INSUF_RESERVE
+03:27:06   prélim r4YpnC tecNO_LINE_INSUF_RESERVE
+03:27:06   prélim r9dt92 tecNO_LINE_INSUF_RESERVE
+03:27:06   prélim r4YpnC tecNO_LINE_INSUF_RESERVE
+03:27:07   prélim r4YpnC tecNO_LINE_INSUF_RESERVE
+03:27:16   prélim rEqGrL tecNO_LINE_INSUF_RESERVE
+03:27:18   prélim rnsYHQ tecNO_LINE_INSUF_RESERVE
+03:27:19   prélim rw3ZXL tecNO_LINE_INSUF_RESERVE
+03:27:20   prélim rw3ZXL tecNO_LINE_INSUF_RESERVE
+03:27:20   prélim rw3ZXL tecNO_LINE_INSUF_RESERVE
+03:27:20   prélim rHjcE7 tecNO_LINE_INSUF_RESERVE
+03:27:21   prélim rHjcE7 tecNO_LINE_INSUF_RESERVE
+03:27:27   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+03:27:28   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+03:27:28   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+03:27:29   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+03:27:29   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+03:27:29   prélim rMwkAV tecNO_LINE_INSUF_RESERVE
+03:27:39   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:27:40   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:27:43   prélim rifHPx tecNO_LINE_INSUF_RESERVE
+03:27:43   prélim rifHPx tecNO_LINE_INSUF_RESERVE
+03:27:44   prélim rMHx6H tecNO_LINE_INSUF_RESERVE
+03:27:44   prélim rMHx6H tecNO_LINE_INSUF_RESERVE
+03:27:44   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+03:27:45   prélim rMHx6H tecNO_LINE_INSUF_RESERVE
+03:27:45   prélim r9Mk34 tecNO_LINE_INSUF_RESERVE
+03:27:46   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:27:46   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:46   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:27:46   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:47   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:27:47   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:47   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:27:47   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:47   prélim rUEGHb tecNO_LINE_INSUF_RESERVE
+03:27:47   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:27:48   prélim rG67dp tecNO_LINE_INSUF_RESERVE
+03:27:48   prélim rnwVso tecNO_LINE_INSUF_RESERVE
+03:27:49   prélim rnwVso tecNO_LINE_INSUF_RESERVE
+03:27:53   prélim rMHx6H tecNO_LINE_INSUF_RESERVE
+03:27:53   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+03:27:53   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:53   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+03:27:53   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:53   prélim rJofM5 tecNO_LINE_INSUF_RESERVE
+03:27:54   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:54   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:54   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:55   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:55   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:55   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:27:58   prélim rDguGh tecNO_LINE_INSUF_RESERVE
+03:28:00   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+03:28:00   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+03:28:00   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+03:28:00   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+03:28:00   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+03:28:01   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+03:28:02   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+03:28:03   prélim rH1QL2 tecNO_LINE_INSUF_RESERVE
+03:28:03   prélim rH1QL2 tecNO_LINE_INSUF_RESERVE
+03:28:03   prélim rUYPAS tecNO_LINE_INSUF_RESERVE
+03:28:03   prélim rDyZVf tecNO_LINE_INSUF_RESERVE
+03:28:05   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:05   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:06   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:06   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:06   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:07   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:08   prélim rh4zPo tecNO_LINE_INSUF_RESERVE
+03:28:08   prélim rwKAtz tecNO_LINE_INSUF_RESERVE
+03:28:09   prélim rnnaW7 tecNO_LINE_INSUF_RESERVE
+03:28:09   prélim rnnaW7 tecNO_LINE_INSUF_RESERVE
+03:28:11   prélim rUYPAS tecNO_LINE_INSUF_RESERVE
+03:28:12   prélim rUYPAS tecNO_LINE_INSUF_RESERVE
+03:28:12   prélim rUYPAS tecNO_LINE_INSUF_RESERVE
+03:28:13   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:28:14   prélim rUYPAS tecNO_LINE_INSUF_RESERVE
+03:28:15   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:28:15   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:15   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:15   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:16   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:16   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:16   prélim rh4zPo tecNO_LINE_INSUF_RESERVE
+03:28:17   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:17   prélim rh4zPo tecNO_LINE_INSUF_RESERVE
+03:28:17   prélim rfCPEK tecNO_LINE_INSUF_RESERVE
+03:28:20   prélim rnesi9 tecNO_LINE_INSUF_RESERVE
+03:28:21   prélim rnesi9 tecNO_LINE_INSUF_RESERVE
+03:28:21   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:28:21   prélim rnesi9 tecNO_LINE_INSUF_RESERVE
+03:28:21   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:28:21   prélim rnesi9 tecNO_LINE_INSUF_RESERVE
+03:28:24   prélim rMDjLM tecNO_LINE_INSUF_RESERVE
+03:28:24   prélim rMDjLM tecNO_LINE_INSUF_RESERVE
+03:28:24   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:28:25   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:28:25   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:28:25   prélim rMDjLM tecNO_LINE_INSUF_RESERVE
+03:28:25   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:28:27   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:28:27   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:28:27   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:28:27   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:28:28   prélim rhiMBs tecNO_LINE_INSUF_RESERVE
+03:28:30   prélim rMr5Ro tecNO_LINE_INSUF_RESERVE
+03:28:30   prélim rMr5Ro tecNO_LINE_INSUF_RESERVE
+03:28:30   prélim rPLGt5 tecNO_LINE_INSUF_RESERVE
+03:28:30   prélim rMrPsY tecNO_LINE_INSUF_RESERVE
+03:28:31   prélim rPLGt5 tecNO_LINE_INSUF_RESERVE
+03:28:31   prélim rPLGt5 tecNO_LINE_INSUF_RESERVE
+03:28:32   prélim rPLGt5 tecNO_LINE_INSUF_RESERVE
+03:28:32   prélim rPLGt5 tecNO_LINE_INSUF_RESERVE
+03:28:33   prélim rMxHxS tecNO_LINE_INSUF_RESERVE
+03:28:34   prélim rMDjLM tecNO_LINE_INSUF_RESERVE
+03:28:34   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:28:34   prélim rMDjLM tecNO_LINE_INSUF_RESERVE
+03:28:35   prélim rpTX2b tecNO_LINE_INSUF_RESERVE
+03:28:35   prélim rwkzZS tecNO_LINE_INSUF_RESERVE
+03:28:35   prélim rwkzZS tecNO_LINE_INSUF_RESERVE
+03:28:36   prélim rwkzZS tecNO_LINE_INSUF_RESERVE
+03:28:37   prélim rsdTDk tecNO_LINE_INSUF_RESERVE
+03:28:37   prélim rwkzZS tecNO_LINE_INSUF_RESERVE
+03:28:47   prélim rExVUz tecNO_LINE_INSUF_RESERVE
+03:28:50   prélim rDzEKZ tecNO_LINE_INSUF_RESERVE
+03:28:50   prélim r4hTtT tecNO_LINE_INSUF_RESERVE
+03:28:50   prélim rDzEKZ tecNO_LINE_INSUF_RESERVE
+03:28:51   prélim rDzEKZ tecNO_LINE_INSUF_RESERVE
+03:28:55   prélim rExVUz tecNO_LINE_INSUF_RESERVE
+03:29:00   prélim rMZrVV tecNO_LINE_INSUF_RESERVE
+03:29:03   prélim rPUzHm tecNO_LINE_INSUF_RESERVE
+03:29:04   prélim rssn9F tecNO_LINE_INSUF_RESERVE
+03:29:04   prélim rPUzHm tecNO_LINE_INSUF_RESERVE
+03:29:07   prélim rMZrVV tecNO_LINE_INSUF_RESERVE
+03:29:08   prélim rsMeEq tecNO_LINE_INSUF_RESERVE
+03:29:08   prélim rsMeEq tecNO_LINE_INSUF_RESERVE
+03:29:09   prélim rsMeEq tecNO_LINE_INSUF_RESERVE
+03:29:09   prélim rsMeEq tecNO_LINE_INSUF_RESERVE
+03:29:17   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:29:17   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:29:17   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:29:18   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:29:21   prélim raamGc tecNO_LINE_INSUF_RESERVE
+03:29:23   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:29:24   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:29:24   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:29:25   prélim raTynj tecNO_LINE_INSUF_RESERVE
+03:29:29   prélim raamGc tecNO_LINE_INSUF_RESERVE
+03:29:29   prélim raamGc tecNO_LINE_INSUF_RESERVE
+03:29:29   prélim raamGc tecNO_LINE_INSUF_RESERVE
+03:29:30   prélim raamGc tecNO_LINE_INSUF_RESERVE
+03:29:33   prélim rpfttH tecNO_LINE_INSUF_RESERVE
+03:29:51   prélim rPpS35 tecNO_LINE_INSUF_RESERVE
+03:30:30   prélim rLeU7P tecNO_LINE_INSUF_RESERVE
+03:30:30   prélim rLeU7P tecNO_LINE_INSUF_RESERVE
+03:31:56   prélim rpTFyS tecNO_LINE_INSUF_RESERVE
+03:31:56   prélim rpTFyS tecNO_LINE_INSUF_RESERVE
+03:32:03   prélim rBgSc7 tecNO_LINE_INSUF_RESERVE
+03:32:04   prélim rBgSc7 tecNO_LINE_INSUF_RESERVE
+03:32:04   prélim rpTFyS tecNO_LINE_INSUF_RESERVE
+03:32:10   prélim rEcEtG tecNO_LINE_INSUF_RESERVE
+03:32:21   prélim r9eVuD tecNO_LINE_INSUF_RESERVE
+03:32:29   prélim r9eVuD tecNO_LINE_INSUF_RESERVE
+03:32:29   prélim r9eVuD tecNO_LINE_INSUF_RESERVE
+03:32:30   prélim r9eVuD tecNO_LINE_INSUF_RESERVE
+03:32:30   prélim rLrdDh tecNO_LINE_INSUF_RESERVE
+03:32:31   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:32:31   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:32:31   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:32:38   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:32:38   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:32:38   prélim rBitJM tecNO_LINE_INSUF_RESERVE
+03:32:41   prélim rLrdDh tecNO_LINE_INSUF_RESERVE
+03:32:41   prélim rLrdDh tecNO_LINE_INSUF_RESERVE
+03:32:42   prélim rLrdDh tecNO_LINE_INSUF_RESERVE
+03:33:13   prélim r9trSz tecNO_LINE_INSUF_RESERVE
+03:33:18 superviseur : sortie 143 , relance dans 20 s

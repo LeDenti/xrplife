@@ -51,7 +51,12 @@ async function avecConnexion(fn, essais = 8) {
     }
   }
 }
-for (const k of ['request', 'submit', 'autofill', 'getXrpBalance', 'getLedgerIndex']) { const brut = client[k].bind(client); client[k] = (...a) => avecConnexion(() => brut(...a)); }
+const EN_VOL = Number(process.env.EN_VOL ?? 10); // requêtes simultanées sur le websocket
+let vol = 0; const fileVol = [];
+const prendreVol = () => new Promise((r) => { if (vol < EN_VOL) { vol++; r(); } else fileVol.push(r); });
+const rendreVol = () => { vol--; const r = fileVol.shift(); if (r) { vol++; r(); } };
+{ const brut = client.request.bind(client); client.request = async (...a) => { await prendreVol(); try { return await avecConnexion(() => brut(...a)); } finally { rendreVol(); } }; }
+for (const k of ['submit', 'autofill', 'getXrpBalance', 'getLedgerIndex']) { const brut = client[k].bind(client); client[k] = (...a) => avecConnexion(() => brut(...a)); }
 // Chien de garde : sans activité pendant 6 minutes, on s'arrête ; le superviseur relance, l'état est repris.
 setInterval(() => { if (Date.now() - derniereActivite > 6 * 60 * 1000) { console.log(hhmmss(), 'chien de garde : aucune activité depuis 6 min, arrêt'); sauver(); process.exit(3); } }, 30000).unref();
 const si = await client.request({ command: 'server_info' });
@@ -121,7 +126,18 @@ async function attendre(hash, dernierRegistre) {
 // Soumet une liste de transactions d'un même compte par lots de TAILLE_LOT avec séquence
 // manuelle ; renvoie les hachages. La vérification se fait ensuite sur le registre.
 const lots = (wallet, txs) => avecVerrou(wallet.classicAddress, () => lotsSeul(wallet, txs));
-async function lotsSeul(wallet, txs) {
+async function lotsSeul(wallet, txs, tour = 1) {
+  const hachages = await lotsBrut(wallet, txs);
+  // Vérification : ce qui a expiré est resoumis (séquence neuve), au plus 3 tours.
+  const restants = [];
+  for (let i = 0; i < txs.length; i++) {
+    try { const r = await client.request({ command: 'tx', transaction: hachages[i] }); if (r.result.validated) continue; } catch { /* absente */ }
+    restants.push(txs[i]);
+  }
+  if (restants.length && tour < 3) { log(`  lot ${wallet.classicAddress.slice(0, 6)} : ${restants.length}/${txs.length} expirées, tour ${tour + 1}`); return lotsSeul(wallet, restants, tour + 1); }
+  return hachages;
+}
+async function lotsBrut(wallet, txs) {
   const hachages = [];
   for (let i = 0; i < txs.length; i += TAILLE_LOT) {
     const lot = txs.slice(i, i + TAILLE_LOT);
@@ -197,25 +213,36 @@ function coutStade(sexe, idx) {
   return total + 0.000012 * (s.synapses.size + s.neurones.size) + 2;
 }
 
+// Paiement depuis le milieu : remplir au robinet puis payer, sans qu'un autre ver passe entre les deux.
+const payerDepuisMilieu = (xrp, destination, m) => avecVerrou('milieu', async () => {
+  const mil = await milieuSeul(xrp + 5);
+  return soumettreSeul(mil, { TransactionType: 'Payment', Account: mil.classicAddress, Destination: destination, Amount: xrpToDrops(xrp.toFixed(6)), Memos: [m] }, 4);
+});
+
 // Nourrit l'organisme depuis le milieu.
 async function nourrir(mil, nom, xrp, pourquoi) {
   const v = etat.vers[nom];
   if (xrp <= 0) return;
-  await milieu(xrp + 5);
-  const { hash } = await soumettre(mil, { TransactionType: 'Payment', Account: mil.classicAddress, Destination: v.adresse, Amount: xrpToDrops(xrp.toFixed(6)), Memos: [memo('xrplife/feed', `${nom} eats ${xrp.toFixed(2)} XRP for ${pourquoi}`)] });
+  const { hash } = await payerDepuisMilieu(xrp, v.adresse, memo('xrplife/feed', `${nom} eats ${xrp.toFixed(2)} XRP for ${pourquoi}`));
   v.mange += xrp;
   ev(nom, 'mange', `${xrp.toFixed(1)} XRP pour ${pourquoi}`, hash);
 }
 
 // Pond un œuf : la mère (ou le milieu) finance le compte de l'enfant.
 async function pondre(mil, nom, sexe, parents, pondeuse) {
-  if (etat.vers[nom]) return;
-  const w = nouveauVer(nom, sexe, parents);
+  if (etat.vers[nom]?.ne) return;                       // œuf déjà pondu
+  const w = etat.vers[nom] ? walletVer(nom) : nouveauVer(nom, sexe, parents); // enregistré mais jamais payé : on pond
   const cout = coutStade(sexe, 0) + 3;
-  let payeur = mil, quoi = 'founder laid by the environment';
-  if (!pondeuse) await milieu(cout + 5); // le milieu doit avoir de quoi pondre un fondateur
-  if (pondeuse) { await nourrir(mil, pondeuse, cout + 0.5, `laying egg ${nom}`); payeur = walletVer(pondeuse); quoi = `egg laid by ${pondeuse}${parents.length > 1 ? ' fertilised by ' + parents[1] : ' (self-fertilised)'}`; }
-  const { hash } = await soumettre(payeur, { TransactionType: 'Payment', Account: payeur.classicAddress, Destination: w.classicAddress, Amount: xrpToDrops(cout.toFixed(6)), Memos: [memo('xrplife/egg', `${nom} sex=${sexe} gen=${etat.vers[nom].generation} parents=${parents.join('+') || 'none'} ${quoi}`)] });
+  let hash;
+  if (!pondeuse) {
+    ({ hash } = await payerDepuisMilieu(cout, w.classicAddress, memo('xrplife/egg', `${nom} sex=${sexe} gen=0 parents=none founder laid by the environment`)));
+  } else {
+    await nourrir(mil, pondeuse, cout + 0.5, `laying egg ${nom}`);
+    const payeur = walletVer(pondeuse);
+    const detail = `egg laid by ${pondeuse}${parents.length > 1 ? ' fertilised by ' + parents[1] : ' (self-fertilised)'}`;
+    ({ hash } = await soumettre(payeur, { TransactionType: 'Payment', Account: payeur.classicAddress, Destination: w.classicAddress, Amount: xrpToDrops(cout.toFixed(6)), Memos: [memo('xrplife/egg', `${nom} sex=${sexe} gen=${etat.vers[nom].generation} parents=${parents.join('+')} ${detail}`)] }));
+  }
+  const quoi = pondeuse ? `pondu par ${pondeuse}${parents.length > 1 ? ', fécondé par ' + parents[1] : ' (autofécondation)'}` : 'fondateur pondu par le milieu';
   const r = await registre();
   etat.vers[nom].ne = { registre: r, date: new Date().toISOString() }; etat.vers[nom].registreCourant = r;
   ev(nom, 'œuf', `${quoi}, ${cout.toFixed(1)} XRP`, hash);
@@ -231,8 +258,10 @@ async function grandir(mil, nom, idx) {
   log(`[${nom}] → ${s.nom} : ${s.neurones.size} neurones, ${s.synapses.size} synapses (${s.source})`);
 
   // 1. Différences.
-  const indegCible = new Map(); for (const p of s.synapses.values()) indegCible.set(p.cible, (indegCible.get(p.cible) ?? 0) + 1);
-  const indegActuel = new Map(); for (const k of Object.keys(v.synapses)) { const c = k.split('>')[1]; indegActuel.set(c, (indegActuel.get(c) ?? 0) + 1); }
+  // Pendant la mue un neurone porte ses anciennes synapses ET les nouvelles : la réserve se calcule sur l'union.
+  const union = new Map();
+  for (const p of s.synapses.values()) { if (!union.has(p.cible)) union.set(p.cible, new Set()); union.get(p.cible).add(p.source); }
+  for (const k of Object.keys(v.synapses)) { const [a, c] = k.split('>'); if (!union.has(c)) union.set(c, new Set()); union.get(c).add(a); }
   const nouveaux = [...s.neurones].filter((n) => !v.neurones[n]);
   for (const n of nouveaux) { const w = Wallet.generate(); cles.vers[nom].neurones[n] = w.seed; v.neurones[n] = { adresse: w.classicAddress, cree: false, stade: s.nom }; }
   const aPoser = [...s.synapses.values()].filter((p) => v.synapses[`${p.source}>${p.cible}`] !== p.poids);
@@ -241,30 +270,34 @@ async function grandir(mil, nom, idx) {
 
   // 2. Nourriture : ce que coûtent les nouveaux comptes et les compléments de réserve.
   const besoins = new Map();
-  for (const n of new Set([...s.neurones, ...Object.keys(v.neurones)])) besoins.set(n, besoinNeurone(Math.max(indegActuel.get(n) ?? 0, indegCible.get(n) ?? 0)));
-  const soldes = new Map();
-  await Promise.all([...besoins.keys()].map(async (n) => soldes.set(n, v.neurones[n].cree ? await solde(v.neurones[n].adresse) : 0)));
-  const complements = [...besoins].map(([n, b]) => [n, Math.max(0, b - soldes.get(n))]).filter(([, x]) => x > 0.000001);
-  const aManger = complements.reduce((a, [, x]) => a + x, 0) + 0.000012 * (aPoser.length + aElaguer.length + complements.length) + 1;
-  const soldeOrg = await solde(org.classicAddress);
-  if (soldeOrg < aManger) await nourrir(mil, nom, aManger - soldeOrg + 1, `growing to ${s.nom}`);
-
-  // 3. Les neurones nouveaux et les compléments (paiements de l'organisme, par lots).
-  if (complements.length) {
+  for (const n of new Set([...s.neurones, ...Object.keys(v.neurones)])) besoins.set(n, besoinNeurone(union.get(n)?.size ?? 0));
+  // Nourrit l'organisme puis complète la réserve de chaque neurone (relançable : repart des soldes réels).
+  const completer = async (quoi) => {
+    const soldes = new Map();
+    await Promise.all([...besoins.keys()].map(async (n) => { const x = await solde(v.neurones[n].adresse); soldes.set(n, x); if (x > 0) v.neurones[n].cree = true; }));
+    const complements = [...besoins].map(([n, b]) => [n, Math.max(0, b - soldes.get(n))]).filter(([, x]) => x > 0.000001);
+    if (!complements.length) return 0;
+    const aManger = complements.reduce((a, [, x]) => a + x, 0) + 0.000012 * (aPoser.length + aElaguer.length + complements.length) + 1;
+    const soldeOrg = await solde(org.classicAddress);
+    if (soldeOrg < aManger) await nourrir(mil, nom, aManger - soldeOrg + 1, `${quoi} ${s.nom}`);
     await lots(org, complements.map(([n, x]) => ({ TransactionType: 'Payment', Destination: v.neurones[n].adresse, Amount: xrpToDrops(x.toFixed(6)), Memos: [memo('xrplife/neuron', `${nom} ${n} ${v.neurones[n].cree ? 'reserve' : 'born'} ${s.nom}`)] })));
-    for (const n of nouveaux) {
-      for (let k = 0; k < 5 && !v.neurones[n].cree; k++) { if ((await solde(v.neurones[n].adresse)) > 0) v.neurones[n].cree = true; else await dormir(3000); }
-      if (!v.neurones[n].cree) throw new Error(`neurone ${n} non créé`);
-    }
-    sauver();
-    log(`[${nom}] ${nouveaux.length} neurones nés, ${complements.length - nouveaux.length} réserves complétées`);
+    return complements.length;
+  };
+  // 3. Les neurones nouveaux et les compléments.
+  const nb = await completer('growing to');
+  for (const n of nouveaux) {
+    for (let k = 0; k < 5 && !v.neurones[n].cree; k++) { if ((await solde(v.neurones[n].adresse)) > 0) v.neurones[n].cree = true; else await dormir(3000); }
+    if (!v.neurones[n].cree) throw new Error(`neurone ${n} non créé`);
   }
+  sauver();
+  if (nb) log(`[${nom}] ${nouveaux.length} neurones nés, ${nb - nouveaux.length} réserves complétées`);
 
   // 4. Les synapses, posées par le neurone post-synaptique ; puis vérification sur le registre.
   for (let passe = 1; passe <= 4; passe++) {
     const parCible = new Map();
-    for (const p of [...aPoser, ...aElaguer]) { if (!parCible.has(p.cible)) parCible.set(p.cible, []); parCible.get(p.cible).push(p); }
+    for (const p of [...aElaguer, ...aPoser]) { if (!parCible.has(p.cible)) parCible.set(p.cible, []); parCible.get(p.cible).push(p); } // élaguer d'abord libère la réserve
     if (!parCible.size) break;
+    if (passe > 1) { const n = await completer('topping up reserve for'); if (n) log(`[${nom}] passe ${passe} : ${n} réserves recomplétées`); }
     const total = aPoser.length + aElaguer.length;
     log(`[${nom}] passe ${passe} : ${aPoser.length} synapses à poser, ${aElaguer.length} à élaguer, ${parCible.size} neurones`);
     await Promise.all([...parCible].map(async ([cible, liste]) => {
