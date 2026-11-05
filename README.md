@@ -2,7 +2,14 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23964583.svg)](https://doi.org/10.5281/zenodo.23964583)
 
-**Film (2 min 34, anglais)** : [le cycle de vie de quatre vers sur le registre, de l'œuf à la mort](https://github.com/LeDenti/xrplife/releases/download/v1.1.2/xrplife_life_cycle_en.mp4) (mp4, 5,6 Mo, attaché à la release v1.1.2).
+**Films** (chaîne YouTube [@BottomRadar](https://www.youtube.com/@BottomRadar)) :
+
+[![Le cycle de vie de quatre vers sur le registre](https://img.youtube.com/vi/DNkt8RLJ5Xk/hqdefault.jpg)](https://youtu.be/DNkt8RLJ5Xk)
+
+- [A worm's life cycle on the XRP Ledger: egg, L1 to adult, eating XRP](https://youtu.be/DNkt8RLJ5Xk) (2 min 34 ; aussi en [mp4 sur la release v1.1.2](https://github.com/LeDenti/xrplife/releases/download/v1.1.2/xrplife_life_cycle_en.mp4))
+- [A whole worm on the XRP Ledger: the C. elegans connectome as 302 accounts](https://youtu.be/Iv6byluL2yc) (2 min 03) · [version française](https://youtu.be/OFf5toiQfv4)
+- [Can a worm on a blockchain have moods? Serotonin and PDF-1 on the XRP Ledger](https://youtu.be/VUJu_ei-QQs) (1 min 09)
+- [A worm grows on its own chain: network 7302, reserve 0, anchored to the XRPL testnet](https://youtu.be/uKz6Eg3plRg) (1 min 34)
 
 *English summary.* The complete connectome of the nematode *C. elegans*
 (302 neurons, Cook et al. 2019) materialised on the XRPL testnet on
