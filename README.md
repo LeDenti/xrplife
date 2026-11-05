@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23964583.svg)](https://doi.org/10.5281/zenodo.23964583)
 
+**Film (2 min 34, anglais)** : [le cycle de vie de quatre vers sur le registre, de l'œuf à la mort](https://github.com/LeDenti/xrplife/releases/download/v1.1.2/xrplife_life_cycle_en.mp4) (mp4, 5,6 Mo, attaché à la release v1.1.2).
+
 *English summary.* The complete connectome of the nematode *C. elegans*
 (302 neurons, Cook et al. 2019) materialised on the XRPL testnet on
 3 November 2026: every neuron is an XRPL account issuing its own currency,
