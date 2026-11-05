@@ -13,5 +13,21 @@
    "ledger_index": 22059252,
    "code": "tesSUCCESS"
   }
+ },
+ {
+  "t": "2026-11-05T01:39:02.192Z",
+  "l2": {
+   "network_id": 7302,
+   "ledger_index": 493,
+   "ledger_hash": "F8D07D1FFA9AE80C6F51DDE7D36105D2D5B1555D662309CA98DDBDE6A2A9E5F6",
+   "close_time_iso": "2026-11-05T01:38:10Z",
+   "validateur": "nHBdG1EX5awA6ZXr3z3hN1YbXdE6PGm45ZLoJKCcfM7ZTnJs3XfN",
+   "experience": "mito"
+  },
+  "testnet": {
+   "hash": "B1B577C4282703471AB9B38B85507C0B1F653F3A9872B2E52D1FCD9700A87F9B",
+   "ledger_index": 22075057,
+   "code": "tesSUCCESS"
+  }
  }
 ]

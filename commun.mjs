@@ -31,6 +31,7 @@ for (const k of ['submit', 'autofill', 'getXrpBalance', 'getLedgerIndex']) { con
 const si = await client.request({ command: 'server_info' });
 export const RESERVE_BASE = si.result.info.validated_ledger.reserve_base_xrp;
 export const RESERVE_OBJ = si.result.info.validated_ledger.reserve_inc_xrp;
+export const NETWORK_ID = si.result.info.network_id ?? 0;   // > 1024 : chaque transaction doit porter NetworkID (chaîne 7302)
 export const registre = () => client.getLedgerIndex();
 let enCours = 0; const file = [];
 const prendre = () => new Promise((r) => { if (enCours < PARALLELE) { enCours++; r(); } else file.push(r); });
@@ -48,7 +49,7 @@ async function soumettreSeul(wallet, tx, essais) {
   for (let i = 1; ; i++) {
     let signe, dernier;
     try {
-      const prep = await client.autofill({ ...tx, Account: wallet.classicAddress }); dernier = prep.LastLedgerSequence; signe = wallet.sign(prep);
+      const prep = await client.autofill({ ...tx, Account: wallet.classicAddress, Fee: tx.Fee ?? '12' }); dernier = prep.LastLedgerSequence; signe = wallet.sign(prep); // frais fixes : l'auto-remplissage suivrait le facteur de charge
       const r = await client.submitAndWait(signe.tx_blob);
       return { hash: r.result.hash, code: r.result.meta.TransactionResult, meta: r.result.meta };
     } catch (e) {
@@ -93,7 +94,7 @@ async function lotsBrut(wallet, txs) {
     for (let k = 0; ; k++) { try { info = await client.request({ command: 'account_info', account: wallet.classicAddress, ledger_index: 'current' }); break; } catch (e) { if (k > 4) throw e; await dormir(2000); } }
     let seq = info.result.account_data.Sequence;
     const dernier = (await registre()) + 40;
-    const signes = lot.map((tx) => wallet.sign({ ...tx, Account: wallet.classicAddress, Sequence: seq++, LastLedgerSequence: dernier, Fee: tx.Fee ?? '12' }));
+    const signes = lot.map((tx) => wallet.sign({ ...tx, Account: wallet.classicAddress, Sequence: seq++, LastLedgerSequence: dernier, Fee: tx.Fee ?? '12', ...(NETWORK_ID > 1024 ? { NetworkID: NETWORK_ID } : {}) }));
     for (const s of signes) {
       try { const r = await client.submit(s.tx_blob); const code = r.result.engine_result; if (!/^(tes|ter)/.test(code)) log('  prélim', wallet.classicAddress.slice(0, 6), code); } catch (e) { log('  submit', e.message); }
       hachages.push(s.hash);

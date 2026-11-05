@@ -1,0 +1,12 @@
+ancrage naissance  EB5914A52D11 tesSUCCESS | {"ver":"E1","chain":7302,"seed_hash":"04ce9f300c78155a2f12c42022d1a55f89ea50c3b543796b4b6dd9f9aa670ae1","params":{"N":6,"BESOIN":4,"CAPACITE
+ancrage test       2635F5143186 tesSUCCESS | [{"p":0,"mut":0,"silent":0},{"p":20,"mut":0.168,"silent":0},{"p":40,"mut":0.369,"silent":0},{"p":60,"mut":0.635,"silent":0.068},{"p":70,"mut
+mitochondries vivantes : 979 (génome lu sur la chaîne : 6 saines, 973 mutées), ATP total 37.085 unités natives
+palier | mutées (fichier) | neurones vivants (chaîne) | silencieux (chaîne)
+   0 % |   0 % | 161/161 |   0 
+  20 % |  17 % | 161/161 |   0 
+  40 % |  37 % | 161/161 |   0 
+  60 % |  63 % | 150/161 |  11 
+  70 % |  70 % | 111/161 |  50 
+  80 % |  83 % |   6/161 | 155 
+  90 % |  87 % |   0/161 | 161 
+ 100 % | 100 % |   0/161 | 161 

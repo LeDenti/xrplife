@@ -203,6 +203,40 @@ VER=E5 node immun.mjs heriter       # l'enfant relit le mémo, sécrète, mesure
 node rapport-immun.mjs ; VER=E3 node verifier-immun.mjs
 ```
 
+## Le réseau mitochondrial (5 novembre 2026, chaîne 7302)
+
+Pas une banque : un réseau de terrain. Sur la chaîne dédiée (réserve 0, actif natif = énergie),
+chaque neurone de E1 reçoit 6 mitochondries, des comptes dérivés d'une graine fixée (même graine,
+mêmes clés, mêmes tirages). Le neurone n'a pas d'énergie propre : avant chaque dépense, ses
+mitochondries saines lui avancent l'ATP (l'actif natif), au plus 2 unités chacune pour un besoin
+de 4 ; une mitochondrie mutée ne donne plus rien. Fusion = verser tout à une sœur et s'éteindre ;
+fission = en créer une nouvelle avec la moitié du stock, même génome. La part de mutées monte par
+paliers ; à chaque palier, chaque neurone paie son entretien ou se tait. Détail dans
+[MITO.md](MITO.md), vérification indépendante dans `verifier-mito.log`.
+
+| mutées (mesuré) | 0 % | 17 % | 37 % | 63 % | 70 % | 83 % | 87 % | 100 % |
+|---|---|---|---|---|---|---|---|---|
+| neurones silencieux | 0 | 0 | 0 | 11 | 50 | 155 | 161 | 161 |
+
+**Un seuil, pas une pente** : 7 % de pannes à 63 % de mutées, 31 % à 70 %, 96 % à 83 %. Le seuil
+est construit par la capacité de réserve choisie (6 × 2 pour un besoin de 4, d'après les 60 à 80 %
+d'hétéroplasmie tolérés par une cellule) ; le registre le reproduit et le date, il ne le découvre
+pas. Ce qu'il ajoute : la panne est un vrai refus de paiement, chaque don d'ATP est une transaction,
+et une mère transmettrait ses mitochondries, mutations comprises, dans l'œuf.
+
+**Ce que la chaîne a enseigné** : deux morts du validateur par manque de mémoire (machine virtuelle
+Colima à 3 Go, portée à 6 Go) ; sa base réparée en copiant celle du suiveur ; la file d'attente de
+rippled n'admet que 32 transactions par registre au tarif de base, au-delà le facteur de charge
+monte (1 320 mesuré) et l'auto-remplissage des frais aurait brûlé l'ATP des mitochondries : frais
+fixés à 12 drops et `[transaction_queue]` élargie à 2 000. Dernier registre L2 ancré sur le testnet
+par l'organisme E1 (tx `B1B577C4…`).
+
+```
+XRPL_WS=ws://127.0.0.1:6006 node mito.mjs tout      # naissance puis paliers (reprise sûre, graine persistée)
+XRPL_WS=ws://127.0.0.1:6006 node verifier-mito.mjs  # relit la chaîne : entretiens par palier, génomes, soldes
+node rapport-mito.mjs ; node ancrer-l2.mjs
+```
+
 ## La chaîne L2 sérotonine (4 novembre 2026, banc d'essai)
 
 Un réseau rippled dédié, même logiciel que XRPL, réseau `7302`, **réserve 0**, où les

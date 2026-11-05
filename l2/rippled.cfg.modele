@@ -75,6 +75,16 @@ reference_fee = 10
 account_reserve = 0
 owner_reserve = 0
 
+# File d'attente : sur une chaîne de laboratoire, on veut des milliers de transactions par registre au tarif de base
+# (par défaut 32, au-delà le tarif du registre ouvert s'envole : facteur de charge 1 320 mesuré le 05/11).
+[transaction_queue]
+minimum_txn_in_ledger = 2000
+minimum_txn_in_ledger_standalone = 2000
+target_txn_in_ledger = 4000
+maximum_txn_in_ledger = 8000
+ledgers_in_queue = 20
+minimum_queue_size = 4000
+
 [rpc_startup]
 { "command": "log_level", "severity": "warning" }
 
