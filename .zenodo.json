@@ -8,6 +8,7 @@
   "related_identifiers": [
     {"identifier": "10.1038/s41586-019-1352-7", "relation": "isDerivedFrom", "resource_type": "publication-article"},
     {"identifier": "10.1038/s41586-021-03778-8", "relation": "isDerivedFrom", "resource_type": "publication-article"},
-    {"identifier": "https://github.com/openworm/c302", "relation": "isDerivedFrom", "resource_type": "software"}
+    {"identifier": "https://github.com/openworm/c302", "relation": "isDerivedFrom", "resource_type": "software"},
+    {"identifier": "10.5281/zenodo.24030620", "relation": "isSupplementTo", "resource_type": "publication-preprint"}
   ]
 }

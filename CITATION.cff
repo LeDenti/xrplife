@@ -2,10 +2,17 @@ cff-version: 1.2.0
 message: "If you use this software or its measurements, please cite it as below, and cite the data sources (Cook et al. 2019, Witvliet et al. 2021, White et al. 1986, OpenWorm c302)."
 title: "XRPLife: a complete connectome as ledger objects (C. elegans on the XRP Ledger, with a four-animal life cycle)"
 type: software
-version: 1.1.0
+version: 1.1.2
 date-released: 2026-11-04
 license: MIT
 repository-code: "https://github.com/LeDenti/xrplife"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23964583
+    description: "Software, all versions"
+  - type: doi
+    value: 10.5281/zenodo.24030620
+    description: "The three preprints (PDF), published 2026-11-07"
 authors:
   - family-names: Cugny
     given-names: Julien

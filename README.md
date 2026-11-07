@@ -1,6 +1,6 @@
 # XRPLife — un connectome complet sur le registre XRPL
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23964583.svg)](https://doi.org/10.5281/zenodo.23964583)
+[![DOI logiciel](https://zenodo.org/badge/DOI/10.5281/zenodo.23964583.svg)](https://doi.org/10.5281/zenodo.23964583) [![DOI preprints](https://zenodo.org/badge/DOI/10.5281/zenodo.24030620.svg)](https://doi.org/10.5281/zenodo.24030620)
 
 **Films** (chaîne YouTube [@BottomRadar](https://www.youtube.com/@BottomRadar)) :
 
@@ -273,7 +273,7 @@ Trois textes en anglais dans `paper/` (source HTML à côté de chaque PDF) :
 2. [xrplife-2-neuromodulation.pdf](paper/xrplife-2-neuromodulation.pdf) — *Neuromodulation as ledger balances* : la couche sentiments et son résultat négatif (5 pages).
 3. [xrplife-3-l2.pdf](paper/xrplife-3-l2.pdf) — *A dedicated ledger for neuromodulation* : note technique sur la chaîne L2, sept pièges mesurés (4 pages).
 
-**DOI Zenodo** : toutes versions [10.5281/zenodo.23964583](https://doi.org/10.5281/zenodo.23964583), version v1.1.2 [10.5281/zenodo.23964584](https://doi.org/10.5281/zenodo.23964584) (archivé le 4 novembre 2026). Pour citer le logiciel : `CITATION.cff`
+**DOI Zenodo** : logiciel, toutes versions [10.5281/zenodo.23964583](https://doi.org/10.5281/zenodo.23964583), version v1.1.2 [10.5281/zenodo.23964584](https://doi.org/10.5281/zenodo.23964584) (archivé le 4 novembre 2026) ; les trois preprints [10.5281/zenodo.24030620](https://doi.org/10.5281/zenodo.24030620) (publié le 7 novembre 2026). Les papiers 1 et 2 sont soumis sur arXiv (cs.DC, cross-list q-bio.NC) le 7 novembre 2026 ; identifiants à venir. Pour citer le logiciel : `CITATION.cff`
 (GitHub affiche « Cite this repository »). Les données se citent par leurs auteurs,
 voir [data/README.md](data/README.md).
 
